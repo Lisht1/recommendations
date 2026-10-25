@@ -486,8 +486,3 @@ ig:221|!unknown|||||
 ig:222|!unknown|||||подборка
 ig:223|!unknown|||||подборка
 ig:224|!unknown|||||подборка
-
-# автообновление 2026-10-25
-tg:182|The Rings of Power - Season 3 Official Trailer / Prime Video|The Rings of Power - Season 3 Official Trailer / Prime Video||?|?|
-tg:183|!unknown|||||Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
-tg:184|NARNIA: THE MAGICIAN’S NEPHEW|NARNIA: THE MAGICIAN’S NEPHEW||?|?|

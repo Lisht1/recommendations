@@ -707,18 +707,6 @@
 "181": {
 "date": "2026-09-19",
 "from": null
-},
-"182": {
-"date": "2026-10-25",
-"from": "Midnite chronicles"
-},
-"183": {
-"date": "2026-10-25",
-"from": "Midnite chronicles"
-},
-"184": {
-"date": "2026-10-25",
-"from": "Midnite chronicles"
 }
 },
 "instagram": [
@@ -1836,6 +1824,6 @@
 "author": "kinop_es"
 }
 ],
-"last_tg_id": 184,
+"last_tg_id": 181,
 "sugg": {}
 }

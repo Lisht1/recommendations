@@ -56,7 +56,11 @@ jobs:
           git config user.email "catalog-bot@users.noreply.github.com"
           git add data/manual_titles.txt data/sources.json data/draft.json data/draft.md site/data/catalog.json
           git diff --cached --quiet || git commit -m "Обновление каталога $(date -u +%F)"
-          git push
+          # если за время обновления в репозиторий что-то отправили — подтягиваем и пробуем снова
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && break
+            sleep 5
+          done
 
       - name: Метка версии против старого кэша
         run: sed -i "s/?v=dev/?v=${{ github.run_number }}/g" site/index.html

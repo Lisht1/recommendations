@@ -24,11 +24,11 @@ except ImportError:
     SSL = ssl.create_default_context()
 
 
-def http_json(url, data=None, headers=None, method=None):
+def http_json(url, data=None, headers=None, method=None, timeout=60):
     body = json.dumps(data).encode() if data is not None else None
     req = urllib.request.Request(url, data=body, method=method,
                                  headers={"Content-Type": "application/json", "User-Agent": "RecommendationsBot/1.0", **(headers or {})})
-    with urllib.request.urlopen(req, timeout=60, context=SSL) as r:
+    with urllib.request.urlopen(req, timeout=timeout, context=SSL) as r:
         raw = r.read().decode("utf-8")
         return json.loads(raw) if raw else None
 
@@ -142,24 +142,51 @@ def ask_gemini(post):
     if post["image"]:
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(post["image"]).decode()}})
     body = {"contents": [{"parts": parts}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
-    for force in (False, True):
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(force)}:generateContent?key={env['GEMINI_KEY']}"
+    import time
+    repicked = False
+    for attempt in range(5):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(repicked and attempt == 0)}:generateContent?key={env['GEMINI_KEY']}"
         try:
-            res = http_json(url, body)
+            res = http_json(url, body, timeout=180)
             break
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and not force:
-                import time; time.sleep(5); continue  # overloaded — retry once
-            if force or e.code not in (400, 404):
-                raise
+            if e.code in (429, 500, 503) and attempt < 4:
+                wait = int(e.headers.get("Retry-After") or 0) or [15, 30, 60, 60][attempt]
+                print(f"    Gemini занят ({e.code}), жду {wait} с")
+                time.sleep(wait)
+                continue
+            if e.code in (400, 404) and not repicked:  # model retired — pick another one
+                repicked = True
+                pick_model(True)
+                continue
+            raise
+        except (TimeoutError, urllib.error.URLError) as e:
+            if attempt < 4:
+                print(f"    Gemini не ответил вовремя ({e}), пробую ещё раз")
+                time.sleep(10)
+                continue
+            raise
     text = res["candidates"][0]["content"]["parts"][0]["text"]
     return json.loads(text).get("titles", [])
+
+VIDEO_NOISE = r"official|officiel|trailer|teaser|clip|promo|season|сезон|официальн|трейлер|тизер|русский|дубляж|netflix|prime video|apple tv|hbo|max|disney|hulu|crunchyroll|4k|hd"
+
+def clean_video_title(title):
+    """'The Rings of Power - Season 3 Official Trailer | Prime Video' -> 'The Rings of Power'"""
+    parts = [x.strip() for x in re.split(r"\s+[|—–-]\s+|\s*\|\s*", title) if x.strip()]
+    # the title is the first part, unless the video starts with something like "Official Trailer: …"
+    name = parts[0] if parts else title
+    if re.match(r"(official|trailer|teaser|трейлер|тизер)\b", name, flags=re.I) and len(parts) > 1:
+        name = parts[1]
+    name = re.sub(r"\s*[\(\[][^\)\]]*(" + VIDEO_NOISE + r")[^\)\]]*[\)\]]", "", name, flags=re.I)
+    name = re.sub(r"\s*(season|сезон)\s*\d+.*$", "", name, flags=re.I)
+    name = re.sub(r"\s*(official\s+)?(trailer|teaser|трейлер|тизер).*$", "", name, flags=re.I)
+    return name.strip(" -–—:|") or title
 
 def youtube_title(url):
     try:
         res = http_json("https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote(url, safe=""))
-        title = res["title"]
-        return re.split(r"\s*[|—–-]\s*(official|официальн|trailer|трейлер|teaser|тизер)", title, flags=re.I)[0].strip()
+        return clean_video_title(res["title"])
     except Exception:
         return None
 
@@ -306,6 +333,8 @@ def main():
                     p["from"] = "@" + author
             sources["telegram"][str(p["id"])] = {"date": p["date"], "from": p["from"]}
             try:
+                if env.get("GEMINI_KEY") and p is not posts[0]:
+                    import time; time.sleep(6)  # free tier: a few requests per minute
                 titles = ask_gemini(p) if env.get("GEMINI_KEY") else guess_without_ai(p)
             except Exception as e:
                 print(f"  пост {p['id']}: ИИ не ответил ({e}), пробую простые правила")
