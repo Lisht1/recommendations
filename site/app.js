@@ -6,7 +6,7 @@
   let catalog = { items: [], unknown: [] };
   let items = [];
   const f = {
-    cat: "all", q: "", sort: "added", showWatched: false, onlySoon: false, onlyCheck: false,
+    cat: "all", q: "", sort: "added", showWatched: false, onlySoon: false, onlyCheck: false, showRemoved: false,
     minRating: 0, yearFrom: null, yearTo: null, providers: new Set(), genres: new Set(),
   };
 
@@ -42,9 +42,12 @@
   function subline(t) {
     return [t.year, t.type || TYPE_LABEL[t.media], t.countries?.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
   }
-  function toast(msg) {
-    const el = $("#toast"); el.textContent = msg; el.hidden = false;
-    clearTimeout(toast.t); toast.t = setTimeout(() => (el.hidden = true), 2200);
+  function toast(msg, undo) {
+    const el = $("#toast");
+    el.innerHTML = esc(msg) + (undo ? ` <button class="toast-undo">Отменить</button>` : "");
+    el.hidden = false;
+    if (undo) el.querySelector(".toast-undo").onclick = () => { undo(); el.hidden = true; };
+    clearTimeout(toast.t); toast.t = setTimeout(() => (el.hidden = true), undo ? 5000 : 2200);
   }
 
   // ---------- filtering ----------
@@ -53,6 +56,7 @@
     if (f.cat === "watched") { if (!ignoreCat && !st.watched) return false; }
     else if (!ignoreCat && f.cat !== "all" && t.category !== f.cat) return false;
     if (f.cat !== "watched" && !f.showWatched && st.watched) return false;
+    if (f.showRemoved !== S.isHidden(t.id)) return false;
     if (f.onlySoon && !t.soon) return false;
     if (f.onlyCheck && !needsCheck(t)) return false;
     if (f.minRating && bestRating(t) < f.minRating) return false;
@@ -104,7 +108,9 @@
       <div style="position:relative">${posterHtml(t)}
         <div class="badges">${badges}</div>
         ${st.rating ? `<div class="my-rating" title="Ваша оценка">★ ${st.rating}</div>` : ""}
-        <div class="quick"><button class="seen-btn" data-act="seen" title="${st.watched ? "Вернуть в список" : "Посмотрели"}">✓</button></div>
+        <div class="quick">${S.isHidden(t.id)
+          ? `<button class="restore-btn" data-act="restore" title="Вернуть в список">↩</button>`
+          : `<button data-act="remove" title="Удалить из списка">✕</button><button class="seen-btn" data-act="seen" title="${st.watched ? "Вернуть в список" : "Посмотрели"}">✓</button>`}</div>
       </div>
       <div class="card-title">${esc(t.title_ru || t.title_en)}</div>
       <div class="card-sub">${esc(subline(t))}</div>
@@ -251,6 +257,9 @@
             <div class="small muted" style="margin-bottom:6px">Ваша оценка</div>
             <div class="stars">${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => `<button class="${st.rating === n ? "on" : ""}" data-rate="${n}">${n}</button>`).join("")}</div>
             <textarea id="note" rows="3" placeholder="Заметка: что понравилось, с кем смотреть…">${esc(st.note || "")}</textarea>
+            ${S.isHidden(t.id)
+              ? `<button class="btn ghost wide" data-act="restore" style="margin-top:10px">↩ Вернуть в список</button>`
+              : `<button class="btn ghost wide danger" data-act="remove" style="margin-top:10px">Удалить из списка</button>`}
           </div>
           <h4>Где доступно</h4>
           <div class="where">${whereHtml(t)}</div>
@@ -298,6 +307,20 @@
         : "Предложи 5 вариантов только из нашего списка. Ничего из просмотренного не предлагай.",
       "Для каждого: одна строка, почему подходит под запрос, и длительность (фильм — минуты, сериал — сезоны и длина серии).",
     ].join("\n");
+  }
+
+  // ---------- удаление ----------
+  function removeItem(id) {
+    const t = items.find((x) => x.id === id);
+    S.hideSuggestion(id);
+    if ($("#detail").open && $("#detail").dataset.id === id) $("#detail").close();
+    render();
+    toast(`«${t?.title_ru || t?.title_en || "Тайтл"}» удалён`, () => { S.restore(id); render(); });
+  }
+  function restoreItem(id) {
+    S.restore(id);
+    if ($("#detail").open) openDetail(id);
+    render(); toast("Вернули в список");
   }
 
   // ---------- оценка после просмотра ----------
@@ -371,16 +394,18 @@
 
   // ---------- unrecognised posts ----------
   function renderUnknown() {
-    const list = catalog.unknown || [];
+    const list = (catalog.unknown || []).filter((u) => S.pendingTitle(u.src) !== "!skip");
     $("#grid").innerHTML = `<div class="unknown-list">${list.map((u) => {
       const pending = S.pendingTitle(u.src);
+      if (pending === "!skip") return "";
       return `<div class="unknown" data-src="${esc(u.src)}">
         <div class="unknown-head"><a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.from || u.src)}</a>
           <span class="muted small">${esc(u.date || "")} · ${esc(u.src)}</span></div>
         ${u.note ? `<div class="unknown-note">${esc(u.note)}</div>` : ""}
         ${pending
           ? `<div class="pending">✓ «${esc(pending)}» — появится после следующего обновления</div>`
-          : `<form class="unknown-form"><input name="title" placeholder="Название (и год, если помнишь)"><button class="btn">Сохранить</button></form>`}
+          : `<form class="unknown-form"><input name="title" placeholder="Название (и год, если помнишь)"><button class="btn">Сохранить</button>
+              <button type="button" class="btn ghost" data-act="skip" title="Пост не про кино — убрать навсегда">Не про кино</button></form>`}
       </div>`;
     }).join("")}</div>`;
     $("#empty").hidden = list.length > 0;
@@ -396,7 +421,7 @@
     });
     $("#q").addEventListener("input", (e) => { f.q = e.target.value.trim().toLowerCase(); render(); });
     $("#sort").addEventListener("change", (e) => { f.sort = e.target.value; render(); });
-    for (const id of ["showWatched", "onlySoon", "onlyCheck"]) $("#" + id).addEventListener("change", (e) => { f[id] = e.target.checked; render(); });
+    for (const id of ["showWatched", "onlySoon", "onlyCheck", "showRemoved"]) $("#" + id).addEventListener("change", (e) => { f[id] = e.target.checked; render(); });
     $("#minRating").addEventListener("input", (e) => {
       f.minRating = +e.target.value; $("#minRatingVal").textContent = f.minRating ? f.minRating : "любой"; render();
     });
@@ -407,9 +432,9 @@
       renderFilters(); render();
     });
     $("#resetFilters").addEventListener("click", () => {
-      Object.assign(f, { showWatched: false, onlySoon: false, onlyCheck: false, minRating: 0, yearFrom: null, yearTo: null });
+      Object.assign(f, { showWatched: false, onlySoon: false, onlyCheck: false, showRemoved: false, minRating: 0, yearFrom: null, yearTo: null });
       f.providers.clear(); f.genres.clear();
-      for (const id of ["showWatched", "onlySoon", "onlyCheck"]) $("#" + id).checked = false;
+      for (const id of ["showWatched", "onlySoon", "onlyCheck", "showRemoved"]) $("#" + id).checked = false;
       $("#minRating").value = 0; $("#minRatingVal").textContent = "любой"; $("#yearFrom").value = ""; $("#yearTo").value = "";
       renderFilters(); render();
     });
@@ -426,6 +451,8 @@
         return;
       }
       const card = e.target.closest(".card[data-id]"); if (!card) return;
+      if (e.target.closest("[data-act=remove]")) { if (requireLogin()) removeItem(card.dataset.id); return; }
+      if (e.target.closest("[data-act=restore]")) { if (requireLogin()) restoreItem(card.dataset.id); return; }
       if (e.target.closest("[data-act=seen]")) {
         if (!requireLogin()) return;
         markWatched(card.dataset.id); render();
@@ -438,6 +465,8 @@
       const id = $("#detail").dataset.id;
       if (e.target.closest("[data-close]") || e.target === $("#detail")) return $("#detail").close();
       if (e.target.closest("[data-act=seen]")) { if (!requireLogin()) return; markWatched(id); openDetail(id); render(); return; }
+      if (e.target.closest("[data-act=remove]")) { if (requireLogin()) removeItem(id); return; }
+      if (e.target.closest("[data-act=restore]")) { if (requireLogin()) restoreItem(id); return; }
       if (e.target.closest("[data-act=confirm]")) { if (!requireLogin()) return; S.setChecked(id); openDetail(id); render(); toast("Отметили как проверенное"); return; }
       const rate = e.target.closest("[data-rate]");
       if (rate) { if (!requireLogin()) return; const n = +rate.dataset.rate; S.setRating(id, S.get(id).rating === n ? null : n); openDetail(id); render(); return; }
@@ -447,6 +476,13 @@
     $("#detail").addEventListener("change", (e) => { if (e.target.id === "note" && S.canEdit()) S.setNote($("#detail").dataset.id, e.target.value.trim()); });
     $("#detail").addEventListener("focusin", (e) => { if (e.target.id === "note" && !S.canEdit()) { e.target.blur(); requireLogin(); } });
 
+    $("#grid").addEventListener("click", async (e) => {
+      const skip = e.target.closest("[data-act=skip]"); if (!skip) return;
+      const box = skip.closest("[data-src]");
+      if (!requireLogin()) return;
+      await S.addTitle(box.dataset.src, "!skip");
+      render(); toast("Пост убран и больше не появится");
+    });
     $("#grid").addEventListener("submit", async (e) => {
       e.preventDefault();
       const box = e.target.closest("[data-src]"), title = e.target.title.value.trim();

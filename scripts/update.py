@@ -204,6 +204,9 @@ def site_titles():
             n = apply_fix(r["src"][4:], r["title"])
             print(f"  исправление {r['src']} → «{r['title']}»: строк {n}")
             continue
+        if r["title"].strip() == "!skip":
+            lines.append(f"{r['src']}|!skip|||||убрано на сайте: не про кино")
+            continue
         name, year = split_title(r["title"])
         lines.append(f"{r['src']}|{name}|{name}|{year}|?|+|вписано на сайте")
     if rows:

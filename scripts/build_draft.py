@@ -49,7 +49,7 @@ for line in (data / "manual_titles.txt").read_text(encoding="utf-8").splitlines(
 
 items = list(titles.values())
 # a post that later got a title (typed on the site) is no longer "unknown"
-known = {s["src"] for t in items for s in t["sources"]}
+known = {s["src"] for t in items for s in t["sources"]} | {s["src"] for s in skipped}
 unknown = [u for u in unknown if u["src"] not in known]
 (data / "draft.json").write_text(json.dumps({"titles": items, "unknown": unknown, "skipped": skipped},
                                             ensure_ascii=False, indent=1), encoding="utf-8")

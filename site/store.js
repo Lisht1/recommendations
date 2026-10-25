@@ -19,7 +19,7 @@ window.Store = (() => {
     try {
       const s = JSON.parse(localStorage.getItem(LOCAL_KEY) || "null") || {};
       marks = s.items || {};
-      (s.hiddenSuggestions || []).forEach((id) => (suggestions[id] = { status: "hidden" }));
+      (s.hiddenSuggestions || []).forEach((id) => (suggestions[id] = { status: "hidden", data: (s.hiddenData || {})[id] || null }));
       (s.added || []).forEach((a) => (suggestions[a.id] = { status: "added", data: a }));
       pendingTitles = s.pendingTitles || {};
     } catch (e) { /* хранилище недоступно */ }
@@ -29,6 +29,7 @@ window.Store = (() => {
       localStorage.setItem(LOCAL_KEY, JSON.stringify({
         items: marks,
         hiddenSuggestions: Object.keys(suggestions).filter((id) => suggestions[id].status === "hidden"),
+        hiddenData: Object.fromEntries(Object.entries(suggestions).filter(([, v]) => v.status === "hidden" && v.data).map(([k, v]) => [k, v.data])),
         added: Object.values(suggestions).filter((s) => s.status === "added").map((s) => s.data),
         pendingTitles,
       }));
@@ -99,9 +100,17 @@ window.Store = (() => {
     isHidden: (id) => suggestions[id]?.status === "hidden",
     added: () => Object.values(suggestions).filter((s) => s.status === "added").map((s) => s.data),
     hideSuggestion(id) {
-      suggestions[id] = { status: "hidden" }; emit();
+      const data = suggestions[id]?.data || null;   // если это было добавленное предложение — помним его
+      suggestions[id] = { status: "hidden", data }; emit();
       if (!remote) return saveLocal();
-      db.from("suggestions").upsert({ id, status: "hidden" }).then(report);
+      db.from("suggestions").upsert({ id, status: "hidden", data }).then(report);
+    },
+    restore(id) {
+      const data = suggestions[id]?.data;
+      if (data) suggestions[id] = { status: "added", data }; else delete suggestions[id];
+      emit();
+      if (!remote) return saveLocal();
+      (data ? db.from("suggestions").upsert({ id, status: "added", data }) : db.from("suggestions").delete().eq("id", id)).then(report);
     },
     addSuggestion(s) {
       suggestions[s.id] = { status: "added", data: s }; emit();

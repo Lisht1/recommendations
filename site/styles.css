@@ -271,3 +271,9 @@ a { color: inherit; }
 .fix-form { display: flex; gap: 8px; flex: 1; min-width: 240px; }
 .fix-form input { flex: 1; min-width: 0; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
 .watched-tab .card.watched .poster img, .watched-tab .card.watched .poster .ph { filter: none; }
+
+.quick .restore-btn { background: var(--accent); color: var(--accent-ink); }
+.btn.danger { color: var(--danger); }
+.btn.danger:hover { border-color: var(--danger); }
+.toast-undo { margin-left: 10px; background: none; border: 0; color: #b5730a; font-weight: 800; cursor: pointer; text-decoration: underline; }
+.unknown-form { flex-wrap: wrap; }
