@@ -125,6 +125,23 @@ window.Store = (() => {
       report(await db.from("manual_titles").insert({ src, title }));
     },
 
+    async searchTitles(query) {
+      if (!remote || !user) return [];
+      const { data, error } = await db.functions.invoke("recommend", { body: { search: query } });
+      return error ? [] : data?.results || [];
+    },
+
+    async askAi(prompt) {
+      const { data, error } = await db.functions.invoke("recommend", { body: { prompt } });
+      if (error) {
+        let msg = error.message;
+        try { msg = (await error.context.json()).error || msg; } catch (e) {}
+        throw new Error(msg);
+      }
+      if (data?.error) throw new Error(data.error);
+      return data.result;
+    },
+
     async setting(key) {
       if (!remote || !user) return null;
       const { data } = await db.from("settings").select("value").eq("key", key).maybeSingle();

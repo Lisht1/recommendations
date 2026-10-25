@@ -13,7 +13,11 @@ tg = sources["telegram"]
 ig = sources["instagram"]
 
 def source_info(src):
-    kind, num = src.split(":")
+    kind, num = src.split(":", 1)
+    if kind == "sugg":
+        return {"src": src, "date": sources.get("sugg", {}).get(num, {}).get("date"),
+                "url": f"https://www.themoviedb.org/{num.replace('-', '/', 1)}",
+                "from": "Добавлено на сайте"}
     if kind == "tg":
         post = tg.get(num, {})
         return {"src": src, "date": post.get("date"), "url": f"https://t.me/c/{CHANNEL_ID}/{num}",

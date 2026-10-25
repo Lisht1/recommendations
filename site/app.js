@@ -241,10 +241,10 @@
                 : "Возможно, название записано неточно. Впиши правильное — оно подтянется при обновлении."}</span></div>
             <div class="check-actions">
               ${t.matched ? `<button class="btn" data-act="confirm">Всё верно</button>` : ""}
-              <form class="fix-form"><input name="title" placeholder="Правильное название и год"><button class="btn">Исправить</button></form>
+              <form class="fix-form"><input name="title" autocomplete="off" placeholder="Начни писать название или вставь ссылку"><button class="btn">Исправить</button></form>
             </div>
           </div>` : ""}
-          ${S.pendingTitle("fix:" + t.id) ? `<div class="pending" style="margin-bottom:14px">✓ Исправление «${esc(S.pendingTitle("fix:" + t.id))}» применится при следующем обновлении</div>` : ""}
+          ${S.pendingTitle("fix:" + t.id) ? `<div class="pending" style="margin-bottom:14px">✓ Исправление «${esc(S.pendingTitle("fix:" + t.id).replace(/\s*\[tmdb=[^\]]+\]/, ""))}» применится при следующем обновлении</div>` : ""}
           <h4>О чём</h4>
           <p class="overview">${esc(t.overview || "Описание появится после подключения TMDB.")}</p>
           <h4>Смотреть</h4>
@@ -285,7 +285,7 @@
     const mix = Object.entries(cats).sort((a, b) => b[1] - a[1]).map(([c, n]) => `${catNames[c] || c}: ${n}`).join(", ");
     return { top, mix };
   }
-  function buildPrompt(query, outside) {
+  function buildPrompt(query, outside, asJson = false) {
     const line = (t) => `${t.title_ru}${t.title_en && t.title_en !== t.title_ru ? ` / ${t.title_en}` : ""}${t.year ? ` (${t.year})` : ""}`;
     const rated = items.filter((t) => S.get(t.id).watched || S.get(t.id).rating)
       .map((t) => { const s = S.get(t.id); return `- ${line(t)}: ${s.rating ? s.rating + "/10" : "посмотрели, без оценки"}${s.note ? ` — «${s.note}»` : ""}`; });
@@ -305,8 +305,97 @@
       outside
         ? "Предложи 5 вариантов: сначала из нашего списка, затем 2–3 тайтла, которых в списке нет, но которые нам подойдут. Ничего из просмотренного не предлагай."
         : "Предложи 5 вариантов только из нашего списка. Ничего из просмотренного не предлагай.",
-      "Для каждого: одна строка, почему подходит под запрос, и длительность (фильм — минуты, сериал — сезоны и длина серии).",
+      asJson
+        ? [
+          "Ответь строго JSON такого вида:",
+          '{"intro": "1–2 предложения: как ты понял запрос", "picks": [{"title": "название как в нашем списке или русское название", "title_en": "оригинальное или английское название", "year": 2020, "in_list": true, "why": "одна фраза, почему подходит", "duration": "1 ч 50 мин или 2 сезона по 45 мин"}]}',
+          "in_list: true — если тайтл есть в нашем списке «хотим посмотреть», иначе false.",
+        ].join("\n")
+        : "Для каждого: одна строка, почему подходит под запрос, и длительность (фильм — минуты, сериал — сезоны и длина серии).",
     ].join("\n");
+  }
+
+  // ---------- подсказки названий в полях «Исправить» / «Неразобранное» ----------
+  // Выбранная подсказка сохраняется с точным id TMDB, поэтому карточка подтянется без ошибок.
+  function typedTitle(input) {
+    const v = input.value.trim();
+    return input.dataset.exact ? `${v} [tmdb=${input.dataset.exact.replace("-", "/")}]` : v;
+  }
+  let suggestTimer;
+  function onTitleInput(input) {
+    delete input.dataset.exact;
+    clearTimeout(suggestTimer);
+    const form = input.closest("form");
+    const box = form.querySelector(".suggest-list") || form.appendChild(Object.assign(document.createElement("div"), { className: "suggest-list" }));
+    const q = input.value.trim();
+    if (q.length < 2 || !S.user()) { box.innerHTML = ""; return; }
+    suggestTimer = setTimeout(async () => {
+      const results = await S.searchTitles(q);
+      if (input.value.trim() !== q) return;
+      box.innerHTML = results.map((r) => `
+        <button type="button" class="suggest-item" data-pick="${esc(r.id)}" data-label="${esc(`${r.title}${r.year ? ` (${r.year})` : ""}`)}">
+          ${r.poster ? `<img src="${esc(r.poster)}" alt="">` : `<span class="noimg"></span>`}
+          <span><b>${esc(r.title)}</b> <span class="muted">${esc(r.year)} · ${esc(r.type)}</span>
+          ${r.original && r.original !== r.title ? `<br><span class="muted small">${esc(r.original)}</span>` : ""}</span>
+        </button>`).join("") || `<div class="muted small" style="padding:6px">Ничего не нашлось — сохрани как есть или вставь ссылку на TMDB / Кинопоиск / IMDb</div>`;
+    }, 350);
+  }
+  document.addEventListener("input", (e) => { if (e.target.matches(".fix-form input, .unknown-form input")) onTitleInput(e.target); });
+  document.addEventListener("click", (e) => {
+    const pick = e.target.closest(".suggest-item");
+    if (!pick) return;
+    const form = pick.closest("form"), input = form.querySelector("input[name=title]");
+    input.value = pick.dataset.label; input.dataset.exact = pick.dataset.pick;
+    form.querySelector(".suggest-list").innerHTML = `<div class="picked small">✓ Выбрано точно: ${esc(pick.dataset.label)}. Нажми «${form.classList.contains("fix-form") ? "Исправить" : "Сохранить"}».</div>`;
+  });
+
+  // ---------- встроенный ИИ-подбор ----------
+  let aiPicks = [], aiIntro = "", aiLastQuery = "";
+  const normTitle = (x) => String(x || "").toLowerCase().replace(/ё/g, "е").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  function findInList(p) {
+    const names = [normTitle(p.title), normTitle(p.title_en)].filter(Boolean);
+    const cands = items.filter((t) => [t.title_ru, t.title_en, t.title_orig].some((n) => names.includes(normTitle(n))));
+    return cands.find((t) => !p.year || !t.year || Math.abs(t.year - p.year) <= 1) || cands[0] || null;
+  }
+  async function askAi() {
+    const btn = $("#aiAsk");
+    aiLastQuery = $("#aiQuery").value.trim();
+    btn.disabled = true; btn.textContent = "Думаю…";
+    $("#aiResult").innerHTML = `<div class="muted">ИИ читает ваш список и оценки, это 10–30 секунд…</div>`;
+    try {
+      const res = await S.askAi(buildPrompt(aiLastQuery, $("#aiOutside").checked, true));
+      aiIntro = res.intro || "";
+      aiPicks = (res.picks || []).map((p) => ({ ...p, item: findInList(p) }));
+      renderAiResult();
+    } catch (err) {
+      $("#aiResult").innerHTML = `<div class="error">Не получилось: ${esc(err.message || err)}</div>`;
+    } finally {
+      btn.disabled = false; btn.textContent = "Спросить ИИ";
+    }
+  }
+  function renderAiResult() {
+    const have = new Set(items.map((t) => t.id));
+    $("#aiResult").innerHTML = (aiIntro ? `<p class="ai-intro">${esc(aiIntro)}</p>` : "") +
+      `<div class="ai-picks">${aiPicks.map((p, i) => {
+        const t = p.item || (p.tmdb && have.has(p.tmdb.id) ? items.find((x) => x.id === p.tmdb.id) : null);
+        const poster = t ? posterHtml(t) : p.tmdb ? posterHtml({ title: p.tmdb.title, poster: p.tmdb.poster }) : posterHtml({ title: p.title });
+        const title = t ? (t.title_ru || t.title_en) : p.tmdb?.title || p.title;
+        const year = t?.year || p.tmdb?.year || p.year || "";
+        const action = t
+          ? `<button class="btn" data-ai-open="${esc(t.id)}">Открыть</button>${S.get(t.id).watched ? `<span class="muted small">уже смотрели</span>` : `<span class="in-list">в списке</span>`}`
+          : p.tmdb
+            ? `<button class="btn primary" data-ai-add="${i}">В список</button><a class="small muted" href="https://www.themoviedb.org/${p.tmdb.id.replace("-", "/")}" target="_blank" rel="noopener">TMDB</a>`
+            : `<span class="muted small">не нашли в базе фильмов</span>`;
+        return `<div class="ai-pick">
+          <div class="ai-poster">${poster}</div>
+          <div class="ai-body">
+            <div class="card-title">${esc(title)} <span class="muted">${esc(year)}</span></div>
+            ${p.duration ? `<div class="card-sub">${esc(p.duration)}</div>` : ""}
+            <div class="ai-why">${esc(p.why || "")}</div>
+            <div class="ai-actions">${action}</div>
+          </div>
+        </div>`;
+      }).join("")}</div>`;
   }
 
   // ---------- удаление ----------
@@ -403,8 +492,8 @@
           <span class="muted small">${esc(u.date || "")} · ${esc(u.src)}</span></div>
         ${u.note ? `<div class="unknown-note">${esc(u.note)}</div>` : ""}
         ${pending
-          ? `<div class="pending">✓ «${esc(pending)}» — появится после следующего обновления</div>`
-          : `<form class="unknown-form"><input name="title" placeholder="Название (и год, если помнишь)"><button class="btn">Сохранить</button>
+          ? `<div class="pending">✓ «${esc(pending.replace(/\s*\[tmdb=[^\]]+\]/, ""))}» — появится после следующего обновления</div>`
+          : `<form class="unknown-form"><input name="title" autocomplete="off" placeholder="Начни писать название…"><button class="btn">Сохранить</button>
               <button type="button" class="btn ghost" data-act="skip" title="Пост не про кино — убрать навсегда">Не про кино</button></form>`}
       </div>`;
     }).join("")}</div>`;
@@ -485,7 +574,7 @@
     });
     $("#grid").addEventListener("submit", async (e) => {
       e.preventDefault();
-      const box = e.target.closest("[data-src]"), title = e.target.title.value.trim();
+      const box = e.target.closest("[data-src]"), title = typedTitle(e.target.title);
       if (!title || !requireLogin()) return;
       await S.addTitle(box.dataset.src, title);
       render(); toast("Сохранено — подтянется при следующем обновлении");
@@ -509,7 +598,7 @@
     // исправление тайтла из карточки
     $("#detail").addEventListener("submit", async (e) => {
       e.preventDefault();
-      const id = $("#detail").dataset.id, title = e.target.title.value.trim();
+      const id = $("#detail").dataset.id, title = typedTitle(e.target.title);
       if (!title || !requireLogin()) return;
       await S.addTitle("fix:" + id, title);
       openDetail(id); render(); toast("Исправление сохранено — применится при обновлении");
@@ -556,6 +645,28 @@
 
     $("#aiOpen").addEventListener("click", () => { $("#ai").showModal(); $("#aiQuery").focus(); });
     $("#ai").addEventListener("click", (e) => { if (e.target.closest("[data-close]") || e.target === $("#ai")) $("#ai").close(); });
+    $("#aiOpen").addEventListener("click", () => {
+      const live = S.remote && S.user();
+      $("#aiAsk").hidden = !live;
+      $("#aiHint").textContent = live
+        ? "«Спросить ИИ» — ответ появится ниже. «Скопировать» — если хочешь спросить Claude или ChatGPT сам."
+        : S.remote ? "Войди, чтобы спрашивать ИИ прямо здесь. Или скопируй запрос и вставь в Claude / ChatGPT."
+                   : "Вставь скопированный текст в чат Claude или ChatGPT.";
+    });
+    $("#aiAsk").addEventListener("click", askAi);
+    $("#aiQuery").addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey) && !$("#aiAsk").hidden) askAi(); });
+    $("#aiResult").addEventListener("click", (e) => {
+      const add = e.target.closest("[data-ai-add]");
+      if (add) {
+        const pick = aiPicks[+add.dataset.aiAdd];
+        S.addSuggestion({ ...pick.tmdb, because: ["ИИ-подбор: " + (aiLastQuery || "по настроению")] });
+        loadAdded(); render(); renderAiResult();
+        toast(`«${pick.tmdb.title}» добавлен в список`);
+        return;
+      }
+      const open = e.target.closest("[data-ai-open]");
+      if (open) { $("#ai").close(); openDetail(open.dataset.aiOpen); }
+    });
     $("#aiCopy").addEventListener("click", async () => {
       const text = buildPrompt($("#aiQuery").value.trim(), $("#aiOutside").checked);
       try { await navigator.clipboard.writeText(text); toast("Запрос скопирован — вставь в Claude или ChatGPT"); }

@@ -202,6 +202,13 @@ def enrich(d):
     found = tuple(override.split("/")) if override else None
     if found:
         found = (found[0], int(found[1]))
+    imdb = next((n.split("=", 1)[1] for n in d["notes"] if n.startswith("imdb=")), None)
+    e["notes"] = [n for n in e["notes"] if not n.startswith("imdb=")]
+    if imdb and not found:
+        res = tmdb(f"/find/{imdb}", external_source="imdb_id") or {}
+        hit = (res.get("movie_results") or []) + (res.get("tv_results") or [])
+        if hit:
+            found = ("tv" if res.get("tv_results") and not res.get("movie_results") else "movie", hit[0]["id"])
     if not found and d["kp_id"]:
         kp = kp_lookup(d["kp_id"])
         if kp:

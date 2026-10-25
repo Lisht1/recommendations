@@ -119,9 +119,11 @@ a { color: inherit; }
 .badge.check { background: #3b2f12; color: var(--accent); }
 .badge.seen { background: var(--good); color: #062012; }
 .quick {
-  position: absolute; right: 8px; bottom: 8px; display: flex; gap: 6px;
-  opacity: 0; transition: opacity .15s;
+  position: absolute; left: 8px; right: 8px; bottom: 8px; display: flex; justify-content: space-between;
+  opacity: 0; transition: opacity .15s; pointer-events: none;
 }
+.quick button { pointer-events: auto; }
+.quick .seen-btn:only-child { margin-left: auto; }
 .card:hover .quick, .card.watched .quick { opacity: 1; }
 .quick button {
   width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer;
@@ -277,3 +279,26 @@ a { color: inherit; }
 .btn.danger:hover { border-color: var(--danger); }
 .toast-undo { margin-left: 10px; background: none; border: 0; color: #b5730a; font-weight: 800; cursor: pointer; text-decoration: underline; }
 .unknown-form { flex-wrap: wrap; }
+
+/* AI picks */
+#aiResult { white-space: normal; }
+.ai-intro { margin: 0 0 14px; }
+.ai-picks { display: grid; gap: 12px; }
+.ai-pick { display: grid; grid-template-columns: 70px 1fr; gap: 14px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+.ai-poster .poster { border-radius: 8px; box-shadow: none; }
+.ai-poster .ph { font-size: 10px; padding: 6px; }
+.ai-why { margin-top: 4px; font-size: 13px; line-height: 1.45; }
+.ai-actions { display: flex; gap: 10px; align-items: center; margin-top: 8px; }
+.ai-actions .btn { padding: 5px 12px; font-size: 13px; }
+
+/* title suggestions */
+.fix-form, .unknown-form { position: relative; flex-wrap: wrap; }
+.suggest-list { flex-basis: 100%; display: grid; gap: 4px; }
+.suggest-list:empty { display: none; }
+.suggest-item {
+  display: flex; gap: 10px; align-items: center; text-align: left; width: 100%;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; cursor: pointer;
+}
+.suggest-item:hover { border-color: var(--accent); }
+.suggest-item img, .suggest-item .noimg { width: 30px; height: 45px; object-fit: cover; border-radius: 4px; background: var(--panel-2); flex: none; }
+.picked { color: var(--good); padding: 4px 2px; }

@@ -170,6 +170,24 @@ def supabase(path, method="GET", data=None):
         headers["Authorization"] = f"Bearer {key}"
     return http_json(f"{url}/rest/v1/{path}", data, method=method, headers=headers)
 
+def parse_typed(text):
+    """What a person typed on the site -> (title_ru, title_orig, year, extra note).
+    Understands an exact pick '[tmdb=movie/603]' and pasted TMDB / Kinopoisk / IMDb links."""
+    text = text.strip()
+    m = re.search(r"\[tmdb=(movie|tv)/(\d+)\]", text) or re.search(r"themoviedb\.org/(movie|tv)/(\d+)", text)
+    if m:
+        name, year = split_title(re.sub(r"\[tmdb=[^\]]+\]|https?://\S+", "", text))
+        name = name or f"tmdb {m.group(1)}/{m.group(2)}"  # real title comes from TMDB later
+        return name, name, year, f"tmdb={m.group(1)}/{m.group(2)}"
+    m = re.search(r"kinopoisk\.ru/(?:film|series)/(\d+)", text)
+    if m:
+        return "", f"kp:{m.group(1)}", "", ""
+    m = re.search(r"imdb\.com/title/(tt\d+)", text) or re.fullmatch(r"(tt\d+)", text)
+    if m:
+        return m.group(1), m.group(1), "", f"imdb={m.group(1)}"
+    name, year = split_title(text)
+    return name, name, year, ""
+
 def split_title(title):
     """'Куб 1997' -> ('Куб', 1997)"""
     title = title.strip()
@@ -186,12 +204,13 @@ def apply_fix(item_id, title):
         return 0
     srcs = {x["src"] for x in item["sources"] if x.get("src")}
     drafts = {tuple(d) for d in item.get("draft", [])}
-    name, year = split_title(title)
+    ru, orig, year, extra = parse_typed(title)
+    note = "исправлено на сайте" + (f"; {extra}" if extra else "")
     lines, changed = MANUAL.read_text(encoding="utf-8").splitlines(), 0
     for i, line in enumerate(lines):
         parts = line.split("|")
         if len(parts) >= 7 and parts[0] in srcs and (parts[1], parts[2]) in drafts:
-            lines[i] = f"{parts[0]}|{name}|{name}|{year}|{parts[4]}|+|исправлено на сайте"
+            lines[i] = f"{parts[0]}|{ru}|{orig}|{year}|{parts[4]}|+|{note}"
             changed += 1
     MANUAL.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return changed
@@ -207,11 +226,31 @@ def site_titles():
         if r["title"].strip() == "!skip":
             lines.append(f"{r['src']}|!skip|||||убрано на сайте: не про кино")
             continue
-        name, year = split_title(r["title"])
-        lines.append(f"{r['src']}|{name}|{name}|{year}|?|+|вписано на сайте")
+        ru, orig, year, extra = parse_typed(r["title"])
+        lines.append(f"{r['src']}|{ru}|{orig}|{year}|?|+|вписано на сайте" + (f"; {extra}" if extra else ""))
     if rows:
         ids = ",".join(str(r["id"]) for r in rows)
         supabase(f"manual_titles?id=in.({ids})", "PATCH", {"processed": True})
+    return lines
+
+
+SUGG_DATES = {}
+
+def added_on_site():
+    """Titles added with «В список» (from «Может понравиться» or AI picks) become full catalog cards."""
+    rows = supabase("suggestions?status=eq.added&select=id,data,created_at") or []
+    have = MANUAL.read_text(encoding="utf-8")
+    lines = []
+    for r in rows:
+        src = f"sugg:{r['id']}"
+        if src + "|" in have:
+            continue
+        d = r.get("data") or {}
+        title = str(d.get("title") or "").replace("|", "/")
+        media, tid = r["id"].split("-", 1)
+        SUGG_DATES[r["id"]] = (r.get("created_at") or "")[:10]
+        why = "; ".join(d.get("because") or []).replace("|", "/")
+        lines.append(f"{src}|{title}|{title}|{d.get('year') or ''}|?|+|tmdb={media}/{tid}; добавлено на сайте{': ' + why if why else ''}")
     return lines
 
 
@@ -247,7 +286,7 @@ def main():
     else:
         print("TELEGRAM_SESSION не задан — канал не читаю")
 
-    typed = site_titles()
+    typed = site_titles() + added_on_site()
     if typed:
         print(f"Названий, вписанных на сайте: {len(typed)}")
     new_lines += typed
@@ -255,6 +294,7 @@ def main():
     if new_lines:
         with MANUAL.open("a", encoding="utf-8") as f:
             f.write(f"\n# автообновление {datetime.date.today().isoformat()}\n" + "\n".join(new_lines) + "\n")
+    sources.setdefault("sugg", {}).update({k: {"date": v} for k, v in SUGG_DATES.items()})
     SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=0), encoding="utf-8")
 
     import build_draft  # noqa: F401  (runs on import)
