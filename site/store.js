@@ -96,6 +96,7 @@ window.Store = (() => {
     setRating: (id, rating) => patchMark(id, { rating }),
     setNote: (id, note) => patchMark(id, { note }),
     setChecked: (id) => patchMark(id, { checked: true }),
+    setSeasons: (id, seasons, extra = {}) => patchMark(id, { seasons, ...extra }),
     setDropped: (id, dropped) => patchMark(id, dropped
       ? { dropped: true, watched: true, watched_at: new Date().toISOString() }
       : { dropped: false }),

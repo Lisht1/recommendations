@@ -311,3 +311,47 @@ a { color: inherit; }
 .sim-out a { display: block; }
 .sim-add { width: 100%; margin-top: 6px; padding: 4px 6px; font-size: 11px; }
 .sugg-actions { flex-wrap: wrap; }
+.open-src { display: inline-block; text-decoration: none; font-size: 12px; padding: 4px 10px; margin-bottom: 8px; }
+.links a.trailer { background: #b3261e; border-color: #b3261e; color: #fff; }
+.links a.trailer:hover { background: #d0342b; }
+
+/* кнопки в блоке «моё» — отделяем от фона */
+.mine-box .btn[data-act=seen] { background: #263a2e; border-color: #3d6b4c; color: #bff0cf; font-weight: 700; }
+.mine-box .btn[data-act=seen]:hover { background: #2e4a38; }
+.mine-box .btn[data-act=seen].on { background: var(--good); color: #062012; border-color: var(--good); }
+.mine-box .btn[data-act=drop] { background: #2a2023; border-color: #4a3034; color: #f0a8a8; }
+.mine-box .btn[data-act=drop]:hover { background: #352529; }
+.mine-box .stars button { background: #252933; border-color: #343946; color: #b8bdc9; }
+.mine-box .stars button:hover { border-color: var(--accent); color: var(--text); }
+.mine-box .stars button.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.mine-box textarea { background: #14161b; }
+.mine-box .btn.danger { background: transparent; }
+.mine-box .btn.big-seen { padding: 13px 14px; font-size: 15px; margin-bottom: 16px; }
+.minor-actions { display: flex; gap: 8px; margin-top: 12px; }
+.mine-box .minor-actions .btn.small-btn { flex: 1; width: auto; margin: 0; padding: 6px 8px; font-size: 12px; background: transparent; border-color: var(--line); color: var(--muted); }
+.mine-box .minor-actions .btn.small-btn:hover { color: var(--text); border-color: #4a5060; }
+.mine-box .minor-actions .btn.small-btn.danger:hover { color: var(--danger); border-color: #6b2a2a; }
+.mine-box .minor-actions .btn.small-btn.on-dropped { background: #3a1717; color: var(--danger); border-color: #6b2a2a; }
+
+/* seasons */
+.badge.new-season { background: var(--good); color: #062012; }
+.badge.watching { background: #1f3550; color: #9cc9ff; }
+.seasons { display: flex; flex-wrap: wrap; gap: 8px; }
+.season { display: flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--panel-2); }
+.season button { background: none; border: 0; cursor: pointer; color: var(--text); padding: 6px 10px; }
+.season button[data-season] { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
+.season button[data-season] b { font-size: 15px; }
+.season button[data-season] span { font-size: 10px; color: var(--muted); }
+.season .srate { border-left: 1px solid var(--line); font-size: 12px; color: var(--muted); min-width: 38px; }
+.season .srate.on { color: var(--accent); font-weight: 800; }
+.season.seen { background: #1d3426; border-color: #3d6b4c; }
+.season.seen button[data-season] b::after { content: " ✓"; color: var(--good); }
+.season.rec { box-shadow: 0 0 0 1px var(--accent) inset; }
+.season.future { opacity: .55; }
+.season.future button { cursor: default; }
+.season-rate { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-top: 10px; }
+.season-rate button { width: 30px; height: 30px; border-radius: 7px; border: 1px solid var(--line); background: var(--panel-2); color: var(--muted); cursor: pointer; font-weight: 700; }
+.season-rate button.on, .season-rate button:hover { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.season-rate span { margin-right: 6px; }
+.links a.info { background: transparent; color: var(--muted); font-weight: 500; }
+.links a.info:hover { color: var(--text); }

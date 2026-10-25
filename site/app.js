@@ -39,6 +39,38 @@
     if (!r.imdb && !r.kp && !r.shiki && r.tmdb) add("TMDB", r.tmdb, r.tmdb >= 7.5 ? "hi" : "");
     return out.join("");
   }
+  // ---------- сезоны сериалов ----------
+  const TODAY = new Date().toISOString().slice(0, 10);
+  const aired = (t) => (t.seasons || []).filter((x) => x.air_date && x.air_date <= TODAY).map((x) => x.n);
+  // какие сезоны отмечены просмотренными (старые отметки «посмотрели» считаются за все сезоны, вышедшие к тому моменту)
+  function seenSeasons(t) {
+    const st = S.get(t.id), map = st.seasons || {};
+    const marked = Object.keys(map).filter((k) => map[k]?.w).map(Number);
+    if (marked.length || !st.watched) return marked;
+    const until = (st.watched_at || TODAY).slice(0, 10);
+    return (t.seasons || []).filter((x) => x.air_date && x.air_date <= until).map((x) => x.n);
+  }
+  // посмотрели всё, но с тех пор вышел новый сезон
+  const hasNewSeason = (t) => t.media === "tv" && S.get(t.id).watched && aired(t).some((n) => !seenSeasons(t).includes(n));
+  // «просмотрено» с учётом новых сезонов — такой сериал возвращается в общий список
+  const isWatched = (t) => !!S.get(t.id).watched && !hasNewSeason(t);
+  function watchingProgress(t) {
+    if (t.media !== "tv" || S.get(t.id).watched) return null;
+    const seen = seenSeasons(t).length, total = aired(t).length;
+    return seen && total && seen < total ? `${seen}/${total}` : null;
+  }
+  const shortDate = (d) => new Date(d).toLocaleDateString("ru-RU", { day: "numeric", month: "short", year: d.slice(0, 4) === TODAY.slice(0, 4) ? undefined : "numeric" });
+
+  // коды стран TMDB -> русские названия (для карточек и поиска)
+  const COUNTRY = { US: "США", GB: "Великобритания", JP: "Япония", KR: "Корея", CN: "Китай", FR: "Франция", DE: "Германия",
+    RU: "Россия", SU: "СССР", CA: "Канада", AU: "Австралия", ES: "Испания", IT: "Италия", IN: "Индия", MX: "Мексика",
+    BR: "Бразилия", DK: "Дания", SE: "Швеция", NO: "Норвегия", IE: "Ирландия", NZ: "Новая Зеландия", BE: "Бельгия",
+    PL: "Польша", TW: "Тайвань", HK: "Гонконг", TH: "Таиланд", AR: "Аргентина", NL: "Нидерланды", FI: "Финляндия",
+    AT: "Австрия", CH: "Швейцария", CZ: "Чехия", TR: "Турция", UA: "Украина", BY: "Беларусь", KZ: "Казахстан",
+    IL: "Израиль", ZA: "ЮАР", CU: "Куба", PT: "Португалия", HU: "Венгрия", IS: "Исландия", CO: "Колумбия", CL: "Чили",
+    PH: "Филиппины", ID: "Индонезия", SG: "Сингапур", MY: "Малайзия", VN: "Вьетнам", GR: "Греция", RO: "Румыния" };
+  const country = (c) => COUNTRY[c] || c;
+
   // кто порекомендовал: канал, автор рилса или свои посты
   function sourceName(src) {
     if (!src?.from) return null;
@@ -52,7 +84,7 @@
     return (names[0] === "Свои посты" ? "свой пост" : "от " + names[0]) + (names.length > 1 ? ` и ещё ${names.length - 1}` : "");
   }
   function subline(t) {
-    return [t.year, t.type || TYPE_LABEL[t.media], t.countries?.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
+    return [t.year, (t.type && t.type !== "?" ? t.type : TYPE_LABEL[t.media]), t.countries?.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
   }
   function toast(msg, undo) {
     const el = $("#toast");
@@ -65,9 +97,9 @@
   // ---------- filtering ----------
   function matches(t, ignoreCat = false) {
     const st = S.get(t.id);
-    if (f.cat === "watched") { if (!ignoreCat && !st.watched) return false; }
+    if (f.cat === "watched") { if (!ignoreCat && !isWatched(t)) return false; }
     else if (!ignoreCat && f.cat !== "all" && t.category !== f.cat) return false;
-    if (f.cat !== "watched" && !f.showWatched && st.watched) return false;
+    if (f.cat !== "watched" && !f.showWatched && isWatched(t)) return false;
     if (f.showRemoved !== S.isHidden(t.id)) return false;
     if (f.onlySoon && !t.soon) return false;
     if (f.onlyCheck && !needsCheck(t)) return false;
@@ -78,7 +110,8 @@
     if (f.sources.size && !(t.sources || []).some((x) => f.sources.has(sourceName(x)))) return false;
     if (f.genres.size && ![...f.genres].every((g) => t.genres?.includes(g))) return false;
     if (f.q) {
-      const hay = [t.title_ru, t.title_en, t.title_orig, t.type, ...(t.genres || []), ...(t.countries || []), ...(t.notes || [])]
+      const hay = [t.title_ru, t.title_en, t.title_orig, t.type, ...(t.genres || []), ...(t.countries || []).map(country),
+        ...(t.notes || []), ...(t.sources || []).map((x) => x.from), ...(t.draft || []).flat()]
         .join(" ").toLowerCase();
       if (!f.q.split(/\s+/).every((w) => hay.includes(w))) return false;
     }
@@ -103,7 +136,7 @@
     items.forEach((t) => { if (matches(t, true)) { counts[t.category] = (counts[t.category] || 0) + 1; counts.all = (counts.all || 0) + 1; } });
     $("#tabs").innerHTML = C.categories.map((c) => {
       const n = c.id === "suggest" ? "" : c.id === "watched"
-        ? `<span class="n">${items.filter((t) => S.get(t.id).watched).length}</span>`
+        ? `<span class="n">${items.filter(isWatched).length}</span>`
         : c.id === "unknown"
         ? `<span class="n">${(catalog.unknown || []).filter((u) => !S.pendingTitle(u.src)).length}</span>`
         : `<span class="n">${counts[c.id] || 0}</span>`;
@@ -117,8 +150,11 @@
       t.soon && `<span class="badge soon">Скоро</span>`,
       needsCheck(t) && `<span class="badge check">Проверить</span>`,
       st.dropped && `<span class="badge dropped">Брошено</span>`,
+      hasNewSeason(t) && `<span class="badge new-season">Новый сезон</span>`,
+      watchingProgress(t) && `<span class="badge watching">Смотрим ${watchingProgress(t)}</span>`,
+      t.next_season && !t.soon && `<span class="badge soon">${t.next_season.n} сезон · ${shortDate(t.next_season.air_date)}</span>`,
     ].filter(Boolean).join("");
-    return `<article class="card ${st.watched ? "watched" : ""}" data-id="${esc(t.id)}">
+    return `<article class="card ${isWatched(t) ? "watched" : ""}" data-id="${esc(t.id)}">
       <div style="position:relative">${posterHtml(t)}
         <div class="badges">${badges}</div>
         ${st.rating ? `<div class="my-rating" title="Ваша оценка">★ ${st.rating}</div>` : ""}
@@ -141,7 +177,7 @@
     const list = sorted(items.filter((t) => matches(t)));
     $("#grid").innerHTML = list.map(cardHtml).join("");
     $("#empty").hidden = list.length > 0;
-    const watched = items.filter((t) => S.get(t.id).watched).length;
+    const watched = items.filter(isWatched).length;
     $("#count").textContent = `${list.length} из ${items.length}` + (watched ? ` · просмотрено ${watched}` : "");
   }
 
@@ -205,34 +241,78 @@
   }
 
   // ---------- detail modal ----------
-  function linksHtml(t) {
+  // где реально посмотреть
+  function watchLinksHtml(t) {
     const L = C.links, out = [];
     const a = (cls, label, href) => href && out.push(`<a class="${cls}" href="${esc(href)}" target="_blank" rel="noopener">${label}</a>`);
+    if (t.trailer) a("trailer", "▶ Трейлер", `https://www.youtube.com/watch?v=${t.trailer}`);
     a("kinopub", "Кинопаб", L.kinopub(t));
-    if (t.providers?.Netflix) a("netflix", "Netflix", L.netflix(t));
-    if (t.providers?.["Apple TV+"]) a("", "Apple TV", L.appletv(t));
     if (t.category === "anime") a("", "Yummy Anime", L.yummy(t));
-    a("", "Кинопоиск", L.kinopoisk(t));
-    a("", "IMDb", L.imdb(t));
-    if (t.category === "anime") a("", "Shikimori", L.shikimori(t));
-    a("", "TMDB", L.tmdb(t));
+    for (const [name, make] of Object.entries(L.streaming)) {
+      if (t.providers?.[name]) a(name === "Netflix" ? "netflix" : "", name === "Apple TV+" ? "Apple TV" : name, make(t));
+    }
+    return out.join("");
+  }
+  // справочная информация
+  function infoLinksHtml(t) {
+    const L = C.links, out = [];
+    const a = (label, href) => href && out.push(`<a class="info" href="${esc(href)}" target="_blank" rel="noopener">${label}</a>`);
+    a("Кинопоиск", L.kinopoisk(t));
+    a("IMDb", L.imdb(t));
+    if (t.category === "anime") a("Shikimori", L.shikimori(t));
+    a("TMDB", L.tmdb(t));
     return out.join("");
   }
   function whereHtml(t) {
     const p = t.providers || {};
     if (!Object.keys(p).length) return `<div class="muted">${t.matched ? "Нет данных о стримингах" : "Появится после подключения TMDB"}</div>`;
     return Object.entries(p).map(([name, regions]) => {
-      const short = regions.slice(0, 6).join(", ") + (regions.length > 6 ? ` и ещё ${regions.length - 6}` : "");
-      return `<div title="${esc(regions.join(", "))}"><b>${esc(name)}</b>: <span class="muted">${esc(short)}</span></div>`;
+      const names = regions;
+      const short = names.slice(0, 6).join(", ") + (names.length > 6 ? ` и ещё ${names.length - 6}` : "");
+      return `<div title="${esc(names.join(", "))}"><b>${esc(name)}</b>: <span class="muted">${esc(short)}</span></div>`;
     }).join("");
+  }
+
+  let activeSeason = null;  // сезон, которому сейчас ставят оценку
+  function seasonsHtml(t) {
+    if (t.media !== "tv" || !(t.seasons || []).length) return "";
+    const st = S.get(t.id), map = st.seasons || {}, seen = seenSeasons(t), rec = t.rec_seasons || [];
+    const chips = t.seasons.map((x) => {
+      const out = !x.air_date || x.air_date > TODAY;
+      const r = map[x.n]?.r;
+      return `<div class="season ${seen.includes(x.n) ? "seen" : ""} ${out ? "future" : ""} ${rec.includes(x.n) ? "rec" : ""}">
+        <button data-season="${x.n}" ${out ? "disabled" : ""} title="${out ? "Ещё не вышел" : seen.includes(x.n) ? "Снять отметку" : "Отметить сезон просмотренным"}">
+          <b>${x.n}</b><span>${x.air_date ? (out ? shortDate(x.air_date) : x.air_date.slice(0, 4)) : "?"}${x.episodes ? ` · ${x.episodes} сер.` : ""}</span>
+        </button>
+        ${out ? "" : `<button class="srate ${r ? "on" : ""}" data-season-rate="${x.n}" title="Оценить сезон">${r ? "★ " + r : "☆"}</button>`}
+      </div>`;
+    }).join("");
+    const rateRow = activeSeason != null ? `
+      <div class="season-rate"><span class="muted small">Оценка ${activeSeason} сезона:</span>
+        ${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => `<button class="${map[activeSeason]?.r === n ? "on" : ""}" data-srate="${n}">${n}</button>`).join("")}
+      </div>` : "";
+    const recNote = rec.length ? `<div class="muted small" style="margin-top:6px">Советовали: ${rec.map((n) => n + " сезон").join(", ")}</div>` : "";
+    return `<h4>Сезоны</h4><div class="seasons">${chips}</div>${rateRow}${recNote}`;
+  }
+  function toggleSeason(t, n) {
+    const st = S.get(t.id), map = { ...(st.seasons || {}) };
+    // первая ручная отметка: переносим «старое» просмотрено в посезонные отметки
+    if (!Object.values(map).some((x) => x?.w)) seenSeasons(t).forEach((k) => (map[k] = { ...(map[k] || {}), w: true }));
+    const now = !map[n]?.w;
+    map[n] = { ...(map[n] || {}), w: now };
+    const all = aired(t).every((k) => map[k]?.w);
+    S.setSeasons(t.id, map, all ? { watched: true, watched_at: new Date().toISOString(), dropped: false } : { watched: false });
+    if (all && !st.watched && !st.rating) { openDetail(t.id); render(); askRating(t.id); return; }
+    toast(now ? `${n} сезон отмечен` : `Отметка с ${n} сезона снята`);
   }
 
   function openDetail(id) {
     const t = items.find((x) => x.id === id);
     if (!t) return;
+    if ($("#detail").dataset.id !== id) activeSeason = null;
     const st = S.get(t.id);
     const have = new Set(items.map((x) => x.id));
-    const facts = [t.year, t.type, t.countries?.join(", "), t.runtime && `${t.runtime} мин`, t.seasons && `${t.seasons} сез.`, t.genres?.join(", ")].filter(Boolean);
+    const facts = [t.year, t.type, t.countries?.join(", "), t.runtime && `${t.runtime} мин`, (Array.isArray(t.seasons) ? t.seasons.filter((x) => x.air_date && x.air_date <= TODAY).length : t.seasons) && `${Array.isArray(t.seasons) ? t.seasons.filter((x) => x.air_date && x.air_date <= TODAY).length : t.seasons} сез.`, t.genres?.join(", ")].filter(Boolean);
     const sources = (t.sources || []).map((s) =>
       `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.from)}</a>${s.date ? ` · ${esc(s.date)}` : ""}</li>`).join("");
     const similar = (t.similar || []).slice(0, 8).map((s) => have.has(s.id) ? `
@@ -273,22 +353,26 @@
             </div>
           </div>` : ""}
           ${S.pendingTitle("fix:" + t.id) ? `<div class="pending" style="margin-bottom:14px">✓ Исправление «${esc(S.pendingTitle("fix:" + t.id).replace(/\s*\[tmdb=[^\]]+\]/, ""))}» применится при следующем обновлении</div>` : ""}
+          ${seasonsHtml(t)}
           <h4>О чём</h4>
           <p class="overview">${esc(t.overview || "Описание появится после подключения TMDB.")}</p>
           <h4>Смотреть</h4>
-          <div class="links">${linksHtml(t)}</div>
+          <div class="links">${watchLinksHtml(t)}</div>
+          ${infoLinksHtml(t) ? `<h4>Подробнее</h4><div class="links">${infoLinksHtml(t)}</div>` : ""}
           ${similar ? `<h4>Похожее</h4><div class="similar">${similar}</div>` : ""}
         </div>
         <div>
           <div class="mine-box">
-            <button class="btn ${st.watched && !st.dropped ? "on" : ""}" data-act="seen">${st.watched && !st.dropped ? "✓ Посмотрели" : "Отметить просмотренным"}</button>
-            <button class="btn ghost ${st.dropped ? "on-dropped" : ""}" data-act="drop">${st.dropped ? "✗ Бросили" : "Бросили, не досмотрели"}</button>
+            <button class="btn big-seen ${isWatched(t) && !st.dropped ? "on" : ""}" data-act="seen">${isWatched(t) && !st.dropped ? "✓ Посмотрели" : hasNewSeason(t) ? "Досмотрели новый сезон" : t.media === "tv" && (t.seasons || []).length ? "Посмотрели все сезоны" : "Отметить просмотренным"}</button>
             <div class="small muted" style="margin-bottom:6px">Ваша оценка</div>
             <div class="stars">${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => `<button class="${st.rating === n ? "on" : ""}" data-rate="${n}">${n}</button>`).join("")}</div>
             <textarea id="note" rows="3" placeholder="Заметка: что понравилось, с кем смотреть…">${esc(st.note || "")}</textarea>
-            ${S.isHidden(t.id)
-              ? `<button class="btn ghost wide" data-act="restore" style="margin-top:10px">↩ Вернуть в список</button>`
-              : `<button class="btn ghost wide danger" data-act="remove" style="margin-top:10px">Удалить из списка</button>`}
+            <div class="minor-actions">
+              <button class="btn small-btn ${st.dropped ? "on-dropped" : ""}" data-act="drop">${st.dropped ? "✗ Бросили" : "Бросили"}</button>
+              ${S.isHidden(t.id)
+                ? `<button class="btn small-btn" data-act="restore">↩ Вернуть</button>`
+                : `<button class="btn small-btn danger" data-act="remove">Удалить</button>`}
+            </div>
           </div>
           <h4>Где доступно</h4>
           <div class="where">${whereHtml(t)}</div>
@@ -316,9 +400,13 @@
   }
   function buildPrompt(query, outside, asJson = false) {
     const line = (t) => `${t.title_ru}${t.title_en && t.title_en !== t.title_ru ? ` / ${t.title_en}` : ""}${t.year ? ` (${t.year})` : ""}`;
-    const rated = items.filter((t) => S.get(t.id).watched || S.get(t.id).rating)
-      .map((t) => { const s = S.get(t.id); return `- ${line(t)}: ${s.dropped ? "БРОСИЛИ, не смогли досмотреть" : s.rating ? s.rating + "/10" : "посмотрели, без оценки"}${s.note ? ` — «${s.note}»` : ""}`; });
-    const todo = items.filter((t) => !S.get(t.id).watched).map((t) => `- ${line(t)} [${t.type || ""}]`);
+    const rated = items.filter((t) => S.get(t.id).watched || S.get(t.id).rating || seenSeasons(t).length)
+      .map((t) => {
+        const s = S.get(t.id), seen = seenSeasons(t), sr = Object.entries(s.seasons || {}).filter(([, v]) => v?.r).map(([k, v]) => `${k} сез. — ${v.r}/10`);
+        const seasonsInfo = t.media === "tv" && aired(t).length ? `; сезоны посмотрели: ${seen.join(", ") || "—"} из ${aired(t).length}${sr.length ? ` (${sr.join(", ")})` : ""}` : "";
+        return `- ${line(t)}: ${s.dropped ? "БРОСИЛИ, не смогли досмотреть" : s.rating ? s.rating + "/10" : "посмотрели, без оценки"}${seasonsInfo}${s.note ? ` — «${s.note}»` : ""}`;
+      });
+    const todo = items.filter((t) => !isWatched(t)).map((t) => `- ${line(t)} [${t.type || ""}]${hasNewSeason(t) ? " (вышел новый сезон)" : ""}`);
     const { top, mix } = tasteSummary();
     return [
       "Помоги выбрать, что посмотреть вечером. Мы — пара, смотрим вместе.",
@@ -443,6 +531,13 @@
   }
 
   // ---------- оценка после просмотра ----------
+  // окно оценки закрыли мимо кнопок — значит, передумали отмечать
+  function cancelWatched(id) {
+    S.setWatched(id, false);
+    $("#rate").close(); render();
+    if ($("#detail").open) openDetail(id);
+    toast("Не отмечено");
+  }
   function markDropped(id) {
     const now = !S.get(id).dropped;
     S.setDropped(id, now);
@@ -452,11 +547,20 @@
     toast(now ? "Отмечено как брошенное — похожее больше не будем предлагать" : "Вернули в список");
   }
   function markWatched(id) {
-    const now = !S.get(id).watched || S.get(id).dropped;
+    const t0 = items.find((x) => x.id === id);
+    const now = !isWatched(t0) || S.get(id).dropped;
+    if (t0?.media === "tv" && (t0.seasons || []).length) {
+      const map = { ...(S.get(id).seasons || {}) };
+      aired(t0).forEach((k) => (map[k] = { ...(map[k] || {}), w: now }));
+      S.setSeasons(id, map);
+    }
     S.setWatched(id, now);
     if (!now) { toast("Вернули в список"); return; }
     if (S.get(id).dropped) S.setDropped(id, false);
     if (S.get(id).rating) { toast(`Отмечено как просмотренное (оценка ${S.get(id).rating})`); return; }
+    askRating(id);
+  }
+  function askRating(id) {
     const t = items.find((x) => x.id === id);
     $("#rateTitle").textContent = `Как вам «${t?.title_ru || t?.title_en || ""}»?`;
     $("#rateStars").innerHTML = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) =>
@@ -528,8 +632,9 @@
       const pending = S.pendingTitle(u.src);
       if (pending === "!skip") return "";
       return `<div class="unknown" data-src="${esc(u.src)}">
-        <div class="unknown-head"><a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.from || u.src)}</a>
-          <span class="muted small">${esc(u.date || "")} · ${esc(u.src)}</span></div>
+        <div class="unknown-head"><b>${esc(u.from || u.src)}</b>
+          <span class="muted small">${esc(u.via || (u.src.startsWith("ig:") ? "Instagram" : "Telegram"))}${u.date ? " · " + esc(u.date) : ""}</span></div>
+        <a class="btn open-src" href="${esc(u.url)}" target="_blank" rel="noopener">${u.src.startsWith("ig:") ? "Открыть рилс ↗" : "Открыть пост ↗"}</a>
         ${u.note ? `<div class="unknown-note">${esc(u.note)}</div>` : ""}
         ${pending
           ? `<div class="pending">✓ «${esc(pending.replace(/\s*\[tmdb=[^\]]+\]/, ""))}» — появится после следующего обновления</div>`
@@ -598,6 +703,17 @@
       if (e.target.closest("[data-act=remove]")) { if (requireLogin()) removeItem(id); return; }
       if (e.target.closest("[data-act=restore]")) { if (requireLogin()) restoreItem(id); return; }
       if (e.target.closest("[data-act=drop]")) { if (requireLogin()) markDropped(id); return; }
+      const sBtn = e.target.closest("[data-season]");
+      if (sBtn) { if (!requireLogin()) return; toggleSeason(items.find((x) => x.id === id), +sBtn.dataset.season); openDetail(id); render(); return; }
+      const sRate = e.target.closest("[data-season-rate]");
+      if (sRate) { const n = +sRate.dataset.seasonRate; activeSeason = activeSeason === n ? null : n; openDetail(id); return; }
+      const sVal = e.target.closest("[data-srate]");
+      if (sVal) {
+        if (!requireLogin()) return;
+        const map = { ...(S.get(id).seasons || {}) }, v = +sVal.dataset.srate;
+        map[activeSeason] = { ...(map[activeSeason] || {}), r: map[activeSeason]?.r === v ? null : v };
+        S.setSeasons(id, map); toast(`Оценка ${activeSeason} сезона: ${v}`); activeSeason = null; openDetail(id); render(); return;
+      }
       const simAdd = e.target.closest("[data-sim-add]");
       if (simAdd) {
         if (!requireLogin()) return;
@@ -656,6 +772,7 @@
     });
 
     // окно оценки
+    $("#rate").addEventListener("cancel", (e) => { e.preventDefault(); cancelWatched($("#rate").dataset.id); });
     $("#rate").addEventListener("click", (e) => {
       const id = $("#rate").dataset.id;
       const b = e.target.closest("[data-rate]");
@@ -667,7 +784,8 @@
         return;
       }
       if (e.target.closest("[data-drop]")) { markDropped(id); return; }
-      if (e.target.closest("[data-skip]") || e.target === $("#rate")) {
+      if (e.target === $("#rate")) { cancelWatched(id); return; }
+      if (e.target.closest("[data-skip]")) {
         const note = $("#rateNote").value.trim(); if (note) S.setNote(id, note);
         $("#rate").close(); render(); toast("Отмечено как просмотренное");
       }

@@ -24,7 +24,7 @@ async function pickModels(): Promise<string[]> {
   return models;
 }
 
-async function gemini(prompt: string) {
+async function gemini(prompt: string, extraParts: unknown[] = []) {
   let last = "";
   for (const m of await pickModels()) {
     for (let attempt = 0; attempt < 2; attempt++) {
@@ -32,8 +32,8 @@ async function gemini(prompt: string) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { responseMimeType: "application/json", temperature: 0.7 },
+          contents: [{ parts: [{ text: prompt }, ...extraParts] }],
+          generationConfig: { responseMimeType: "application/json", temperature: extraParts.length ? 0.2 : 0.7 },
         }),
       });
       const data = await r.json();
@@ -85,6 +85,39 @@ async function findOnTmdb(p: Pick) {
   return null;
 }
 
+const ADMIN_KEY = Deno.env.get("ADMIN_KEY") ?? "";
+
+const VIDEO_PROMPT = `Это ролик из Instagram, который сохранили как рекомендацию фильмов, сериалов или аниме.
+Посмотри видео целиком и послушай звук. Перечисли ВСЕ тайтлы, которые в ролике называют голосом,
+показывают на экране (название, постер, кадр с подписью) или упоминают в подписи к посту.
+Если тайтл узнаёшь только по кадрам без названия — добавь его с confidence "?".
+Если ролик вообще не про кино — верни пустой список.
+
+Ответь строго JSON:
+{"summary": "одна фраза: о чём ролик", "titles": [{"title_ru": "...", "title_orig": "оригинальное или английское название",
+  "year": 2020, "type": "F|S|A|C|D", "confidence": "+|?"}]}
+type: F фильм, S сериал, A аниме, C мультфильм, D документальное. year — null, если не уверен.`;
+
+// Разбор видео: скрипт на компьютере кладёт ролик во временное хранилище, функция показывает его Gemini
+async function analyzeVideo(videoUrl: string, caption: string, author: string) {
+  // только временные ссылки на наше же хранилище
+  if (!videoUrl.startsWith(`${SUPABASE_URL}/storage/v1/object/sign/`)) throw new Error("Неверная ссылка на видео");
+  const file = await fetch(videoUrl);
+  if (!file.ok) throw new Error(`Не удалось взять видео из хранилища (${file.status})`);
+  const bytes = new Uint8Array(await file.arrayBuffer());
+  if (bytes.length > 15_000_000) throw new Error("Видео больше 15 МБ — пропускаю");
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  const prompt = `${VIDEO_PROMPT}
+
+Автор: ${author || "неизвестен"}
+Подпись к посту:
+${caption || "(нет)"}`;
+  const data = await gemini(prompt, [{ inline_data: { mime_type: "video/mp4", data: btoa(bin) } }]);
+  const text = (data?.candidates?.[0]?.content?.parts ?? []).map((p: { text?: string }) => p.text ?? "").join("");
+  return JSON.parse(text);
+}
+
 const cors = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
@@ -105,10 +138,17 @@ async function signedIn(req: Request): Promise<boolean> {
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
   if (req.method !== "POST") return reply({ error: "Только POST" }, 405);
-  if (!(await signedIn(req))) return reply({ error: "Нужно войти на сайт" }, 401);
+  const admin = ADMIN_KEY && req.headers.get("x-admin-key") === ADMIN_KEY;
+  if (!admin && !(await signedIn(req))) return reply({ error: "Нужно войти на сайт" }, 401);
 
   try {
     const body = await req.json();
+
+    // Разбор видео — только для скрипта с компьютера (по служебному ключу)
+    if (typeof body.video_url === "string") {
+      if (!admin) return reply({ error: "Только для служебного скрипта" }, 403);
+      return reply({ result: await analyzeVideo(body.video_url, body.caption ?? "", body.author ?? "") });
+    }
 
     // Подсказки названий для полей «Исправить» и «Неразобранное»
     if (typeof body.search === "string") {

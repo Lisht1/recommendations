@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **343** уникальных названий, из них проверить: **37**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **89**, пропущено (не про кино): **6**.
+Найдено **373** уникальных названий, из них проверить: **37**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **76**, пропущено (не про кино): **6**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -46,7 +46,7 @@
 | The Rings of Power | [tg:182](https://t.me/c/2117114565/182) |  |
 | NARNIA: THE MAGICIAN’S NEPHEW | [tg:184](https://t.me/c/2117114565/184) |  |
 
-## Фильм (97)
+## Фильм (101)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -72,6 +72,7 @@
 | Выход 8 / Exit 8 (2025) | [tg:179](https://t.me/c/2117114565/179) |  |
 | Гамнет / Hamnet (2025) | [tg:137](https://t.me/c/2117114565/137) | номинант на «Оскар» |
 | Главный герой / Free Guy (2021) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Годзилла: Минус один / Godzilla Minus One (2023) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:28](https://www.instagram.com/reel/DSXTiyPiCmI/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Автор видео презентует концепцию своего оригинального аниме-проекта Final Bosu. |
 | Горе-творец / The Disaster Artist (2017) | [tg:141](https://t.me/c/2117114565/141) |  |
 | Горничная / The Housemaid (2025) | [tg:165](https://t.me/c/2117114565/165) |  |
 | Городской охотник / City Hunter (2024) | [tg:153](https://t.me/c/2117114565/153) | Netflix |
@@ -105,16 +106,19 @@
 | Лило и Стич / Lilo & Stitch (2025) | [tg:129](https://t.me/c/2117114565/129) |  |
 | Малыш на драйве / Baby Driver (2017) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Марти Великолепный / Marty Supreme (2025) | [tg:137](https://t.me/c/2117114565/137) | номинант на «Оскар» |
+| Матрица / The Matrix (1999) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix. |
 | Машина / The Machine (2013) | [tg:64](https://t.me/c/2117114565/64) |  |
 | Мегалополис / Megalopolis (2024) | [tg:13](https://t.me/c/2117114565/13) |  |
 | Монолит / Monolith (2022) | [tg:155](https://t.me/c/2117114565/155) |  |
 | Надежда / Hope (2026) | [tg:170](https://t.me/c/2117114565/170), [ig:138](https://www.instagram.com/reel/DY22Q3bR_Dj/) | На Хон-джин |
+| Начало / Inception (2010) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix. |
 | Не двигайся / Don't Move (2024) | [tg:65](https://t.me/c/2117114565/65) |  |
 | Не звезди / Menteur (2022) | [ig:196](https://www.instagram.com/reel/DLafH6_OsIP/) |  |
 | Новейший завет / The Brand New Testament (2015) | [tg:115](https://t.me/c/2117114565/115) |  |
 | Носферату / Nosferatu (2024) | [tg:82](https://t.me/c/2117114565/82) |  |
 | Падение империи / Civil War (2024) | [tg:5](https://t.me/c/2117114565/5) |  |
 | Персонаж / Stranger Than Fiction (2006) | [ig:167](https://www.instagram.com/reel/DOniSRUgrDr/) |  |
+| Пила / Saw (2004) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
 | Подземелья и драконы: Честь среди воров / Dungeons & Dragons: Honor Among Thieves (2023) | [tg:133](https://t.me/c/2117114565/133) |  |
 | Подозрительные лица / The Usual Suspects (1995) | [ig:194](https://www.instagram.com/reel/DNGueqRCzXY/) |  |
 | Подстрекатели / The Instigators (2024) | [tg:48](https://t.me/c/2117114565/48) |  |
@@ -148,7 +152,7 @@
 | Я шагаю по Москве (1963) | [tg:151](https://t.me/c/2117114565/151) |  |
 | Я — Куба (1964) | [tg:151](https://t.me/c/2117114565/151) |  |
 
-## Сериал (57)
+## Сериал (58)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -168,6 +172,7 @@
 | Девушка в лесу / The Girl in the Woods (2021) | [ig:170](https://www.instagram.com/reel/DTkbQbgiOSZ/) |  |
 | Денежные проблемы Марго / Margo's Got Money Troubles (2026) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Жизнь после смерти / After Life (2019) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Игра в кальмара / Squid Game (2021) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
 | Каштановый человечек / The Chestnut Man (2021) | [ig:141](https://www.instagram.com/reel/DYj0FSnKoG0/) | 2 сезон «Прятки» |
 | Киностудия / The Studio (2025) | [tg:141](https://t.me/c/2117114565/141), [ig:149](https://www.instagram.com/reel/DW3exGFum4w/) |  |
 | Колесо времени / The Wheel of Time (2021) | [ig:199](https://www.instagram.com/reel/DI3D4Zksemt/) |  |
@@ -210,14 +215,17 @@
 | Эйфория / Euphoria (2019) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Эрик / Eric (2024) | [tg:15](https://t.me/c/2117114565/15) |  |
 
-## Аниме (99)
+## Аниме (124)
 
 | Название | Источник | Заметка |
 |---|---|---|
+| D: Охотник на вампиров / Vampire Hunter D (1985) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Devil May Cry (2025) | [tg:79](https://t.me/c/2117114565/79) | Netflix |
+| Final Bosu | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:28](https://www.instagram.com/reel/DSXTiyPiCmI/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Автор видео презентует концепцию своего оригинального аниме-проекта Final Bosu. |
 | Акира / Akira (1988) | [tg:2](https://t.me/c/2117114565/2), [tg:147](https://t.me/c/2117114565/147) |  |
 | Ангельские ритмы! / Angel Beats! (2010) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Аниматрица / The Animatrix (2003) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Атака титанов / Attack on Titan (2013) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:23](https://www.instagram.com/reel/DT-ktNsCDlX/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Блогер делится концепцией оригинальной аниме-вселенной, где внутренний личностный рост призывает опасного финального босса. |
 | Ателье колдовских шляп / Witch Hat Atelier (2026) | [ig:12](https://www.instagram.com/reel/DWxJ9xBjrIz/) |  |
 | Афросамурай / Afro Samurai (2007) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Баккано! / Baccano! (2007) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
@@ -226,6 +234,7 @@
 | Благословение небожителей / Heaven Official's Blessing (2020) | [ig:94](https://www.instagram.com/reel/DIZCYtVKCdS/) |  |
 | Быть героем X / To Be Hero X (2025) | [ig:93](https://www.instagram.com/reel/DId9chHsFvX/), [ig:110](https://www.instagram.com/reel/DFMSIzkT_rn/) |  |
 | Вайолет Эвергарден / Violet Evergarden (2018) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
+| Ванпанчмен / One Punch Man (2015) | [ig:32](https://www.instagram.com/reel/DRjap8fk8Wd/) | из видео: Фан-анимация батальной сцены к 3 сезону аниме «Ванпанчмен». |
 | Ведьма и чудовище / The Witch and the Beast (2024) | [ig:77](https://www.instagram.com/reel/DLI_AtTyDcB/) |  |
 | Великий притворщик / Great Pretender (2020) | [ig:4](https://www.instagram.com/reel/DZdD48aJm7k/) |  |
 | Ветер крепчает / The Wind Rises (2013) | [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) |  |
@@ -245,25 +254,33 @@
 | Девочка-волшебница Мадока Магика / Puella Magi Madoka Magica (2011) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Демоны теневого царства / Daemons of the Shadow Realm (2026) | [ig:47](https://www.instagram.com/reel/DPmBki8D8b3/) |  |
 | Дневник чужой страны / Journal with Witch (2026) | [ig:1](https://www.instagram.com/reel/Dc_QJKiN9ch/) | Ikoku Nikki |
+| Доктор Стоун / Dr. STONE (2019) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
 | Евангелион / Neon Genesis Evangelion (1995) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Ежемесячное сёдзё Нозаки-куна / Monthly Girls' Nozaki-kun (2014) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Жизнь без оружия / No Guns Life (2019) | [tg:2](https://t.me/c/2117114565/2), [ig:108](https://www.instagram.com/reel/DB27Ae0o96w/) |  |
+| Игра друзей / Tomodachi Game (2022) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
 | Истинная грусть / Perfect Blue (1997) | [tg:147](https://t.me/c/2117114565/147) |  |
 | Истории монстров / Bakemonogatari (2009) | [ig:25](https://www.instagram.com/reel/DT2dRi3EWQK/) | порядок: Bakemonogatari → Kizumonogatari → … |
+| Истребитель демонов / Demon Slayer: Kimetsu no Yaiba (2019) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:23](https://www.instagram.com/reel/DT-ktNsCDlX/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Блогер делится концепцией оригинальной аниме-вселенной, где внутренний личностный рост призывает опасного финального босса. |
 | Как прекрасна луна / Tsuki ga Kirei (2017) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
+| Кибервиток / Dennou Coil (2007) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Киберпанк: Бегущие по краю / Cyberpunk: Edgerunners (2022) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
+| Ковбой Бибоп / Cowboy Bebop (1998) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Король драконов / Dragon Raja (2024) | [ig:40](https://www.instagram.com/reel/DNYa-ZpR7L5/) |  |
 | Куда едет поезд судного дня? / Shuumatsu Train Doko e Iku? (2024) | [tg:21](https://t.me/c/2117114565/21) |  |
 | Кулинарные скитания в параллельном мире / Campfire Cooking in Another World with My Absurd Skill (2023) | [tg:34](https://t.me/c/2117114565/34) |  |
+| Курение за супермаркетом вместе с тобой / Super no Ura de Tabako Suu Futari | [ig:17](https://www.instagram.com/reel/DVbB9nJEtU-/) | из видео: Блогер рассказывает про романтическое аниме про двух взрослых людей, общающихся за курением возле супермаркета. |
 | Лазарь / Lazarus (2025) | [ig:102](https://www.instagram.com/reel/DHv5mSGIBCF/) |  |
 | Легенда о Хэй / The Legend of Hei (2019) | [ig:60](https://www.instagram.com/reel/DNLa5qXTjIq/) |  |
 | Легенда о Хэй 2 / The Legend of Hei 2 (2025) | [ig:9](https://www.instagram.com/reel/DRKEM1NgHSC/), [ig:61](https://www.instagram.com/reel/DK-gF_opDTF/), [ig:63](https://www.instagram.com/reel/DLhKIF5JR-K/) |  |
 | Лето, когда умер Хикару / The Summer Hikaru Died (2025) | [ig:50](https://www.instagram.com/reel/DOLiYoqEzKu/) |  |
 | Ликорис Рикойл / Lycoris Recoil (2022) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
+| Магическая битва / Jujutsu Kaisen (2020) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
 | Магия и мускулы / Mashle (2023) | [ig:125](https://www.instagram.com/reel/DBVxfyZAA6K/) |  |
 | Манускрипт ниндзя / Ninja Scroll (1993) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Место дальше, чем Вселенная / A Place Further Than the Universe (2018) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Меч охотника на демонов / Sword of the Demon Hunter: Kijin Gentosho (2025) | [ig:101](https://www.instagram.com/reel/DH8ztzJxcfr/) |  |
+| Могила светлячков / Grave of the Fireflies (1988) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Мой уникальный навык делает меня сильным даже на 1 уровне / My Unique Skill Makes Me OP Even at Level 1 (2023) | [ig:114](https://www.instagram.com/reel/DEu-RLFphD-/) |  |
 | Монолог фармацевта / The Apothecary Diaries (2023) | [ig:102](https://www.instagram.com/reel/DHv5mSGIBCF/) |  |
 | Навсикая из Долины ветров / Nausicaä of the Valley of the Wind (1984) | [tg:147](https://t.me/c/2117114565/147) |  |
@@ -272,6 +289,8 @@
 | Невиданный цветок / Anohana: The Flower We Saw That Day (2011) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
 | Необычное такси (2021) | [tg:74](https://t.me/c/2117114565/74), [ig:67](https://www.instagram.com/reel/DMAeArTz9vD/) | исправлено на сайте; tmdb=tv/116727 |
 | Нет игры — нет жизни / No Game No Life (2014) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
+| Обещанный Неверленд / Yakusoku no Neverland (2019) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
+| Оборотни / Jin-Roh: The Wolf Brigade (1999) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Одинокий рокер! / Bocchi the Rock! (2022) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Оседлай волну / Ride Your Wave (2019) | [ig:58](https://www.instagram.com/reel/DNNyhGfT8Q3/) |  |
 | Оценщик / Even Given the Worthless "Appraiser" Class, I'm Actually the Strongest (2025) | [ig:120](https://www.instagram.com/reel/DEqRbySB6wF/) |  |
@@ -283,15 +302,19 @@
 | Пикник в Потусторонье / Otherside Picnic (2021) | [ig:130](https://www.instagram.com/reel/DD4VPIooKvI/) |  |
 | Пинг-понг / Ping Pong the Animation (2014) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Письмо для Момо / A Letter to Momo (2011) | [ig:55](https://www.instagram.com/reel/DNlCYxbNAt4/) |  |
+| Повелитель тайн / Lord of the Mysteries (2025) | [ig:13](https://www.instagram.com/reel/DVilQfxDWkg/) | из видео: Шуточный ролик о том, как первая серия нового аниме сразу же увлекает зрителя. |
 | Повелитель тайн / Lord of Mysteries (2025) | [ig:50](https://www.instagram.com/reel/DOLiYoqEzKu/), [ig:76](https://www.instagram.com/reel/DLiY68sh1y-/) |  |
 | Поднятие уровня в одиночку / Solo Leveling (2024) | [ig:121](https://www.instagram.com/reel/DEjoajyxZaE/), [ig:124](https://www.instagram.com/reel/DDiN5UIScdI/) |  |
+| Призрак в доспехах / Ghost in the Shell (1995) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Принцесса Мононоке / Princess Mononoke (1997) | [tg:147](https://t.me/c/2117114565/147) |  |
+| Провожающая в последний путь Фрирен / Sousou no Frieren (2023) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
 | Рейтинг короля / Ranking of Kings (2021) | [ig:14](https://www.instagram.com/reel/DWylz3biUoP/) |  |
 | Салатница чудаков / Henjin no Salad Bowl (2024) | [tg:22](https://t.me/c/2117114565/22) |  |
 | Санни Бой / Sonny Boy (2021) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
 | Семья шпиона / Spy x Family (2022) | [tg:14](https://t.me/c/2117114565/14), [tg:91](https://t.me/c/2117114565/91) |  |
 | Сказания Земноморья / Tales from Earthsea (2006) | [ig:53](https://www.instagram.com/reel/DKJmVf1sQT2/) |  |
 | Скарлет / Scarlet (2025) | [ig:21](https://www.instagram.com/reel/DU0VRu5ApnR/), [ig:38](https://www.instagram.com/reel/DQtbJCJjD6c/) | Мамору Хосода |
+| Смертельная игра ради еды на столе / Shibou Yuugi de Meshi wo Kuu. (2026) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
 | Союз серокрылых / Haibane Renmei (2002) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Спой немного гармонии / Sing a Bit of Harmony (2021) | [ig:65](https://www.instagram.com/reel/DLpiGxRTnm-/) |  |
 | Стометровка / Hyakuemu. (2025) | [tg:126](https://t.me/c/2117114565/126), [ig:24](https://www.instagram.com/reel/DUpsLjFCstS/), [ig:27](https://www.instagram.com/reel/DTBMnX9CFQJ/) |  |
@@ -302,17 +325,24 @@
 | Тацуки Фудзимото: 17-26 / Tatsuki Fujimoto 17-26 (2025) | [ig:34](https://www.instagram.com/reel/DRNbHkwDH__/) |  |
 | Твоё имя / Your Name. (2016) | [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) |  |
 | Терминатор Зеро / Terminator Zero (2024) | [tg:37](https://t.me/c/2117114565/37) |  |
+| Тетрадь смерти / Death Note (2006) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
+| Токийский гуль / Tokyo Ghoul (2014) | [ig:42](https://www.instagram.com/reel/DQICzM8k5Q1/) | из видео: Фрагмент из аниме с боевой ценой, которое автор сравнивает с «Токийским гулем». |
 | Убийца гоблинов / Goblin Slayer (2018) | [tg:63](https://t.me/c/2117114565/63) | 18+ |
 | Убить или быть убитым / Kill la Kill (2013) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Умамусуме: Красивое дерби / Umamusume: Pretty Derby (2018) | [ig:22](https://www.instagram.com/reel/DSisTs5CD9s/) | из видео: Мнение о том, что новый сезон аниме «Умамусуме: Красивое дерби» будет отличным |
 | Унесённые призраками / Spirited Away (2001) | [tg:147](https://t.me/c/2117114565/147) |  |
 | Хинаматсури / Hinamatsuri (2018) | [ig:95](https://www.instagram.com/reel/DIMQa_fiYI7/) |  |
 | Ходячий замок / Howl's Moving Castle (2004) | [tg:147](https://t.me/c/2117114565/147) |  |
 | Холм тумана пяти стихий / Fog Hill of Five Elements (2020) | [ig:64](https://www.instagram.com/reel/DLf1juMopjR/) |  |
 | Хранитель камфорного дерева / The Camphor Tree Guardian (2026) | [ig:3](https://www.instagram.com/reel/DZuw6iJIEDo/) | по книге Кэйго Хигасино |
+| Цветок благоухает, распускаясь с достоинством / Kaoru Hana wa Rin to Saku (2025) | [ig:30](https://www.instagram.com/reel/DR6yWs9DfiA/) | из видео: Озвучка сцены из романтического аниме «Цветок благоухает, распускаясь с достоинством». |
 | Человек-дьявол: Плакса / Devilman Crybaby (2018) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Чудесные дни / Wonderful Days (2003) | [ig:85](https://www.instagram.com/reel/DJWloa7x4oY/) | корейский, он же Sky Blue |
 | Школа мертвецов / Highschool of the Dead (2010) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Эксперименты Лэйн / Serial Experiments Lain (1998) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
+| Эхо террора / Zankyou no Terror (2014) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
+| Я не смог стать героем, поэтому решил найти работу / Yuusha ni Narenakatta Ore wa Shoukurou ni Shigoto o Hajimemashita. (2013) | [ig:18](https://www.instagram.com/reel/DV0FqHhklb8/) | из видео: Юмористический ролик о том, что многие аниме в жанре исэкай/фансервис смотрят «ради сюжета», хотя весь сюжет состоит из откровенных сцен. |
+| Яйцо ангела / Tenshi no Tamago (1985) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 
 ## Мультфильм (32)
 
@@ -392,24 +422,11 @@
 - [ig:2](https://www.instagram.com/reel/Da2b4GAI0uF/) онгоинги
 - [ig:5](https://www.instagram.com/reel/DZIwnX0zaJh/) подборка аниме про вторжение пришельцев
 - [ig:6](https://www.instagram.com/p/DZR29JdDD7r/) подборка китайских мультфильмов
-- [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) топ-10 аниме
 - [ig:8](https://www.instagram.com/reel/DYKgeBzsexV/) 
-- [ig:13](https://www.instagram.com/reel/DVilQfxDWkg/) 
 - [ig:15](https://www.instagram.com/reel/DWyO6OYCqn-/) самое ожидаемое фэнтези-аниме весны
-- [ig:16](https://www.instagram.com/reel/DVduoDICMbX/) концепт «Would you watch it?»
-- [ig:17](https://www.instagram.com/reel/DVbB9nJEtU-/) романтика со взрослыми героями
-- [ig:18](https://www.instagram.com/reel/DV0FqHhklb8/) 
-- [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) главный триллер зимнего сезона
 - [ig:20](https://www.instagram.com/reel/DU_UqnOAEfP/) топ-3 непопулярных аниме
-- [ig:22](https://www.instagram.com/reel/DSisTs5CD9s/) 
-- [ig:23](https://www.instagram.com/reel/DT-ktNsCDlX/) концепт «Would you watch it?»
-- [ig:28](https://www.instagram.com/reel/DSXTiyPiCmI/) концепт «Would you watch this?»
-- [ig:30](https://www.instagram.com/reel/DR6yWs9DfiA/) «озвучил Ринтаро» — романтика
-- [ig:32](https://www.instagram.com/reel/DRjap8fk8Wd/) 
 - [ig:37](https://www.instagram.com/reel/DNv28a-Xj8p/) семейный мультфильм про развод
-- [ig:42](https://www.instagram.com/reel/DQICzM8k5Q1/) 
 - [ig:45](https://www.instagram.com/p/DO8xId-goKA/) подборка недооценённых аниме 2020-х
-- [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) топ-5 аниме про гениев
 - [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) аниме июля 2025, часть 1
 - [ig:62](https://www.instagram.com/reel/DMuthkbo6aS/) новое аниме с 30k кадров в серии
 - [ig:66](https://www.instagram.com/reel/DJaUMksooI1/) блиц-рекомендации

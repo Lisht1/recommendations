@@ -23,8 +23,16 @@ window.CONFIG = {
   links: {
     kinopub: (t) => `https://kino.watch/item/search?query=${encodeURIComponent(t.title_en || t.title_ru)}`,
     yummy: (t) => `https://yummy-anime.ru/search?word=${encodeURIComponent(t.title_ru || t.title_en)}`,
-    netflix: (t) => `https://www.netflix.com/search?q=${encodeURIComponent(t.title_en || t.title_orig)}`,
-    appletv: (t) => `https://tv.apple.com/search?term=${encodeURIComponent(t.title_en || t.title_orig)}`,
+    // стриминги: кнопка показывается, только если по данным TMDB тайтл там есть (в какой-то стране)
+    streaming: {
+      "Netflix": (t) => `https://www.netflix.com/search?q=${encodeURIComponent(t.title_en || t.title_orig)}`,
+      "Apple TV+": (t) => `https://tv.apple.com/search?term=${encodeURIComponent(t.title_en || t.title_orig)}`,
+      "Prime Video": (t) => `https://www.primevideo.com/search/ref=atv_nb_sug?phrase=${encodeURIComponent(t.title_en || t.title_orig)}`,
+      "Max": (t) => `https://play.max.com/search?q=${encodeURIComponent(t.title_en || t.title_orig)}`,
+      "Disney+": (t) => `https://www.disneyplus.com/search?q=${encodeURIComponent(t.title_en || t.title_orig)}`,
+      "Crunchyroll": (t) => `https://www.crunchyroll.com/search?q=${encodeURIComponent(t.title_en || t.title_orig)}`,
+      "Hulu": (t) => `https://www.hulu.com/search?q=${encodeURIComponent(t.title_en || t.title_orig)}`,
+    },
     kinopoisk: (t) => t.kp_id
       ? `https://www.kinopoisk.ru/film/${t.kp_id}/`
       : `https://www.kinopoisk.ru/index.php?kp_query=${encodeURIComponent(t.title_ru)}`,

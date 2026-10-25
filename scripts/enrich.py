@@ -74,12 +74,19 @@ def norm(s):
 def is_latin(s):
     return bool(re.search(r"[a-zA-Z]", s or "")) and not re.search(r"[а-яА-Я]", s or "")
 
+def year_ok(result, item):
+    date = result.get("release_date") or result.get("first_air_date") or ""
+    return not item["year"] or not date[:4].isdigit() or abs(int(date[:4]) - item["year"]) <= 1
+
+
 def score(result, item):
     names = {norm(result.get(k)) for k in ("title", "name", "original_title", "original_name")}
     want = {norm(item["title_orig"]), norm(item["title_ru"])} - {""}
     s = 0.0
     if names & want:
         s += 10
+    elif any(len(w) >= 8 and w in n for w in want for n in names if n) and year_ok(result, item):
+        s += 6  # the post gives a short form of the full title: "The Rings of Power" in "The Lord of the Rings: The Rings of Power"
     elif any(w and (w in n or n in w) for w in want for n in names if n):
         s += 4
     date = result.get("release_date") or result.get("first_air_date") or ""
@@ -153,6 +160,48 @@ def shikimori(item, year):
 
 # ---------- building one catalog entry ----------
 
+def seasons_of(info):
+    """Regular seasons (no specials): number, year, air date, episode count."""
+    out = []
+    for x in info.get("seasons") or []:
+        if not x.get("season_number"):
+            continue  # season 0 = specials
+        out.append({"n": x["season_number"], "air_date": x.get("air_date"), "episodes": x.get("episode_count") or 0})
+    return out
+
+def next_season_of(info):
+    """Premiere date of an announced next season, if TMDB knows it."""
+    nxt = info.get("next_episode_to_air") or {}
+    if nxt.get("episode_number") == 1 and nxt.get("air_date"):
+        return {"n": nxt.get("season_number"), "air_date": nxt["air_date"]}
+    future = [x for x in info.get("seasons") or [] if x.get("season_number") and x.get("air_date") and x["air_date"] > TODAY]
+    if future:
+        return {"n": future[0]["season_number"], "air_date": future[0]["air_date"]}
+    return None
+
+
+def recommended_seasons(notes):
+    """'2 сезон', 'season 3', 'второй сезон' in the notes -> [2, 3]"""
+    words = {"перв": 1, "втор": 2, "трет": 3, "четв": 4, "пят": 5, "шест": 6}
+    found = set()
+    for n in notes:
+        for m in re.finditer(r"(\d+)\s*(?:-?й\s*)?сезон|season\s*(\d+)", n, flags=re.I):
+            found.add(int(m.group(1) or m.group(2)))
+        for m in re.finditer(r"(перв|втор|трет|четв|пят|шест)\w*\s+сезон", n, flags=re.I):
+            found.add(words[m.group(1).lower()])
+    return sorted(found)
+
+
+def pick_trailer(videos):
+    """YouTube key of the best trailer: Russian first, then official English, then any teaser."""
+    yt = [v for v in videos if v.get("site") == "YouTube" and v.get("key")]
+    def rank(v):
+        return (v.get("type") != "Trailer", v.get("iso_639_1") != "ru", not v.get("official"),
+                v.get("type") not in ("Trailer", "Teaser"), -(v.get("size") or 0))
+    best = sorted(yt, key=rank)
+    return best[0]["key"] if best else None
+
+
 def category(entry):
     genres = entry["genre_ids"]
     asian = bool(set(entry["countries"]) & ASIA)
@@ -225,7 +274,8 @@ def enrich(d):
 
     media, tid = found
     info = tmdb(f"/{media}/{tid}", language="ru-RU",
-                append_to_response="external_ids,watch/providers,recommendations,translations")
+                append_to_response="external_ids,watch/providers,recommendations,translations,videos",
+                include_video_language="ru,en,null")
     if not info:
         e["category"] = category(e)
         return e
@@ -250,9 +300,11 @@ def enrich(d):
         "poster": IMG + "w342" + info["poster_path"] if info.get("poster_path") else None,
         "backdrop": IMG + "w780" + info["backdrop_path"] if info.get("backdrop_path") else None,
         "runtime": info.get("runtime") or (info.get("episode_run_time") or [None])[0],
-        "seasons": info.get("number_of_seasons"),
         "imdb_id": (info.get("external_ids") or {}).get("imdb_id") or info.get("imdb_id"),
         "providers": providers(info.get("watch/providers")),
+        "trailer": pick_trailer((info.get("videos") or {}).get("results", [])),
+        "seasons": seasons_of(info) if media == "tv" else None,
+        "next_season": next_season_of(info) if media == "tv" else None,
         "similar": [{"id": f"{r.get('media_type', media)}-{r['id']}", "title": r.get("title") or r.get("name"),
                      "year": (r.get("release_date") or r.get("first_air_date") or "")[:4],
                      "poster": IMG + "w185" + r["poster_path"] if r.get("poster_path") else None}
@@ -281,7 +333,11 @@ def enrich(d):
         if (kp.get("rating") or {}).get("kp"):
             e["ratings"]["kp"] = round(kp["rating"]["kp"], 1)
 
+    if media == "tv":
+        e["rec_seasons"] = recommended_seasons(e["notes"])
     e["category"] = category(e)
+    if e["type"] in ("?", ""):  # type unknown in the post — take it from TMDB
+        e["type"] = {"anime": "Аниме", "cartoons": "Мультфильм"}.get(e["category"]) or ("Сериал" if media == "tv" else "Фильм")
     if e["category"] == "anime":
         sh = shikimori(e, e["year"])
         if sh:
@@ -304,7 +360,7 @@ def keep_previous(e, prev_by_id, prev_by_draft):
     if old:
         for k, v in (old.get("ratings") or {}).items():
             e["ratings"].setdefault(k, v)
-        for k in ("kp_id", "shiki_url", "imdb_id"):
+        for k in ("kp_id", "shiki_url", "imdb_id", "trailer"):
             e[k] = e.get(k) or old.get(k)
     return e
 

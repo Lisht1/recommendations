@@ -41,6 +41,12 @@ if status >= 300:
     sys.exit(1)
 
 # 2. keys for the function
-secrets = [{"name": k, "value": env[k].strip()} for k in ("GEMINI_KEY", "TMDB_TOKEN") if env.get(k, "").strip()]
+if not env.get("ADMIN_KEY", "").strip():  # служебный ключ для скрипта разбора видео
+    import secrets as _s
+    from env import set_env_value
+    set_env_value("ADMIN_KEY", _s.token_urlsafe(32))
+    env = load_env()
+    env["ADMIN_KEY"] = (ROOT / ".env").read_text(encoding="utf-8").split("ADMIN_KEY=")[1].splitlines()[0]
+secrets = [{"name": k, "value": env[k].strip()} for k in ("GEMINI_KEY", "TMDB_TOKEN", "ADMIN_KEY") if env.get(k, "").strip()]
 status, text = call("/secrets", json.dumps(secrets).encode())
 print(("✓ ключи переданы функции: " + ", ".join(s["name"] for s in secrets)) if status < 300 else f"✗ ключи: {status} {text[:300]}")

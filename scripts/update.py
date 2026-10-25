@@ -35,8 +35,10 @@ def http_json(url, data=None, headers=None, method=None, timeout=60):
 
 # ---------- 1. reading the channel ----------
 
-async def fetch_posts(last_id):
-    """Return new posts (albums merged) with text, links, author, image bytes and comments."""
+VIDEO_LIMIT = 15_000_000  # Gemini принимает видео до ~20 МБ в одном запросе
+
+async def fetch_posts(last_id, ids=None):
+    """Return new posts (or the given post ids), albums merged: text, links, author, image/video bytes, comments."""
     from telethon import TelegramClient
     from telethon.sessions import StringSession
     from telethon.tl.types import PeerChannel
@@ -48,10 +50,22 @@ async def fetch_posts(last_id):
     channel = await client.get_entity(PeerChannel(CHANNEL_ID))
 
     groups = {}
-    async for m in client.iter_messages(channel, min_id=last_id, reverse=True):
+    messages = (await client.get_messages(channel, ids=ids)) if ids else client.iter_messages(channel, min_id=last_id, reverse=True)
+    if ids:
+        async def _aiter(xs):
+            for x in xs:
+                if x:
+                    yield x
+        messages = _aiter(messages)
+    async for m in messages:
         key = m.grouped_id or m.id
         g = groups.setdefault(key, {"id": m.id, "date": m.date.date().isoformat(), "text": "", "links": [],
-                                    "from": None, "image": None, "comments": [], "msg": m})
+                                    "from": None, "image": None, "video": None, "comments": [], "msg": m})
+        if g["video"] is None and (m.video or m.gif) and (getattr(m.file, "size", 0) or 0) <= VIDEO_LIMIT:
+            try:
+                g["video"] = await client.download_media(m, bytes)
+            except Exception:
+                pass
         if m.message and not g["text"]:
             g["text"] = m.message
         for ent, txt in (m.get_entities_text() or []):
@@ -138,8 +152,12 @@ def ask_gemini(post):
               .replace("<<TEXT>>", post["text"] or "(без текста)")
               .replace("<<LINKS>>", ", ".join(post["links"]) or "нет")
               .replace("<<COMMENTS>>", "\n".join(post["comments"][:20]) or "нет"))
+    if post.get("video"):
+        prompt += "\n\nК посту приложено видео: посмотри его целиком и послушай звук — названия часто звучат голосом или показаны на экране."
     parts = [{"text": prompt}]
-    if post["image"]:
+    if post.get("video"):
+        parts.append({"inline_data": {"mime_type": "video/mp4", "data": base64.b64encode(post["video"]).decode()}})
+    elif post["image"]:
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(post["image"]).decode()}})
     body = {"contents": [{"parts": parts}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
     import time
@@ -316,6 +334,89 @@ def added_on_site():
     return lines
 
 
+# ---------- 4. second chance for unrecognised posts: watch the video ----------
+
+RETRY_PER_RUN = 10
+
+def download_video(url):
+    """Reel / YouTube video via yt-dlp, or None (Instagram sometimes blocks servers)."""
+    import tempfile, os
+    try:
+        import yt_dlp
+    except ImportError:
+        return None
+    path = os.path.join(tempfile.mkdtemp(), "v.mp4")
+    opts = {"format": "b[ext=mp4][filesize<15M]/b[ext=mp4]/b", "outtmpl": path, "quiet": True,
+            "no_warnings": True, "noprogress": True}
+    try:
+        with yt_dlp.YoutubeDL(opts) as y:
+            y.download([url])
+        data = open(path, "rb").read()
+        return data if len(data) <= VIDEO_LIMIT else None
+    except Exception as e:
+        print(f"    не удалось скачать видео: {str(e)[:120]}")
+        return None
+
+def replace_unknown(src, new_lines):
+    lines = MANUAL.read_text(encoding="utf-8").splitlines()
+    out, done = [], False
+    for line in lines:
+        if line.startswith(src + "|!unknown|"):
+            if not done:
+                out += new_lines
+                done = True
+            continue
+        out.append(line)
+    if not done:
+        out += new_lines
+    MANUAL.write_text("\n".join(out) + "\n", encoding="utf-8")
+
+def retry_unknown(sources):
+    """Unrecognised posts and reels get one more look — with the video itself. A few per run."""
+    if not env.get("GEMINI_KEY"):
+        return
+    catalog_path = ROOT / "site" / "data" / "catalog.json"
+    if not catalog_path.exists():
+        return
+    tried = sources.setdefault("video_tried", {})
+    todo = [u for u in json.loads(catalog_path.read_text(encoding="utf-8")).get("unknown", [])
+            if u["src"] not in tried and u["src"].split(":")[0] in ("tg", "ig")][:RETRY_PER_RUN]
+    if not todo:
+        return
+    print(f"Повторный разбор с видео: {len(todo)}")
+    tg_ids = [int(u["src"].split(":")[1]) for u in todo if u["src"].startswith("tg:")]
+    tg_posts = {p["id"]: p for p in asyncio.run(fetch_posts(0, ids=tg_ids))} if tg_ids and env.get("TELEGRAM_SESSION") else {}
+    for u in todo:
+        kind, num = u["src"].split(":")
+        if kind == "tg":
+            post = tg_posts.get(int(num))
+            if not post:
+                tried[u["src"]] = "нет поста"; continue
+            if not post.get("video"):  # maybe the post links to a reel / YouTube video
+                link = next((l for l in post["links"] if re.search(r"instagram\.com/(reel|p)/|youtu", l)), None)
+                post["video"] = download_video(link) if link else None
+        else:
+            meta = sources["instagram"][int(num)]
+            post = {"id": num, "text": meta.get("caption", ""), "links": [u["url"]], "from": "@" + meta["author"] if meta.get("author") else None,
+                    "image": None, "comments": [], "video": download_video(u["url"])}
+        if not post.get("video"):
+            tried[u["src"]] = "без видео"
+            print(f"  {u['src']}: видео недоступно")
+            continue
+        try:
+            import time; time.sleep(6)
+            titles = [t for t in ask_gemini(post) if t.get("title_ru") or t.get("title_orig")]
+        except Exception as e:
+            print(f"  {u['src']}: ИИ не ответил ({str(e)[:100]})")
+            continue  # not marked as tried — next run will try again
+        tried[u["src"]] = datetime.date.today().isoformat()
+        if titles:
+            replace_unknown(u["src"], [to_line(u["src"], t, "из видео") for t in titles])
+            print(f"  {u['src']}: " + ", ".join(t.get("title_ru") or t.get("title_orig") for t in titles))
+        else:
+            print(f"  {u['src']}: в видео названий не нашлось")
+
+
 # ---------- main ----------
 
 def main():
@@ -354,6 +455,8 @@ def main():
             sources["last_tg_id"] = max(p["id"] for p in posts)
     else:
         print("TELEGRAM_SESSION не задан — канал не читаю")
+
+    retry_unknown(sources)
 
     typed = site_titles() + added_on_site()
     if typed:

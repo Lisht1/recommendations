@@ -11,6 +11,7 @@ create table if not exists marks (
   note        text,
   checked     boolean not null default false,   -- «Всё верно» для угаданных тайтлов
   dropped     boolean not null default false,   -- «Бросили, не досмотрели»
+  seasons     jsonb,                            -- сезоны: {"1": {"w": true, "r": 8}}
   updated_at  timestamptz not null default now(),
   updated_by  uuid default auth.uid()
 );
@@ -42,6 +43,7 @@ create table if not exists settings (
 
 alter table marks add column if not exists checked boolean not null default false;
 alter table marks add column if not exists dropped boolean not null default false;  -- «Бросили, не досмотрели»
+alter table marks add column if not exists seasons jsonb;  -- сезоны сериала: {"1": {"w": true, "r": 8}}
 
 alter table marks         enable row level security;
 alter table suggestions   enable row level security;

@@ -4,7 +4,7 @@ name: Обновление каталога
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # каждый день в 07:00 по Минску
+    - cron: "0 8 * * *"   # каждый день в 11:00 по Минску — после сброса дневной квоты Gemini
   workflow_dispatch:
 
 permissions:
@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install telethon certifi
+      - run: pip install telethon certifi yt-dlp
 
       - name: Кэш ответов TMDB, OMDb и других сервисов
         uses: actions/cache@v4
