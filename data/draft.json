@@ -6219,6 +6219,40 @@
      "from": "Instagram: movies"
     }
    ]
+  },
+  {
+   "title_ru": "The Rings of Power - Season 3 Official Trailer / Prime Video",
+   "title_orig": "The Rings of Power - Season 3 Official Trailer / Prime Video",
+   "year": null,
+   "type": "?",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:182",
+     "date": "2026-10-25",
+     "url": "https://t.me/c/2117114565/182",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "NARNIA: THE MAGICIAN’S NEPHEW",
+   "title_orig": "NARNIA: THE MAGICIAN’S NEPHEW",
+   "year": null,
+   "type": "?",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:184",
+     "date": "2026-10-25",
+     "url": "https://t.me/c/2117114565/184",
+     "from": "Midnite chronicles"
+    }
+   ]
   }
  ],
  "unknown": [
@@ -6837,6 +6871,13 @@
    "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
    "from": "Instagram: movies",
    "note": "подборка"
+  },
+  {
+   "src": "tg:183",
+   "date": "2026-10-25",
+   "url": "https://t.me/c/2117114565/183",
+   "from": "Midnite chronicles",
+   "note": "Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител"
   }
  ],
  "skipped": [
