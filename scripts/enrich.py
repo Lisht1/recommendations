@@ -169,11 +169,42 @@ def seasons_of(info):
         out.append({"n": x["season_number"], "air_date": x.get("air_date"), "episodes": x.get("episode_count") or 0})
     return out
 
+def split_anime_seasons(tid, seasons):
+    """TMDB often lists several anime seasons as one long "season 1" (e.g. Dan Da Dan: 24 episodes over 2024–2025).
+    Split such a season where episodes have a break of more than 2 months."""
+    out = []
+    for x in seasons:
+        if x["episodes"] < 16:
+            out.append(x); continue
+        det = tmdb(f"/tv/{tid}/season/{x['n']}", language="ru-RU") or {}
+        dates = [ep.get("air_date") for ep in det.get("episodes", [])]
+        parts, current = [], []
+        for d in dates:
+            if current and d and current[-1] and (datetime.date.fromisoformat(d) - datetime.date.fromisoformat(current[-1])).days > 60:
+                parts.append(current); current = []
+            current.append(d)
+        if current:
+            parts.append(current)
+        if len(parts) < 2 or min(len(p) for p in parts) < 8:  # a short broadcast break is not a new season
+            out.append(x); continue
+        for part in parts:
+            out.append({"n": None, "air_date": next((d for d in part if d), None), "episodes": len(part)})
+    for i, x in enumerate(out, 1):  # renumber 1..N
+        x["n"] = i
+    return out
+
+
 def next_season_of(info):
     """Premiere date of an announced next season, if TMDB knows it."""
     nxt = info.get("next_episode_to_air") or {}
     if nxt.get("episode_number") == 1 and nxt.get("air_date"):
         return {"n": nxt.get("season_number"), "air_date": nxt["air_date"]}
+    # anime glued into one season: the next episode after a long break is a new season
+    last = info.get("last_episode_to_air") or {}
+    if nxt.get("air_date") and last.get("air_date"):
+        gap = (datetime.date.fromisoformat(nxt["air_date"]) - datetime.date.fromisoformat(last["air_date"])).days
+        if gap > 60:
+            return {"n": None, "air_date": nxt["air_date"]}
     future = [x for x in info.get("seasons") or [] if x.get("season_number") and x.get("air_date") and x["air_date"] > TODAY]
     if future:
         return {"n": future[0]["season_number"], "air_date": future[0]["air_date"]}
@@ -336,6 +367,12 @@ def enrich(d):
     if media == "tv":
         e["rec_seasons"] = recommended_seasons(e["notes"])
     e["category"] = category(e)
+    if media == "tv" and e["category"] == "anime" and e.get("seasons"):
+        e["seasons"] = split_anime_seasons(tid, e["seasons"])
+        if e.get("next_season") and e["next_season"]["n"] is None:
+            e["next_season"]["n"] = len([x for x in e["seasons"] if x["air_date"] and x["air_date"] <= TODAY]) + 1
+    if e.get("next_season") and e["next_season"]["n"] is None:
+        e["next_season"]["n"] = len(e.get("seasons") or []) + 1
     if e["type"] in ("?", ""):  # type unknown in the post — take it from TMDB
         e["type"] = {"anime": "Аниме", "cartoons": "Мультфильм"}.get(e["category"]) or ("Сериал" if media == "tv" else "Фильм")
     if e["category"] == "anime":
