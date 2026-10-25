@@ -1,0 +1,12 @@
+# Секреты
+.env
+*.session
+
+# Личные выгрузки — не публикуем
+chat_export/
+data/telegram_posts.json
+data/instagram_items.json
+
+# Кэш
+__pycache__/
+data/cache/

@@ -1,0 +1,488 @@
+# Ручной разбор постов. Формат:
+# источник | название по-русски | оригинальное название | год | тип | уверенность | заметка
+# источник: tg:<id поста> или ig:<номер в instagram_items.json>
+# тип: F фильм, S сериал, A аниме, C мультфильм/мультсериал, D документальное
+# уверенность: + уверен, ? угадано (проверить)
+# kp:<id> в оригинальном названии — ссылка на Кинопоиск, название подтянется при обогащении
+# !skip — пост не про кино, !unknown — название не найдено
+# в заметке: tmdb=none — не искать в TMDB, tmdb=movie/123 или tmdb=tv/456 — взять точно этот тайтл
+
+tg:2|Главный герой|Free Guy|2021|F|+|
+tg:2|Малыш на драйве|Baby Driver|2017|F|+|
+tg:2|Наш флаг означает смерть|Our Flag Means Death|2022|S|+|
+tg:2|Они: Легенда о Боге грома|ONI: Thunder God's Tale|2022|C|+|
+tg:2|Голяк|Brassic|2019|S|?|«кубик в кубе», актёр из «Отбросов»
+tg:2|Жизнь после смерти|After Life|2019|S|+|
+tg:2|Фаворитка|The Favourite|2018|F|+|сначала «Фаворитка», потом «Великая»
+tg:2|Великая|The Great|2020|S|+|
+tg:2|Черепашки-ниндзя: Погром мутантов|Teenage Mutant Ninja Turtles: Mutant Mayhem|2023|C|+|
+tg:2|Ферма Кларксона|Clarkson's Farm|2021|D|+|
+tg:2|Индиана Джонс: В поисках утраченного ковчега|Raiders of the Lost Ark|1981|F|?|в посте просто «Индиана Джонс» — вся франшиза
+tg:2|Аниматрица|The Animatrix|2003|A|+|
+tg:2|Волчица и пряности|Spice and Wolf|2008|A|+|
+tg:2|Форма воды|The Shape of Water|2017|F|+|
+tg:2|Госпожа Кагуя: в любви как на войне|Kaguya-sama: Love Is War|2019|A|+|
+tg:2|Бек|Beck: Mongolian Chop Squad|2004|A|+|
+tg:2|Летнее время|Summer Time Rendering|2022|A|?|
+tg:2|Убить или быть убитым|Kill la Kill|2013|A|+|
+tg:2|Жизнь без оружия|No Guns Life|2019|A|+|
+tg:2|Переполненная комната|The Crowded Room|2023|S|+|
+tg:2|Школа мертвецов|Highschool of the Dead|2010|A|+|
+tg:2|Последний человек на Земле|The Last Man on Earth|2015|S|+|
+tg:2|Благие знамения|Good Omens|2019|S|+|
+tg:2|Настоящий детектив|True Detective|2014|S|+|
+tg:2|Залечь на дно в Брюгге|In Bruges|2008|F|+|
+tg:2|Энтергалактик|Entergalactic|2022|C|+|
+tg:2|Акира|Akira|1988|A|+|
+tg:2|Реальные упыри|What We Do in the Shadows|2014|F|+|
+tg:2|Манускрипт ниндзя|Ninja Scroll|1993|A|+|
+tg:2|Евангелион|Neon Genesis Evangelion|1995|A|+|
+tg:2|Афросамурай|Afro Samurai|2007|A|+|
+tg:2|Убойные каникулы|Tucker & Dale vs. Evil|2010|F|+|
+tg:2|99 франков|99 francs|2007|F|+|
+tg:2|Идиократия|Idiocracy|2006|F|+|
+tg:2|Разрисованная вуаль|The Painted Veil|2006|F|+|
+tg:2|Первобытный|Primal|2019|C|+|
+tg:2|Железное небо|Iron Sky|2012|F|+|
+tg:2|Семь лет в Тибете|Seven Years in Tibet|1997|F|+|
+tg:2|Хорошо быть тихоней|The Perks of Being a Wallflower|2012|F|+|
+tg:2|Закрытые пространства|Закрытые пространства|2008|F|+|
+tg:2|Звёздный десант|Starship Troopers|1997|F|+|
+tg:2|Банши Инишерина|The Banshees of Inisherin|2022|F|+|
+tg:2|Корона|The Crown|2016|S|+|
+tg:2|Матрёшка|Russian Doll|2019|S|+|
+tg:2|Покерфейс|Poker Face|2023|S|+|
+tg:2|!unknown|||||последняя строка списка «Да» — непонятно, название ли это
+tg:4|Тринадцать жизней|Thirteen Lives|2022|F|+|
+tg:5|Падение империи|Civil War|2024|F|+|
+tg:6|Тёмная материя|Dark Matter|2024|S|+|
+tg:7|Евротур|EuroTrip|2004|F|+|
+tg:8||kp:103380||?|+|
+tg:9|Каскадёры|The Fall Guy|2024|F|+|
+tg:10|Человек — швейцарский нож|Swiss Army Man|2016|F|+|
+tg:11|В этом мире я больше не чувствую себя как дома|I Don't Feel at Home in This World Anymore|2017|F|+|
+tg:12||kp:841152||?|+|
+tg:13|Мегалополис|Megalopolis|2024|F|+|
+tg:14|Семья шпиона|Spy x Family|2022|A|+|
+tg:15|Эрик|Eric|2024|S|+|
+tg:20|Умница Уилл Хантинг|Good Will Hunting|1997|F|+|
+tg:21|Куда едет поезд судного дня?|Shuumatsu Train Doko e Iku?|2024|A|+|
+tg:22|Салатница чудаков|Henjin no Salad Bowl|2024|A|+|
+tg:23|Предчувствие|The Beast|2023|F|+|La Bête, Бертран Бонелло
+tg:33|Отчёт о буйстве духов|Yu Yu Hakusho|2023|S|+|игровой сериал Netflix
+tg:34|Кулинарные скитания в параллельном мире|Campfire Cooking in Another World with My Absurd Skill|2023|A|+|
+tg:35||kp:843954||S|+|
+tg:36||kp:1249511||S|+|
+tg:37|Хаос|Kaos|2024|S|+|
+tg:37|Презумпция невиновности|Presumed Innocent|2024|S|+|
+tg:37|Терминатор Зеро|Terminator Zero|2024|A|+|
+tg:37|Плохая обезьяна|Bad Monkey|2024|S|+|
+tg:41|Дурнушки|Uglies|2024|F|+|
+tg:42|Тихое место: День первый|A Quiet Place: Day One|2024|F|+|
+tg:43|Руслан и Людмила|Руслан и Людмила|2024|C|?|проект Артёма Кочеткова, Okko
+tg:48|Подстрекатели|The Instigators|2024|F|+|
+tg:49|Колумбус|Columbus|2017|F|+|
+tg:59|Двадцать одно|21|2008|F|+|
+tg:60|Монстры: История Лайла и Эрика Менендес|Monsters: The Lyle and Erik Menendez Story|2024|S|+|особенно 5 серия «The Hurt Man»
+tg:63|Убийца гоблинов|Goblin Slayer|2018|A|+|18+
+tg:64|Машина|The Machine|2013|F|+|
+tg:65|Не двигайся|Don't Move|2024|F|+|
+tg:66|Вспомнить всё|Total Recall|2012|F|+|
+tg:67|Пингвин|The Penguin|2024|S|+|
+tg:68|Дандадан|Dan Da Dan|2024|A|+|
+tg:69|Франшиза|The Franchise|2024|S|+|
+tg:70|Бюро 749|Bureau 749|2024|F|?|в посте «749 ROUNDS», китайский
+tg:71|Почти рождественская история|An Almost Christmas Story|2024|C|+|короткометражка Disney+
+tg:72|Патэма наоборот|Patema Inverted|2013|A|+|
+tg:73|Сумерки богов|Twilight of the Gods|2024|C|+|
+tg:74|Место дальше, чем Вселенная|A Place Further Than the Universe|2018|A|+|из топ-25 коротких аниме
+tg:74|Девочка-волшебница Мадока Магика|Puella Magi Madoka Magica|2011|A|+|из топ-25 коротких аниме
+tg:74|Киберпанк: Бегущие по краю|Cyberpunk: Edgerunners|2022|A|+|из топ-25 коротких аниме
+tg:74|Одинокий рокер!|Bocchi the Rock!|2022|A|+|из топ-25 коротких аниме
+tg:74|Странное такси|Odd Taxi|2021|A|+|из топ-25 коротких аниме
+tg:74|Вайолет Эвергарден|Violet Evergarden|2018|A|+|из топ-25 коротких аниме
+tg:74|Пинг-понг|Ping Pong the Animation|2014|A|+|из топ-25 коротких аниме
+tg:74|Виви: Песнь флюоритового глаза|Vivy: Fluorite Eye's Song|2021|A|+|из топ-25 коротких аниме
+tg:74|Город, в котором меня нет|Erased|2016|A|+|из топ-25 коротких аниме
+tg:74|Ангельские ритмы!|Angel Beats!|2010|A|+|из топ-25 коротких аниме
+tg:75|Парад смерти|Death Parade|2015|A|+|из топ-25 коротких аниме
+tg:75|Страна самоцветов|Land of the Lustrous|2017|A|+|из топ-25 коротких аниме
+tg:75|Татами-галактика|The Tatami Galaxy|2010|A|+|из топ-25 коротких аниме
+tg:75|Баккано!|Baccano!|2007|A|+|из топ-25 коротких аниме
+tg:75|Ликорис Рикойл|Lycoris Recoil|2022|A|+|из топ-25 коротких аниме
+tg:75|Санни Бой|Sonny Boy|2021|A|+|из топ-25 коротких аниме
+tg:75|Невиданный цветок|Anohana: The Flower We Saw That Day|2011|A|+|из топ-25 коротких аниме
+tg:75|Безмятежные скитания в последний час|Girls' Last Tour|2017|A|+|из топ-25 коротких аниме
+tg:76|Эксперименты Лэйн|Serial Experiments Lain|1998|A|+|из топ-25 коротких аниме
+tg:76|Девичья группа плачет|Girls Band Cry|2024|A|+|из топ-25 коротких аниме
+tg:76|Человек-дьявол: Плакса|Devilman Crybaby|2018|A|+|из топ-25 коротких аниме
+tg:76|Союз серокрылых|Haibane Renmei|2002|A|+|из топ-25 коротких аниме
+tg:76|Ежемесячное сёдзё Нозаки-куна|Monthly Girls' Nozaki-kun|2014|A|+|из топ-25 коротких аниме
+tg:76|Как прекрасна луна|Tsuki ga Kirei|2017|A|+|из топ-25 коротких аниме
+tg:76|Нет игры — нет жизни|No Game No Life|2014|A|+|из топ-25 коротких аниме
+tg:77|Фаррелл Уильямс: Кусочек за кусочком|Piece by Piece|2024|C|?|в посте «Фарел Вильямс ту зе мун»
+tg:78|Остров иллюзий|Остров иллюзий||F|?|
+tg:79|Devil May Cry|Devil May Cry|2025|A|+|Netflix
+tg:80|Бедные-несчастные|Poor Things|2023|F|+|
+tg:81|Чудеса Китая|Yao-Chinese Folktales|2023|C|?|«Любовь, смерть и роботы» по-китайски
+tg:82|Носферату|Nosferatu|2024|F|+|
+tg:83|Переходный возраст|Adolescence|2025|S|+|
+tg:88||kp:6579800||S|+|
+tg:89|В кубике|В кубике||?|?|непонятно что это
+tg:90||kp:552||F|+|
+tg:91|Семья шпиона|Spy x Family|2022|A|+|
+tg:92|Проклятие|Проклятие||F|?|ролик YouTube «ПРОКЛЯТИЕ», возможно короткометражка Крыжовникова; tmdb=none
+tg:93||kp:742184||F|+|
+tg:94||kp:1047541||S|+|
+tg:95||kp:893361||S|+|
+tg:96|Грешники|Sinners|2025|F|+|
+tg:100|Твои друзья и соседи|Your Friends & Neighbors|2025|S|+|
+tg:102|Дожить до рассвета|Until Dawn|2025|F|+|
+tg:103|Хищник: Убийца убийц|Predator: Killer of Killers|2025|C|+|
+tg:104||kp:1008561||F|+|
+tg:105|Наутилус|Nautilus|2025|S|+|
+tg:106|Грешники|Sinners|2025|F|+|
+tg:107|Грязь|The Dirt|2019|F|?|в посте просто «Грязь»
+tg:108|Милый дом|Sweet Home|2020|S|+|
+tg:109||kp:5376221||S|+|
+tg:111|Первородный грех Такопи|Takopi's Original Sin|2025|A|+|«ОЧЕНЬ ТЯЖЁЛОЕ»
+tg:112||kp:1274280||S|+|
+tg:113||kp:413080||F|+|
+tg:114||kp:257376||S|+|
+tg:115|Новейший завет|The Brand New Testament|2015|F|+|
+tg:116|Хроники экзорцизма: Начало|Exorcism Chronicles: The Beginning|2018|C|+|корейская анимация
+tg:117|Эддингтон|Eddington|2025|F|+|
+tg:118||kp:5594761||F|+|
+tg:119||kp:5452393||F|+|
+tg:120|Плюрибус|Pluribus|2025|S|+|
+tg:121|Всеведущий читатель|Omniscient Reader: The Prophecy|2025|F|+|
+tg:122|Могучая девятка|The Legend of Vox Machina: The Mighty Nein|2025|C|+|
+tg:123||kp:9153218||S|+|
+tg:124|!unknown|||||ссылка на рилс kinop_es про сериал Netflix 18+
+tg:125||kp:5942378||F|+|
+tg:126|Стометровка|Hyakuemu.|2025|A|+|
+tg:127|!unknown|||||ссылка на пост Instagram
+tg:128|Властелин колец: Кольца власти|The Lord of the Rings: The Rings of Power|2022|S|+|2 сезон
+tg:129|Лило и Стич|Lilo & Stitch|2025|F|+|
+tg:130|Зверополис 2|Zootopia 2|2025|C|+|
+tg:131|!skip|||||игра «выбери фильм из ряда»
+tg:132|Вечность|Eternity|2025|F|+|
+tg:133|Подземелья и драконы: Честь среди воров|Dungeons & Dragons: Honor Among Thieves|2023|F|+|
+tg:134|Только во сне|In Your Dreams|2025|C|+|
+tg:135|Light & Magic|Light & Magic|2022|D|+|
+tg:136|Радикально|Radical|2023|F|+|
+tg:137|Битва за битвой|One Battle After Another|2025|F|+|номинант на «Оскар»
+tg:137|Бугония|Bugonia|2025|F|+|номинант на «Оскар»
+tg:137|Марти Великолепный|Marty Supreme|2025|F|+|номинант на «Оскар»
+tg:137|Сны поездов|Train Dreams|2025|F|+|номинант на «Оскар»
+tg:137|Гамнет|Hamnet|2025|F|+|номинант на «Оскар»
+tg:137|Франкенштейн|Frankenstein|2025|F|+|номинант на «Оскар», Гильермо дель Торо
+tg:137|Грешники|Sinners|2025|F|+|
+tg:137|Секретный агент|The Secret Agent|2025|F|+|номинант на «Оскар»
+tg:137|Сентиментальная ценность|Sentimental Value|2025|F|+|номинант на «Оскар»
+tg:137|F1|F1|2025|F|+|
+tg:138|28 лет спустя: Храм костей|28 Years Later: The Bone Temple|2026|F|+|
+tg:139|Больница Питт|The Pitt|2025|S|+|
+tg:140|Репетиция|The Rehearsal|2022|S|+|
+tg:141|Горе-творец|The Disaster Artist|2017|F|+|
+tg:141|Киностудия|The Studio|2025|S|+|
+tg:142|Сират|Sirāt|2025|F|+|
+tg:142|Сны поездов|Train Dreams|2025|F|+|
+tg:142|Франкенштейн|Frankenstein|2025|F|+|
+tg:142|F1|F1|2025|F|+|
+tg:147|Дикая планета|Fantastic Planet|1973|C|+|список мультфильмов для насмотренности
+tg:147|Акира|Akira|1988|A|+|
+tg:147|Тайна Келлс|The Secret of Kells|2009|C|+|
+tg:147|Песнь моря|Song of the Sea|2014|C|+|
+tg:147|Паприка|Paprika|2006|A|+|
+tg:147|Истинная грусть|Perfect Blue|1997|A|+|
+tg:147|Навсикая из Долины ветров|Nausicaä of the Valley of the Wind|1984|A|+|
+tg:147|Принцесса Мононоке|Princess Mononoke|1997|A|+|
+tg:147|Унесённые призраками|Spirited Away|2001|A|+|
+tg:147|Ходячий замок|Howl's Moving Castle|2004|A|+|
+tg:147|Бесподобный мистер Фокс|Fantastic Mr. Fox|2009|C|+|
+tg:147|Трио из Бельвилля|The Triplets of Belleville|2003|C|+|
+tg:147|Мир будущего|World of Tomorrow|2015|C|+|
+tg:147|Аркейн|Arcane|2021|C|+|
+tg:147|Человек-паук: Через вселенные|Spider-Man: Into the Spider-Verse|2018|C|+|
+tg:147|Человек-паук: Паутина вселенных|Spider-Man: Across the Spider-Verse|2023|C|+|
+tg:147|Любовь. Смерть. Роботы|Love, Death & Robots|2019|C|+|особенно «Свидетель» и «Джибаро»
+tg:147|Хранитель Луны|Mune: Guardian of the Moon|2014|C|+|
+tg:148|Удачи, веселья, не сдохни|Good Luck, Have Fun, Don't Die|2025|F|+|
+tg:149|Здесь был Юра|Здесь был Юра|2025|F|+|
+tg:149|Прыгуны|Hoppers|2026|C|+|Pixar
+tg:151|Летят журавли|Летят журавли|1957|F|+|
+tg:151|Я — Куба|Я — Куба|1964|F|+|
+tg:151|Я шагаю по Москве|Я шагаю по Москве|1963|F|+|
+tg:151|Рассказы|Рассказы|2012|F|+|
+tg:151|Елена|Елена|2011|F|+|
+tg:151|Горько!|Горько!|2013|F|+|
+tg:151|Проклятие|Проклятие||F|?|короткометражка Крыжовникова; tmdb=none
+tg:152|Undone|Undone|2019|C|+|
+tg:153|Городской охотник|City Hunter|2024|F|+|Netflix
+tg:154|Случится что-то очень плохое|Something Very Bad Is Going to Happen|2026|S|+|
+tg:155|Монолит|Monolith|2022|F|+|
+tg:156|!unknown|||||видео FASHION COBRA «Кино для свиданий: красивейшие фильмы, выпуск 10»
+tg:157|Бухта вдов|Widow's Bay|2026|S|+|
+tg:158|Говядина|Beef|2023|S|+|
+tg:158|Рыцарь Семи Королевств|A Knight of the Seven Kingdoms|2026|S|+|
+tg:158|Эйфория|Euphoria|2019|S|+|
+tg:158|Денежные проблемы Марго|Margo's Got Money Troubles|2026|S|+|
+tg:164|!unknown|||||ссылка share.google на ролик YouTube (недоступен)
+tg:165|Горничная|The Housemaid|2025|F|+|
+tg:166|Драма|The Drama|2026|F|+|
+tg:167|Лаки|Lucky|2026|S|+|Apple TV
+tg:168|Бухта вдов|Widow's Bay|2026|S|+|
+tg:169|!unknown|||||ШишКИНО #ДракаДня, название в комментариях канала
+tg:170|Надежда|Hope|2026|F|+|На Хон-джин
+tg:171|Бухта вдов|Widow's Bay|2026|S|+|
+tg:178|Обсессия|Obsession|2025|F|?|
+tg:179|Выход 8|Exit 8|2025|F|+|
+tg:180|Закулисье|Backrooms|2026|F|?|
+tg:181|Бухта вдов|Widow's Bay|2026|S|+|
+
+ig:0|Сёстры Гримм|Сёстры Гримм||C|?|
+ig:1|Дневник чужой страны|Journal with Witch|2026|A|+|Ikoku Nikki
+ig:2|!unknown|||||онгоинги
+ig:3|Хранитель камфорного дерева|The Camphor Tree Guardian|2026|A|+|по книге Кэйго Хигасино
+ig:4|Великий притворщик|Great Pretender|2020|A|+|
+ig:5|!unknown|||||подборка аниме про вторжение пришельцев
+ig:6|!unknown|||||подборка китайских мультфильмов
+ig:7|!unknown|||||топ-10 аниме
+ig:8|!unknown|||||
+ig:9|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|
+ig:10|Петушиный боец|Rooster Fighter|2026|A|?|
+ig:11|Ветролом|Wind Breaker|2024|A|+|
+ig:12|Ателье колдовских шляп|Witch Hat Atelier|2026|A|+|
+ig:13|!unknown|||||
+ig:14|Рейтинг короля|Ranking of Kings|2021|A|+|
+ig:15|!unknown|||||самое ожидаемое фэнтези-аниме весны
+ig:16|!unknown|||||концепт «Would you watch it?»
+ig:17|!unknown|||||романтика со взрослыми героями
+ig:18|!unknown|||||
+ig:19|!unknown|||||главный триллер зимнего сезона
+ig:20|!unknown|||||топ-3 непопулярных аниме
+ig:21|Скарлет|Scarlet|2025|A|+|Мамору Хосода
+ig:22|!unknown|||||
+ig:23|!unknown|||||концепт «Would you watch it?»
+ig:24|Стометровка|Hyakuemu.|2025|A|+|
+ig:25|Истории монстров|Bakemonogatari|2009|A|+|порядок: Bakemonogatari → Kizumonogatari → …
+ig:26|Волчий дождь|Wolf's Rain|2003|A|+|
+ig:27|Стометровка|Hyakuemu.|2025|A|+|
+ig:28|!unknown|||||концепт «Would you watch this?»
+ig:29|Отель с привидениями|Haunted Hotel|2025|C|+|Netflix
+ig:30|!unknown|||||«озвучил Ринтаро» — романтика
+ig:31|Только во сне|In Your Dreams|2025|C|+|
+ig:32|!unknown|||||
+ig:33|!skip|||||анимационный скетч
+ig:34|Тацуки Фудзимото: 17-26|Tatsuki Fujimoto 17-26|2025|A|+|
+ig:35|Город, в котором меня нет|Erased|2016|A|+|
+ig:35|Ветер крепчает|The Wind Rises|2013|A|+|
+ig:35|Сёва-Гэнроку: Двойное самоубийство по ракуго|Showa Genroku Rakugo Shinju|2016|A|+|
+ig:35|Парад смерти|Death Parade|2015|A|+|
+ig:35|Твоё имя|Your Name.|2016|A|+|
+ig:36|Могучая девятка|The Legend of Vox Machina: The Mighty Nein|2025|C|+|
+ig:37|!unknown|||||семейный мультфильм про развод
+ig:38|Скарлет|Scarlet|2025|A|+|
+ig:39|!skip|||||не про кино
+ig:40|Король драконов|Dragon Raja|2024|A|+|
+ig:41|Epic Seven|Epic Seven|2025|A|?|
+ig:42|!unknown|||||
+ig:43|Гнозия|Gnosia|2025|A|+|
+ig:44|Twisted Crown|Twisted Crown||A|?|возможно, инди-проект
+ig:45|!unknown|||||подборка недооценённых аниме 2020-х
+ig:46|!unknown|||||топ-5 аниме про гениев
+ig:47|Демоны теневого царства|Daemons of the Shadow Realm|2026|A|+|
+ig:48|Очаровательная богиня еды|Очаровательная богиня еды||A|?|китайская новелла/дунхуа
+ig:49|Принц драконов|The Dragon Prince|2018|C|+|
+ig:50|Первородный грех Такопи|Takopi's Original Sin|2025|A|+|
+ig:50|Повелитель тайн|Lord of Mysteries|2025|A|+|
+ig:50|Лето, когда умер Хикару|The Summer Hikaru Died|2025|A|+|
+ig:50|Гачиакута|Gachiakuta|2025|A|+|
+ig:51|Всеведущий читатель|Omniscient Reader: The Prophecy|2025|F|+|
+ig:52|7 судей: Чхакхо|7 судей: Чхакхо||A|?|
+ig:53|Сказания Земноморья|Tales from Earthsea|2006|A|+|
+ig:54|Песнь ночных сов|Call of the Night|2022|A|+|
+ig:55|Письмо для Момо|A Letter to Momo|2011|A|+|
+ig:56|Принцесса-рыцарь-невеста|Принцесса-рыцарь-невеста||A|?|
+ig:57|!unknown|||||аниме июля 2025, часть 1
+ig:58|Оседлай волну|Ride Your Wave|2019|A|+|
+ig:59|!skip|||||нарезка сцен
+ig:60|Легенда о Хэй|The Legend of Hei|2019|A|+|
+ig:61|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|
+ig:62|!unknown|||||новое аниме с 30k кадров в серии
+ig:63|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|
+ig:64|Холм тумана пяти стихий|Fog Hill of Five Elements|2020|A|+|
+ig:65|Спой немного гармонии|Sing a Bit of Harmony|2021|A|+|
+ig:66|!unknown|||||блиц-рекомендации
+ig:67|Странное такси|Odd Taxi|2021|A|+|
+ig:68|Хроники людей и демонов|Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World|2023|A|?|
+ig:69|Невеста чародея|The Ancient Magus' Bride|2017|A|+|
+ig:70|Красноволосая принцесса Белоснежка|Snow White with the Red Hair|2015|A|?|угадано по обложке
+ig:71|Кастлвания: Ноктюрн|Castlevania: Nocturne|2023|C|+|
+ig:72|Первородный грех Такопи|Takopi's Original Sin|2025|A|+|
+ig:73|!unknown|||||аниме 2025, красивое
+ig:74|!unknown|||||все новые аниме сезона
+ig:75|The Bucket and the List|The Bucket and the List||A|?|название с обложки
+ig:76|Повелитель тайн|Lord of Mysteries|2025|A|+|
+ig:77|Ведьма и чудовище|The Witch and the Beast|2024|A|+|
+ig:78|!unknown|||||название в тг-канале автора
+ig:79|!unknown|||||
+ig:80|!unknown|||||
+ig:81|Восход луны|Moonrise|2025|A|+|
+ig:82|!unknown|||||
+ig:83|УдивЛа|WondLa|2024|C|+|
+ig:84|!unknown|||||«выгнал лучшего целителя и пожалел»
+ig:85|Чудесные дни|Wonderful Days|2003|A|+|корейский, он же Sky Blue
+ig:86|!unknown|||||
+ig:87|Всепожирающий кит|The All-devouring Whale|2025|A|+|
+ig:88|!unknown|||||код 93176
+ig:89|!unknown|||||
+ig:90|Суперкуб|The Super Cube|2025|A|+|
+ig:91|Полное исследование|Полное исследование|2025|A|?|
+ig:92|!unknown|||||аниме в стиле «Аркейна»
+ig:93|Быть героем X|To Be Hero X|2025|A|+|
+ig:94|Благословение небожителей|Heaven Official's Blessing|2020|A|+|
+ig:95|Хинаматсури|Hinamatsuri|2018|A|+|
+ig:96|Восход луны|Moonrise|2025|A|+|
+ig:97|!unknown|||||аниме-новинки
+ig:98|!unknown|||||аниме 2025 про охотника на демонов
+ig:99|!unknown|||||
+ig:100|!unknown|||||аниме MAPPA
+ig:101|Меч охотника на демонов|Sword of the Demon Hunter: Kijin Gentosho|2025|A|+|
+ig:102|Хроники людей и демонов|Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World|2023|A|?|
+ig:102|Лазарь|Lazarus|2025|A|+|
+ig:102|Монолог фармацевта|The Apothecary Diaries|2023|A|+|
+ig:102|Дандадан|Dan Da Dan|2024|A|+|
+ig:103|Грань будущего|All You Need Is Kill|2026|A|+|аниме по той же новелле
+ig:104|!unknown|||||три редкие аниме-рекомендации
+ig:105|!unknown|||||
+ig:106|!unknown|||||10 из 10 аниме
+ig:107|!unknown|||||
+ig:108|Жизнь без оружия|No Guns Life|2019|A|+|
+ig:109|Полное исследование|Полное исследование|2025|A|?|
+ig:110|Быть героем X|To Be Hero X|2025|A|+|
+ig:111|!unknown|||||
+ig:112|!unknown|||||код 260
+ig:113|!unknown|||||
+ig:114|Мой уникальный навык делает меня сильным даже на 1 уровне|My Unique Skill Makes Me OP Even at Level 1|2023|A|+|
+ig:115|!unknown|||||
+ig:116|!unknown|||||
+ig:117|!unknown|||||топ-10 новых аниме 2024
+ig:118|!skip|||||про работу студий
+ig:119|!unknown|||||лучшие аниме 2024
+ig:120|Оценщик|Even Given the Worthless "Appraiser" Class, I'm Actually the Strongest|2025|A|+|
+ig:121|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
+ig:121|Начало после конца|The Beginning After the End|2025|A|+|
+ig:122|!unknown|||||
+ig:123|!unknown|||||
+ig:124|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
+ig:125|Магия и мускулы|Mashle|2023|A|+|
+ig:125|Дандадан|Dan Da Dan|2024|A|+|
+ig:126|!unknown|||||
+ig:127|!unknown|||||
+ig:128|Instinct|Instinct||A|?|пока только тизер; tmdb=none
+ig:129|!unknown|||||
+ig:130|Пикник в Потусторонье|Otherside Picnic|2021|A|+|
+ig:131|!unknown|||||лучшие аниме 2024
+ig:132|Во время грозы|Mirage|2018|F|+|Durante la tormenta
+ig:132|Душа|Soul|2020|C|+|
+ig:132|То, что внутри|What's Inside|2024|F|+|
+ig:133|!unknown|||||сериал «с вайбами Шерлока»: Лондон прошлого века, книжный магазин
+ig:134|!unknown|||||сравнивают с «Бухтой вдов»
+ig:135|Последний единорог|The Last Unicorn|1982|C|+|
+ig:136|Сахар|That Sugar Film|2014|D|+|
+ig:136|Сладкая лихорадка|Fed Up|2014|D|?|
+ig:137|Безумное свидание|FolleMente|2025|F|+|
+ig:138|Надежда|Hope|2026|F|+|
+ig:139|Ladies First|Ladies First|2026|F|+|
+ig:140|Семья напрокат|Rental Family|2025|F|+|Брендан Фрейзер
+ig:141|Каштановый человечек|The Chestnut Man|2021|S|+|2 сезон «Прятки»
+ig:142|Немного за 40|Fortysomething|2003|S|+|
+ig:143|Рустер|Rooster|2026|S|+|
+ig:144|Цикл Пендрагона: Восхождение Мерлина|The Pendragon Cycle|2026|S|?|
+ig:145|Зараза|Cold Storage|2026|F|+|
+ig:146|Все страхи Бо|Beau Is Afraid|2023|F|+|
+ig:147|Существо с перьями|The Thing with Feathers|2025|F|+|
+ig:148|!unknown|||||подборка будущих мультфильмов
+ig:149|Киностудия|The Studio|2025|S|+|
+ig:150|Суд присяжных|Jury Duty|2023|S|+|
+ig:151|The Boroughs|The Boroughs|2026|S|+|
+ig:152|Два далёких незнакомца|Two Distant Strangers|2020|F|+|
+ig:153|GOAT|GOAT|2026|C|+|
+ig:154|Озарк|Ozark|2017|S|+|
+ig:155|Конец Оук-стрит|The End of Oak Street|2026|F|+|
+ig:156|Король воров|King of Thieves|2018|F|+|
+ig:157|Билет в рай|Ticket to Paradise|2022|F|+|
+ig:158|Удачи, веселья, не сдохни|Good Luck, Have Fun, Don't Die|2025|F|+|
+ig:159|Грязные деньги|Грязные деньги|2026|F|?|Генри Кавилл, Джейк Джилленхол
+ig:160|!unknown|||||видео про Уэса Андерсона
+ig:161|Красота|The Beauty|2026|S|+|
+ig:162|!unknown|||||
+ig:163|Терапия|Shrinking|2023|S|+|
+ig:164|Аватар: Легенда об Аанге|Avatar: The Last Airbender|2024|S|+|Netflix, игровой
+ig:165|Финикийская схема|The Phoenician Scheme|2025|F|+|
+ig:166|Зараза|Cold Storage|2026|F|+|
+ig:167|Персонаж|Stranger Than Fiction|2006|F|+|
+ig:168|Край тени|The Shadow's Edge|2025|F|+|Джеки Чан
+ig:169|!unknown|||||фильм про коренных американцев и мифы о сотворении мира
+ig:170|Девушка в лесу|The Girl in the Woods|2021|S|+|
+ig:171|!unknown|||||геймер тестирует новую технологию
+ig:172|Меня это не устраивает|I Am Not Okay with This|2020|S|+|
+ig:172|Грань|Fringe|2008|S|+|
+ig:172|Тьма|Dark|2017|S|+|
+ig:172|Тела|Bodies|2023|S|+|
+ig:172|Хорошая служанка|Servant|2019|S|?|в посте «Служанка»
+ig:172|OA|The OA|2016|S|+|
+ig:173|Королевство зверей|The Animal Kingdom|2023|F|+|
+ig:174|Кошачьи миры Луиса Уэйна|The Electrical Life of Louis Wain|2021|F|+|
+ig:175|Следствие ведут овечки|The Sheep Detectives|2026|F|+|
+ig:176|Голос монстра|A Monster Calls|2016|F|?|угадано по описанию
+ig:177|!unknown|||||сериал: трое школьников в мире меча и магии
+ig:178|!unknown|||||
+ig:179|Затура: Космическое приключение|Zathura: A Space Adventure|2005|F|+|
+ig:180|Хроники Шаннары|The Shannara Chronicles|2016|S|+|
+ig:181|Оно: Добро пожаловать в Дерри|IT: Welcome to Derry|2025|S|+|
+ig:182|!unknown|||||зимний фильм вместо «Гарри Поттера»
+ig:183|!unknown|||||
+ig:184|Иллюзия обмана 3|Now You See Me: Now You Don't|2025|F|?|угадано по обложке
+ig:185|Петля времени|Петля времени|2024|F|?|tmdb=none
+ig:186|Плюрибус|Pluribus|2025|S|+|
+ig:187|Удачи, веселья, не сдохни|Good Luck, Have Fun, Don't Die|2025|F|+|
+ig:188|Авеню 5|Avenue 5|2020|S|+|
+ig:189|!unknown|||||постапокалипсис + политический триллер
+ig:190|Вечность|Eternity|2025|F|+|
+ig:191|Всеведущий читатель|Omniscient Reader: The Prophecy|2025|F|+|
+ig:192|Алиса в Пограничье|Alice in Borderland|2020|S|+|3 сезон
+ig:193|Альтер|Altered|2025|F|+|Том Фелтон
+ig:194|Подозрительные лица|The Usual Suspects|1995|F|+|
+ig:195|Жизнь Чака|The Life of Chuck|2024|F|+|
+ig:196|Не звезди|Menteur|2022|F|+|
+ig:197|!unknown|||||мультфильмы
+ig:198|Дроп|Drop|2025|F|+|
+ig:199|Колесо времени|The Wheel of Time|2021|S|+|
+ig:200|Война будущего|The Tomorrow War|2021|F|+|
+ig:201|!unknown|||||
+ig:202|Полночное небо|The Midnight Sky|2020|F|+|
+ig:203|!unknown|||||мультфильм
+ig:204|!unknown|||||сериал Netflix, «снег убивает людей»
+ig:205|Твои друзья и соседи|Your Friends & Neighbors|2025|S|+|
+ig:206|!unknown|||||лучшая триллер-дорама 2024
+ig:207|Охотник за головами|Охотник за головами|2025|S|?|tmdb=none
+ig:208|Волшебники|The Magicians|2015|S|+|
+ig:209|!unknown|||||новый фильм Netflix
+ig:210|!unknown|||||аниме 2025
+ig:211|!unknown|||||
+ig:212|!unknown|||||
+ig:213|!skip|||||фанатский трейлер «Атлантиды»
+ig:214|!unknown|||||новый сериал Netflix
+ig:215|Артемис Фаул|Artemis Fowl|2020|F|+|
+ig:216|Крушение мира|Крушение мира|2025|F|?|
+ig:217|!unknown|||||
+ig:218|Бесконечность|Infinite|2021|F|?|
+ig:219|Сёгун|Shōgun|2024|S|+|
+ig:220|Мы или они|Мы или они|2023|F|?|
+ig:221|!unknown|||||
+ig:222|!unknown|||||подборка
+ig:223|!unknown|||||подборка
+ig:224|!unknown|||||подборка

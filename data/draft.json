@@ -1,0 +1,6884 @@
+{
+ "titles": [
+  {
+   "title_ru": "Главный герой",
+   "title_orig": "Free Guy",
+   "year": 2021,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Малыш на драйве",
+   "title_orig": "Baby Driver",
+   "year": 2017,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Наш флаг означает смерть",
+   "title_orig": "Our Flag Means Death",
+   "year": 2022,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Они: Легенда о Боге грома",
+   "title_orig": "ONI: Thunder God's Tale",
+   "year": 2022,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Голяк",
+   "title_orig": "Brassic",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "«кубик в кубе», актёр из «Отбросов»"
+   ],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Жизнь после смерти",
+   "title_orig": "After Life",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Фаворитка",
+   "title_orig": "The Favourite",
+   "year": 2018,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "сначала «Фаворитка», потом «Великая»"
+   ],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Великая",
+   "title_orig": "The Great",
+   "year": 2020,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Черепашки-ниндзя: Погром мутантов",
+   "title_orig": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+   "year": 2023,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ферма Кларксона",
+   "title_orig": "Clarkson's Farm",
+   "year": 2021,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Индиана Джонс: В поисках утраченного ковчега",
+   "title_orig": "Raiders of the Lost Ark",
+   "year": 1981,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "в посте просто «Индиана Джонс» — вся франшиза"
+   ],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Аниматрица",
+   "title_orig": "The Animatrix",
+   "year": 2003,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Волчица и пряности",
+   "title_orig": "Spice and Wolf",
+   "year": 2008,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Форма воды",
+   "title_orig": "The Shape of Water",
+   "year": 2017,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Госпожа Кагуя: в любви как на войне",
+   "title_orig": "Kaguya-sama: Love Is War",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бек",
+   "title_orig": "Beck: Mongolian Chop Squad",
+   "year": 2004,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Летнее время",
+   "title_orig": "Summer Time Rendering",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Убить или быть убитым",
+   "title_orig": "Kill la Kill",
+   "year": 2013,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Жизнь без оружия",
+   "title_orig": "No Guns Life",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    },
+    {
+     "src": "ig:108",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DB27Ae0o96w/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Переполненная комната",
+   "title_orig": "The Crowded Room",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Школа мертвецов",
+   "title_orig": "Highschool of the Dead",
+   "year": 2010,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Последний человек на Земле",
+   "title_orig": "The Last Man on Earth",
+   "year": 2015,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Благие знамения",
+   "title_orig": "Good Omens",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Настоящий детектив",
+   "title_orig": "True Detective",
+   "year": 2014,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Залечь на дно в Брюгге",
+   "title_orig": "In Bruges",
+   "year": 2008,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Энтергалактик",
+   "title_orig": "Entergalactic",
+   "year": 2022,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Акира",
+   "title_orig": "Akira",
+   "year": 1988,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    },
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Реальные упыри",
+   "title_orig": "What We Do in the Shadows",
+   "year": 2014,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Манускрипт ниндзя",
+   "title_orig": "Ninja Scroll",
+   "year": 1993,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Евангелион",
+   "title_orig": "Neon Genesis Evangelion",
+   "year": 1995,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Афросамурай",
+   "title_orig": "Afro Samurai",
+   "year": 2007,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Убойные каникулы",
+   "title_orig": "Tucker & Dale vs. Evil",
+   "year": 2010,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "99 франков",
+   "title_orig": "99 francs",
+   "year": 2007,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Идиократия",
+   "title_orig": "Idiocracy",
+   "year": 2006,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Разрисованная вуаль",
+   "title_orig": "The Painted Veil",
+   "year": 2006,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Первобытный",
+   "title_orig": "Primal",
+   "year": 2019,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Железное небо",
+   "title_orig": "Iron Sky",
+   "year": 2012,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Семь лет в Тибете",
+   "title_orig": "Seven Years in Tibet",
+   "year": 1997,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хорошо быть тихоней",
+   "title_orig": "The Perks of Being a Wallflower",
+   "year": 2012,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Закрытые пространства",
+   "title_orig": "Закрытые пространства",
+   "year": 2008,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Звёздный десант",
+   "title_orig": "Starship Troopers",
+   "year": 1997,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Банши Инишерина",
+   "title_orig": "The Banshees of Inisherin",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Корона",
+   "title_orig": "The Crown",
+   "year": 2016,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Матрёшка",
+   "title_orig": "Russian Doll",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Покерфейс",
+   "title_orig": "Poker Face",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:2",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/2",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тринадцать жизней",
+   "title_orig": "Thirteen Lives",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:4",
+     "date": "2024-04-08",
+     "url": "https://t.me/c/2117114565/4",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Падение империи",
+   "title_orig": "Civil War",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:5",
+     "date": "2024-04-16",
+     "url": "https://t.me/c/2117114565/5",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тёмная материя",
+   "title_orig": "Dark Matter",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:6",
+     "date": "2024-04-17",
+     "url": "https://t.me/c/2117114565/6",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Евротур",
+   "title_orig": "EuroTrip",
+   "year": 2004,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:7",
+     "date": "2024-04-17",
+     "url": "https://t.me/c/2117114565/7",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:103380",
+   "year": null,
+   "type": "?",
+   "confidence": "high",
+   "kp_id": "103380",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:8",
+     "date": "2024-04-18",
+     "url": "https://t.me/c/2117114565/8",
+     "from": "Maxim"
+    }
+   ]
+  },
+  {
+   "title_ru": "Каскадёры",
+   "title_orig": "The Fall Guy",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:9",
+     "date": "2024-04-24",
+     "url": "https://t.me/c/2117114565/9",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Человек — швейцарский нож",
+   "title_orig": "Swiss Army Man",
+   "year": 2016,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:10",
+     "date": "2024-04-29",
+     "url": "https://t.me/c/2117114565/10",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "В этом мире я больше не чувствую себя как дома",
+   "title_orig": "I Don't Feel at Home in This World Anymore",
+   "year": 2017,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:11",
+     "date": "2024-04-29",
+     "url": "https://t.me/c/2117114565/11",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:841152",
+   "year": null,
+   "type": "?",
+   "confidence": "high",
+   "kp_id": "841152",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:12",
+     "date": "2024-05-13",
+     "url": "https://t.me/c/2117114565/12",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мегалополис",
+   "title_orig": "Megalopolis",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:13",
+     "date": "2024-05-14",
+     "url": "https://t.me/c/2117114565/13",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Семья шпиона",
+   "title_orig": "Spy x Family",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:14",
+     "date": "2024-05-22",
+     "url": "https://t.me/c/2117114565/14",
+     "from": "свой пост"
+    },
+    {
+     "src": "tg:91",
+     "date": "2025-04-14",
+     "url": "https://t.me/c/2117114565/91",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Эрик",
+   "title_orig": "Eric",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:15",
+     "date": "2024-06-24",
+     "url": "https://t.me/c/2117114565/15",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "Умница Уилл Хантинг",
+   "title_orig": "Good Will Hunting",
+   "year": 1997,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:20",
+     "date": "2024-07-01",
+     "url": "https://t.me/c/2117114565/20",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Куда едет поезд судного дня?",
+   "title_orig": "Shuumatsu Train Doko e Iku?",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:21",
+     "date": "2024-07-11",
+     "url": "https://t.me/c/2117114565/21",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Салатница чудаков",
+   "title_orig": "Henjin no Salad Bowl",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:22",
+     "date": "2024-07-11",
+     "url": "https://t.me/c/2117114565/22",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Предчувствие",
+   "title_orig": "The Beast",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "La Bête, Бертран Бонелло"
+   ],
+   "sources": [
+    {
+     "src": "tg:23",
+     "date": "2024-07-12",
+     "url": "https://t.me/c/2117114565/23",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Отчёт о буйстве духов",
+   "title_orig": "Yu Yu Hakusho",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "игровой сериал Netflix"
+   ],
+   "sources": [
+    {
+     "src": "tg:33",
+     "date": "2024-07-18",
+     "url": "https://t.me/c/2117114565/33",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кулинарные скитания в параллельном мире",
+   "title_orig": "Campfire Cooking in Another World with My Absurd Skill",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:34",
+     "date": "2024-07-23",
+     "url": "https://t.me/c/2117114565/34",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:843954",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "843954",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:35",
+     "date": "2024-07-29",
+     "url": "https://t.me/c/2117114565/35",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:1249511",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "1249511",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:36",
+     "date": "2024-07-29",
+     "url": "https://t.me/c/2117114565/36",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хаос",
+   "title_orig": "Kaos",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:37",
+     "date": "2024-08-08",
+     "url": "https://t.me/c/2117114565/37",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "Презумпция невиновности",
+   "title_orig": "Presumed Innocent",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:37",
+     "date": "2024-08-08",
+     "url": "https://t.me/c/2117114565/37",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "Терминатор Зеро",
+   "title_orig": "Terminator Zero",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:37",
+     "date": "2024-08-08",
+     "url": "https://t.me/c/2117114565/37",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "Плохая обезьяна",
+   "title_orig": "Bad Monkey",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:37",
+     "date": "2024-08-08",
+     "url": "https://t.me/c/2117114565/37",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дурнушки",
+   "title_orig": "Uglies",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:41",
+     "date": "2024-08-09",
+     "url": "https://t.me/c/2117114565/41",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тихое место: День первый",
+   "title_orig": "A Quiet Place: Day One",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:42",
+     "date": "2024-08-12",
+     "url": "https://t.me/c/2117114565/42",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Руслан и Людмила",
+   "title_orig": "Руслан и Людмила",
+   "year": 2024,
+   "type": "Мультфильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "проект Артёма Кочеткова, Okko"
+   ],
+   "sources": [
+    {
+     "src": "tg:43",
+     "date": "2024-09-02",
+     "url": "https://t.me/c/2117114565/43",
+     "from": "Сторибордист"
+    }
+   ]
+  },
+  {
+   "title_ru": "Подстрекатели",
+   "title_orig": "The Instigators",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:48",
+     "date": "2024-09-10",
+     "url": "https://t.me/c/2117114565/48",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Колумбус",
+   "title_orig": "Columbus",
+   "year": 2017,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:49",
+     "date": "2024-09-12",
+     "url": "https://t.me/c/2117114565/49",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Двадцать одно",
+   "title_orig": "21",
+   "year": 2008,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:59",
+     "date": "2024-09-19",
+     "url": "https://t.me/c/2117114565/59",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Монстры: История Лайла и Эрика Менендес",
+   "title_orig": "Monsters: The Lyle and Erik Menendez Story",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "особенно 5 серия «The Hurt Man»"
+   ],
+   "sources": [
+    {
+     "src": "tg:60",
+     "date": "2024-09-22",
+     "url": "https://t.me/c/2117114565/60",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Убийца гоблинов",
+   "title_orig": "Goblin Slayer",
+   "year": 2018,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "18+"
+   ],
+   "sources": [
+    {
+     "src": "tg:63",
+     "date": "2024-09-23",
+     "url": "https://t.me/c/2117114565/63",
+     "from": "Сторибордист"
+    }
+   ]
+  },
+  {
+   "title_ru": "Машина",
+   "title_orig": "The Machine",
+   "year": 2013,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:64",
+     "date": "2024-09-26",
+     "url": "https://t.me/c/2117114565/64",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Не двигайся",
+   "title_orig": "Don't Move",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:65",
+     "date": "2024-09-26",
+     "url": "https://t.me/c/2117114565/65",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Вспомнить всё",
+   "title_orig": "Total Recall",
+   "year": 2012,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:66",
+     "date": "2024-09-26",
+     "url": "https://t.me/c/2117114565/66",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Пингвин",
+   "title_orig": "The Penguin",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:67",
+     "date": "2024-09-26",
+     "url": "https://t.me/c/2117114565/67",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дандадан",
+   "title_orig": "Dan Da Dan",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:68",
+     "date": "2024-10-08",
+     "url": "https://t.me/c/2117114565/68",
+     "from": "Сторибордист"
+    },
+    {
+     "src": "ig:102",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:125",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DBVxfyZAA6K/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Франшиза",
+   "title_orig": "The Franchise",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:69",
+     "date": "2024-10-11",
+     "url": "https://t.me/c/2117114565/69",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бюро 749",
+   "title_orig": "Bureau 749",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "в посте «749 ROUNDS», китайский"
+   ],
+   "sources": [
+    {
+     "src": "tg:70",
+     "date": "2024-10-16",
+     "url": "https://t.me/c/2117114565/70",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Почти рождественская история",
+   "title_orig": "An Almost Christmas Story",
+   "year": 2024,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "короткометражка Disney+"
+   ],
+   "sources": [
+    {
+     "src": "tg:71",
+     "date": "2024-10-19",
+     "url": "https://t.me/c/2117114565/71",
+     "from": "nerds"
+    }
+   ]
+  },
+  {
+   "title_ru": "Патэма наоборот",
+   "title_orig": "Patema Inverted",
+   "year": 2013,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:72",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/72",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сумерки богов",
+   "title_orig": "Twilight of the Gods",
+   "year": 2024,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:73",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/73",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Место дальше, чем Вселенная",
+   "title_orig": "A Place Further Than the Universe",
+   "year": 2018,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Девочка-волшебница Мадока Магика",
+   "title_orig": "Puella Magi Madoka Magica",
+   "year": 2011,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Киберпанк: Бегущие по краю",
+   "title_orig": "Cyberpunk: Edgerunners",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Одинокий рокер!",
+   "title_orig": "Bocchi the Rock!",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Странное такси",
+   "title_orig": "Odd Taxi",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    },
+    {
+     "src": "ig:67",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMAeArTz9vD/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Вайолет Эвергарден",
+   "title_orig": "Violet Evergarden",
+   "year": 2018,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Пинг-понг",
+   "title_orig": "Ping Pong the Animation",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Виви: Песнь флюоритового глаза",
+   "title_orig": "Vivy: Fluorite Eye's Song",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Город, в котором меня нет",
+   "title_orig": "Erased",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    },
+    {
+     "src": "ig:35",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DP3V9IEDeKd/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ангельские ритмы!",
+   "title_orig": "Angel Beats!",
+   "year": 2010,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:74",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/74",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Парад смерти",
+   "title_orig": "Death Parade",
+   "year": 2015,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    },
+    {
+     "src": "ig:35",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DP3V9IEDeKd/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Страна самоцветов",
+   "title_orig": "Land of the Lustrous",
+   "year": 2017,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Татами-галактика",
+   "title_orig": "The Tatami Galaxy",
+   "year": 2010,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Баккано!",
+   "title_orig": "Baccano!",
+   "year": 2007,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ликорис Рикойл",
+   "title_orig": "Lycoris Recoil",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Санни Бой",
+   "title_orig": "Sonny Boy",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Невиданный цветок",
+   "title_orig": "Anohana: The Flower We Saw That Day",
+   "year": 2011,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Безмятежные скитания в последний час",
+   "title_orig": "Girls' Last Tour",
+   "year": 2017,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:75",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/75",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Эксперименты Лэйн",
+   "title_orig": "Serial Experiments Lain",
+   "year": 1998,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Девичья группа плачет",
+   "title_orig": "Girls Band Cry",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Человек-дьявол: Плакса",
+   "title_orig": "Devilman Crybaby",
+   "year": 2018,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Союз серокрылых",
+   "title_orig": "Haibane Renmei",
+   "year": 2002,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ежемесячное сёдзё Нозаки-куна",
+   "title_orig": "Monthly Girls' Nozaki-kun",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Как прекрасна луна",
+   "title_orig": "Tsuki ga Kirei",
+   "year": 2017,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Нет игры — нет жизни",
+   "title_orig": "No Game No Life",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из топ-25 коротких аниме"
+   ],
+   "sources": [
+    {
+     "src": "tg:76",
+     "date": "2024-10-24",
+     "url": "https://t.me/c/2117114565/76",
+     "from": "Паша Калинин"
+    }
+   ]
+  },
+  {
+   "title_ru": "Фаррелл Уильямс: Кусочек за кусочком",
+   "title_orig": "Piece by Piece",
+   "year": 2024,
+   "type": "Мультфильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "в посте «Фарел Вильямс ту зе мун»"
+   ],
+   "sources": [
+    {
+     "src": "tg:77",
+     "date": "2025-01-18",
+     "url": "https://t.me/c/2117114565/77",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Остров иллюзий",
+   "title_orig": "Остров иллюзий",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:78",
+     "date": "2025-01-27",
+     "url": "https://t.me/c/2117114565/78",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Devil May Cry",
+   "title_orig": "Devil May Cry",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Netflix"
+   ],
+   "sources": [
+    {
+     "src": "tg:79",
+     "date": "2025-02-01",
+     "url": "https://t.me/c/2117114565/79",
+     "from": "Сторибордист"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бедные-несчастные",
+   "title_orig": "Poor Things",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:80",
+     "date": "2025-03-10",
+     "url": "https://t.me/c/2117114565/80",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Чудеса Китая",
+   "title_orig": "Yao-Chinese Folktales",
+   "year": 2023,
+   "type": "Мультфильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "«Любовь, смерть и роботы» по-китайски"
+   ],
+   "sources": [
+    {
+     "src": "tg:81",
+     "date": "2025-03-11",
+     "url": "https://t.me/c/2117114565/81",
+     "from": "Schi Pai"
+    }
+   ]
+  },
+  {
+   "title_ru": "Носферату",
+   "title_orig": "Nosferatu",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:82",
+     "date": "2025-03-11",
+     "url": "https://t.me/c/2117114565/82",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Переходный возраст",
+   "title_orig": "Adolescence",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:83",
+     "date": "2025-03-24",
+     "url": "https://t.me/c/2117114565/83",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:6579800",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "6579800",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:88",
+     "date": "2025-04-14",
+     "url": "https://t.me/c/2117114565/88",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "В кубике",
+   "title_orig": "В кубике",
+   "year": null,
+   "type": "?",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "непонятно что это"
+   ],
+   "sources": [
+    {
+     "src": "tg:89",
+     "date": "2025-04-14",
+     "url": "https://t.me/c/2117114565/89",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:552",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "552",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:90",
+     "date": "2025-04-14",
+     "url": "https://t.me/c/2117114565/90",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Проклятие",
+   "title_orig": "Проклятие",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "ролик YouTube «ПРОКЛЯТИЕ», возможно короткометражка Крыжовникова",
+    "tmdb=none",
+    "короткометражка Крыжовникова"
+   ],
+   "sources": [
+    {
+     "src": "tg:92",
+     "date": "2025-04-28",
+     "url": "https://t.me/c/2117114565/92",
+     "from": "свой пост"
+    },
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:742184",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "742184",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:93",
+     "date": "2025-04-28",
+     "url": "https://t.me/c/2117114565/93",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:1047541",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "1047541",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:94",
+     "date": "2025-04-28",
+     "url": "https://t.me/c/2117114565/94",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:893361",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "893361",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:95",
+     "date": "2025-04-28",
+     "url": "https://t.me/c/2117114565/95",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Грешники",
+   "title_orig": "Sinners",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:96",
+     "date": "2025-04-28",
+     "url": "https://t.me/c/2117114565/96",
+     "from": "editors on vacation"
+    },
+    {
+     "src": "tg:106",
+     "date": "2025-07-07",
+     "url": "https://t.me/c/2117114565/106",
+     "from": "Midnite chronicles"
+    },
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "Твои друзья и соседи",
+   "title_orig": "Your Friends & Neighbors",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:100",
+     "date": "2025-05-05",
+     "url": "https://t.me/c/2117114565/100",
+     "from": "свой пост"
+    },
+    {
+     "src": "ig:205",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIx-H4PILrz/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дожить до рассвета",
+   "title_orig": "Until Dawn",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:102",
+     "date": "2025-06-11",
+     "url": "https://t.me/c/2117114565/102",
+     "from": "Енотовая"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хищник: Убийца убийц",
+   "title_orig": "Predator: Killer of Killers",
+   "year": 2025,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:103",
+     "date": "2025-06-24",
+     "url": "https://t.me/c/2117114565/103",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:1008561",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "1008561",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:104",
+     "date": "2025-07-05",
+     "url": "https://t.me/c/2117114565/104",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Наутилус",
+   "title_orig": "Nautilus",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:105",
+     "date": "2025-07-07",
+     "url": "https://t.me/c/2117114565/105",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Грязь",
+   "title_orig": "The Dirt",
+   "year": 2019,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "в посте просто «Грязь»"
+   ],
+   "sources": [
+    {
+     "src": "tg:107",
+     "date": "2025-07-09",
+     "url": "https://t.me/c/2117114565/107",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Милый дом",
+   "title_orig": "Sweet Home",
+   "year": 2020,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:108",
+     "date": "2025-07-10",
+     "url": "https://t.me/c/2117114565/108",
+     "from": "Dasha Varakina"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:5376221",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "5376221",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:109",
+     "date": "2025-07-14",
+     "url": "https://t.me/c/2117114565/109",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Первородный грех Такопи",
+   "title_orig": "Takopi's Original Sin",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "«ОЧЕНЬ ТЯЖЁЛОЕ»"
+   ],
+   "sources": [
+    {
+     "src": "tg:111",
+     "date": "2025-07-14",
+     "url": "https://t.me/c/2117114565/111",
+     "from": "свой пост"
+    },
+    {
+     "src": "ig:50",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOLiYoqEzKu/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:72",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DL1h1VjTgOb/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:1274280",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "1274280",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:112",
+     "date": "2025-08-05",
+     "url": "https://t.me/c/2117114565/112",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:413080",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "413080",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:113",
+     "date": "2025-08-05",
+     "url": "https://t.me/c/2117114565/113",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:257376",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "257376",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:114",
+     "date": "2025-08-05",
+     "url": "https://t.me/c/2117114565/114",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Новейший завет",
+   "title_orig": "The Brand New Testament",
+   "year": 2015,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:115",
+     "date": "2025-08-10",
+     "url": "https://t.me/c/2117114565/115",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хроники экзорцизма: Начало",
+   "title_orig": "Exorcism Chronicles: The Beginning",
+   "year": 2018,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "корейская анимация"
+   ],
+   "sources": [
+    {
+     "src": "tg:116",
+     "date": "2025-08-31",
+     "url": "https://t.me/c/2117114565/116",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Эддингтон",
+   "title_orig": "Eddington",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:117",
+     "date": "2025-11-04",
+     "url": "https://t.me/c/2117114565/117",
+     "from": "editors on vacation"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:5594761",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "5594761",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:118",
+     "date": "2025-11-09",
+     "url": "https://t.me/c/2117114565/118",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:5452393",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "5452393",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:119",
+     "date": "2025-11-09",
+     "url": "https://t.me/c/2117114565/119",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Плюрибус",
+   "title_orig": "Pluribus",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:120",
+     "date": "2025-11-09",
+     "url": "https://t.me/c/2117114565/120",
+     "from": "Schi Pai"
+    },
+    {
+     "src": "ig:186",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQ4UyYhjZQW/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Всеведущий читатель",
+   "title_orig": "Omniscient Reader: The Prophecy",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:121",
+     "date": "2025-11-09",
+     "url": "https://t.me/c/2117114565/121",
+     "from": "Schi Pai"
+    },
+    {
+     "src": "ig:51",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOA3rV-DUUq/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:191",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DPda77Siqh0/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Могучая девятка",
+   "title_orig": "The Legend of Vox Machina: The Mighty Nein",
+   "year": 2025,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:122",
+     "date": "2025-11-15",
+     "url": "https://t.me/c/2117114565/122",
+     "from": "Сторибордист"
+    },
+    {
+     "src": "ig:36",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQYn9N8jMbq/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:9153218",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": "9153218",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:123",
+     "date": "2025-11-26",
+     "url": "https://t.me/c/2117114565/123",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "",
+   "title_orig": "kp:5942378",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": "5942378",
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:125",
+     "date": "2025-11-28",
+     "url": "https://t.me/c/2117114565/125",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Стометровка",
+   "title_orig": "Hyakuemu.",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:126",
+     "date": "2025-11-28",
+     "url": "https://t.me/c/2117114565/126",
+     "from": "Дима Шрамко. Сценарист, мангака"
+    },
+    {
+     "src": "ig:24",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DUpsLjFCstS/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:27",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DTBMnX9CFQJ/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Властелин колец: Кольца власти",
+   "title_orig": "The Lord of the Rings: The Rings of Power",
+   "year": 2022,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "2 сезон"
+   ],
+   "sources": [
+    {
+     "src": "tg:128",
+     "date": "2025-12-07",
+     "url": "https://t.me/c/2117114565/128",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Лило и Стич",
+   "title_orig": "Lilo & Stitch",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:129",
+     "date": "2025-12-13",
+     "url": "https://t.me/c/2117114565/129",
+     "from": "Schi Pai"
+    }
+   ]
+  },
+  {
+   "title_ru": "Зверополис 2",
+   "title_orig": "Zootopia 2",
+   "year": 2025,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:130",
+     "date": "2025-12-13",
+     "url": "https://t.me/c/2117114565/130",
+     "from": "Schi Pai"
+    }
+   ]
+  },
+  {
+   "title_ru": "Вечность",
+   "title_orig": "Eternity",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:132",
+     "date": "2026-01-05",
+     "url": "https://t.me/c/2117114565/132",
+     "from": "свой пост"
+    },
+    {
+     "src": "ig:190",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DPlSwaujLzE/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Подземелья и драконы: Честь среди воров",
+   "title_orig": "Dungeons & Dragons: Honor Among Thieves",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:133",
+     "date": "2026-01-06",
+     "url": "https://t.me/c/2117114565/133",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Только во сне",
+   "title_orig": "In Your Dreams",
+   "year": 2025,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:134",
+     "date": "2026-01-08",
+     "url": "https://t.me/c/2117114565/134",
+     "from": "Animation School: анимация на практике"
+    },
+    {
+     "src": "ig:31",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DRWjQ-3DAJk/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Light & Magic",
+   "title_orig": "Light & Magic",
+   "year": 2022,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:135",
+     "date": "2026-01-09",
+     "url": "https://t.me/c/2117114565/135",
+     "from": "Schi Pai"
+    }
+   ]
+  },
+  {
+   "title_ru": "Радикально",
+   "title_orig": "Radical",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:136",
+     "date": "2026-01-13",
+     "url": "https://t.me/c/2117114565/136",
+     "from": "Лиля Ким | Сторителлинг и блог"
+    }
+   ]
+  },
+  {
+   "title_ru": "Битва за битвой",
+   "title_orig": "One Battle After Another",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бугония",
+   "title_orig": "Bugonia",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "Марти Великолепный",
+   "title_orig": "Marty Supreme",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сны поездов",
+   "title_orig": "Train Dreams",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    },
+    {
+     "src": "tg:142",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/142",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гамнет",
+   "title_orig": "Hamnet",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "Франкенштейн",
+   "title_orig": "Frankenstein",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар», Гильермо дель Торо"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    },
+    {
+     "src": "tg:142",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/142",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Секретный агент",
+   "title_orig": "The Secret Agent",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сентиментальная ценность",
+   "title_orig": "Sentimental Value",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "номинант на «Оскар»"
+   ],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    }
+   ]
+  },
+  {
+   "title_ru": "F1",
+   "title_orig": "F1",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:137",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/137",
+     "from": "Кинопространство mooon"
+    },
+    {
+     "src": "tg:142",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/142",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "28 лет спустя: Храм костей",
+   "title_orig": "28 Years Later: The Bone Temple",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:138",
+     "date": "2026-01-22",
+     "url": "https://t.me/c/2117114565/138",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Больница Питт",
+   "title_orig": "The Pitt",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:139",
+     "date": "2026-01-26",
+     "url": "https://t.me/c/2117114565/139",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Репетиция",
+   "title_orig": "The Rehearsal",
+   "year": 2022,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:140",
+     "date": "2026-01-27",
+     "url": "https://t.me/c/2117114565/140",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Горе-творец",
+   "title_orig": "The Disaster Artist",
+   "year": 2017,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:141",
+     "date": "2026-02-28",
+     "url": "https://t.me/c/2117114565/141",
+     "from": "Lexus"
+    }
+   ]
+  },
+  {
+   "title_ru": "Киностудия",
+   "title_orig": "The Studio",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:141",
+     "date": "2026-02-28",
+     "url": "https://t.me/c/2117114565/141",
+     "from": "Lexus"
+    },
+    {
+     "src": "ig:149",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DW3exGFum4w/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сират",
+   "title_orig": "Sirāt",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:142",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/142",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дикая планета",
+   "title_orig": "Fantastic Planet",
+   "year": 1973,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "список мультфильмов для насмотренности"
+   ],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тайна Келлс",
+   "title_orig": "The Secret of Kells",
+   "year": 2009,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Песнь моря",
+   "title_orig": "Song of the Sea",
+   "year": 2014,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Паприка",
+   "title_orig": "Paprika",
+   "year": 2006,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Истинная грусть",
+   "title_orig": "Perfect Blue",
+   "year": 1997,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Навсикая из Долины ветров",
+   "title_orig": "Nausicaä of the Valley of the Wind",
+   "year": 1984,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Принцесса Мононоке",
+   "title_orig": "Princess Mononoke",
+   "year": 1997,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Унесённые призраками",
+   "title_orig": "Spirited Away",
+   "year": 2001,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ходячий замок",
+   "title_orig": "Howl's Moving Castle",
+   "year": 2004,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бесподобный мистер Фокс",
+   "title_orig": "Fantastic Mr. Fox",
+   "year": 2009,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Трио из Бельвилля",
+   "title_orig": "The Triplets of Belleville",
+   "year": 2003,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мир будущего",
+   "title_orig": "World of Tomorrow",
+   "year": 2015,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Аркейн",
+   "title_orig": "Arcane",
+   "year": 2021,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Человек-паук: Через вселенные",
+   "title_orig": "Spider-Man: Into the Spider-Verse",
+   "year": 2018,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Человек-паук: Паутина вселенных",
+   "title_orig": "Spider-Man: Across the Spider-Verse",
+   "year": 2023,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Любовь. Смерть. Роботы",
+   "title_orig": "Love, Death & Robots",
+   "year": 2019,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "особенно «Свидетель» и «Джибаро»"
+   ],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хранитель Луны",
+   "title_orig": "Mune: Guardian of the Moon",
+   "year": 2014,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:147",
+     "date": "2026-03-16",
+     "url": "https://t.me/c/2117114565/147",
+     "from": "NOVA"
+    }
+   ]
+  },
+  {
+   "title_ru": "Удачи, веселья, не сдохни",
+   "title_orig": "Good Luck, Have Fun, Don't Die",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:148",
+     "date": "2026-03-18",
+     "url": "https://t.me/c/2117114565/148",
+     "from": "Midnite chronicles"
+    },
+    {
+     "src": "ig:158",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DV5Dns2CjiC/",
+     "from": "Instagram: movies"
+    },
+    {
+     "src": "ig:187",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQ95PVCkvb-/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Здесь был Юра",
+   "title_orig": "Здесь был Юра",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:149",
+     "date": "2026-03-26",
+     "url": "https://t.me/c/2117114565/149",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Прыгуны",
+   "title_orig": "Hoppers",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Pixar"
+   ],
+   "sources": [
+    {
+     "src": "tg:149",
+     "date": "2026-03-26",
+     "url": "https://t.me/c/2117114565/149",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Летят журавли",
+   "title_orig": "Летят журавли",
+   "year": 1957,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "Я — Куба",
+   "title_orig": "Я — Куба",
+   "year": 1964,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "Я шагаю по Москве",
+   "title_orig": "Я шагаю по Москве",
+   "year": 1963,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "Рассказы",
+   "title_orig": "Рассказы",
+   "year": 2012,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "Елена",
+   "title_orig": "Елена",
+   "year": 2011,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "Горько!",
+   "title_orig": "Горько!",
+   "year": 2013,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:151",
+     "date": "2026-04-01",
+     "url": "https://t.me/c/2117114565/151",
+     "from": "Maria Boytsova"
+    }
+   ]
+  },
+  {
+   "title_ru": "Undone",
+   "title_orig": "Undone",
+   "year": 2019,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:152",
+     "date": "2026-04-06",
+     "url": "https://t.me/c/2117114565/152",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Городской охотник",
+   "title_orig": "City Hunter",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Netflix"
+   ],
+   "sources": [
+    {
+     "src": "tg:153",
+     "date": "2026-04-06",
+     "url": "https://t.me/c/2117114565/153",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Случится что-то очень плохое",
+   "title_orig": "Something Very Bad Is Going to Happen",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:154",
+     "date": "2026-04-06",
+     "url": "https://t.me/c/2117114565/154",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Монолит",
+   "title_orig": "Monolith",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:155",
+     "date": "2026-04-07",
+     "url": "https://t.me/c/2117114565/155",
+     "from": "ШишКИНО"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бухта вдов",
+   "title_orig": "Widow's Bay",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:157",
+     "date": "2026-05-04",
+     "url": "https://t.me/c/2117114565/157",
+     "from": "Енотовая"
+    },
+    {
+     "src": "tg:168",
+     "date": "2026-06-12",
+     "url": "https://t.me/c/2117114565/168",
+     "from": "Енотовая"
+    },
+    {
+     "src": "tg:171",
+     "date": "2026-09-15",
+     "url": "https://t.me/c/2117114565/171",
+     "from": "КОНТЕКСТ"
+    },
+    {
+     "src": "tg:181",
+     "date": "2026-09-19",
+     "url": "https://t.me/c/2117114565/181",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Говядина",
+   "title_orig": "Beef",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:158",
+     "date": "2026-05-08",
+     "url": "https://t.me/c/2117114565/158",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Рыцарь Семи Королевств",
+   "title_orig": "A Knight of the Seven Kingdoms",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:158",
+     "date": "2026-05-08",
+     "url": "https://t.me/c/2117114565/158",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Эйфория",
+   "title_orig": "Euphoria",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:158",
+     "date": "2026-05-08",
+     "url": "https://t.me/c/2117114565/158",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Денежные проблемы Марго",
+   "title_orig": "Margo's Got Money Troubles",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:158",
+     "date": "2026-05-08",
+     "url": "https://t.me/c/2117114565/158",
+     "from": "как в степи разжечь тандыр"
+    }
+   ]
+  },
+  {
+   "title_ru": "Горничная",
+   "title_orig": "The Housemaid",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:165",
+     "date": "2026-06-08",
+     "url": "https://t.me/c/2117114565/165",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Драма",
+   "title_orig": "The Drama",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:166",
+     "date": "2026-06-08",
+     "url": "https://t.me/c/2117114565/166",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Лаки",
+   "title_orig": "Lucky",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Apple TV"
+   ],
+   "sources": [
+    {
+     "src": "tg:167",
+     "date": "2026-06-09",
+     "url": "https://t.me/c/2117114565/167",
+     "from": "Midnite chronicles"
+    }
+   ]
+  },
+  {
+   "title_ru": "Надежда",
+   "title_orig": "Hope",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "На Хон-джин"
+   ],
+   "sources": [
+    {
+     "src": "tg:170",
+     "date": "2026-09-14",
+     "url": "https://t.me/c/2117114565/170",
+     "from": "ШишКИНО"
+    },
+    {
+     "src": "ig:138",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DY22Q3bR_Dj/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Обсессия",
+   "title_orig": "Obsession",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:178",
+     "date": "2026-09-15",
+     "url": "https://t.me/c/2117114565/178",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Выход 8",
+   "title_orig": "Exit 8",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:179",
+     "date": "2026-09-15",
+     "url": "https://t.me/c/2117114565/179",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Закулисье",
+   "title_orig": "Backrooms",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:180",
+     "date": "2026-09-15",
+     "url": "https://t.me/c/2117114565/180",
+     "from": "свой пост"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сёстры Гримм",
+   "title_orig": "Сёстры Гримм",
+   "year": null,
+   "type": "Мультфильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:0",
+     "date": null,
+     "url": "https://www.instagram.com/reel/Dd3Y-0eD04B/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дневник чужой страны",
+   "title_orig": "Journal with Witch",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Ikoku Nikki"
+   ],
+   "sources": [
+    {
+     "src": "ig:1",
+     "date": null,
+     "url": "https://www.instagram.com/reel/Dc_QJKiN9ch/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хранитель камфорного дерева",
+   "title_orig": "The Camphor Tree Guardian",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "по книге Кэйго Хигасино"
+   ],
+   "sources": [
+    {
+     "src": "ig:3",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DZuw6iJIEDo/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Великий притворщик",
+   "title_orig": "Great Pretender",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:4",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DZdD48aJm7k/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Легенда о Хэй 2",
+   "title_orig": "The Legend of Hei 2",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:9",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DRKEM1NgHSC/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:61",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DK-gF_opDTF/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:63",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLhKIF5JR-K/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Петушиный боец",
+   "title_orig": "Rooster Fighter",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:10",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DXo12bIjPj3/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ветролом",
+   "title_orig": "Wind Breaker",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:11",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DUP4aupiEjs/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ателье колдовских шляп",
+   "title_orig": "Witch Hat Atelier",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:12",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWxJ9xBjrIz/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Рейтинг короля",
+   "title_orig": "Ranking of Kings",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:14",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWylz3biUoP/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Скарлет",
+   "title_orig": "Scarlet",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Мамору Хосода"
+   ],
+   "sources": [
+    {
+     "src": "ig:21",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DU0VRu5ApnR/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:38",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQtbJCJjD6c/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Истории монстров",
+   "title_orig": "Bakemonogatari",
+   "year": 2009,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "порядок: Bakemonogatari → Kizumonogatari → …"
+   ],
+   "sources": [
+    {
+     "src": "ig:25",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DT2dRi3EWQK/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Волчий дождь",
+   "title_orig": "Wolf's Rain",
+   "year": 2003,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:26",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DThaLYHih32/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Отель с привидениями",
+   "title_orig": "Haunted Hotel",
+   "year": 2025,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Netflix"
+   ],
+   "sources": [
+    {
+     "src": "ig:29",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQOkx6fjIGe/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тацуки Фудзимото: 17-26",
+   "title_orig": "Tatsuki Fujimoto 17-26",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:34",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DRNbHkwDH__/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ветер крепчает",
+   "title_orig": "The Wind Rises",
+   "year": 2013,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:35",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DP3V9IEDeKd/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сёва-Гэнроку: Двойное самоубийство по ракуго",
+   "title_orig": "Showa Genroku Rakugo Shinju",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:35",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DP3V9IEDeKd/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Твоё имя",
+   "title_orig": "Your Name.",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:35",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DP3V9IEDeKd/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Король драконов",
+   "title_orig": "Dragon Raja",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:40",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNYa-ZpR7L5/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Epic Seven",
+   "title_orig": "Epic Seven",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:41",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQMqo_mka74/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гнозия",
+   "title_orig": "Gnosia",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:43",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQCC8t6ies6/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Twisted Crown",
+   "title_orig": "Twisted Crown",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "возможно, инди-проект"
+   ],
+   "sources": [
+    {
+     "src": "ig:44",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOUk56biAmj/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Демоны теневого царства",
+   "title_orig": "Daemons of the Shadow Realm",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:47",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DPmBki8D8b3/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Очаровательная богиня еды",
+   "title_orig": "Очаровательная богиня еды",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "китайская новелла/дунхуа"
+   ],
+   "sources": [
+    {
+     "src": "ig:48",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DPQHqZ5DDkn/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Принц драконов",
+   "title_orig": "The Dragon Prince",
+   "year": 2018,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:49",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOmCvq0jp0k/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Повелитель тайн",
+   "title_orig": "Lord of Mysteries",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:50",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOLiYoqEzKu/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:76",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLiY68sh1y-/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Лето, когда умер Хикару",
+   "title_orig": "The Summer Hikaru Died",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:50",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOLiYoqEzKu/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гачиакута",
+   "title_orig": "Gachiakuta",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:50",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOLiYoqEzKu/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "7 судей: Чхакхо",
+   "title_orig": "7 судей: Чхакхо",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:52",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DKrbNymNu4H/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сказания Земноморья",
+   "title_orig": "Tales from Earthsea",
+   "year": 2006,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:53",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DKJmVf1sQT2/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Песнь ночных сов",
+   "title_orig": "Call of the Night",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:54",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNgJRrzRHAN/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Письмо для Момо",
+   "title_orig": "A Letter to Momo",
+   "year": 2011,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:55",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNlCYxbNAt4/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Принцесса-рыцарь-невеста",
+   "title_orig": "Принцесса-рыцарь-невеста",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:56",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNVWhkHoDAI/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Оседлай волну",
+   "title_orig": "Ride Your Wave",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:58",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNNyhGfT8Q3/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Легенда о Хэй",
+   "title_orig": "The Legend of Hei",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:60",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNLa5qXTjIq/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Холм тумана пяти стихий",
+   "title_orig": "Fog Hill of Five Elements",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:64",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLf1juMopjR/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Спой немного гармонии",
+   "title_orig": "Sing a Bit of Harmony",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:65",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLpiGxRTnm-/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хроники людей и демонов",
+   "title_orig": "Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:68",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DKCLqPbI1Uk/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:102",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Невеста чародея",
+   "title_orig": "The Ancient Magus' Bride",
+   "year": 2017,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:69",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHQqib_v5m6/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Красноволосая принцесса Белоснежка",
+   "title_orig": "Snow White with the Red Hair",
+   "year": 2015,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "угадано по обложке"
+   ],
+   "sources": [
+    {
+     "src": "ig:70",
+     "date": null,
+     "url": "https://www.instagram.com/p/DLgRqPdipLi/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кастлвания: Ноктюрн",
+   "title_orig": "Castlevania: Nocturne",
+   "year": 2023,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:71",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DFyQWpWpmnb/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "The Bucket and the List",
+   "title_orig": "The Bucket and the List",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "название с обложки"
+   ],
+   "sources": [
+    {
+     "src": "ig:75",
+     "date": null,
+     "url": "https://www.instagram.com/p/DK4rkeHP7NC/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ведьма и чудовище",
+   "title_orig": "The Witch and the Beast",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:77",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLI_AtTyDcB/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Восход луны",
+   "title_orig": "Moonrise",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:81",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJyuAT4uFRy/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:96",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIRi3EPOdxA/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "УдивЛа",
+   "title_orig": "WondLa",
+   "year": 2024,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:83",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DKfjgNco0SB/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Чудесные дни",
+   "title_orig": "Wonderful Days",
+   "year": 2003,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "корейский, он же Sky Blue"
+   ],
+   "sources": [
+    {
+     "src": "ig:85",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJWloa7x4oY/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Всепожирающий кит",
+   "title_orig": "The All-devouring Whale",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:87",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJHQb3BpWYT/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Суперкуб",
+   "title_orig": "The Super Cube",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:90",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIk-dRSRAcq/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Полное исследование",
+   "title_orig": "Полное исследование",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:91",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHBfYiosZ1V/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:109",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DE2mMCNvBUN/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Быть героем X",
+   "title_orig": "To Be Hero X",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:93",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DId9chHsFvX/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:110",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DFMSIzkT_rn/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Благословение небожителей",
+   "title_orig": "Heaven Official's Blessing",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:94",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIZCYtVKCdS/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хинаматсури",
+   "title_orig": "Hinamatsuri",
+   "year": 2018,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:95",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIMQa_fiYI7/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Меч охотника на демонов",
+   "title_orig": "Sword of the Demon Hunter: Kijin Gentosho",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:101",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DH8ztzJxcfr/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Лазарь",
+   "title_orig": "Lazarus",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:102",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Монолог фармацевта",
+   "title_orig": "The Apothecary Diaries",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:102",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Грань будущего",
+   "title_orig": "All You Need Is Kill",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "аниме по той же новелле"
+   ],
+   "sources": [
+    {
+     "src": "ig:103",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHKXNUzN_iw/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мой уникальный навык делает меня сильным даже на 1 уровне",
+   "title_orig": "My Unique Skill Makes Me OP Even at Level 1",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:114",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEu-RLFphD-/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Оценщик",
+   "title_orig": "Even Given the Worthless \"Appraiser\" Class, I'm Actually the Strongest",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:120",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEqRbySB6wF/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Поднятие уровня в одиночку",
+   "title_orig": "Solo Leveling",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:121",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
+     "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:124",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDiN5UIScdI/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Начало после конца",
+   "title_orig": "The Beginning After the End",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:121",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Магия и мускулы",
+   "title_orig": "Mashle",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:125",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DBVxfyZAA6K/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Instinct",
+   "title_orig": "Instinct",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "пока только тизер",
+    "tmdb=none"
+   ],
+   "sources": [
+    {
+     "src": "ig:128",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DCSvBwsRCtg/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Пикник в Потусторонье",
+   "title_orig": "Otherside Picnic",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:130",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DD4VPIooKvI/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Во время грозы",
+   "title_orig": "Mirage",
+   "year": 2018,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Durante la tormenta"
+   ],
+   "sources": [
+    {
+     "src": "ig:132",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DdOcyMBOIO0/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Душа",
+   "title_orig": "Soul",
+   "year": 2020,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:132",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DdOcyMBOIO0/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "То, что внутри",
+   "title_orig": "What's Inside",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:132",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DdOcyMBOIO0/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Последний единорог",
+   "title_orig": "The Last Unicorn",
+   "year": 1982,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:135",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DZNCnvJClSt/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сахар",
+   "title_orig": "That Sugar Film",
+   "year": 2014,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:136",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DaGIbN4MCwH/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сладкая лихорадка",
+   "title_orig": "Fed Up",
+   "year": 2014,
+   "type": "Документальное",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:136",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DaGIbN4MCwH/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Безумное свидание",
+   "title_orig": "FolleMente",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:137",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DZctu_jN-fr/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ladies First",
+   "title_orig": "Ladies First",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:139",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DYsRMHkE1wD/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Семья напрокат",
+   "title_orig": "Rental Family",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Брендан Фрейзер"
+   ],
+   "sources": [
+    {
+     "src": "ig:140",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DT0HVO_DAZo/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Каштановый человечек",
+   "title_orig": "The Chestnut Man",
+   "year": 2021,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "2 сезон «Прятки»"
+   ],
+   "sources": [
+    {
+     "src": "ig:141",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DYj0FSnKoG0/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Немного за 40",
+   "title_orig": "Fortysomething",
+   "year": 2003,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:142",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DYo-Qc0ssPd/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Рустер",
+   "title_orig": "Rooster",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:143",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DYelvmAO9uA/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Цикл Пендрагона: Восхождение Мерлина",
+   "title_orig": "The Pendragon Cycle",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:144",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWJAFA_E8pK/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Зараза",
+   "title_orig": "Cold Storage",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:145",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DV6FCNwCBsL/",
+     "from": "Instagram: movies"
+    },
+    {
+     "src": "ig:166",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DTcbkvTjBvM/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Все страхи Бо",
+   "title_orig": "Beau Is Afraid",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:146",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWOhkbdiCP_/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Существо с перьями",
+   "title_orig": "The Thing with Feathers",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:147",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSmsMwrDUmb/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Суд присяжных",
+   "title_orig": "Jury Duty",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:150",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DXb75u2DBcy/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "The Boroughs",
+   "title_orig": "The Boroughs",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:151",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DXRioKeD5zN/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Два далёких незнакомца",
+   "title_orig": "Two Distant Strangers",
+   "year": 2020,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:152",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DW6xnmcjr9E/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "GOAT",
+   "title_orig": "GOAT",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:153",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWeMCrFjRtI/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Озарк",
+   "title_orig": "Ozark",
+   "year": 2017,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:154",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWb-OTsjGk0/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Конец Оук-стрит",
+   "title_orig": "The End of Oak Street",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:155",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWW6KQfkdYt/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Король воров",
+   "title_orig": "King of Thieves",
+   "year": 2018,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:156",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DWGlvTtx8s8/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Билет в рай",
+   "title_orig": "Ticket to Paradise",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:157",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DVlIi2QjGkF/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Грязные деньги",
+   "title_orig": "Грязные деньги",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "Генри Кавилл, Джейк Джилленхол"
+   ],
+   "sources": [
+    {
+     "src": "ig:159",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DVyEm8qjNaP/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Красота",
+   "title_orig": "The Beauty",
+   "year": 2026,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:161",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DVoO77KCsI1/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Терапия",
+   "title_orig": "Shrinking",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:163",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DVGYlMBjVqP/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Аватар: Легенда об Аанге",
+   "title_orig": "Avatar: The Last Airbender",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Netflix, игровой"
+   ],
+   "sources": [
+    {
+     "src": "ig:164",
+     "date": null,
+     "url": "https://www.instagram.com/p/DVI8QQqiCO1/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Финикийская схема",
+   "title_orig": "The Phoenician Scheme",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:165",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DVEUVVzCAGz/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Персонаж",
+   "title_orig": "Stranger Than Fiction",
+   "year": 2006,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:167",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOniSRUgrDr/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Край тени",
+   "title_orig": "The Shadow's Edge",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Джеки Чан"
+   ],
+   "sources": [
+    {
+     "src": "ig:168",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DUqe3UvCLHx/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Девушка в лесу",
+   "title_orig": "The Girl in the Woods",
+   "year": 2021,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:170",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DTkbQbgiOSZ/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Меня это не устраивает",
+   "title_orig": "I Am Not Okay with This",
+   "year": 2020,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:172",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DScrBMsDIdl/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Грань",
+   "title_orig": "Fringe",
+   "year": 2008,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:172",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DScrBMsDIdl/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тьма",
+   "title_orig": "Dark",
+   "year": 2017,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:172",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DScrBMsDIdl/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тела",
+   "title_orig": "Bodies",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:172",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DScrBMsDIdl/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хорошая служанка",
+   "title_orig": "Servant",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "в посте «Служанка»"
+   ],
+   "sources": [
+    {
+     "src": "ig:172",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DScrBMsDIdl/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "OA",
+   "title_orig": "The OA",
+   "year": 2016,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:172",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DScrBMsDIdl/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Королевство зверей",
+   "title_orig": "The Animal Kingdom",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:173",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSpMb8tioLd/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кошачьи миры Луиса Уэйна",
+   "title_orig": "The Electrical Life of Louis Wain",
+   "year": 2021,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:174",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSh--vMCGwG/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Следствие ведут овечки",
+   "title_orig": "The Sheep Detectives",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:175",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSsUGysCFfF/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Голос монстра",
+   "title_orig": "A Monster Calls",
+   "year": 2016,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "угадано по описанию"
+   ],
+   "sources": [
+    {
+     "src": "ig:176",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSSkf8tDOPg/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Затура: Космическое приключение",
+   "title_orig": "Zathura: A Space Adventure",
+   "year": 2005,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:179",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DOI_ckDj0YM/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хроники Шаннары",
+   "title_orig": "The Shannara Chronicles",
+   "year": 2016,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:180",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSA7Zd1Dkd_/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Оно: Добро пожаловать в Дерри",
+   "title_orig": "IT: Welcome to Derry",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:181",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR7NEJuAIY6/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Иллюзия обмана 3",
+   "title_orig": "Now You See Me: Now You Don't",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "угадано по обложке"
+   ],
+   "sources": [
+    {
+     "src": "ig:184",
+     "date": null,
+     "url": "https://www.instagram.com/p/DRCpO_GDE_d/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Петля времени",
+   "title_orig": "Петля времени",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "tmdb=none"
+   ],
+   "sources": [
+    {
+     "src": "ig:185",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQyrpV0CFaS/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Авеню 5",
+   "title_orig": "Avenue 5",
+   "year": 2020,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:188",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DQOX2YyCf7J/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Алиса в Пограничье",
+   "title_orig": "Alice in Borderland",
+   "year": 2020,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "3 сезон"
+   ],
+   "sources": [
+    {
+     "src": "ig:192",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DPGpYaPiLGX/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Альтер",
+   "title_orig": "Altered",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "Том Фелтон"
+   ],
+   "sources": [
+    {
+     "src": "ig:193",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DONhYzciJzy/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Подозрительные лица",
+   "title_orig": "The Usual Suspects",
+   "year": 1995,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:194",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNGueqRCzXY/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Жизнь Чака",
+   "title_orig": "The Life of Chuck",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:195",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DK1wRlOMA-C/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Не звезди",
+   "title_orig": "Menteur",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:196",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLafH6_OsIP/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дроп",
+   "title_orig": "Drop",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:198",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJoyWFzqjD6/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Колесо времени",
+   "title_orig": "The Wheel of Time",
+   "year": 2021,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:199",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DI3D4Zksemt/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Война будущего",
+   "title_orig": "The Tomorrow War",
+   "year": 2021,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:200",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIyCF7jM8rr/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Полночное небо",
+   "title_orig": "The Midnight Sky",
+   "year": 2020,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:202",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDy61ZLNKl9/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Охотник за головами",
+   "title_orig": "Охотник за головами",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "tmdb=none"
+   ],
+   "sources": [
+    {
+     "src": "ig:207",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIHceSpt6_E/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Волшебники",
+   "title_orig": "The Magicians",
+   "year": 2015,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:208",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHvG8atNu1q/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Артемис Фаул",
+   "title_orig": "Artemis Fowl",
+   "year": 2020,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:215",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DG6EnlFs9GC/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Крушение мира",
+   "title_orig": "Крушение мира",
+   "year": 2025,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:216",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DGLpBZjiKDh/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бесконечность",
+   "title_orig": "Infinite",
+   "year": 2021,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:218",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DF2HOipMMW1/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сёгун",
+   "title_orig": "Shōgun",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:219",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESBbUsNdC8/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мы или они",
+   "title_orig": "Мы или они",
+   "year": 2023,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "ig:220",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEVEJnAokWd/",
+     "from": "Instagram: movies"
+    }
+   ]
+  }
+ ],
+ "unknown": [
+  {
+   "src": "tg:124",
+   "date": "2025-11-28",
+   "url": "https://t.me/c/2117114565/124",
+   "from": "Schi Pai",
+   "note": "ссылка на рилс kinop_es про сериал Netflix 18+"
+  },
+  {
+   "src": "tg:127",
+   "date": "2025-11-30",
+   "url": "https://t.me/c/2117114565/127",
+   "from": "свой пост",
+   "note": "ссылка на пост Instagram"
+  },
+  {
+   "src": "tg:156",
+   "date": "2026-04-18",
+   "url": "https://t.me/c/2117114565/156",
+   "from": "FASHION COBRA",
+   "note": "видео FASHION COBRA «Кино для свиданий: красивейшие фильмы, выпуск 10»"
+  },
+  {
+   "src": "tg:164",
+   "date": "2026-05-10",
+   "url": "https://t.me/c/2117114565/164",
+   "from": "Schi Pai",
+   "note": "ссылка share.google на ролик YouTube (недоступен)"
+  },
+  {
+   "src": "tg:169",
+   "date": "2026-08-06",
+   "url": "https://t.me/c/2117114565/169",
+   "from": "ШишКИНО",
+   "note": "ШишКИНО #ДракаДня, название в комментариях канала"
+  },
+  {
+   "src": "ig:2",
+   "date": null,
+   "url": "https://www.instagram.com/reel/Da2b4GAI0uF/",
+   "from": "Instagram: anime",
+   "note": "онгоинги"
+  },
+  {
+   "src": "ig:5",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DZIwnX0zaJh/",
+   "from": "Instagram: anime",
+   "note": "подборка аниме про вторжение пришельцев"
+  },
+  {
+   "src": "ig:6",
+   "date": null,
+   "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+   "from": "Instagram: anime",
+   "note": "подборка китайских мультфильмов"
+  },
+  {
+   "src": "ig:7",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DZO47UsqHFm/",
+   "from": "Instagram: anime",
+   "note": "топ-10 аниме"
+  },
+  {
+   "src": "ig:8",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DYKgeBzsexV/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:13",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DVilQfxDWkg/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:15",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DWyO6OYCqn-/",
+   "from": "Instagram: anime",
+   "note": "самое ожидаемое фэнтези-аниме весны"
+  },
+  {
+   "src": "ig:16",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DVduoDICMbX/",
+   "from": "Instagram: anime",
+   "note": "концепт «Would you watch it?»"
+  },
+  {
+   "src": "ig:17",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DVbB9nJEtU-/",
+   "from": "Instagram: anime",
+   "note": "романтика со взрослыми героями"
+  },
+  {
+   "src": "ig:18",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DV0FqHhklb8/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:19",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
+   "from": "Instagram: anime",
+   "note": "главный триллер зимнего сезона"
+  },
+  {
+   "src": "ig:20",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DU_UqnOAEfP/",
+   "from": "Instagram: anime",
+   "note": "топ-3 непопулярных аниме"
+  },
+  {
+   "src": "ig:22",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DSisTs5CD9s/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:23",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DT-ktNsCDlX/",
+   "from": "Instagram: anime",
+   "note": "концепт «Would you watch it?»"
+  },
+  {
+   "src": "ig:28",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DSXTiyPiCmI/",
+   "from": "Instagram: anime",
+   "note": "концепт «Would you watch this?»"
+  },
+  {
+   "src": "ig:30",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DR6yWs9DfiA/",
+   "from": "Instagram: anime",
+   "note": "«озвучил Ринтаро» — романтика"
+  },
+  {
+   "src": "ig:32",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DRjap8fk8Wd/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:37",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DNv28a-Xj8p/",
+   "from": "Instagram: anime",
+   "note": "семейный мультфильм про развод"
+  },
+  {
+   "src": "ig:42",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DQICzM8k5Q1/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:45",
+   "date": null,
+   "url": "https://www.instagram.com/p/DO8xId-goKA/",
+   "from": "Instagram: anime",
+   "note": "подборка недооценённых аниме 2020-х"
+  },
+  {
+   "src": "ig:46",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DPghZHDDCKo/",
+   "from": "Instagram: anime",
+   "note": "топ-5 аниме про гениев"
+  },
+  {
+   "src": "ig:57",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+   "from": "Instagram: anime",
+   "note": "аниме июля 2025, часть 1"
+  },
+  {
+   "src": "ig:62",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DMuthkbo6aS/",
+   "from": "Instagram: anime",
+   "note": "новое аниме с 30k кадров в серии"
+  },
+  {
+   "src": "ig:66",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DJaUMksooI1/",
+   "from": "Instagram: anime",
+   "note": "блиц-рекомендации"
+  },
+  {
+   "src": "ig:73",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DLuvfPRIui_/",
+   "from": "Instagram: anime",
+   "note": "аниме 2025, красивое"
+  },
+  {
+   "src": "ig:74",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DLnb5PDM19j/",
+   "from": "Instagram: anime",
+   "note": "все новые аниме сезона"
+  },
+  {
+   "src": "ig:78",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DLF7k0toWPV/",
+   "from": "Instagram: anime",
+   "note": "название в тг-канале автора"
+  },
+  {
+   "src": "ig:79",
+   "date": null,
+   "url": "https://www.instagram.com/p/DKFOMugSbee/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:80",
+   "date": null,
+   "url": "https://www.instagram.com/p/DKg3eXhOf9m/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:82",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DJm7fJSB1-L/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:84",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DJKA6yjiPdj/",
+   "from": "Instagram: anime",
+   "note": "«выгнал лучшего целителя и пожалел»"
+  },
+  {
+   "src": "ig:86",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DJMsON1ISCG/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:88",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DI1Y74LKAlB/",
+   "from": "Instagram: anime",
+   "note": "код 93176"
+  },
+  {
+   "src": "ig:89",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIwVS9uITR0/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:92",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIg6uvXsa1u/",
+   "from": "Instagram: anime",
+   "note": "аниме в стиле «Аркейна»"
+  },
+  {
+   "src": "ig:97",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIRPwMgCTM9/",
+   "from": "Instagram: anime",
+   "note": "аниме-новинки"
+  },
+  {
+   "src": "ig:98",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIQvxwHoTdO/",
+   "from": "Instagram: anime",
+   "note": "аниме 2025 про охотника на демонов"
+  },
+  {
+   "src": "ig:99",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DHqMNhBR8M3/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:100",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DH7ie35t1d6/",
+   "from": "Instagram: anime",
+   "note": "аниме MAPPA"
+  },
+  {
+   "src": "ig:104",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DG7eGi3NdpK/",
+   "from": "Instagram: anime",
+   "note": "три редкие аниме-рекомендации"
+  },
+  {
+   "src": "ig:105",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DGSIAJ0tsaf/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:106",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DE4uFchCLYg/",
+   "from": "Instagram: anime",
+   "note": "10 из 10 аниме"
+  },
+  {
+   "src": "ig:107",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DFCPCrOtykG/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:111",
+   "date": null,
+   "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:112",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DAsH62hInRa/",
+   "from": "Instagram: anime",
+   "note": "код 260"
+  },
+  {
+   "src": "ig:113",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DDeMj-3oDt9/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:115",
+   "date": null,
+   "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:116",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DEDHuMAv3Bg/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:117",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DEM_o04IrfY/",
+   "from": "Instagram: anime",
+   "note": "топ-10 новых аниме 2024"
+  },
+  {
+   "src": "ig:119",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+   "from": "Instagram: anime",
+   "note": "лучшие аниме 2024"
+  },
+  {
+   "src": "ig:122",
+   "date": null,
+   "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:123",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DERxkivKNt7/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:126",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DD_GK4YSaQ5/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:127",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DEFtcidvGsB/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:129",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DD2LaB3vsvT/",
+   "from": "Instagram: anime",
+   "note": ""
+  },
+  {
+   "src": "ig:131",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+   "from": "Instagram: anime",
+   "note": "лучшие аниме 2024"
+  },
+  {
+   "src": "ig:133",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DdzC_u_K0HQ/",
+   "from": "Instagram: movies",
+   "note": "сериал «с вайбами Шерлока»: Лондон прошлого века, книжный магазин"
+  },
+  {
+   "src": "ig:134",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DdbSs-1Mf8T/",
+   "from": "Instagram: movies",
+   "note": "сравнивают с «Бухтой вдов»"
+  },
+  {
+   "src": "ig:148",
+   "date": null,
+   "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+   "from": "Instagram: movies",
+   "note": "подборка будущих мультфильмов"
+  },
+  {
+   "src": "ig:160",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DSSx5zxjN1f/",
+   "from": "Instagram: movies",
+   "note": "видео про Уэса Андерсона"
+  },
+  {
+   "src": "ig:162",
+   "date": null,
+   "url": "https://www.instagram.com/p/DVQfeObjffe/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:169",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DUNYJKDjYeV/",
+   "from": "Instagram: movies",
+   "note": "фильм про коренных американцев и мифы о сотворении мира"
+  },
+  {
+   "src": "ig:171",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DTgXLBckk-_/",
+   "from": "Instagram: movies",
+   "note": "геймер тестирует новую технологию"
+  },
+  {
+   "src": "ig:177",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DSfiq5qDHzK/",
+   "from": "Instagram: movies",
+   "note": "сериал: трое школьников в мире меча и магии"
+  },
+  {
+   "src": "ig:178",
+   "date": null,
+   "url": "https://www.instagram.com/p/DRsjB_mCqbV/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:182",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+   "from": "Instagram: movies",
+   "note": "зимний фильм вместо «Гарри Поттера»"
+  },
+  {
+   "src": "ig:183",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DQ9YS5HCEQM/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:189",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DPAFPemjDuj/",
+   "from": "Instagram: movies",
+   "note": "постапокалипсис + политический триллер"
+  },
+  {
+   "src": "ig:197",
+   "date": null,
+   "url": "https://www.instagram.com/p/DLEh5zcKa93/",
+   "from": "Instagram: movies",
+   "note": "мультфильмы"
+  },
+  {
+   "src": "ig:201",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DHILfCXN4qg/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:203",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DI3mbu1twNg/",
+   "from": "Instagram: movies",
+   "note": "мультфильм"
+  },
+  {
+   "src": "ig:204",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DJTxgWTNvCd/",
+   "from": "Instagram: movies",
+   "note": "сериал Netflix, «снег убивает людей»"
+  },
+  {
+   "src": "ig:206",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+   "from": "Instagram: movies",
+   "note": "лучшая триллер-дорама 2024"
+  },
+  {
+   "src": "ig:209",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIJSe42sgUk/",
+   "from": "Instagram: movies",
+   "note": "новый фильм Netflix"
+  },
+  {
+   "src": "ig:210",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DIG-klToq65/",
+   "from": "Instagram: movies",
+   "note": "аниме 2025"
+  },
+  {
+   "src": "ig:211",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DHI-nAdNHG2/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:212",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DFUrUQ0M-2Q/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:214",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DEcxZESIQBk/",
+   "from": "Instagram: movies",
+   "note": "новый сериал Netflix"
+  },
+  {
+   "src": "ig:217",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DEPDzBPukzD/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:221",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DDXzGeExuUV/",
+   "from": "Instagram: movies",
+   "note": ""
+  },
+  {
+   "src": "ig:222",
+   "date": null,
+   "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
+   "from": "Instagram: movies",
+   "note": "подборка"
+  },
+  {
+   "src": "ig:223",
+   "date": null,
+   "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+   "from": "Instagram: movies",
+   "note": "подборка"
+  },
+  {
+   "src": "ig:224",
+   "date": null,
+   "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
+   "from": "Instagram: movies",
+   "note": "подборка"
+  }
+ ],
+ "skipped": [
+  {
+   "src": "tg:131",
+   "date": "2025-12-15",
+   "url": "https://t.me/c/2117114565/131",
+   "from": "Кинопространство mooon",
+   "note": "игра «выбери фильм из ряда»"
+  },
+  {
+   "src": "ig:33",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DRiz4Q6EdwL/",
+   "from": "Instagram: anime",
+   "note": "анимационный скетч"
+  },
+  {
+   "src": "ig:39",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DQWmyGvCGIW/",
+   "from": "Instagram: anime",
+   "note": "не про кино"
+  },
+  {
+   "src": "ig:59",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DNF3IPDMf-o/",
+   "from": "Instagram: anime",
+   "note": "нарезка сцен"
+  },
+  {
+   "src": "ig:118",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DCUMZZsR2_z/",
+   "from": "Instagram: anime",
+   "note": "про работу студий"
+  },
+  {
+   "src": "ig:213",
+   "date": null,
+   "url": "https://www.instagram.com/reel/DHbTGmNRwl9/",
+   "from": "Instagram: movies",
+   "note": "фанатский трейлер «Атлантиды»"
+  }
+ ]
+}
