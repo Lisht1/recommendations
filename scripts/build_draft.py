@@ -56,6 +56,14 @@ for line in (data / "manual_titles.txt").read_text(encoding="utf-8").splitlines(
 items = list(titles.values())
 # a post that later got a title (typed on the site) is no longer "unknown"
 known = {s["src"] for t in items for s in t["sources"]} | {s["src"] for s in skipped}
+REASONS = {"недоступно": "Instagram не отдаёт это видео — открой и впиши название сам",
+           "большое": "Видео слишком большое для автоматического разбора — открой и впиши название сам",
+           "без видео": "Видео недоступно — открой и впиши название сам",
+           "нет поста": "Пост не найден в канале"}
+tried = sources.get("video_tried", {})
+for u in unknown:
+    t = tried.get(u["src"])
+    u["reason"] = REASONS.get(t) or ("ИИ посмотрел видео, но названий не нашёл" if t else "Ждёт разбора ИИ — разбирается по 10 в день")
 unknown = [u for u in unknown if u["src"] not in known]
 (data / "draft.json").write_text(json.dumps({"titles": items, "unknown": unknown, "skipped": skipped},
                                             ensure_ascii=False, indent=1), encoding="utf-8")

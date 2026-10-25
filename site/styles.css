@@ -355,3 +355,27 @@ a { color: inherit; }
 .season-rate span { margin-right: 6px; }
 .links a.info { background: transparent; color: var(--muted); font-weight: 500; }
 .links a.info:hover { color: var(--text); }
+.unknown-reason { font-size: 12px; color: #e0a96d; margin-bottom: 10px; }
+.unknown-reason.wait { color: #8fb8e8; }
+
+/* phones */
+#filtersToggle { display: none; padding: 6px 12px; font-size: 13px; }
+.resultbar { align-items: center; }
+.modal { overflow-x: hidden; }
+.detail-main > div, .detail-head > div { min-width: 0; }
+.links { min-width: 0; }
+@media (hover: none) {
+  .quick { opacity: 1; }                 /* на телефоне кнопки ✓ / ✕ видны всегда */
+  .quick button { width: 38px; height: 38px; }
+}
+@media (max-width: 860px) {
+  #filtersToggle { display: inline-block; }
+  body.filters-open .filters { display: block; margin-bottom: 18px; padding: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+  .filters section { margin-bottom: 16px; }
+  .detail-head h2 { overflow-wrap: anywhere; }
+  .facts { font-size: 12px; }
+  .big-ratings .r b { font-size: 16px; }
+  .similar { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .unknown-list { grid-template-columns: 1fr; }
+  .topbar-right { width: 100%; justify-content: flex-end; }
+}

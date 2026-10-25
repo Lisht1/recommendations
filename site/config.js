@@ -7,6 +7,9 @@ window.CONFIG = {
   // Репозиторий на GitHub — для кнопки «Обновить»
   githubRepo: "Lisht1/recommendations",
 
+  // ?local=1 в адресе — тестовый режим: отметки только в этом браузере, общая база не трогается
+  localMode: new URLSearchParams(location.search).has("local"),
+
   categories: [
     { id: "all", label: "Все" },
     { id: "films", label: "Фильмы" },

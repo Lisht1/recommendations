@@ -81,7 +81,8 @@
   function sourceLine(t) {
     const names = [...new Set((t.sources || []).map(sourceName).filter(Boolean))];
     if (!names.length) return "";
-    return (names[0] === "Свои посты" ? "свой пост" : "от " + names[0]) + (names.length > 1 ? ` и ещё ${names.length - 1}` : "");
+    const first = names[0] === "Свои посты" ? "свой пост" : names[0] === "Добавлено на сайте" ? "добавлено на сайте" : "от " + names[0];
+    return first + (names.length > 1 ? ` и ещё ${names.length - 1}` : "");
   }
   function subline(t) {
     return [t.year, (t.type && t.type !== "?" ? t.type : TYPE_LABEL[t.media]), t.countries?.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
@@ -169,7 +170,13 @@
     </article>`;
   }
 
+  function activeFilters() {
+    return [f.onlySoon, f.onlyCheck, f.showRemoved, f.showWatched, f.minRating, f.yearFrom, f.yearTo].filter(Boolean).length
+      + f.providers.size + f.genres.size + f.sources.size + (f.sort !== "added" ? 1 : 0);
+  }
   function render() {
+    const n = activeFilters(), tg = document.getElementById("filtersToggle");
+    if (tg && !document.body.classList.contains("filters-open")) tg.textContent = n ? `Фильтры (${n})` : "Фильтры";
     renderTabs();
     if (f.cat === "suggest") return renderSuggestions();
     if (f.cat === "unknown") return renderUnknown();
@@ -599,6 +606,7 @@
     return fetch(GH() + path, { ...opts, headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", ...(opts.headers || {}) } });
   }
   async function refresh() {
+    if (C.localMode) return toast("В тестовом режиме обновление отключено");
     if (!S.remote || !C.githubRepo) return toast("Обновление заработает после публикации на GitHub");
     if (!requireLogin()) return;
     const token = await S.setting("github_token");
@@ -636,6 +644,7 @@
           <span class="muted small">${esc(u.via || (u.src.startsWith("ig:") ? "Instagram" : "Telegram"))}${u.date ? " · " + esc(u.date) : ""}</span></div>
         <a class="btn open-src" href="${esc(u.url)}" target="_blank" rel="noopener">${u.src.startsWith("ig:") ? "Открыть рилс ↗" : "Открыть пост ↗"}</a>
         ${u.note ? `<div class="unknown-note">${esc(u.note)}</div>` : ""}
+        ${u.reason ? `<div class="unknown-reason ${/Ждёт/.test(u.reason) ? "wait" : ""}">${esc(u.reason)}</div>` : ""}
         ${pending
           ? `<div class="pending">✓ «${esc(pending.replace(/\s*\[tmdb=[^\]]+\]/, ""))}» — появится после следующего обновления</div>`
           : `<form class="unknown-form"><input name="title" autocomplete="off" placeholder="Начни писать название…"><button class="btn">Сохранить</button>
@@ -843,6 +852,10 @@
       catch { $("#aiResult").textContent = text; toast("Не удалось скопировать — текст ниже"); }
     });
     $("#refresh").addEventListener("click", refresh);
+    $("#filtersToggle").addEventListener("click", () => {
+      const open = document.body.classList.toggle("filters-open");
+      $("#filtersToggle").textContent = open ? "Скрыть фильтры" : "Фильтры";
+    });
     document.addEventListener("keydown", (e) => {
       if (e.key === "/" && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") { e.preventDefault(); $("#q").focus(); }
     });

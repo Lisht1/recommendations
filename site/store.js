@@ -3,8 +3,8 @@
 // Если нет — всё живёт только в этом браузере (localStorage).
 window.Store = (() => {
   const C = window.CONFIG;
-  const LOCAL_KEY = "recs-state-v1";
-  const remote = !!(C.supabaseUrl && C.supabaseKey && window.supabase);
+  const LOCAL_KEY = C.localMode ? "recs-test-state" : "recs-state-v1";
+  const remote = !!(C.supabaseUrl && C.supabaseKey && window.supabase) && !C.localMode;
   const db = remote ? window.supabase.createClient(C.supabaseUrl, C.supabaseKey) : null;
 
   let user = null;
