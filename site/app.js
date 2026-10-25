@@ -7,7 +7,7 @@
   let items = [];
   const f = {
     cat: "all", q: "", sort: "added", showWatched: false, onlySoon: false, onlyCheck: false, showRemoved: false,
-    minRating: 0, yearFrom: null, yearTo: null, providers: new Set(), genres: new Set(),
+    minRating: 0, yearFrom: null, yearTo: null, providers: new Set(), genres: new Set(), sources: new Set(),
   };
 
   // ---------- helpers ----------
@@ -39,6 +39,18 @@
     if (!r.imdb && !r.kp && !r.shiki && r.tmdb) add("TMDB", r.tmdb, r.tmdb >= 7.5 ? "hi" : "");
     return out.join("");
   }
+  // кто порекомендовал: канал, автор рилса или свои посты
+  function sourceName(src) {
+    if (!src?.from) return null;
+    if (src.from.startsWith("Instagram")) return "Instagram";
+    if (src.from.startsWith("Может понравиться") || src.from === "Добавлено на сайте") return "Добавлено на сайте";
+    return src.from;
+  }
+  function sourceLine(t) {
+    const names = [...new Set((t.sources || []).map(sourceName).filter(Boolean))];
+    if (!names.length) return "";
+    return (names[0] === "Свои посты" ? "свой пост" : "от " + names[0]) + (names.length > 1 ? ` и ещё ${names.length - 1}` : "");
+  }
   function subline(t) {
     return [t.year, t.type || TYPE_LABEL[t.media], t.countries?.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
   }
@@ -63,6 +75,7 @@
     if (f.yearFrom && (!t.year || t.year < f.yearFrom)) return false;
     if (f.yearTo && (!t.year || t.year > f.yearTo)) return false;
     if (f.providers.size && ![...f.providers].some((p) => t.providers?.[p])) return false;
+    if (f.sources.size && !(t.sources || []).some((x) => f.sources.has(sourceName(x)))) return false;
     if (f.genres.size && ![...f.genres].every((g) => t.genres?.includes(g))) return false;
     if (f.q) {
       const hay = [t.title_ru, t.title_en, t.title_orig, t.type, ...(t.genres || []), ...(t.countries || []), ...(t.notes || [])]
@@ -103,6 +116,7 @@
     const badges = [
       t.soon && `<span class="badge soon">Скоро</span>`,
       needsCheck(t) && `<span class="badge check">Проверить</span>`,
+      st.dropped && `<span class="badge dropped">Брошено</span>`,
     ].filter(Boolean).join("");
     return `<article class="card ${st.watched ? "watched" : ""}" data-id="${esc(t.id)}">
       <div style="position:relative">${posterHtml(t)}
@@ -114,6 +128,7 @@
       </div>
       <div class="card-title">${esc(t.title_ru || t.title_en)}</div>
       <div class="card-sub">${esc(subline(t))}</div>
+      ${sourceLine(t) ? `<div class="card-from">${esc(sourceLine(t))}</div>` : ""}
       <div class="ratings">${ratingsHtml(t)}</div>
     </article>`;
   }
@@ -131,8 +146,9 @@
   }
 
   function renderFilters() {
-    const genres = {}, provs = {};
+    const genres = {}, provs = {}, srcs = {};
     items.forEach((t) => {
+      new Set((t.sources || []).map(sourceName).filter(Boolean)).forEach((n) => (srcs[n] = (srcs[n] || 0) + 1));
       (t.genres || []).forEach((g) => (genres[g] = (genres[g] || 0) + 1));
       Object.keys(t.providers || {}).forEach((p) => (provs[p] = (provs[p] || 0) + 1));
     });
@@ -141,6 +157,11 @@
     const p = Object.entries(provs).sort((a, b) => b[1] - a[1]).map(([n]) => chip("providers", n));
     $("#genreChips").innerHTML = g.join("") || `<span class="muted small">Появятся после подключения TMDB</span>`;
     $("#providerChips").innerHTML = p.join("") || `<span class="muted small">Появятся после подключения TMDB</span>`;
+    // частые источники отдельно, редкие авторы рилсов собираем в «Instagram: другие»
+    const srcList = Object.entries(srcs).sort((a, b) => b[1] - a[1]);
+    const shown = srcList.filter(([n, c]) => c >= 3 || f.sources.has(n)).slice(0, 14);
+    $("#sourceChips").innerHTML = shown.map(([n, c]) =>
+      `<button class="chip ${f.sources.has(n) ? "on" : ""}" data-kind="sources" data-v="${esc(n)}">${esc(n)} <span class="n">${c}</span></button>`).join("");
   }
 
   // ---------- suggestions ("может понравиться") ----------
@@ -149,7 +170,7 @@
     const pool = {};
     items.forEach((t) => {
       const st = S.get(t.id);
-      if (st.rating && st.rating < 6) return; // похожее на то, что не понравилось, не предлагаем
+      if ((st.rating && st.rating < 6) || st.dropped) return; // похожее на то, что не понравилось, не предлагаем
       const weight = st.rating ? st.rating / 5 : 1;
       (t.similar || []).forEach((s) => {
         if (have.has(s.id) || S.isHidden(s.id)) return;
@@ -213,10 +234,16 @@
     const facts = [t.year, t.type, t.countries?.join(", "), t.runtime && `${t.runtime} мин`, t.seasons && `${t.seasons} сез.`, t.genres?.join(", ")].filter(Boolean);
     const sources = (t.sources || []).map((s) =>
       `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.from)}</a>${s.date ? ` · ${esc(s.date)}` : ""}</li>`).join("");
-    const similar = (t.similar || []).slice(0, 8).map((s) => `
-      <div class="card" ${have.has(s.id) ? `data-id="${esc(s.id)}"` : ""}>${posterHtml(s)}
+    const similar = (t.similar || []).slice(0, 8).map((s) => have.has(s.id) ? `
+      <div class="card" data-id="${esc(s.id)}">${posterHtml(s)}
         <div class="card-title">${esc(s.title)}</div>
-        ${have.has(s.id) ? `<div class="in-list">уже в списке</div>` : `<div class="card-sub">${esc(s.year || "")}</div>`}
+        <div class="in-list">уже в списке</div>
+      </div>` : `
+      <div class="card sim-out">
+        <a href="https://www.themoviedb.org/${esc(s.id.replace("-", "/"))}" target="_blank" rel="noopener" title="Открыть на TMDB">${posterHtml(s)}</a>
+        <div class="card-title">${esc(s.title)}</div>
+        <div class="card-sub">${esc(s.year || "")}</div>
+        <button class="btn sim-add" data-sim-add="${esc(s.id)}">+ В список</button>
       </div>`).join("");
 
     $("#detail").innerHTML = `
@@ -253,7 +280,8 @@
         </div>
         <div>
           <div class="mine-box">
-            <button class="btn ${st.watched ? "on" : ""}" data-act="seen">${st.watched ? "✓ Посмотрели" : "Отметить просмотренным"}</button>
+            <button class="btn ${st.watched && !st.dropped ? "on" : ""}" data-act="seen">${st.watched && !st.dropped ? "✓ Посмотрели" : "Отметить просмотренным"}</button>
+            <button class="btn ghost ${st.dropped ? "on-dropped" : ""}" data-act="drop">${st.dropped ? "✗ Бросили" : "Бросили, не досмотрели"}</button>
             <div class="small muted" style="margin-bottom:6px">Ваша оценка</div>
             <div class="stars">${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => `<button class="${st.rating === n ? "on" : ""}" data-rate="${n}">${n}</button>`).join("")}</div>
             <textarea id="note" rows="3" placeholder="Заметка: что понравилось, с кем смотреть…">${esc(st.note || "")}</textarea>
@@ -288,7 +316,7 @@
   function buildPrompt(query, outside, asJson = false) {
     const line = (t) => `${t.title_ru}${t.title_en && t.title_en !== t.title_ru ? ` / ${t.title_en}` : ""}${t.year ? ` (${t.year})` : ""}`;
     const rated = items.filter((t) => S.get(t.id).watched || S.get(t.id).rating)
-      .map((t) => { const s = S.get(t.id); return `- ${line(t)}: ${s.rating ? s.rating + "/10" : "посмотрели, без оценки"}${s.note ? ` — «${s.note}»` : ""}`; });
+      .map((t) => { const s = S.get(t.id); return `- ${line(t)}: ${s.dropped ? "БРОСИЛИ, не смогли досмотреть" : s.rating ? s.rating + "/10" : "посмотрели, без оценки"}${s.note ? ` — «${s.note}»` : ""}`; });
     const todo = items.filter((t) => !S.get(t.id).watched).map((t) => `- ${line(t)} [${t.type || ""}]`);
     const { top, mix } = tasteSummary();
     return [
@@ -401,6 +429,7 @@
   // ---------- удаление ----------
   function removeItem(id) {
     const t = items.find((x) => x.id === id);
+    if (!confirm(`Удалить «${t?.title_ru || t?.title_en || "тайтл"}» из списка?\n\nЕго можно будет вернуть через фильтр «Удалённые».`)) return;
     S.hideSuggestion(id);
     if ($("#detail").open && $("#detail").dataset.id === id) $("#detail").close();
     render();
@@ -413,10 +442,20 @@
   }
 
   // ---------- оценка после просмотра ----------
+  function markDropped(id) {
+    const now = !S.get(id).dropped;
+    S.setDropped(id, now);
+    if (!now) S.setWatched(id, false);
+    if ($("#rate").open) $("#rate").close();
+    render(); if ($("#detail").open) openDetail(id);
+    toast(now ? "Отмечено как брошенное — похожее больше не будем предлагать" : "Вернули в список");
+  }
   function markWatched(id) {
-    const now = !S.get(id).watched;
+    const now = !S.get(id).watched || S.get(id).dropped;
     S.setWatched(id, now);
     if (!now) { toast("Вернули в список"); return; }
+    if (S.get(id).dropped) S.setDropped(id, false);
+    if (S.get(id).rating) { toast(`Отмечено как просмотренное (оценка ${S.get(id).rating})`); return; }
     const t = items.find((x) => x.id === id);
     $("#rateTitle").textContent = `Как вам «${t?.title_ru || t?.title_en || ""}»?`;
     $("#rateStars").innerHTML = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) =>
@@ -522,7 +561,7 @@
     });
     $("#resetFilters").addEventListener("click", () => {
       Object.assign(f, { showWatched: false, onlySoon: false, onlyCheck: false, showRemoved: false, minRating: 0, yearFrom: null, yearTo: null });
-      f.providers.clear(); f.genres.clear();
+      f.providers.clear(); f.genres.clear(); f.sources.clear();
       for (const id of ["showWatched", "onlySoon", "onlyCheck", "showRemoved"]) $("#" + id).checked = false;
       $("#minRating").value = 0; $("#minRatingVal").textContent = "любой"; $("#yearFrom").value = ""; $("#yearTo").value = "";
       renderFilters(); render();
@@ -556,6 +595,16 @@
       if (e.target.closest("[data-act=seen]")) { if (!requireLogin()) return; markWatched(id); openDetail(id); render(); return; }
       if (e.target.closest("[data-act=remove]")) { if (requireLogin()) removeItem(id); return; }
       if (e.target.closest("[data-act=restore]")) { if (requireLogin()) restoreItem(id); return; }
+      if (e.target.closest("[data-act=drop]")) { if (requireLogin()) markDropped(id); return; }
+      const simAdd = e.target.closest("[data-sim-add]");
+      if (simAdd) {
+        if (!requireLogin()) return;
+        const t = items.find((x) => x.id === id), s = (t.similar || []).find((x) => x.id === simAdd.dataset.simAdd);
+        S.addSuggestion({ ...s, because: [t.title_ru || t.title_en] });
+        loadAdded(); render(); openDetail(id);
+        toast(`«${s.title}» добавлен в список — подробности подтянутся при обновлении`);
+        return;
+      }
       if (e.target.closest("[data-act=confirm]")) { if (!requireLogin()) return; S.setChecked(id); openDetail(id); render(); toast("Отметили как проверенное"); return; }
       const rate = e.target.closest("[data-rate]");
       if (rate) { if (!requireLogin()) return; const n = +rate.dataset.rate; S.setRating(id, S.get(id).rating === n ? null : n); openDetail(id); render(); return; }
@@ -615,6 +664,7 @@
         toast(`Оценка ${b.dataset.rate} сохранена`);
         return;
       }
+      if (e.target.closest("[data-drop]")) { markDropped(id); return; }
       if (e.target.closest("[data-skip]") || e.target === $("#rate")) {
         const note = $("#rateNote").value.trim(); if (note) S.setNote(id, note);
         $("#rate").close(); render(); toast("Отмечено как просмотренное");

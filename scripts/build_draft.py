@@ -21,8 +21,10 @@ def source_info(src):
     if kind == "tg":
         post = tg.get(num, {})
         return {"src": src, "date": post.get("date"), "url": f"https://t.me/c/{CHANNEL_ID}/{num}",
-                "from": post.get("from") or "свой пост"}
+                "from": post.get("from") or "Свои посты", "via": "Telegram"}
     item = ig[int(num)]
+    if item.get("author"):
+        return {"src": src, "date": None, "url": item["url"], "from": "@" + item["author"], "via": "Instagram"}
     return {"src": src, "date": None, "url": item["url"], "from": "Instagram: " + item["collection"]}
 
 titles, unknown, skipped = {}, [], []

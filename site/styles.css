@@ -302,3 +302,11 @@ a { color: inherit; }
 .suggest-item:hover { border-color: var(--accent); }
 .suggest-item img, .suggest-item .noimg { width: 30px; height: 45px; object-fit: cover; border-radius: 4px; background: var(--panel-2); flex: none; }
 .picked { color: var(--good); padding: 4px 2px; }
+
+/* source line, dropped, similar add */
+.card-from { color: var(--muted); font-size: 11px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chip .n { opacity: .6; margin-left: 2px; }
+.badge.dropped { background: #3a1717; color: var(--danger); }
+.mine-box .btn.on-dropped { background: #3a1717; color: var(--danger); border-color: #6b2a2a; font-weight: 700; }
+.sim-out a { display: block; }
+.sim-add { width: 100%; margin-top: 6px; padding: 4px 6px; font-size: 11px; }

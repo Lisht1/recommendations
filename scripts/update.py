@@ -85,6 +85,17 @@ async def fetch_posts(last_id):
     return posts
 
 
+def instagram_author(url):
+    """Reel/post author from the public page preview, e.g. 'kinop_es'."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        page = urllib.request.urlopen(req, timeout=20, context=SSL).read().decode("utf-8", "replace")
+        m = re.search(r'og:description" content="[^"]*? - ([\w.]+) on ', page) or re.search(r'og:title" content="([\w.]+) on Instagram', page)
+        return m.group(1) if m else None
+    except Exception:
+        return None
+
+
 # ---------- 2. working out titles ----------
 
 PROMPT = """Ты помогаешь вести каталог рекомендаций фильмов, сериалов и аниме.
@@ -288,6 +299,11 @@ def main():
         posts = asyncio.run(fetch_posts(sources["last_tg_id"]))
         print(f"Новых постов в канале: {len(posts)}")
         for p in posts:
+            if not p["from"]:
+                ig = next((l for l in p["links"] if "instagram.com/" in l), None)
+                author = instagram_author(ig) if ig else None
+                if author:
+                    p["from"] = "@" + author
             sources["telegram"][str(p["id"])] = {"date": p["date"], "from": p["from"]}
             try:
                 titles = ask_gemini(p) if env.get("GEMINI_KEY") else guess_without_ai(p)

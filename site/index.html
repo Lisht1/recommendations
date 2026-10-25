@@ -62,6 +62,10 @@
         <div class="chips" id="providerChips"></div>
       </section>
       <section>
+        <h3>Откуда</h3>
+        <div class="chips" id="sourceChips"></div>
+      </section>
+      <section>
         <h3>Жанры</h3>
         <div class="chips" id="genreChips"></div>
       </section>
@@ -122,7 +126,10 @@
       <h2 id="rateTitle">Как вам?</h2>
       <div class="stars big" id="rateStars"></div>
       <textarea id="rateNote" rows="2" placeholder="Пара слов на память (необязательно)"></textarea>
-      <button class="btn ghost wide" data-skip style="margin-top:10px">Без оценки</button>
+      <div class="row gap" style="margin-top:10px">
+        <button class="btn ghost" data-skip style="flex:1">Без оценки</button>
+        <button class="btn ghost danger" data-drop style="flex:1">Бросили, не досмотрели</button>
+      </div>
     </div>
   </dialog>
 

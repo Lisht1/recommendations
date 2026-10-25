@@ -10,6 +10,7 @@ create table if not exists marks (
   rating      smallint check (rating between 1 and 10),
   note        text,
   checked     boolean not null default false,   -- «Всё верно» для угаданных тайтлов
+  dropped     boolean not null default false,   -- «Бросили, не досмотрели»
   updated_at  timestamptz not null default now(),
   updated_by  uuid default auth.uid()
 );
@@ -40,6 +41,7 @@ create table if not exists settings (
 );
 
 alter table marks add column if not exists checked boolean not null default false;
+alter table marks add column if not exists dropped boolean not null default false;  -- «Бросили, не досмотрели»
 
 alter table marks         enable row level security;
 alter table suggestions   enable row level security;
