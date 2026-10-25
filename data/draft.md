@@ -43,7 +43,7 @@
 | Крушение мира (2025) | [ig:216](https://www.instagram.com/reel/DGLpBZjiKDh/) |  |
 | Бесконечность / Infinite (2021) | [ig:218](https://www.instagram.com/reel/DF2HOipMMW1/) |  |
 | Мы или они (2023) | [ig:220](https://www.instagram.com/reel/DEVEJnAokWd/) |  |
-| The Rings of Power - Season 3 Official Trailer / Prime Video | [tg:182](https://t.me/c/2117114565/182) |  |
+| The Rings of Power | [tg:182](https://t.me/c/2117114565/182) |  |
 | NARNIA: THE MAGICIAN’S NEPHEW | [tg:184](https://t.me/c/2117114565/184) |  |
 
 ## Фильм (97)
