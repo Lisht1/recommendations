@@ -57,9 +57,35 @@ def download(url, name):
     return out
 
 
+def analyse_carousel(url, caption, author):
+    """Photo carousel: send all pictures to the cloud function in one request."""
+    import base64, yt_dlp
+    with yt_dlp.YoutubeDL({"quiet": True, "no_warnings": True, "ignore_no_formats_error": True}) as y:
+        info = y.extract_info(url, download=False)
+    images = []
+    for entry in (info.get("entries") or [info])[:10]:
+        thumbs = entry.get("thumbnails") or []
+        link = thumbs[-1]["url"] if thumbs else entry.get("thumbnail")
+        if link:
+            req = urllib.request.Request(link, headers={"User-Agent": "Mozilla/5.0"})
+            images.append(base64.b64encode(urllib.request.urlopen(req, timeout=30, context=SSL).read()).decode())
+    if not images:
+        raise RuntimeError("в посте нет ни видео, ни картинок")
+    st, res = request(f"{URL}/functions/v1/recommend", {"images": images, "caption": caption, "author": author},
+                      "POST", {"x-admin-key": ADMIN}, timeout=300)
+    if st >= 300:
+        raise RuntimeError(res.get("error") if isinstance(res, dict) else res)
+    return res["result"]
+
+
 def analyse(src, url, caption, author):
     name = src.replace(":", "_")
-    path = download(url, name)
+    try:
+        path = download(url, name)
+    except Exception as e:
+        if "No video formats" in str(e) and "/p/" in url:
+            return analyse_carousel(url, caption, author)
+        raise
     size = path.stat().st_size
     if size > 15_000_000:
         path.unlink()

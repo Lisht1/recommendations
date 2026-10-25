@@ -301,7 +301,9 @@
    "type": "Аниме",
    "confidence": "check",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из карусели"
+   ],
    "sources": [
     {
      "src": "tg:2",
@@ -309,6 +311,13 @@
      "url": "https://t.me/c/2117114565/2",
      "from": "Свои посты",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
     }
    ]
   },
@@ -4291,6 +4300,167 @@
    ]
   },
   {
+   "title_ru": "Легенда о Хэй 2",
+   "title_orig": "The Legend of Hei 2",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:9",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DRKEM1NgHSC/",
+     "from": "@aniplex_jp",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:61",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DK-gF_opDTF/",
+     "from": "@catsuka",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:63",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLhKIF5JR-K/",
+     "from": "@catsuka",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Школа искусств 1994",
+   "title_orig": "Art College 1994",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Большая рыба и бегония",
+   "title_orig": "Big Fish & Begonia",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дахуфа",
+   "title_orig": "Da Hu Fa",
+   "year": 2017,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Танец льва",
+   "title_orig": "I Am What I Am",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Цзян Цзыя: Легенда об обожествлении",
+   "title_orig": "Jiang Ziya",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Маленькие демоны путешествуют на запад",
+   "title_orig": "Nobody",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:6",
+     "date": null,
+     "url": "https://www.instagram.com/p/DZR29JdDD7r/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Кибервиток",
    "title_orig": "Dennou Coil",
    "year": 2007,
@@ -4378,7 +4548,8 @@
    "confidence": "high",
    "kp_id": null,
    "notes": [
-    "из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров."
+    "из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров.",
+    "из карусели"
    ],
    "sources": [
     {
@@ -4386,6 +4557,13 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DZO47UsqHFm/",
      "from": "@alexbessonovvv",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:79",
+     "date": null,
+     "url": "https://www.instagram.com/p/DKFOMugSbee/",
+     "from": "@shonen.annime",
      "via": "Instagram"
     }
    ]
@@ -4426,38 +4604,6 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DZO47UsqHFm/",
      "from": "@alexbessonovvv",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Легенда о Хэй 2",
-   "title_orig": "The Legend of Hei 2",
-   "year": 2025,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [],
-   "sources": [
-    {
-     "src": "ig:9",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DRKEM1NgHSC/",
-     "from": "@aniplex_jp",
-     "via": "Instagram"
-    },
-    {
-     "src": "ig:61",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DK-gF_opDTF/",
-     "from": "@catsuka",
-     "via": "Instagram"
-    },
-    {
-     "src": "ig:63",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DLhKIF5JR-K/",
-     "from": "@catsuka",
      "via": "Instagram"
     }
    ]
@@ -5166,6 +5312,166 @@
    ]
   },
   {
+   "title_ru": "Дорохэдоро",
+   "title_orig": "Dorohedoro",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Подземелье вкусностей",
+   "title_orig": "Delicious in Dungeon",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Басня",
+   "title_orig": "The Fable",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "О движении Земли",
+   "title_orig": "Orb: On the Movements of the Earth",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Иллюзия рая",
+   "title_orig": "Heavenly Delusion",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Руки прочь от кинокружка!",
+   "title_orig": "Keep Your Hands Off Eizouken!",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Долой безделье",
+   "title_orig": "Skip and Loafer",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Клеватесс",
+   "title_orig": "Clevatess",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Игра друзей",
    "title_orig": "Tomodachi Game",
    "year": 2022,
@@ -5662,6 +5968,46 @@
    ]
   },
   {
+   "title_ru": "Врата Штейна",
+   "title_orig": "Steins;Gate",
+   "year": 2011,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:79",
+     "date": null,
+     "url": "https://www.instagram.com/p/DKFOMugSbee/",
+     "from": "@shonen.annime",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Белый лев Кимба",
+   "title_orig": "Kimba the White Lion",
+   "year": 1965,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:79",
+     "date": null,
+     "url": "https://www.instagram.com/p/DKFOMugSbee/",
+     "from": "@shonen.annime",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Восход луны",
    "title_orig": "Moonrise",
    "year": 2025,
@@ -5918,6 +6264,326 @@
    ]
   },
   {
+   "title_ru": "Амбиции Оды Нобуны",
+   "title_orig": "The Ambition of Oda Nobuna",
+   "year": 2012,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Нежить-девушка и убийственный фарс",
+   "title_orig": "Undead Girl Murder Farce",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гробовщица Чайка",
+   "title_orig": "Chaika: The Coffin Princess",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гримгар пепла и иллюзий",
+   "title_orig": "Grimgar of Fantasy and Ash",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Лорд-стрелок и Ванадис",
+   "title_orig": "Lord Marksman and Vanadis",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Великий целитель",
+   "title_orig": "The Great Cleric",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Одинокий среди людей",
+   "title_orig": "Hitori no Shita: The Outcast",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бог старшей школы",
+   "title_orig": "The God of High School",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Корона вины",
+   "title_orig": "Guilty Crown",
+   "year": 2011,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Интервью с монстрами",
+   "title_orig": "Interviews with Monster Girls",
+   "year": 2017,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Добро пожаловать в школу демонов, Ирума-кун",
+   "title_orig": "Welcome to Demon School! Iruma-kun",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хельк",
+   "title_orig": "Helck",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Страна чудес смертников",
+   "title_orig": "Deadman Wonderland",
+   "year": 2011,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Странствующая ведьма: Путешествие Элейны",
+   "title_orig": "Wandering Witch: The Journey of Elaina",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Учитель в школе гулей",
+   "title_orig": "A Terrified Teacher at Ghoul School!",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тёмный дворецкий",
+   "title_orig": "Black Butler",
+   "year": 2008,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:111",
+     "date": null,
+     "url": "https://www.instagram.com/p/DESpFyEyMHK/",
+     "from": "@anifixtube",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Мой уникальный навык делает меня сильным даже на 1 уровне",
    "title_orig": "My Unique Skill Makes Me OP Even at Level 1",
    "year": 2023,
@@ -5932,6 +6598,120 @@
      "url": "https://www.instagram.com/reel/DEu-RLFphD-/",
      "from": "@animeeworld_x",
      "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "100 девушек, которые очень-очень-очень любят тебя",
+   "title_orig": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:115",
+     "date": null,
+     "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Золотой Вермеил",
+   "title_orig": "Vermeil in Gold",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:115",
+     "date": null,
+     "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тюремная школа",
+   "title_orig": "Prison School",
+   "year": 2015,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:115",
+     "date": null,
+     "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Старшая школа DxD",
+   "title_orig": "High School DxD",
+   "year": 2012,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:115",
+     "date": null,
+     "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сэкирэй",
+   "title_orig": "Sekirei",
+   "year": 2010,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:115",
+     "date": null,
+     "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Завет нового короля демонов",
+   "title_orig": "The Testament of Sister New Devil",
+   "year": 2015,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:115",
+     "date": null,
+     "url": "https://www.instagram.com/p/DEngZCvzdsc/",
+     "from": "Instagram: anime"
     }
    ]
   },
@@ -5992,6 +6772,206 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
      "from": "@lnhistorian",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "91 день",
+   "title_orig": "91 Days",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бармен: Бокал божества",
+   "title_orig": "Bartender: Glass of God",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "За гранью",
+   "title_orig": "Beyond the Boundary",
+   "year": 2013,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сёсимин",
+   "title_orig": "Shoshimin: How to Become Ordinary",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Голубой период",
+   "title_orig": "Blue Period",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Баракамон",
+   "title_orig": "Barakamon",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Золотое время",
+   "title_orig": "Golden Time",
+   "year": 2013,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Слишком много проигравших героинь!",
+   "title_orig": "Too Many Losing Heroines!",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бессонница после школы",
+   "title_orig": "Insomniacs After School",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Последний серафим",
+   "title_orig": "Seraph of the End",
+   "year": 2015,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:122",
+     "date": null,
+     "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
+     "from": "@animeinsider.insta",
      "via": "Instagram"
     }
    ]
@@ -6355,6 +7335,186 @@
    ]
   },
   {
+   "title_ru": "Рэй Ганн",
+   "title_orig": "Ray Gunn",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "История игрушек 5",
+   "title_orig": "Toy Story 5",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Сирануи",
+   "title_orig": "Shiranui",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бэтмен: Падение рыцаря",
+   "title_orig": "Batman: Knightfall",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "И наступит рассвет",
+   "title_orig": "Hanarokushou ga Akeru Hi ni",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "В чужой шкуре",
+   "title_orig": "Swapped",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Остров забвения",
+   "title_orig": "Forgotten Island",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мы пришельцы",
+   "title_orig": "Wareware wa Uchuujin",
+   "year": 2026,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Чарли против шоколадной фабрики",
+   "title_orig": "Charlie vs. the Chocolate Factory",
+   "year": 2026,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:148",
+     "date": null,
+     "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
+     "from": "@callmekhamza",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Суд присяжных",
    "title_orig": "Jury Duty",
    "year": 2023,
@@ -6532,6 +7692,86 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DVoO77KCsI1/",
      "from": "@kino____doma",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Будьте умнее с деньгами",
+   "title_orig": "Get Smart With Money",
+   "year": 2022,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:162",
+     "date": null,
+     "url": "https://www.instagram.com/p/DVQfeObjffe/",
+     "from": "@boshnikov",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ешь богатых: Сага о GameStop",
+   "title_orig": "Eat the Rich: The GameStop Saga",
+   "year": 2022,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:162",
+     "date": null,
+     "url": "https://www.instagram.com/p/DVQfeObjffe/",
+     "from": "@boshnikov",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Миллиардер под прикрытием",
+   "title_orig": "Undercover Billionaire",
+   "year": 2019,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:162",
+     "date": null,
+     "url": "https://www.instagram.com/p/DVQfeObjffe/",
+     "from": "@boshnikov",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Инсайдеры",
+   "title_orig": "Inside Job",
+   "year": 2010,
+   "type": "Документальное",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:162",
+     "date": null,
+     "url": "https://www.instagram.com/p/DVQfeObjffe/",
+     "from": "@boshnikov",
      "via": "Instagram"
     }
    ]
@@ -6832,6 +8072,46 @@
    ]
   },
   {
+   "title_ru": "Волан-де-Морт: Корни наследника",
+   "title_orig": "Voldemort: Origins of the Heir",
+   "year": 2018,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:178",
+     "date": null,
+     "url": "https://www.instagram.com/p/DRsjB_mCqbV/",
+     "from": "@juliakrausme",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Северус Снегг и Мародёры",
+   "title_orig": "Severus Snape and the Marauders",
+   "year": 2016,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:178",
+     "date": null,
+     "url": "https://www.instagram.com/p/DRsjB_mCqbV/",
+     "from": "@juliakrausme",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Затура: Космическое приключение",
    "title_orig": "Zathura: A Space Adventure",
    "year": 2005,
@@ -7032,6 +8312,101 @@
      "url": "https://www.instagram.com/reel/DLafH6_OsIP/",
      "from": "@kinoradarofficial",
      "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Луис и пришельцы",
+   "title_orig": "Luis and the Aliens",
+   "year": 2018,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:197",
+     "date": null,
+     "url": "https://www.instagram.com/p/DLEh5zcKa93/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мечты робота",
+   "title_orig": "Robot Dreams",
+   "year": 2023,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:197",
+     "date": null,
+     "url": "https://www.instagram.com/p/DLEh5zcKa93/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Клаус",
+   "title_orig": "Klaus",
+   "year": 2019,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:197",
+     "date": null,
+     "url": "https://www.instagram.com/p/DLEh5zcKa93/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Они сбежали",
+   "title_orig": "Away",
+   "year": 2019,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:197",
+     "date": null,
+     "url": "https://www.instagram.com/p/DLEh5zcKa93/",
+     "from": "Instagram: movies"
+    }
+   ]
+  },
+  {
+   "title_ru": "Пёс-самурай и город кошек",
+   "title_orig": "Paws of Fury: The Legend of Hank",
+   "year": 2022,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "ig:197",
+     "date": null,
+     "url": "https://www.instagram.com/p/DLEh5zcKa93/",
+     "from": "Instagram: movies"
     }
    ]
   },
@@ -7336,15 +8711,6 @@
    "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
-   "src": "ig:6",
-   "date": null,
-   "url": "https://www.instagram.com/p/DZR29JdDD7r/",
-   "from": "@callmekhamza",
-   "via": "Instagram",
-   "note": "подборка китайских мультфильмов",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
    "src": "ig:8",
    "date": null,
    "url": "https://www.instagram.com/reel/DYKgeBzsexV/",
@@ -7379,15 +8745,6 @@
    "via": "Instagram",
    "note": "семейный мультфильм про развод",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:45",
-   "date": null,
-   "url": "https://www.instagram.com/p/DO8xId-goKA/",
-   "from": "@melomankaz",
-   "via": "Instagram",
-   "note": "подборка недооценённых аниме 2020-х",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
    "src": "ig:57",
@@ -7442,24 +8799,6 @@
    "via": "Instagram",
    "note": "название в тг-канале автора",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:79",
-   "date": null,
-   "url": "https://www.instagram.com/p/DKFOMugSbee/",
-   "from": "@shonen.annime",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
-   "src": "ig:80",
-   "date": null,
-   "url": "https://www.instagram.com/p/DKg3eXhOf9m/",
-   "from": "@animaxtube",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
    "src": "ig:82",
@@ -7587,15 +8926,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:111",
-   "date": null,
-   "url": "https://www.instagram.com/p/DESpFyEyMHK/",
-   "from": "@anifixtube",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
    "src": "ig:112",
    "date": null,
    "url": "https://www.instagram.com/reel/DAsH62hInRa/",
@@ -7612,14 +8942,6 @@
    "via": "Instagram",
    "note": "",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:115",
-   "date": null,
-   "url": "https://www.instagram.com/p/DEngZCvzdsc/",
-   "from": "Instagram: anime",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
    "src": "ig:116",
@@ -7647,15 +8969,6 @@
    "via": "Instagram",
    "note": "лучшие аниме 2024",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:122",
-   "date": null,
-   "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
-   "from": "@animeinsider.insta",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
    "src": "ig:123",
@@ -7721,15 +9034,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:148",
-   "date": null,
-   "url": "https://www.instagram.com/p/DXY2ozrDFTl/",
-   "from": "@callmekhamza",
-   "via": "Instagram",
-   "note": "подборка будущих мультфильмов",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
    "src": "ig:160",
    "date": null,
    "url": "https://www.instagram.com/reel/DSSx5zxjN1f/",
@@ -7737,15 +9041,6 @@
    "via": "Instagram",
    "note": "видео про Уэса Андерсона",
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
-  },
-  {
-   "src": "ig:162",
-   "date": null,
-   "url": "https://www.instagram.com/p/DVQfeObjffe/",
-   "from": "@boshnikov",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
    "src": "ig:169",
@@ -7775,15 +9070,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:178",
-   "date": null,
-   "url": "https://www.instagram.com/p/DRsjB_mCqbV/",
-   "from": "@juliakrausme",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
    "src": "ig:182",
    "date": null,
    "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
@@ -7807,14 +9093,6 @@
    "url": "https://www.instagram.com/reel/DPAFPemjDuj/",
    "from": "Instagram: movies",
    "note": "постапокалипсис + политический триллер",
-   "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
-   "src": "ig:197",
-   "date": null,
-   "url": "https://www.instagram.com/p/DLEh5zcKa93/",
-   "from": "Instagram: movies",
-   "note": "мультфильмы",
    "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
@@ -7984,6 +9262,14 @@
    "url": "https://www.instagram.com/reel/DNF3IPDMf-o/",
    "from": "Instagram: anime",
    "note": "нарезка сцен"
+  },
+  {
+   "src": "ig:80",
+   "date": null,
+   "url": "https://www.instagram.com/p/DKg3eXhOf9m/",
+   "from": "@animaxtube",
+   "via": "Instagram",
+   "note": "подборка манхв (комиксы, не кино)"
   },
   {
    "src": "ig:118",

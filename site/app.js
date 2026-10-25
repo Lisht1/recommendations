@@ -645,10 +645,10 @@
         <a class="btn open-src" href="${esc(u.url)}" target="_blank" rel="noopener">${u.src.startsWith("ig:") ? "Открыть рилс ↗" : "Открыть пост ↗"}</a>
         ${u.note ? `<div class="unknown-note">${esc(u.note)}</div>` : ""}
         ${u.reason ? `<div class="unknown-reason ${/Ждёт/.test(u.reason) ? "wait" : ""}">${esc(u.reason)}</div>` : ""}
-        ${pending
-          ? `<div class="pending">✓ «${esc(pending.replace(/\s*\[tmdb=[^\]]+\]/, ""))}» — появится после следующего обновления</div>`
-          : `<form class="unknown-form"><input name="title" autocomplete="off" placeholder="Начни писать название…"><button class="btn">Сохранить</button>
-              <button type="button" class="btn ghost" data-act="skip" title="Пост не про кино — убрать навсегда">Не про кино</button></form>`}
+        ${S.pendingTitles(u.src).length ? `<div class="pending">${S.pendingTitles(u.src).map((x) => `✓ ${esc(x.replace(/\s*\[tmdb=[^\]]+\]/, ""))}`).join("<br>")}
+          <div class="muted small">появится после следующего обновления</div></div>` : ""}
+        <form class="unknown-form"><input name="title" autocomplete="off" placeholder="${pending ? "Добавить ещё одно название…" : "Начни писать название…"}"><button class="btn">${pending ? "Добавить" : "Сохранить"}</button>
+          ${pending ? "" : `<button type="button" class="btn ghost" data-act="skip" title="Пост не про кино — убрать навсегда">Не про кино</button>`}</form>
       </div>`;
     }).join("")}</div>`;
     $("#empty").hidden = list.length > 0;
@@ -753,7 +753,8 @@
       const box = e.target.closest("[data-src]"), title = typedTitle(e.target.title);
       if (!title || !requireLogin()) return;
       await S.addTitle(box.dataset.src, title);
-      render(); toast("Сохранено — подтянется при следующем обновлении");
+      render(); toast("Сохранено — подтянется при следующем обновлении. Можно добавить ещё");
+      $(`.unknown[data-src="${box.dataset.src}"] input[name=title]`)?.focus();
     });
 
     $("#account").addEventListener("click", async () => {

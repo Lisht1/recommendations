@@ -145,6 +145,14 @@ Deno.serve(async (req) => {
     const body = await req.json();
 
     // Разбор видео — только для скрипта с компьютера (по служебному ключу)
+    if (Array.isArray(body.images)) {
+      if (!admin) return reply({ error: "Только для служебного скрипта" }, 403);
+      const parts = body.images.slice(0, 10).map((b64: string) => ({ inline_data: { mime_type: "image/jpeg", data: b64 } }));
+      const prompt = `${VIDEO_PROMPT.replace("Посмотри видео целиком и послушай звук", "Это карусель из нескольких картинок — прочитай каждую")}\n\nАвтор: ${body.author || "неизвестен"}\nПодпись к посту:\n${body.caption || "(нет)"}`;
+      const data = await gemini(prompt, parts);
+      const text = (data?.candidates?.[0]?.content?.parts ?? []).map((p: { text?: string }) => p.text ?? "").join("");
+      return reply({ result: JSON.parse(text) });
+    }
     if (typeof body.video_url === "string") {
       if (!admin) return reply({ error: "Только для служебного скрипта" }, 403);
       return reply({ result: await analyzeVideo(body.video_url, body.caption ?? "", body.author ?? "") });

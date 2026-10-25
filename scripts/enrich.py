@@ -345,10 +345,13 @@ def enrich(d):
         e["ratings"]["tmdb"] = round(info["vote_average"], 1)
 
     if OMDB and e["imdb_id"]:
-        om = None if STATE["omdb_http"] else fetch(f"https://www.omdbapi.com/?i={e['imdb_id']}&apikey={OMDB}")
-        if om is None:  # on some PCs Python's certificates are outdated; OMDb also works over http
-            STATE["omdb_http"] = True
-            om = fetch(f"http://www.omdbapi.com/?i={e['imdb_id']}&apikey={OMDB}")
+        try:
+            om = None if STATE["omdb_http"] else fetch(f"https://www.omdbapi.com/?i={e['imdb_id']}&apikey={OMDB}")
+            if om is None:  # on some PCs Python's certificates are outdated; OMDb also works over http
+                STATE["omdb_http"] = True
+                om = fetch(f"http://www.omdbapi.com/?i={e['imdb_id']}&apikey={OMDB}")
+        except urllib.error.HTTPError:
+            om = None  # daily limit reached — IMDb ratings will be filled on a later run
         om = om or {}
         if om.get("imdbRating", "N/A") != "N/A":
             e["ratings"]["imdb"] = float(om["imdbRating"])

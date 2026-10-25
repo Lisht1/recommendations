@@ -157,6 +157,9 @@ def ask_gemini(post):
     parts = [{"text": prompt}]
     if post.get("video"):
         parts.append({"inline_data": {"mime_type": "video/mp4", "data": base64.b64encode(post["video"]).decode()}})
+    elif post.get("images"):
+        parts[0]["text"] += "\n\nК посту приложены все картинки карусели — прочитай названия на каждой (постеры, подписи, списки)."
+        parts += [{"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(img).decode()}} for img in post["images"]]
     elif post["image"]:
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(post["image"]).decode()}})
     body = {"contents": [{"parts": parts}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
@@ -357,6 +360,28 @@ def download_video(url):
         print(f"    не удалось скачать видео: {str(e)[:120]}")
         return None
 
+def download_carousel(url, limit=10):
+    """All photos of an Instagram carousel post (yt-dlp can list them without logging in)."""
+    try:
+        import yt_dlp
+        with yt_dlp.YoutubeDL({"quiet": True, "no_warnings": True, "ignore_no_formats_error": True}) as y:
+            info = y.extract_info(url, download=False)
+    except Exception as e:
+        print(f"    не удалось получить карусель: {str(e)[:100]}")
+        return []
+    images = []
+    for entry in (info.get("entries") or [info])[:limit]:
+        thumbs = entry.get("thumbnails") or []
+        link = thumbs[-1]["url"] if thumbs else entry.get("thumbnail")
+        if not link:
+            continue
+        try:
+            req = urllib.request.Request(link, headers={"User-Agent": "Mozilla/5.0"})
+            images.append(urllib.request.urlopen(req, timeout=30, context=SSL).read())
+        except Exception:
+            pass
+    return images
+
 def replace_unknown(src, new_lines):
     lines = MANUAL.read_text(encoding="utf-8").splitlines()
     out, done = [], False
@@ -400,9 +425,13 @@ def retry_unknown(sources):
             post = {"id": num, "text": meta.get("caption", ""), "links": [u["url"]], "from": "@" + meta["author"] if meta.get("author") else None,
                     "image": None, "comments": [], "video": download_video(u["url"])}
         if not post.get("video"):
-            tried[u["src"]] = "без видео"
-            print(f"  {u['src']}: видео недоступно")
-            continue
+            url = u["url"] if kind == "ig" else next((l for l in post["links"] if "instagram.com/p/" in l), None)
+            post["images"] = download_carousel(url) if url and "instagram.com/p/" in url else []
+            if not post["images"]:
+                tried[u["src"]] = "без видео"
+                print(f"  {u['src']}: видео недоступно")
+                continue
+            print(f"  {u['src']}: карусель из {len(post['images'])} картинок")
         try:
             import time; time.sleep(6)
             titles = [t for t in ask_gemini(post) if t.get("title_ru") or t.get("title_orig")]

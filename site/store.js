@@ -10,7 +10,7 @@ window.Store = (() => {
   let user = null;
   let marks = {};            // item_id -> {watched, rating, note, ...}
   let suggestions = {};      // id -> {status, data}
-  let pendingTitles = {};    // src -> title (вписано, ждёт обновления)
+  let pendingTitles = {};    // src -> [названия] (вписано, ждёт обновления)
   const listeners = new Set();
   const emit = () => listeners.forEach((fn) => fn());
 
@@ -21,7 +21,7 @@ window.Store = (() => {
       marks = s.items || {};
       (s.hiddenSuggestions || []).forEach((id) => (suggestions[id] = { status: "hidden", data: (s.hiddenData || {})[id] || null }));
       (s.added || []).forEach((a) => (suggestions[a.id] = { status: "added", data: a }));
-      pendingTitles = s.pendingTitles || {};
+      pendingTitles = Object.fromEntries(Object.entries(s.pendingTitles || {}).map(([k, v]) => [k, [].concat(v)]));
     } catch (e) { /* хранилище недоступно */ }
   }
   function saveLocal() {
@@ -46,7 +46,8 @@ window.Store = (() => {
     ]);
     marks = Object.fromEntries((m.data || []).map((r) => [r.item_id, r]));
     suggestions = Object.fromEntries((s.data || []).map((r) => [r.id, r]));
-    pendingTitles = Object.fromEntries((t.data || []).map((r) => [r.src, r.title]));
+    pendingTitles = {};
+    (t.data || []).forEach((r) => (pendingTitles[r.src] ||= []).push(r.title));
   }
   function report(res) {
     if (res?.error) { console.error(res.error); window.dispatchEvent(new CustomEvent("store-error", { detail: res.error.message })); }
@@ -122,9 +123,10 @@ window.Store = (() => {
       db.from("suggestions").upsert({ id: s.id, status: "added", data: s }).then(report);
     },
 
-    pendingTitle: (src) => pendingTitles[src],
+    pendingTitle: (src) => pendingTitles[src]?.[0],
+    pendingTitles: (src) => pendingTitles[src] || [],
     async addTitle(src, title) {
-      pendingTitles[src] = title; emit();
+      (pendingTitles[src] ||= []).push(title); emit();
       if (!remote) return saveLocal();
       report(await db.from("manual_titles").insert({ src, title }));
     },

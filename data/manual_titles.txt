@@ -247,7 +247,13 @@ ig:2|!unknown|||||онгоинги
 ig:3|Хранитель камфорного дерева|The Camphor Tree Guardian|2026|A|+|по книге Кэйго Хигасино
 ig:4|Великий притворщик|Great Pretender|2020|A|+|
 ig:5|!unknown|||||подборка аниме про вторжение пришельцев
-ig:6|!unknown|||||подборка китайских мультфильмов
+ig:6|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|из карусели
+ig:6|Школа искусств 1994|Art College 1994|2023|A|+|из карусели
+ig:6|Большая рыба и бегония|Big Fish & Begonia|2016|A|+|из карусели
+ig:6|Дахуфа|Da Hu Fa|2017|A|+|из карусели
+ig:6|Танец льва|I Am What I Am|2021|A|+|из карусели
+ig:6|Цзян Цзыя: Легенда об обожествлении|Jiang Ziya|2020|A|+|из карусели
+ig:6|Маленькие демоны путешествуют на запад|Nobody|2025|A|+|из карусели
 ig:7|Кибервиток|Dennou Coil|2007|A|+|из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров.
 ig:7|D: Охотник на вампиров|Vampire Hunter D|1985|A|+|из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров.
 ig:7|Оборотни|Jin-Roh: The Wolf Brigade|1999|A|+|из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров.
@@ -308,7 +314,15 @@ ig:41|Epic Seven|Epic Seven|2025|A|?|
 ig:42|Токийский гуль|Tokyo Ghoul|2014|A|+|из видео: Фрагмент из аниме с боевой ценой, которое автор сравнивает с «Токийским гулем».
 ig:43|Гнозия|Gnosia|2025|A|+|
 ig:44|Twisted Crown|Twisted Crown||A|?|возможно, инди-проект
-ig:45|!unknown|||||подборка недооценённых аниме 2020-х
+ig:45|Дорохэдоро|Dorohedoro|2020|A|+|из карусели
+ig:45|Подземелье вкусностей|Delicious in Dungeon|2024|A|+|из карусели
+ig:45|Басня|The Fable|2024|A|+|из карусели
+ig:45|О движении Земли|Orb: On the Movements of the Earth|2024|A|+|из карусели
+ig:45|Иллюзия рая|Heavenly Delusion|2023|A|+|из карусели
+ig:45|Руки прочь от кинокружка!|Keep Your Hands Off Eizouken!|2020|A|+|из карусели
+ig:45|Долой безделье|Skip and Loafer|2023|A|+|из карусели
+ig:45|Клеватесс|Clevatess|2025|A|+|из карусели
+ig:45|Летнее время|Summer Time Rendering|2022|A|+|из карусели
 ig:46|Игра друзей|Tomodachi Game|2022|A|+|из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью.
 ig:46|Эхо террора|Zankyou no Terror|2014|A|+|из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью.
 ig:46|Доктор Стоун|Dr. STONE|2019|A|+|из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью.
@@ -349,8 +363,10 @@ ig:75|The Bucket and the List|The Bucket and the List||A|?|название с �
 ig:76|Повелитель тайн|Lord of Mysteries|2025|A|+|
 ig:77|Ведьма и чудовище|The Witch and the Beast|2024|A|+|
 ig:78|!unknown|||||название в тг-канале автора
-ig:79|!unknown|||||
-ig:80|!unknown|||||
+ig:79|Призрак в доспехах|Ghost in the Shell|1995|A|+|из карусели
+ig:79|Врата Штейна|Steins;Gate|2011|A|+|из карусели
+ig:79|Белый лев Кимба|Kimba the White Lion|1965|A|+|из карусели
+ig:80|!skip|||||подборка манхв (комиксы, не кино)
 ig:81|Восход луны|Moonrise|2025|A|+|
 ig:82|!unknown|||||
 ig:83|УдивЛа|WondLa|2024|C|+|
@@ -384,11 +400,31 @@ ig:107|!unknown|||||
 ig:108|Жизнь без оружия|No Guns Life|2019|A|+|
 ig:109|Полное исследование|Полное исследование|2025|A|?|
 ig:110|Быть героем X|To Be Hero X|2025|A|+|
-ig:111|!unknown|||||
+ig:111|Амбиции Оды Нобуны|The Ambition of Oda Nobuna|2012|A|+|из карусели
+ig:111|Нежить-девушка и убийственный фарс|Undead Girl Murder Farce|2023|A|+|из карусели
+ig:111|Гробовщица Чайка|Chaika: The Coffin Princess|2014|A|+|из карусели
+ig:111|Гримгар пепла и иллюзий|Grimgar of Fantasy and Ash|2016|A|+|из карусели
+ig:111|Лорд-стрелок и Ванадис|Lord Marksman and Vanadis|2014|A|+|из карусели
+ig:111|Великий целитель|The Great Cleric|2023|A|+|из карусели
+ig:111|Одинокий среди людей|Hitori no Shita: The Outcast|2016|A|+|из карусели
+ig:111|Бог старшей школы|The God of High School|2020|A|+|из карусели
+ig:111|Корона вины|Guilty Crown|2011|A|+|из карусели
+ig:111|Интервью с монстрами|Interviews with Monster Girls|2017|A|+|из карусели
+ig:111|Добро пожаловать в школу демонов, Ирума-кун|Welcome to Demon School! Iruma-kun|2019|A|+|из карусели
+ig:111|Хельк|Helck|2023|A|+|из карусели
+ig:111|Страна чудес смертников|Deadman Wonderland|2011|A|+|из карусели
+ig:111|Странствующая ведьма: Путешествие Элейны|Wandering Witch: The Journey of Elaina|2020|A|+|из карусели
+ig:111|Учитель в школе гулей|A Terrified Teacher at Ghoul School!|2023|A|+|из карусели
+ig:111|Тёмный дворецкий|Black Butler|2008|A|+|из карусели
 ig:112|!unknown|||||код 260
 ig:113|!unknown|||||
 ig:114|Мой уникальный навык делает меня сильным даже на 1 уровне|My Unique Skill Makes Me OP Even at Level 1|2023|A|+|
-ig:115|!unknown|||||
+ig:115|100 девушек, которые очень-очень-очень любят тебя|The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You|2023|A|+|из карусели
+ig:115|Золотой Вермеил|Vermeil in Gold|2022|A|+|из карусели
+ig:115|Тюремная школа|Prison School|2015|A|+|из карусели
+ig:115|Старшая школа DxD|High School DxD|2012|A|+|из карусели
+ig:115|Сэкирэй|Sekirei|2010|A|+|из карусели
+ig:115|Завет нового короля демонов|The Testament of Sister New Devil|2015|A|+|из карусели
 ig:116|!unknown|||||
 ig:117|!unknown|||||топ-10 новых аниме 2024
 ig:118|!skip|||||про работу студий
@@ -396,7 +432,16 @@ ig:119|!unknown|||||лучшие аниме 2024
 ig:120|Оценщик|Even Given the Worthless "Appraiser" Class, I'm Actually the Strongest|2025|A|+|
 ig:121|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
 ig:121|Начало после конца|The Beginning After the End|2025|A|+|
-ig:122|!unknown|||||
+ig:122|91 день|91 Days|2016|A|+|из карусели
+ig:122|Бармен: Бокал божества|Bartender: Glass of God|2024|A|+|из карусели
+ig:122|За гранью|Beyond the Boundary|2013|A|+|из карусели
+ig:122|Сёсимин|Shoshimin: How to Become Ordinary|2024|A|+|из карусели
+ig:122|Голубой период|Blue Period|2021|A|+|из карусели
+ig:122|Баракамон|Barakamon|2014|A|+|из карусели
+ig:122|Золотое время|Golden Time|2013|A|+|из карусели
+ig:122|Слишком много проигравших героинь!|Too Many Losing Heroines!|2024|A|+|из карусели
+ig:122|Бессонница после школы|Insomniacs After School|2023|A|+|из карусели
+ig:122|Последний серафим|Seraph of the End|2015|A|+|из карусели
 ig:123|!unknown|||||
 ig:124|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
 ig:125|Магия и мускулы|Mashle|2023|A|+|
@@ -426,7 +471,15 @@ ig:144|Цикл Пендрагона: Восхождение Мерлина|The 
 ig:145|Зараза|Cold Storage|2026|F|+|
 ig:146|Все страхи Бо|Beau Is Afraid|2023|F|+|
 ig:147|Существо с перьями|The Thing with Feathers|2025|F|+|
-ig:148|!unknown|||||подборка будущих мультфильмов
+ig:148|Рэй Ганн|Ray Gunn|2026|C|+|из карусели
+ig:148|История игрушек 5|Toy Story 5|2026|C|+|из карусели
+ig:148|Сирануи|Shiranui|2026|A|+|из карусели
+ig:148|Бэтмен: Падение рыцаря|Batman: Knightfall|2026|C|+|из карусели
+ig:148|И наступит рассвет|Hanarokushou ga Akeru Hi ni|2026|A|+|из карусели
+ig:148|В чужой шкуре|Swapped|2026|C|+|из карусели
+ig:148|Остров забвения|Forgotten Island|2026|C|+|из карусели
+ig:148|Мы пришельцы|Wareware wa Uchuujin|2026|A|+|из карусели
+ig:148|Чарли против шоколадной фабрики|Charlie vs. the Chocolate Factory|2026|C|+|из карусели
 ig:149|Киностудия|The Studio|2025|S|+|
 ig:150|Суд присяжных|Jury Duty|2023|S|+|
 ig:151|The Boroughs|The Boroughs|2026|S|+|
@@ -440,7 +493,10 @@ ig:158|Удачи, веселья, не сдохни|Good Luck, Have Fun, Don't 
 ig:159|Грязные деньги|Грязные деньги|2026|F|?|Генри Кавилл, Джейк Джилленхол
 ig:160|!unknown|||||видео про Уэса Андерсона
 ig:161|Красота|The Beauty|2026|S|+|
-ig:162|!unknown|||||
+ig:162|Будьте умнее с деньгами|Get Smart With Money|2022|D|+|из карусели
+ig:162|Ешь богатых: Сага о GameStop|Eat the Rich: The GameStop Saga|2022|D|+|из карусели
+ig:162|Миллиардер под прикрытием|Undercover Billionaire|2019|D|+|из карусели
+ig:162|Инсайдеры|Inside Job|2010|D|+|из карусели
 ig:163|Терапия|Shrinking|2023|S|+|
 ig:164|Аватар: Легенда об Аанге|Avatar: The Last Airbender|2024|S|+|Netflix, игровой
 ig:165|Финикийская схема|The Phoenician Scheme|2025|F|+|
@@ -461,7 +517,8 @@ ig:174|Кошачьи миры Луиса Уэйна|The Electrical Life of Loui
 ig:175|Следствие ведут овечки|The Sheep Detectives|2026|F|+|
 ig:176|Голос монстра|A Monster Calls|2016|F|?|угадано по описанию
 ig:177|!unknown|||||сериал: трое школьников в мире меча и магии
-ig:178|!unknown|||||
+ig:178|Волан-де-Морт: Корни наследника|Voldemort: Origins of the Heir|2018|F|+|из карусели
+ig:178|Северус Снегг и Мародёры|Severus Snape and the Marauders|2016|F|+|из карусели
 ig:179|Затура: Космическое приключение|Zathura: A Space Adventure|2005|F|+|
 ig:180|Хроники Шаннары|The Shannara Chronicles|2016|S|+|
 ig:181|Оно: Добро пожаловать в Дерри|IT: Welcome to Derry|2025|S|+|
@@ -480,7 +537,11 @@ ig:193|Альтер|Altered|2025|F|+|Том Фелтон
 ig:194|Подозрительные лица|The Usual Suspects|1995|F|+|
 ig:195|Жизнь Чака|The Life of Chuck|2024|F|+|
 ig:196|Не звезди|Menteur|2022|F|+|
-ig:197|!unknown|||||мультфильмы
+ig:197|Луис и пришельцы|Luis and the Aliens|2018|C|+|из карусели
+ig:197|Мечты робота|Robot Dreams|2023|C|+|из карусели
+ig:197|Клаус|Klaus|2019|C|+|из карусели
+ig:197|Они сбежали|Away|2019|C|+|из карусели
+ig:197|Пёс-самурай и город кошек|Paws of Fury: The Legend of Hank|2022|C|+|из карусели
 ig:198|Дроп|Drop|2025|F|+|
 ig:199|Колесо времени|The Wheel of Time|2021|S|+|
 ig:200|Война будущего|The Tomorrow War|2021|F|+|
