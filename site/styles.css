@@ -310,3 +310,4 @@ a { color: inherit; }
 .mine-box .btn.on-dropped { background: #3a1717; color: var(--danger); border-color: #6b2a2a; font-weight: 700; }
 .sim-out a { display: block; }
 .sim-add { width: 100%; margin-top: 6px; padding: 4px 6px; font-size: 11px; }
+.sugg-actions { flex-wrap: wrap; }

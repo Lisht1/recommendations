@@ -193,7 +193,8 @@
         <div class="sugg-why">Похоже на: ${esc(s.because.join(", "))}</div>
         <div class="sugg-actions">
           <button class="btn" data-act="add">В список</button>
-          <button class="btn ghost" data-act="hide">Скрыть</button>
+          <button class="btn" data-act="watched" title="Уже смотрели — добавить в просмотренное и оценить">✓ Видели</button>
+          <button class="btn ghost" data-act="hide" title="Не интересно">Скрыть</button>
         </div>
       </article>`).join("");
     $("#empty").hidden = list.length > 0;
@@ -575,6 +576,7 @@
         if (act && !requireLogin()) return;
         if (act === "hide") { S.hideSuggestion(id); render(); }
         if (act === "add" && s) { S.addSuggestion(s); loadAdded(); render(); toast(`«${s.title}» добавлен в список`); }
+        if (act === "watched" && s) { S.addSuggestion(s); loadAdded(); markWatched(s.id); render(); }
         if (!act && s) window.open(`https://www.themoviedb.org/${id.replace("-", "/")}`, "_blank");
         return;
       }
