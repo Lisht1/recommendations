@@ -1,11 +1,11 @@
 // Настройки сайта. Ссылки на сервисы собраны здесь, чтобы их было легко поправить.
 window.CONFIG = {
   // Заполним, когда подключим Supabase (вход и общие отметки «посмотрел»)
-  supabaseUrl: "",
-  supabaseKey: "",   // публичный anon-ключ: его можно хранить в открытом виде
+  supabaseUrl: "https://aitbjeuukxxkvxjcwzhd.supabase.co",
+  supabaseKey: "sb_publishable_J-0rWRojs7Y17SoS4vCh9A_GMATjvop",   // публичный anon-ключ: его можно хранить в открытом виде
 
   // Репозиторий на GitHub — для кнопки «Обновить»
-  githubRepo: "",
+  githubRepo: "Lisht1/recommendations",
 
   categories: [
     { id: "all", label: "Все" },
