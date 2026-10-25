@@ -170,14 +170,41 @@ def supabase(path, method="GET", data=None):
         headers["Authorization"] = f"Bearer {key}"
     return http_json(f"{url}/rest/v1/{path}", data, method=method, headers=headers)
 
+def split_title(title):
+    """'Куб 1997' -> ('Куб', 1997)"""
+    title = title.strip()
+    m = re.search(r"\b(19|20)\d{2}\b", title)
+    if not m:
+        return title, ""
+    return re.sub(r"\(?\b(19|20)\d{2}\b\)?", "", title).strip(" ,.-"), int(m.group(0))
+
+def apply_fix(item_id, title):
+    """A card was matched wrongly: rewrite the manual lines that produced it."""
+    catalog = json.loads((ROOT / "site" / "data" / "catalog.json").read_text(encoding="utf-8"))
+    item = next((i for i in catalog["items"] if i["id"] == item_id), None)
+    if not item:
+        return 0
+    srcs = {x["src"] for x in item["sources"] if x.get("src")}
+    drafts = {tuple(d) for d in item.get("draft", [])}
+    name, year = split_title(title)
+    lines, changed = MANUAL.read_text(encoding="utf-8").splitlines(), 0
+    for i, line in enumerate(lines):
+        parts = line.split("|")
+        if len(parts) >= 7 and parts[0] in srcs and (parts[1], parts[2]) in drafts:
+            lines[i] = f"{parts[0]}|{name}|{name}|{year}|{parts[4]}|+|исправлено на сайте"
+            changed += 1
+    MANUAL.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return changed
+
 def site_titles():
     rows = supabase("manual_titles?processed=eq.false&select=id,src,title") or []
     lines = []
     for r in rows:
-        title = r["title"].strip()
-        m = re.search(r"\b(19|20)\d{2}\b", title)
-        year = int(m.group(0)) if m else ""
-        name = re.sub(r"\(?\b(19|20)\d{2}\b\)?", "", title).strip(" ,.-") if m else title
+        if r["src"].startswith("fix:"):
+            n = apply_fix(r["src"][4:], r["title"])
+            print(f"  исправление {r['src']} → «{r['title']}»: строк {n}")
+            continue
+        name, year = split_title(r["title"])
         lines.append(f"{r['src']}|{name}|{name}|{year}|?|+|вписано на сайте")
     if rows:
         ids = ",".join(str(r["id"]) for r in rows)

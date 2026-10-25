@@ -15,6 +15,7 @@ window.CONFIG = {
     { id: "cartoons", label: "Мультфильмы" },
     { id: "asian", label: "Корейская дичь" },
     { id: "suggest", label: "Может понравиться" },
+    { id: "watched", label: "Просмотренное" },
     { id: "unknown", label: "Неразобранное" },
   ],
 

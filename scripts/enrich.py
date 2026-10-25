@@ -185,6 +185,7 @@ def from_draft(d):
         "ratings": {}, "imdb_id": None, "kp_id": d["kp_id"], "shiki_url": None,
         "providers": {}, "similar": [], "sources": d["sources"], "notes": d["notes"],
         "added": min(dates) if dates else None, "matched": False, "confidence": d["confidence"],
+        "draft": [[d["title_ru"], d["title_orig"]]],
     }
 
 def enrich(d):
@@ -297,6 +298,7 @@ def main():
             old = by_id[e["id"]]
             old["sources"] += [s for s in e["sources"] if s["url"] not in {x["url"] for x in old["sources"]}]
             old["notes"] += [x for x in e["notes"] if x not in old["notes"]]
+            old["draft"] += [x for x in e["draft"] if x not in old["draft"]]
         else:
             by_id[e["id"]] = e
             items.append(e)

@@ -13,7 +13,8 @@
   // ---------- helpers ----------
   const TYPE_LABEL = { movie: "Фильм", tv: "Сериал" };
   // «Проверить»: название угадано вручную или не нашлось в TMDB
-  const needsCheck = (t) => t.confidence === "check" || (catalog.enriched && !t.matched);
+  const needsCheck = (t) => (t.confidence === "check" || (catalog.enriched && !t.matched))
+    && !S.get(t.id).checked && !S.pendingTitle("fix:" + t.id);
   function hue(str) { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) % 360; return h; }
   function posterHtml(t, cls = "") {
     if (t.poster) return `<div class="poster ${cls}"><img loading="lazy" src="${esc(t.poster)}" alt=""></div>`;
@@ -49,8 +50,9 @@
   // ---------- filtering ----------
   function matches(t, ignoreCat = false) {
     const st = S.get(t.id);
-    if (!ignoreCat && f.cat !== "all" && t.category !== f.cat) return false;
-    if (!f.showWatched && st.watched) return false;
+    if (f.cat === "watched") { if (!ignoreCat && !st.watched) return false; }
+    else if (!ignoreCat && f.cat !== "all" && t.category !== f.cat) return false;
+    if (f.cat !== "watched" && !f.showWatched && st.watched) return false;
     if (f.onlySoon && !t.soon) return false;
     if (f.onlyCheck && !needsCheck(t)) return false;
     if (f.minRating && bestRating(t) < f.minRating) return false;
@@ -72,6 +74,9 @@
       year: (a, b) => (b.year || 0) - (a.year || 0),
       title: (a, b) => (a.title_ru || "").localeCompare(b.title_ru || "", "ru"),
     }[f.sort];
+    if (f.cat === "watched" && f.sort === "added") {
+      return [...list].sort((a, b) => (S.get(b.id).watched_at || "").localeCompare(S.get(a.id).watched_at || ""));
+    }
     return [...list].sort(by);
   }
 
@@ -80,7 +85,9 @@
     const counts = {};
     items.forEach((t) => { if (matches(t, true)) { counts[t.category] = (counts[t.category] || 0) + 1; counts.all = (counts.all || 0) + 1; } });
     $("#tabs").innerHTML = C.categories.map((c) => {
-      const n = c.id === "suggest" ? "" : c.id === "unknown"
+      const n = c.id === "suggest" ? "" : c.id === "watched"
+        ? `<span class="n">${items.filter((t) => S.get(t.id).watched).length}</span>`
+        : c.id === "unknown"
         ? `<span class="n">${(catalog.unknown || []).filter((u) => !S.pendingTitle(u.src)).length}</span>`
         : `<span class="n">${counts[c.id] || 0}</span>`;
       return `<button class="tab ${f.cat === c.id ? "active" : ""}" data-cat="${c.id}">${c.label}${n}</button>`;
@@ -96,6 +103,7 @@
     return `<article class="card ${st.watched ? "watched" : ""}" data-id="${esc(t.id)}">
       <div style="position:relative">${posterHtml(t)}
         <div class="badges">${badges}</div>
+        ${st.rating ? `<div class="my-rating" title="Ваша оценка">★ ${st.rating}</div>` : ""}
         <div class="quick"><button class="seen-btn" data-act="seen" title="${st.watched ? "Вернуть в список" : "Посмотрели"}">✓</button></div>
       </div>
       <div class="card-title">${esc(t.title_ru || t.title_en)}</div>
@@ -108,6 +116,7 @@
     renderTabs();
     if (f.cat === "suggest") return renderSuggestions();
     if (f.cat === "unknown") return renderUnknown();
+    $("#grid").classList.toggle("watched-tab", f.cat === "watched");
     const list = sorted(items.filter((t) => matches(t)));
     $("#grid").innerHTML = list.map(cardHtml).join("");
     $("#empty").hidden = list.length > 0;
@@ -218,6 +227,18 @@
       </div>
       <div class="detail-main">
         <div>
+          ${needsCheck(t) ? `
+          <div class="check-box">
+            <div><b>${t.matched ? "Точно этот тайтл?" : "Не нашли этот тайтл в базе фильмов"}</b><br>
+              <span class="muted small">${t.matched
+                ? "Название в посте было неоднозначным, мы угадали. Проверь постер и год."
+                : "Возможно, название записано неточно. Впиши правильное — оно подтянется при обновлении."}</span></div>
+            <div class="check-actions">
+              ${t.matched ? `<button class="btn" data-act="confirm">Всё верно</button>` : ""}
+              <form class="fix-form"><input name="title" placeholder="Правильное название и год"><button class="btn">Исправить</button></form>
+            </div>
+          </div>` : ""}
+          ${S.pendingTitle("fix:" + t.id) ? `<div class="pending" style="margin-bottom:14px">✓ Исправление «${esc(S.pendingTitle("fix:" + t.id))}» применится при следующем обновлении</div>` : ""}
           <h4>О чём</h4>
           <p class="overview">${esc(t.overview || "Описание появится после подключения TMDB.")}</p>
           <h4>Смотреть</h4>
@@ -279,6 +300,29 @@
     ].join("\n");
   }
 
+  // ---------- оценка после просмотра ----------
+  function markWatched(id) {
+    const now = !S.get(id).watched;
+    S.setWatched(id, now);
+    if (!now) { toast("Вернули в список"); return; }
+    const t = items.find((x) => x.id === id);
+    $("#rateTitle").textContent = `Как вам «${t?.title_ru || t?.title_en || ""}»?`;
+    $("#rateStars").innerHTML = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) =>
+      `<button class="${S.get(id).rating === n ? "on" : ""}" data-rate="${n}">${n}</button>`).join("");
+    $("#rateNote").value = S.get(id).note || "";
+    $("#rate").dataset.id = id;
+    $("#rate").showModal();
+  }
+
+  // ---------- account ----------
+  function openAccount(recovery = false) {
+    $("#accEmail").textContent = S.user()?.email || "";
+    $("#accHint").textContent = recovery ? "Придумай новый пароль." : "";
+    $("#accError").textContent = "";
+    $("#account-dlg").showModal();
+    if (recovery) $("#accPassword").focus();
+  }
+
   // ---------- login ----------
   function requireLogin() {
     if (S.canEdit()) return true;
@@ -289,7 +333,7 @@
     const b = $("#account");
     if (!S.remote) { b.hidden = true; return; }
     b.hidden = false;
-    b.textContent = S.user() ? "Выйти" : "Войти";
+    b.textContent = S.user() ? "Аккаунт" : "Войти";
     b.title = S.user() ? `Вы вошли как ${S.user().email}` : "Войти, чтобы отмечать просмотренное";
   }
 
@@ -384,8 +428,7 @@
       const card = e.target.closest(".card[data-id]"); if (!card) return;
       if (e.target.closest("[data-act=seen]")) {
         if (!requireLogin()) return;
-        const id = card.dataset.id, now = !S.get(id).watched;
-        S.setWatched(id, now); render(); toast(now ? "Отмечено как просмотренное" : "Вернули в список");
+        markWatched(card.dataset.id); render();
         return;
       }
       openDetail(card.dataset.id);
@@ -394,7 +437,8 @@
     $("#detail").addEventListener("click", (e) => {
       const id = $("#detail").dataset.id;
       if (e.target.closest("[data-close]") || e.target === $("#detail")) return $("#detail").close();
-      if (e.target.closest("[data-act=seen]")) { if (!requireLogin()) return; S.setWatched(id, !S.get(id).watched); openDetail(id); render(); return; }
+      if (e.target.closest("[data-act=seen]")) { if (!requireLogin()) return; markWatched(id); openDetail(id); render(); return; }
+      if (e.target.closest("[data-act=confirm]")) { if (!requireLogin()) return; S.setChecked(id); openDetail(id); render(); toast("Отметили как проверенное"); return; }
       const rate = e.target.closest("[data-rate]");
       if (rate) { if (!requireLogin()) return; const n = +rate.dataset.rate; S.setRating(id, S.get(id).rating === n ? null : n); openDetail(id); render(); return; }
       const sim = e.target.closest(".similar .card[data-id]");
@@ -412,7 +456,7 @@
     });
 
     $("#account").addEventListener("click", async () => {
-      if (S.user()) { await S.signOut(); renderAccount(); render(); toast("Вы вышли"); }
+      if (S.user()) openAccount();
       else { $("#login").showModal(); $("#loginEmail").focus(); }
     });
     $("#login").addEventListener("click", (e) => { if (e.target.closest("[data-close]") || e.target === $("#login")) $("#login").close(); });
@@ -425,6 +469,54 @@
       renderAccount(); toast("Вы вошли");
     });
     window.addEventListener("store-error", (e) => toast("Не сохранилось: " + e.detail));
+
+    // исправление тайтла из карточки
+    $("#detail").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const id = $("#detail").dataset.id, title = e.target.title.value.trim();
+      if (!title || !requireLogin()) return;
+      await S.addTitle("fix:" + id, title);
+      openDetail(id); render(); toast("Исправление сохранено — применится при обновлении");
+    });
+
+    // окно оценки
+    $("#rate").addEventListener("click", (e) => {
+      const id = $("#rate").dataset.id;
+      const b = e.target.closest("[data-rate]");
+      if (b) {
+        S.setRating(id, +b.dataset.rate);
+        const note = $("#rateNote").value.trim(); if (note) S.setNote(id, note);
+        $("#rate").close(); render(); if ($("#detail").open) openDetail(id);
+        toast(`Оценка ${b.dataset.rate} сохранена`);
+        return;
+      }
+      if (e.target.closest("[data-skip]") || e.target === $("#rate")) {
+        const note = $("#rateNote").value.trim(); if (note) S.setNote(id, note);
+        $("#rate").close(); render(); toast("Отмечено как просмотренное");
+      }
+    });
+
+    // аккаунт: смена пароля, выход
+    $("#account-dlg").addEventListener("click", async (e) => {
+      if (e.target.closest("[data-close]") || e.target === $("#account-dlg")) return $("#account-dlg").close();
+      if (e.target.closest("[data-logout]")) { await S.signOut(); $("#account-dlg").close(); renderAccount(); render(); toast("Вы вышли"); }
+    });
+    $("#accForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const pwd = $("#accPassword").value;
+      if (pwd.length < 6) { $("#accError").textContent = "Минимум 6 символов"; return; }
+      const err = await S.changePassword(pwd);
+      if (err) { $("#accError").textContent = err; return; }
+      $("#accPassword").value = ""; $("#account-dlg").close(); toast("Пароль изменён");
+    });
+    $("#forgot").addEventListener("click", async () => {
+      const email = $("#loginEmail").value.trim();
+      if (!email) { $("#loginError").textContent = "Сначала впиши почту"; return; }
+      const err = await S.resetPassword(email);
+      $("#loginError").textContent = err ? err : "";
+      if (!err) toast("Письмо со ссылкой для сброса пароля отправлено");
+    });
+    window.addEventListener("password-recovery", () => openAccount(true));
 
     $("#aiOpen").addEventListener("click", () => { $("#ai").showModal(); $("#aiQuery").focus(); });
     $("#ai").addEventListener("click", (e) => { if (e.target.closest("[data-close]") || e.target === $("#ai")) $("#ai").close(); });

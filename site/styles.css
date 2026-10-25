@@ -247,3 +247,27 @@ a { color: inherit; }
 .unknown-form { display: flex; gap: 8px; }
 .unknown-form input { flex: 1; min-width: 0; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
 .pending { color: var(--good); font-size: 13px; font-weight: 600; }
+
+/* my rating in the poster corner */
+.my-rating {
+  position: absolute; top: 8px; right: 8px; z-index: 1;
+  background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 13px;
+  padding: 3px 8px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+.card.watched .my-rating { filter: none; }
+
+/* rating dialog */
+.stars.big { gap: 6px; margin: 14px 0; }
+.stars.big button { font-size: 15px; border-radius: 9px; }
+.stars.big button:hover { border-color: var(--accent); color: var(--text); }
+#rateNote, #accForm input { width: 100%; background: var(--bg); border: 1px solid var(--line); border-radius: 9px; padding: 9px 12px; resize: vertical; }
+#accForm input { margin-bottom: 8px; }
+#accForm h2, #rate h2 { margin-top: 0; padding-right: 30px; }
+.link-btn { background: none; border: 0; color: var(--muted); cursor: pointer; margin-top: 10px; text-decoration: underline; padding: 0; }
+
+/* check box in detail */
+.check-box { background: #2a2310; border: 1px solid #5a4a1c; border-radius: 12px; padding: 14px 16px; margin-bottom: 18px; }
+.check-actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.fix-form { display: flex; gap: 8px; flex: 1; min-width: 240px; }
+.fix-form input { flex: 1; min-width: 0; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
+.watched-tab .card.watched .poster img, .watched-tab .card.watched .poster .ph { filter: none; }

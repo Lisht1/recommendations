@@ -111,6 +111,31 @@
       <input id="loginPassword" type="password" placeholder="Пароль" autocomplete="current-password" required>
       <div class="error" id="loginError"></div>
       <button class="btn primary wide">Войти</button>
+      <button type="button" class="link-btn" id="forgot">Забыли пароль?</button>
+    </form>
+  </dialog>
+
+  <!-- оценка после просмотра -->
+  <dialog id="rate" class="modal tiny">
+    <div class="modal-body">
+      <h2 id="rateTitle">Как вам?</h2>
+      <div class="stars big" id="rateStars"></div>
+      <textarea id="rateNote" rows="2" placeholder="Пара слов на память (необязательно)"></textarea>
+      <button class="btn ghost wide" data-skip style="margin-top:10px">Без оценки</button>
+    </div>
+  </dialog>
+
+  <!-- аккаунт -->
+  <dialog id="account-dlg" class="modal tiny">
+    <form class="modal-body" id="accForm">
+      <button type="button" class="close" data-close>&times;</button>
+      <h2>Аккаунт</h2>
+      <p class="muted">Вы вошли как <b id="accEmail"></b></p>
+      <p class="muted" id="accHint"></p>
+      <input id="accPassword" type="password" placeholder="Новый пароль" autocomplete="new-password">
+      <div class="error" id="accError"></div>
+      <button class="btn wide">Сменить пароль</button>
+      <button type="button" class="btn ghost wide" data-logout style="margin-top:8px">Выйти</button>
     </form>
   </dialog>
 

@@ -65,7 +65,8 @@ window.Store = (() => {
       const { data } = await db.auth.getSession();
       user = data.session?.user || null;
       await loadRemote();
-      db.auth.onAuthStateChange(async (_e, session) => {
+      db.auth.onAuthStateChange(async (event, session) => {
+        if (event === "PASSWORD_RECOVERY") setTimeout(() => window.dispatchEvent(new Event("password-recovery")), 300);
         const was = user?.id; user = session?.user || null;
         if (was !== user?.id) { await loadRemote(); emit(); }
       });
@@ -79,12 +80,21 @@ window.Store = (() => {
       return error ? error.message : null;
     },
     async signOut() { await db.auth.signOut(); },
+    async changePassword(password) {
+      const { error } = await db.auth.updateUser({ password });
+      return error ? error.message : null;
+    },
+    async resetPassword(email) {
+      const { error } = await db.auth.resetPasswordForEmail(email, { redirectTo: location.origin + location.pathname });
+      return error ? error.message : null;
+    },
 
     get: (id) => marks[id] || {},
     all: () => marks,
     setWatched: (id, watched) => patchMark(id, { watched, watched_at: watched ? new Date().toISOString() : null }),
     setRating: (id, rating) => patchMark(id, { rating }),
     setNote: (id, note) => patchMark(id, { note }),
+    setChecked: (id) => patchMark(id, { checked: true }),
 
     isHidden: (id) => suggestions[id]?.status === "hidden",
     added: () => Object.values(suggestions).filter((s) => s.status === "added").map((s) => s.data),
