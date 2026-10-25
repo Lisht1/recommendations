@@ -284,8 +284,29 @@ def enrich(d):
     return e
 
 
+def keep_previous(e, prev_by_id, prev_by_draft):
+    """If a service was down or out of quota this time, keep what we found before."""
+    if not e["matched"]:
+        for d in e["draft"]:
+            old = prev_by_draft.get(tuple(d))
+            if old and old.get("matched"):
+                return {**old, "sources": e["sources"], "notes": e["notes"], "draft": e["draft"],
+                        "confidence": e["confidence"], "added": e["added"]}
+        return e
+    old = prev_by_id.get(e["id"])
+    if old:
+        for k, v in (old.get("ratings") or {}).items():
+            e["ratings"].setdefault(k, v)
+        for k in ("kp_id", "shiki_url", "imdb_id"):
+            e[k] = e.get(k) or old.get(k)
+    return e
+
+
 def main():
     draft = json.loads((DATA / "draft.json").read_text(encoding="utf-8"))
+    prev_items = json.loads(OUT.read_text(encoding="utf-8")).get("items", []) if OUT.exists() else []
+    prev_by_id = {p["id"]: p for p in prev_items}
+    prev_by_draft = {tuple(d): p for p in prev_items for d in p.get("draft", [])}
     items, by_id = [], {}
     total = len(draft["titles"])
     for n, d in enumerate(draft["titles"], 1):
@@ -293,6 +314,7 @@ def main():
             e = enrich(d)
         except urllib.error.HTTPError as err:
             sys.exit(f"Ключ не подошёл ({err.code} на {err.url.split('?')[0]}). Проверь .env")
+        e = keep_previous(e, prev_by_id, prev_by_draft)
         # two draft rows can resolve to the same TMDB title: merge their sources
         if e["id"] in by_id:
             old = by_id[e["id"]]
