@@ -99,7 +99,7 @@ tg:74|Место дальше, чем Вселенная|A Place Further Than th
 tg:74|Девочка-волшебница Мадока Магика|Puella Magi Madoka Magica|2011|A|+|из топ-25 коротких аниме
 tg:74|Киберпанк: Бегущие по краю|Cyberpunk: Edgerunners|2022|A|+|из топ-25 коротких аниме
 tg:74|Одинокий рокер!|Bocchi the Rock!|2022|A|+|из топ-25 коротких аниме
-tg:74|Странное такси|Odd Taxi|2021|A|+|из топ-25 коротких аниме
+tg:74|Необычное такси|Необычное такси|2021|A|+|исправлено на сайте; tmdb=tv/116727
 tg:74|Вайолет Эвергарден|Violet Evergarden|2018|A|+|из топ-25 коротких аниме
 tg:74|Пинг-понг|Ping Pong the Animation|2014|A|+|из топ-25 коротких аниме
 tg:74|Виви: Песнь флюоритового глаза|Vivy: Fluorite Eye's Song|2021|A|+|из топ-25 коротких аниме
@@ -315,7 +315,7 @@ ig:63|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|
 ig:64|Холм тумана пяти стихий|Fog Hill of Five Elements|2020|A|+|
 ig:65|Спой немного гармонии|Sing a Bit of Harmony|2021|A|+|
 ig:66|!unknown|||||блиц-рекомендации
-ig:67|Странное такси|Odd Taxi|2021|A|+|
+ig:67|Необычное такси|Необычное такси|2021|A|+|исправлено на сайте; tmdb=tv/116727
 ig:68|Хроники людей и демонов|Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World|2023|A|?|
 ig:69|Невеста чародея|The Ancient Magus' Bride|2017|A|+|
 ig:70|Красноволосая принцесса Белоснежка|Snow White with the Red Hair|2015|A|?|угадано по обложке

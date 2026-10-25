@@ -270,6 +270,7 @@
 | Начало после конца / The Beginning After the End (2025) | [ig:121](https://www.instagram.com/reel/DEjoajyxZaE/) |  |
 | Невеста чародея / The Ancient Magus' Bride (2017) | [ig:69](https://www.instagram.com/reel/DHQqib_v5m6/) |  |
 | Невиданный цветок / Anohana: The Flower We Saw That Day (2011) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
+| Необычное такси (2021) | [tg:74](https://t.me/c/2117114565/74), [ig:67](https://www.instagram.com/reel/DMAeArTz9vD/) | исправлено на сайте; tmdb=tv/116727 |
 | Нет игры — нет жизни / No Game No Life (2014) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Одинокий рокер! / Bocchi the Rock! (2022) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Оседлай волну / Ride Your Wave (2019) | [ig:58](https://www.instagram.com/reel/DNNyhGfT8Q3/) |  |
@@ -295,7 +296,6 @@
 | Спой немного гармонии / Sing a Bit of Harmony (2021) | [ig:65](https://www.instagram.com/reel/DLpiGxRTnm-/) |  |
 | Стометровка / Hyakuemu. (2025) | [tg:126](https://t.me/c/2117114565/126), [ig:24](https://www.instagram.com/reel/DUpsLjFCstS/), [ig:27](https://www.instagram.com/reel/DTBMnX9CFQJ/) |  |
 | Страна самоцветов / Land of the Lustrous (2017) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
-| Странное такси / Odd Taxi (2021) | [tg:74](https://t.me/c/2117114565/74), [ig:67](https://www.instagram.com/reel/DMAeArTz9vD/) | из топ-25 коротких аниме |
 | Суперкуб / The Super Cube (2025) | [ig:90](https://www.instagram.com/reel/DIk-dRSRAcq/) |  |
 | Сёва-Гэнроку: Двойное самоубийство по ракуго / Showa Genroku Rakugo Shinju (2016) | [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) |  |
 | Татами-галактика / The Tatami Galaxy (2010) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |

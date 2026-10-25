@@ -1701,14 +1701,15 @@
    ]
   },
   {
-   "title_ru": "Странное такси",
-   "title_orig": "Odd Taxi",
+   "title_ru": "Необычное такси",
+   "title_orig": "Необычное такси",
    "year": 2021,
    "type": "Аниме",
    "confidence": "high",
    "kp_id": null,
    "notes": [
-    "из топ-25 коротких аниме"
+    "исправлено на сайте",
+    "tmdb=tv/116727"
    ],
    "sources": [
     {
