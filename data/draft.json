@@ -3967,12 +3967,14 @@
   },
   {
    "title_ru": "Сёстры Гримм",
-   "title_orig": "Сёстры Гримм",
+   "title_orig": "The Sisters Grimm",
    "year": null,
    "type": "Мультфильм",
-   "confidence": "check",
+   "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "мультсериал Apple TV+"
+   ],
    "sources": [
     {
      "src": "ig:0",

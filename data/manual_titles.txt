@@ -241,7 +241,7 @@ tg:179|Выход 8|Exit 8|2025|F|+|
 tg:180|Закулисье|Backrooms|2026|F|?|
 tg:181|Бухта вдов|Widow's Bay|2026|S|+|
 
-ig:0|Сёстры Гримм|Сёстры Гримм||C|?|
+ig:0|Сёстры Гримм|The Sisters Grimm||C|+|мультсериал Apple TV+
 ig:1|Дневник чужой страны|Journal with Witch|2026|A|+|Ikoku Nikki
 ig:2|!unknown|||||онгоинги
 ig:3|Хранитель камфорного дерева|The Camphor Tree Guardian|2026|A|+|по книге Кэйго Хигасино

@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **341** уникальных названий, из них проверить: **36**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **88**, пропущено (не про кино): **6**.
+Найдено **341** уникальных названий, из них проверить: **35**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **88**, пропущено (не про кино): **6**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -21,7 +21,6 @@
 | Грязь / The Dirt (2019) | [tg:107](https://t.me/c/2117114565/107) | в посте просто «Грязь» |
 | Обсессия / Obsession (2025) | [tg:178](https://t.me/c/2117114565/178) |  |
 | Закулисье / Backrooms (2026) | [tg:180](https://t.me/c/2117114565/180) |  |
-| Сёстры Гримм | [ig:0](https://www.instagram.com/reel/Dd3Y-0eD04B/) |  |
 | Петушиный боец / Rooster Fighter (2026) | [ig:10](https://www.instagram.com/reel/DXo12bIjPj3/) |  |
 | Epic Seven (2025) | [ig:41](https://www.instagram.com/reel/DQMqo_mka74/) |  |
 | Twisted Crown | [ig:44](https://www.instagram.com/reel/DOUk56biAmj/) | возможно, инди-проект |
@@ -313,7 +312,7 @@
 | Школа мертвецов / Highschool of the Dead (2010) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Эксперименты Лэйн / Serial Experiments Lain (1998) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 
-## Мультфильм (31)
+## Мультфильм (32)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -337,6 +336,7 @@
 | Принц драконов / The Dragon Prince (2018) | [ig:49](https://www.instagram.com/reel/DOmCvq0jp0k/) |  |
 | Прыгуны / Hoppers (2026) | [tg:149](https://t.me/c/2117114565/149) | Pixar |
 | Сумерки богов / Twilight of the Gods (2024) | [tg:73](https://t.me/c/2117114565/73) |  |
+| Сёстры Гримм / The Sisters Grimm | [ig:0](https://www.instagram.com/reel/Dd3Y-0eD04B/) | мультсериал Apple TV+ |
 | Тайна Келлс / The Secret of Kells (2009) | [tg:147](https://t.me/c/2117114565/147) |  |
 | Только во сне / In Your Dreams (2025) | [tg:134](https://t.me/c/2117114565/134), [ig:31](https://www.instagram.com/reel/DRWjQ-3DAJk/) |  |
 | Трио из Бельвилля / The Triplets of Belleville (2003) | [tg:147](https://t.me/c/2117114565/147) |  |
