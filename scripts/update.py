@@ -7,7 +7,7 @@ Steps:
   2. titles typed on the site for unrecognised posts (Supabase) -> lines too
   3. build_draft.py + enrich.py -> site/data/catalog.json
 """
-import asyncio, base64, json, re, ssl, datetime, urllib.request, urllib.parse
+import asyncio, base64, json, re, ssl, datetime, urllib.request, urllib.parse, urllib.error
 from env import load_env, ROOT
 
 env = load_env()
@@ -15,7 +15,7 @@ DATA = ROOT / "data"
 SOURCES = DATA / "sources.json"
 MANUAL = DATA / "manual_titles.txt"
 CHANNEL_ID = 2117114565
-GEMINI_MODEL = env.get("GEMINI_MODEL") or "gemini-2.5-flash"
+GEMINI_MODEL = {"name": env.get("GEMINI_MODEL") or ""}
 
 try:
     import certifi
@@ -106,6 +106,22 @@ confidence "?" — если угадываешь. year — null, если не �
 Комментарии под оригинальным постом:
 <<COMMENTS>>"""
 
+def pick_model(force=False):
+    """Newest Flash model available to the key (Google retires old ones from time to time)."""
+    if GEMINI_MODEL["name"] and not force:
+        return GEMINI_MODEL["name"]
+    try:
+        res = http_json(f"https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key={env['GEMINI_KEY']}")
+        names = [m["name"].replace("models/", "") for m in res.get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+        flash = [n for n in names if "flash" in n and not re.search(r"lite|preview|exp|image|tts|live|audio|thinking", n)]
+        ver = lambda n: float((re.search(r"gemini-(\d+(?:\.\d+)?)", n) or [0, 0])[1])
+        GEMINI_MODEL["name"] = max(flash, key=ver) if flash else "gemini-flash-latest"
+    except Exception:
+        GEMINI_MODEL["name"] = "gemini-flash-latest"
+    print(f"  модель Gemini: {GEMINI_MODEL['name']}")
+    return GEMINI_MODEL["name"]
+
 def ask_gemini(post):
     prompt = (PROMPT.replace("<<AUTHOR>>", post["from"] or "автор канала")
               .replace("<<TEXT>>", post["text"] or "(без текста)")
@@ -114,9 +130,17 @@ def ask_gemini(post):
     parts = [{"text": prompt}]
     if post["image"]:
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(post["image"]).decode()}})
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={env['GEMINI_KEY']}"
-    res = http_json(url, {"contents": [{"parts": parts}],
-                          "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}})
+    body = {"contents": [{"parts": parts}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
+    for force in (False, True):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(force)}:generateContent?key={env['GEMINI_KEY']}"
+        try:
+            res = http_json(url, body)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and not force:
+                import time; time.sleep(5); continue  # overloaded — retry once
+            if force or e.code not in (400, 404):
+                raise
     text = res["candidates"][0]["content"]["parts"][0]["text"]
     return json.loads(text).get("titles", [])
 

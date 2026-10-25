@@ -3,7 +3,50 @@
 // Отвечает только вошедшим пользователям сайта.
 
 const GEMINI_KEY = Deno.env.get("GEMINI_KEY") ?? "";
-const MODEL = Deno.env.get("GEMINI_MODEL") ?? "gemini-2.5-flash";
+let models: string[] = Deno.env.get("GEMINI_MODEL") ? [Deno.env.get("GEMINI_MODEL")!] : [];
+
+// Google периодически выводит модели из оборота — берём свежие Flash из доступных ключу,
+// lite-версии оставляем запасным вариантом на случай перегрузки
+async function pickModels(): Promise<string[]> {
+  if (models.length) return models;
+  try {
+    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=${GEMINI_KEY}`);
+    const list: { name: string; supportedGenerationMethods?: string[] }[] = (await r.json()).models ?? [];
+    const version = (n: string) => Number((n.match(/gemini-(\d+(?:\.\d+)?)/) ?? [])[1] ?? 0);
+    const names = list
+      .filter((m) => m.supportedGenerationMethods?.includes("generateContent"))
+      .map((m) => m.name.replace("models/", ""))
+      .filter((n) => /flash/.test(n) && !/preview|exp|image|tts|live|audio|thinking/.test(n))
+      .sort((a, b) => Number(/lite/.test(a)) - Number(/lite/.test(b)) || version(b) - version(a));
+    models = names.slice(0, 4);
+  } catch { /* ниже запасной вариант */ }
+  if (!models.length) models = ["gemini-flash-latest", "gemini-flash-lite-latest"];
+  return models;
+}
+
+async function gemini(prompt: string) {
+  let last = "";
+  for (const m of await pickModels()) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent?key=${GEMINI_KEY}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: { responseMimeType: "application/json", temperature: 0.7 },
+        }),
+      });
+      const data = await r.json();
+      if (r.ok) return data;
+      last = data?.error?.message ?? `Gemini ответил ${r.status}`;
+      if (r.status === 503 || r.status === 429) { await new Promise((ok) => setTimeout(ok, 1500)); continue; }
+      if (/model|not found|no longer available/i.test(last)) { models = []; break; }
+      throw new Error(last);
+    }
+  }
+  throw new Error(last.includes("demand") ? "Gemini сейчас перегружен, попробуй через минуту" : last);
+}
+
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL") ?? "";
 const SUPABASE_ANON_KEY = Deno.env.get("SUPABASE_ANON_KEY") ?? "";
 const TMDB_TOKEN = Deno.env.get("TMDB_TOKEN") ?? "";
@@ -21,7 +64,16 @@ async function findOnTmdb(p: Pick) {
     const results = ((await r.json()).results ?? []).filter((x: { media_type: string }) => x.media_type === "movie" || x.media_type === "tv");
     if (!results.length) continue;
     const yearOf = (x: { release_date?: string; first_air_date?: string }) => Number((x.release_date || x.first_air_date || "").slice(0, 4));
-    const best = results.find((x: never) => p.year && Math.abs(yearOf(x) - p.year) <= 1) ?? results[0];
+    const norm = (t?: string) => (t ?? "").toLowerCase().replace(/ё/g, "е").replace(/[^\p{L}\p{N}]+/gu, "");
+    const wanted = [p.title, p.title_en].map(norm).filter(Boolean);
+    // точное совпадение названия и года важнее всего, популярность — чтобы не взять малоизвестный однофамилец
+    const score = (x: Record<string, never>) => {
+      const names = [x.title, x.name, x.original_title, x.original_name].map((n) => norm(n));
+      const diff = p.year ? Math.abs(yearOf(x) - p.year) : 5;
+      return (names.some((n) => wanted.includes(n)) ? 10 : 0) + (diff === 0 ? 6 : diff === 1 ? 3 : 0)
+        + Math.min(Number(x.popularity) || 0, 100) / 25;
+    };
+    const best = [...results].sort((a, b) => score(b) - score(a))[0];
     return {
       id: `${best.media_type}-${best.id}`,
       title: best.title ?? best.name,
@@ -83,25 +135,13 @@ Deno.serve(async (req) => {
     if (typeof prompt !== "string" || !prompt.trim() || prompt.length > 300_000) {
       return reply({ error: "Пустой или слишком длинный запрос" }, 400);
     }
-    const r = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_KEY}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { responseMimeType: "application/json", temperature: 0.7 },
-        }),
-      },
-    );
-    const data = await r.json();
-    if (!r.ok) return reply({ error: data?.error?.message ?? `Gemini ответил ${r.status}` }, 502);
+    const data = await gemini(prompt);
     const text = (data?.candidates?.[0]?.content?.parts ?? []).map((p: { text?: string }) => p.text ?? "").join("");
     const result = JSON.parse(text);
     const picks: Pick[] = Array.isArray(result?.picks) ? result.picks : [];
     await Promise.all(picks.map(async (p) => { if (!p.in_list) p.tmdb = await findOnTmdb(p); }));
     return reply({ result });
   } catch (e) {
-    return reply({ error: String(e) }, 500);
+    return reply({ error: e instanceof Error ? e.message : String(e) }, 502);
   }
 });
