@@ -8645,18 +8645,52 @@
      "via": "Telegram"
     }
    ]
+  },
+  {
+   "title_ru": "Икусагами: Последний самурай",
+   "title_orig": "Икусагами: Последний самурай",
+   "year": 2025,
+   "type": "?",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "вписано на сайте",
+    "tmdb=tv/252193"
+   ],
+   "sources": [
+    {
+     "src": "tg:124",
+     "date": "2025-11-28",
+     "url": "https://t.me/c/2117114565/124",
+     "from": "Schi Pai",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Легенда о Vox Machina",
+   "title_orig": "Легенда о Vox Machina",
+   "year": 2022,
+   "type": "?",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "tmdb=tv/135934",
+    "добавлено на сайте: Сумерки богов",
+    "Аркейн",
+    "Повелитель Тайн"
+   ],
+   "sources": [
+    {
+     "src": "sugg:tv-135934",
+     "date": "2026-10-25",
+     "url": "https://www.themoviedb.org/tv/135934",
+     "from": "Добавлено на сайте"
+    }
+   ]
   }
  ],
  "unknown": [
-  {
-   "src": "tg:124",
-   "date": "2025-11-28",
-   "url": "https://t.me/c/2117114565/124",
-   "from": "Schi Pai",
-   "via": "Telegram",
-   "note": "ссылка на рилс kinop_es про сериал Netflix 18+",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
   {
    "src": "tg:127",
    "date": "2025-11-30",
@@ -8673,7 +8707,7 @@
    "from": "FASHION COBRA",
    "via": "Telegram",
    "note": "видео FASHION COBRA «Кино для свиданий: красивейшие фильмы, выпуск 10»",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+   "reason": "Видео недоступно — открой и впиши название сам"
   },
   {
    "src": "tg:164",
@@ -8682,7 +8716,7 @@
    "from": "Schi Pai",
    "via": "Telegram",
    "note": "ссылка share.google на ролик YouTube (недоступен)",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+   "reason": "Видео недоступно — открой и впиши название сам"
   },
   {
    "src": "tg:169",

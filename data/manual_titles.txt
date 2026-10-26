@@ -574,3 +574,7 @@ ig:224|!unknown|||||подборка
 tg:182|The Rings of Power|The Rings of Power||?|?|
 tg:183|!unknown|||||Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
 tg:184|NARNIA: THE MAGICIAN’S NEPHEW|NARNIA: THE MAGICIAN’S NEPHEW||?|?|
+
+# автообновление 2026-10-26
+tg:124|Икусагами: Последний самурай|Икусагами: Последний самурай|2025|?|+|вписано на сайте; tmdb=tv/252193
+sugg:tv-135934|Легенда о Vox Machina|Легенда о Vox Machina|2022|?|+|tmdb=tv/135934; добавлено на сайте: Сумерки богов; Аркейн; Повелитель Тайн
