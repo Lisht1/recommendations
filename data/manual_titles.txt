@@ -161,7 +161,22 @@ tg:123||kp:9153218||S|+|
 tg:124|!unknown|||||ссылка на рилс kinop_es про сериал Netflix 18+
 tg:125||kp:5942378||F|+|
 tg:126|Стометровка|Hyakuemu.|2025|A|+|
-tg:127|!unknown|||||ссылка на пост Instagram
+tg:127|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|из видео
+tg:127|Подземелье вкусностей|Dungeon Meshi|2024|A|+|из видео
+tg:127|Кайдзю номер восемь|Kaiju No. 8|2024|A|+|из видео
+tg:127|О движении Земли|Chi: Chikyuu no Undou ni Tsuite|2024|A|+|из видео
+tg:127|Провожающая в последний путь Фрирен|Sousou no Frieren|2023|A|+|из видео
+tg:127|Адский рай|Jigokuraku|2023|A|+|из видео
+tg:127|Плутон|Pluto|2023|A|+|из видео
+tg:127|Иллюзия рая|Tengoku Daimakyou|2023|A|+|из видео
+tg:127|Человек-бензопила|Chainsaw Man|2022|A|+|из видео
+tg:127|Синяя тюрьма: Блю Лок|Blue Lock|2022|A|+|из видео
+tg:127|Летнее время|Summer Time Rendering|2022|A|+|из видео
+tg:127|Киберпанк: Бегущие по краю|Cyberpunk: Edgerunners|2022|A|+|из видео
+tg:127|Магическая битва|Jujutsu Kaisen|2020|A|+|из видео
+tg:127|Созданный в Бездне|Made in Abyss|2020|A|+|из видео
+tg:127|Дорохедоро|Dorohedoro|2020|A|+|из видео
+tg:127|ID: Вторжение|ID: Invaded|2020|A|+|из видео
 tg:128|Властелин колец: Кольца власти|The Lord of the Rings: The Rings of Power|2022|S|+|2 сезон
 tg:129|Лило и Стич|Lilo & Stitch|2025|F|+|
 tg:130|Зверополис 2|Zootopia 2|2025|C|+|
@@ -306,7 +321,7 @@ ig:35|Сёва-Гэнроку: Двойное самоубийство по ра
 ig:35|Парад смерти|Death Parade|2015|A|+|
 ig:35|Твоё имя|Your Name.|2016|A|+|
 ig:36|Могучая девятка|The Legend of Vox Machina: The Mighty Nein|2025|C|+|
-ig:37|!unknown|||||семейный мультфильм про развод
+ig:37|Завороженные|Spellbound|2024|C|+|из видео
 ig:38|Скарлет|Scarlet|2025|A|+|
 ig:39|!skip|||||не про кино
 ig:40|Король драконов|Dragon Raja|2024|A|+|

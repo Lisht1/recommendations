@@ -302,6 +302,7 @@
    "confidence": "check",
    "kp_id": null,
    "notes": [
+    "из видео",
     "из карусели"
    ],
    "sources": [
@@ -309,6 +310,13 @@
      "src": "tg:2",
      "date": "2024-04-08",
      "url": "https://t.me/c/2117114565/2",
+     "from": "Свои посты",
+     "via": "Telegram"
+    },
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
      "from": "Свои посты",
      "via": "Telegram"
     },
@@ -1677,7 +1685,8 @@
    "confidence": "high",
    "kp_id": null,
    "notes": [
-    "из топ-25 коротких аниме"
+    "из топ-25 коротких аниме",
+    "из видео"
    ],
    "sources": [
     {
@@ -1685,6 +1694,13 @@
      "date": "2024-10-24",
      "url": "https://t.me/c/2117114565/74",
      "from": "Паша Калинин",
+     "via": "Telegram"
+    },
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
      "via": "Telegram"
     }
    ]
@@ -2934,6 +2950,332 @@
      "url": "https://www.instagram.com/reel/DTBMnX9CFQJ/",
      "from": "@empire_of_future",
      "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Поднятие уровня в одиночку",
+   "title_orig": "Solo Leveling",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    },
+    {
+     "src": "ig:121",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
+     "from": "@lnhistorian",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:124",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDiN5UIScdI/",
+     "from": "@renrantsx",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Подземелье вкусностей",
+   "title_orig": "Dungeon Meshi",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кайдзю номер восемь",
+   "title_orig": "Kaiju No. 8",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "О движении Земли",
+   "title_orig": "Chi: Chikyuu no Undou ni Tsuite",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Провожающая в последний путь Фрирен",
+   "title_orig": "Sousou no Frieren",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео",
+    "из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе»."
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    },
+    {
+     "src": "ig:19",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
+     "from": "@podcast.baka",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Адский рай",
+   "title_orig": "Jigokuraku",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Плутон",
+   "title_orig": "Pluto",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Иллюзия рая",
+   "title_orig": "Tengoku Daimakyou",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Человек-бензопила",
+   "title_orig": "Chainsaw Man",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Синяя тюрьма: Блю Лок",
+   "title_orig": "Blue Lock",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Магическая битва",
+   "title_orig": "Jujutsu Kaisen",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео",
+    "из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.",
+    "из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе»."
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    },
+    {
+     "src": "ig:16",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DVduoDICMbX/",
+     "from": "@finalbosu",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:19",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
+     "from": "@podcast.baka",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Созданный в Бездне",
+   "title_orig": "Made in Abyss",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дорохедоро",
+   "title_orig": "Dorohedoro",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео",
+    "из карусели"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
+    },
+    {
+     "src": "ig:45",
+     "date": null,
+     "url": "https://www.instagram.com/p/DO8xId-goKA/",
+     "from": "@melomankaz",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "ID: Вторжение",
+   "title_orig": "ID: Invaded",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:127",
+     "date": "2025-11-30",
+     "url": "https://t.me/c/2117114565/127",
+     "from": "Свои посты",
+     "via": "Telegram"
     }
    ]
   },
@@ -4797,34 +5139,6 @@
    ]
   },
   {
-   "title_ru": "Магическая битва",
-   "title_orig": "Jujutsu Kaisen",
-   "year": 2020,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [
-    "из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.",
-    "из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе»."
-   ],
-   "sources": [
-    {
-     "src": "ig:16",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DVduoDICMbX/",
-     "from": "@finalbosu",
-     "via": "Instagram"
-    },
-    {
-     "src": "ig:19",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
-     "from": "@podcast.baka",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
    "title_ru": "Истребитель демонов",
    "title_orig": "Demon Slayer: Kimetsu no Yaiba",
    "year": 2019,
@@ -4924,26 +5238,6 @@
    "title_ru": "Смертельная игра ради еды на столе",
    "title_orig": "Shibou Yuugi de Meshi wo Kuu.",
    "year": 2026,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [
-    "из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе»."
-   ],
-   "sources": [
-    {
-     "src": "ig:19",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
-     "from": "@podcast.baka",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Провожающая в последний путь Фрирен",
-   "title_orig": "Sousou no Frieren",
-   "year": 2023,
    "type": "Аниме",
    "confidence": "high",
    "kp_id": null,
@@ -5218,6 +5512,26 @@
    ]
   },
   {
+   "title_ru": "Завороженные",
+   "title_orig": "Spellbound",
+   "year": 2024,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:37",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DNv28a-Xj8p/",
+     "from": "@irina.tolochina",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Король драконов",
    "title_orig": "Dragon Raja",
    "year": 2024,
@@ -5307,26 +5621,6 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DOUk56biAmj/",
      "from": "@studio_tora_lab",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Дорохэдоро",
-   "title_orig": "Dorohedoro",
-   "year": 2020,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [
-    "из карусели"
-   ],
-   "sources": [
-    {
-     "src": "ig:45",
-     "date": null,
-     "url": "https://www.instagram.com/p/DO8xId-goKA/",
-     "from": "@melomankaz",
      "via": "Instagram"
     }
    ]
@@ -6729,31 +7023,6 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DEqRbySB6wF/",
      "from": "@taylor.anime.reviews",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Поднятие уровня в одиночку",
-   "title_orig": "Solo Leveling",
-   "year": 2024,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [],
-   "sources": [
-    {
-     "src": "ig:121",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
-     "from": "@lnhistorian",
-     "via": "Instagram"
-    },
-    {
-     "src": "ig:124",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DDiN5UIScdI/",
-     "from": "@renrantsx",
      "via": "Instagram"
     }
    ]
@@ -8692,15 +8961,6 @@
  ],
  "unknown": [
   {
-   "src": "tg:127",
-   "date": "2025-11-30",
-   "url": "https://t.me/c/2117114565/127",
-   "from": "Свои посты",
-   "via": "Telegram",
-   "note": "ссылка на пост Instagram",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "tg:156",
    "date": "2026-04-18",
    "url": "https://t.me/c/2117114565/156",
@@ -8770,15 +9030,6 @@
    "via": "Instagram",
    "note": "топ-3 непопулярных аниме",
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
-  },
-  {
-   "src": "ig:37",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DNv28a-Xj8p/",
-   "from": "@irina.tolochina",
-   "via": "Instagram",
-   "note": "семейный мультфильм про развод",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:57",
