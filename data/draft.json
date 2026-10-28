@@ -4604,6 +4604,25 @@
    ]
   },
   {
+   "title_ru": "Чёрный факел",
+   "title_orig": "Black Torch",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:2",
+     "date": null,
+     "url": "https://www.instagram.com/reel/Da2b4GAI0uF/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
    "title_ru": "Хранитель камфорного дерева",
    "title_orig": "The Camphor Tree Guardian",
    "year": 2026,
@@ -8957,6 +8976,24 @@
      "from": "Добавлено на сайте"
     }
    ]
+  },
+  {
+   "title_ru": "Холостяк в Италии",
+   "title_orig": "Solo Mio",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:185",
+     "date": "2026-10-28",
+     "url": "https://t.me/c/2117114565/185",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
   }
  ],
  "unknown": [
@@ -8985,14 +9022,6 @@
    "from": "ШишКИНО",
    "via": "Telegram",
    "note": "ШишКИНО #ДракаДня, название в комментариях канала",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:2",
-   "date": null,
-   "url": "https://www.instagram.com/reel/Da2b4GAI0uF/",
-   "from": "Instagram: anime",
-   "note": "онгоинги",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
