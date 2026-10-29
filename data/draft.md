@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **456** уникальных названий, из них проверить: **37**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **61**, пропущено (не про кино): **7**.
+Найдено **460** уникальных названий, из них проверить: **37**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **60**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -218,7 +218,7 @@
 | Эйфория / Euphoria (2019) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Эрик / Eric (2024) | [tg:15](https://t.me/c/2117114565/15) |  |
 
-## Аниме (186)
+## Аниме (190)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -229,6 +229,7 @@
 | Final Bosu | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:28](https://www.instagram.com/reel/DSXTiyPiCmI/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Автор видео презентует концепцию своего оригинального аниме-проекта Final Bosu. |
 | ID: Вторжение / ID: Invaded (2020) | [tg:127](https://t.me/c/2117114565/127) | из видео |
 | Адский рай / Jigokuraku (2023) | [tg:127](https://t.me/c/2117114565/127) | из видео |
+| Адский учитель Нубэ / Jigoku Sensei Nube (2025) | [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) | из видео |
 | Акира / Akira (1988) | [tg:2](https://t.me/c/2117114565/2), [tg:147](https://t.me/c/2117114565/147) |  |
 | Амбиции Оды Нобуны / The Ambition of Oda Nobuna (2012) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
 | Ангельские ритмы! / Angel Beats! (2010) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
@@ -253,6 +254,7 @@
 | Ведьма и чудовище / The Witch and the Beast (2024) | [ig:77](https://www.instagram.com/reel/DLI_AtTyDcB/) |  |
 | Великий притворщик / Great Pretender (2020) | [ig:4](https://www.instagram.com/reel/DZdD48aJm7k/) |  |
 | Великий целитель / The Great Cleric (2023) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
+| Вестник апокалипсиса Миногра: Завоевание мира начинается с павшей цивилизации / Isekai Mokushiroku Mynoghra (2025) | [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) | из видео |
 | Ветер крепчает / The Wind Rises (2013) | [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) |  |
 | Ветролом / Wind Breaker (2024) | [ig:11](https://www.instagram.com/reel/DUP4aupiEjs/) |  |
 | Виви: Песнь флюоритового глаза / Vivy: Fluorite Eye's Song (2021) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
@@ -261,7 +263,7 @@
 | Восход луны / Moonrise (2025) | [ig:81](https://www.instagram.com/reel/DJyuAT4uFRy/), [ig:96](https://www.instagram.com/reel/DIRi3EPOdxA/) |  |
 | Врата Штейна / Steins;Gate (2011) | [ig:79](https://www.instagram.com/p/DKFOMugSbee/) | из карусели |
 | Всепожирающий кит / The All-devouring Whale (2025) | [ig:87](https://www.instagram.com/reel/DJHQb3BpWYT/) |  |
-| Гачиакута / Gachiakuta (2025) | [ig:50](https://www.instagram.com/reel/DOLiYoqEzKu/) |  |
+| Гачиакута / Gachiakuta (2025) | [ig:50](https://www.instagram.com/reel/DOLiYoqEzKu/), [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) | из видео |
 | Гнозия / Gnosia (2025) | [ig:43](https://www.instagram.com/reel/DQCC8t6ies6/) |  |
 | Голубой период / Blue Period (2021) | [ig:122](https://www.instagram.com/p/DD7F7zwpZhj/) | из карусели |
 | Город, в котором меня нет / Erased (2016) | [tg:74](https://t.me/c/2117114565/74), [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) | из топ-25 коротких аниме |
@@ -298,7 +300,7 @@
 | Как прекрасна луна / Tsuki ga Kirei (2017) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Кибервиток / Dennou Coil (2007) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Киберпанк: Бегущие по краю / Cyberpunk: Edgerunners (2022) | [tg:74](https://t.me/c/2117114565/74), [tg:127](https://t.me/c/2117114565/127) | из топ-25 коротких аниме; из видео |
-| Клеватесс / Clevatess (2025) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из карусели |
+| Клеватесс / Clevatess (2025) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/), [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) | из карусели; из видео |
 | Ковбой Бибоп / Cowboy Bebop (1998) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Король драконов / Dragon Raja (2024) | [ig:40](https://www.instagram.com/reel/DNYa-ZpR7L5/) |  |
 | Корона вины / Guilty Crown (2011) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
@@ -340,6 +342,7 @@
 | Парад смерти / Death Parade (2015) | [tg:75](https://t.me/c/2117114565/75), [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) | из топ-25 коротких аниме |
 | Патэма наоборот / Patema Inverted (2013) | [tg:72](https://t.me/c/2117114565/72) |  |
 | Первородный грех Такопи / Takopi's Original Sin (2025) | [tg:111](https://t.me/c/2117114565/111), [ig:50](https://www.instagram.com/reel/DOLiYoqEzKu/), [ig:72](https://www.instagram.com/reel/DL1h1VjTgOb/) | «ОЧЕНЬ ТЯЖЁЛОЕ» |
+| Первородный грех Такопи / Takopi no Genzai (2025) | [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) | из видео |
 | Песнь ночных сов / Call of the Night (2022) | [ig:54](https://www.instagram.com/reel/DNgJRrzRHAN/) |  |
 | Пикник в Потусторонье / Otherside Picnic (2021) | [ig:130](https://www.instagram.com/reel/DD4VPIooKvI/) |  |
 | Пинг-понг / Ping Pong the Animation (2014) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
@@ -377,6 +380,7 @@
 | Сэкирэй / Sekirei (2010) | [ig:115](https://www.instagram.com/p/DEngZCvzdsc/) | из карусели |
 | Сёва-Гэнроку: Двойное самоубийство по ракуго / Showa Genroku Rakugo Shinju (2016) | [ig:35](https://www.instagram.com/reel/DP3V9IEDeKd/) |  |
 | Сёсимин / Shoshimin: How to Become Ordinary (2024) | [ig:122](https://www.instagram.com/p/DD7F7zwpZhj/) | из карусели |
+| Тайна молчаливой ведьмы / Silent Witch: Chinmoku no Majo no Kakushigoto (2025) | [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) | из видео |
 | Танец льва / I Am What I Am (2021) | [ig:6](https://www.instagram.com/p/DZR29JdDD7r/) | из карусели |
 | Татами-галактика / The Tatami Galaxy (2010) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
 | Тацуки Фудзимото: 17-26 / Tatsuki Fujimoto 17-26 (2025) | [ig:34](https://www.instagram.com/reel/DRNbHkwDH__/) |  |
@@ -502,7 +506,6 @@
 - [ig:8](https://www.instagram.com/reel/DYKgeBzsexV/) 
 - [ig:15](https://www.instagram.com/reel/DWyO6OYCqn-/) самое ожидаемое фэнтези-аниме весны
 - [ig:20](https://www.instagram.com/reel/DU_UqnOAEfP/) топ-3 непопулярных аниме
-- [ig:57](https://www.instagram.com/reel/DMoHsMBIXHB/) аниме июля 2025, часть 1
 - [ig:62](https://www.instagram.com/reel/DMuthkbo6aS/) новое аниме с 30k кадров в серии
 - [ig:66](https://www.instagram.com/reel/DJaUMksooI1/) блиц-рекомендации
 - [ig:73](https://www.instagram.com/reel/DLuvfPRIui_/) аниме 2025, красивое

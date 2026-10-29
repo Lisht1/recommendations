@@ -5772,7 +5772,8 @@
    "confidence": "high",
    "kp_id": null,
    "notes": [
-    "из карусели"
+    "из карусели",
+    "из видео"
    ],
    "sources": [
     {
@@ -5780,6 +5781,13 @@
      "date": null,
      "url": "https://www.instagram.com/p/DO8xId-goKA/",
      "from": "@melomankaz",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:57",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+     "from": "@top10anime_amvs",
      "via": "Instagram"
     }
    ]
@@ -5990,13 +5998,22 @@
    "type": "Аниме",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
     {
      "src": "ig:50",
      "date": null,
      "url": "https://www.instagram.com/reel/DOLiYoqEzKu/",
      "from": "@kira_yoshikagesss",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:57",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+     "from": "@top10anime_amvs",
      "via": "Instagram"
     }
    ]
@@ -6087,6 +6104,86 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DNVWhkHoDAI/",
      "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Адский учитель Нубэ",
+   "title_orig": "Jigoku Sensei Nube",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:57",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Тайна молчаливой ведьмы",
+   "title_orig": "Silent Witch: Chinmoku no Majo no Kakushigoto",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:57",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Вестник апокалипсиса Миногра: Завоевание мира начинается с павшей цивилизации",
+   "title_orig": "Isekai Mokushiroku Mynoghra",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:57",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Первородный грех Такопи",
+   "title_orig": "Takopi no Genzai",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:57",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
+     "from": "@top10anime_amvs",
      "via": "Instagram"
     }
    ]
@@ -9059,15 +9156,6 @@
    "via": "Instagram",
    "note": "топ-3 непопулярных аниме",
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
-  },
-  {
-   "src": "ig:57",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DMoHsMBIXHB/",
-   "from": "@top10anime_amvs",
-   "via": "Instagram",
-   "note": "аниме июля 2025, часть 1",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:62",
