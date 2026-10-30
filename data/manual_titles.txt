@@ -392,7 +392,7 @@ ig:82|!unknown|||||
 ig:83|УдивЛа|WondLa|2024|C|+|
 ig:84|!unknown|||||«выгнал лучшего целителя и пожалел»
 ig:85|Чудесные дни|Wonderful Days|2003|A|+|корейский, он же Sky Blue
-ig:86|!unknown|||||
+ig:86|Очень стрёмные дела|The Strange Chores|2019|C|+|из видео
 ig:87|Всепожирающий кит|The All-devouring Whale|2025|A|+|
 ig:88|!unknown|||||код 93176
 ig:89|!unknown|||||
@@ -601,3 +601,7 @@ sugg:tv-135934|Легенда о Vox Machina|Легенда о Vox Machina|2022|
 
 # автообновление 2026-10-28
 tg:185|Холостяк в Италии|Solo Mio|2026|F|+|
+
+# автообновление 2026-10-30
+tg:186|!unknown|||||https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==
+tg:187|!unknown|||||https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==

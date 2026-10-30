@@ -6481,6 +6481,25 @@
    ]
   },
   {
+   "title_ru": "Очень стрёмные дела",
+   "title_orig": "The Strange Chores",
+   "year": 2019,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:86",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJMsON1ISCG/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
    "title_ru": "Всепожирающий кит",
    "title_orig": "The All-devouring Whale",
    "year": 2025,
@@ -9221,14 +9240,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:86",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DJMsON1ISCG/",
-   "from": "Instagram: anime",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:88",
    "date": null,
    "url": "https://www.instagram.com/reel/DI1Y74LKAlB/",
@@ -9630,6 +9641,24 @@
    "from": "Midnite chronicles",
    "via": "Telegram",
    "note": "Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител",
+   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+  },
+  {
+   "src": "tg:186",
+   "date": "2026-10-29",
+   "url": "https://t.me/c/2117114565/186",
+   "from": "@kinopapahd",
+   "via": "Telegram",
+   "note": "https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==",
+   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+  },
+  {
+   "src": "tg:187",
+   "date": "2026-10-30",
+   "url": "https://t.me/c/2117114565/187",
+   "from": "@tut_cinema",
+   "via": "Telegram",
+   "note": "https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   }
  ],

@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **460** уникальных названий, из них проверить: **37**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **60**, пропущено (не про кино): **7**.
+Найдено **461** уникальных названий, из них проверить: **37**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **61**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -413,7 +413,7 @@
 | Я не смог стать героем, поэтому решил найти работу / Yuusha ni Narenakatta Ore wa Shoukurou ni Shigoto o Hajimemashita. (2013) | [ig:18](https://www.instagram.com/reel/DV0FqHhklb8/) | из видео: Юмористический ролик о том, что многие аниме в жанре исэкай/фансервис смотрят «ради сюжета», хотя весь сюжет состоит из откровенных сцен. |
 | Яйцо ангела / Tenshi no Tamago (1985) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 
-## Мультфильм (44)
+## Мультфильм (45)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -439,6 +439,7 @@
 | Они: Легенда о Боге грома / ONI: Thunder God's Tale (2022) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Остров забвения / Forgotten Island (2026) | [ig:148](https://www.instagram.com/p/DXY2ozrDFTl/) | из карусели |
 | Отель с привидениями / Haunted Hotel (2025) | [ig:29](https://www.instagram.com/reel/DQOkx6fjIGe/) | Netflix |
+| Очень стрёмные дела / The Strange Chores (2019) | [ig:86](https://www.instagram.com/reel/DJMsON1ISCG/) | из видео |
 | Первобытный / Primal (2019) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Песнь моря / Song of the Sea (2014) | [tg:147](https://t.me/c/2117114565/147) |  |
 | Последний единорог / The Last Unicorn (1982) | [ig:135](https://www.instagram.com/reel/DZNCnvJClSt/) |  |
@@ -513,7 +514,6 @@
 - [ig:78](https://www.instagram.com/reel/DLF7k0toWPV/) название в тг-канале автора
 - [ig:82](https://www.instagram.com/reel/DJm7fJSB1-L/) 
 - [ig:84](https://www.instagram.com/reel/DJKA6yjiPdj/) «выгнал лучшего целителя и пожалел»
-- [ig:86](https://www.instagram.com/reel/DJMsON1ISCG/) 
 - [ig:88](https://www.instagram.com/reel/DI1Y74LKAlB/) код 93176
 - [ig:89](https://www.instagram.com/reel/DIwVS9uITR0/) 
 - [ig:92](https://www.instagram.com/reel/DIg6uvXsa1u/) аниме в стиле «Аркейна»
@@ -559,3 +559,5 @@
 - [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) подборка
 - [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) подборка
 - [tg:183](https://t.me/c/2117114565/183) Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
+- [tg:186](https://t.me/c/2117114565/186) https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==
+- [tg:187](https://t.me/c/2117114565/187) https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==
