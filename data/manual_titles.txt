@@ -617,3 +617,6 @@ tg:187|!unknown|||||https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV
 
 # автообновление 2026-11-01
 tg:188|Всего одна ночь|One Night Only|2026|F|?|
+
+# автообновление 2026-11-01
+tg:189|!unknown|||||https://www.instagram.com/reel/DeymyZAiGMK/?obrf=YjR1emFncTdsMWx2
