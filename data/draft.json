@@ -2213,7 +2213,8 @@
    "confidence": "high",
    "kp_id": null,
    "notes": [
-    "Netflix"
+    "Netflix",
+    "из видео"
    ],
    "sources": [
     {
@@ -2222,6 +2223,13 @@
      "url": "https://t.me/c/2117114565/79",
      "from": "Сторибордист",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:97",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIRPwMgCTM9/",
+     "from": "@sakyta_tt",
+     "via": "Instagram"
     }
    ]
   },
@@ -2520,7 +2528,9 @@
    "type": "Мультфильм",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
     {
      "src": "tg:103",
@@ -2528,6 +2538,13 @@
      "url": "https://t.me/c/2117114565/103",
      "from": "Midnite chronicles",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:92",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIg6uvXsa1u/",
+     "from": "@artgutkowski",
+     "via": "Instagram"
     }
    ]
   },
@@ -2970,6 +2987,13 @@
      "url": "https://t.me/c/2117114565/127",
      "from": "Свои посты",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:89",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIwVS9uITR0/",
+     "from": "@uchmanenews",
+     "via": "Instagram"
     },
     {
      "src": "ig:121",
@@ -4478,6 +4502,26 @@
      "date": "2026-06-09",
      "url": "https://t.me/c/2117114565/167",
      "from": "Midnite chronicles",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Рейд",
+   "title_orig": "The Raid: Redemption",
+   "year": 2011,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:169",
+     "date": "2026-08-06",
+     "url": "https://t.me/c/2117114565/169",
+     "from": "ШишКИНО",
      "via": "Telegram"
     }
    ]
@@ -6225,6 +6269,26 @@
    ]
   },
   {
+   "title_ru": "Повелитель тайн",
+   "title_orig": "Guimi Zhi Zhu",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:62",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DMuthkbo6aS/",
+     "from": "@ViktorGutman",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Холм тумана пяти стихий",
    "title_orig": "Fog Hill of Five Elements",
    "year": 2020,
@@ -6340,6 +6404,66 @@
    ]
   },
   {
+   "title_ru": "Затерянный в звёздном свете",
+   "title_orig": "Lost in Starlight",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:73",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLuvfPRIui_/",
+     "from": "@kudrik_98",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Твоё имя",
+   "title_orig": "Kimi no Na wa.",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:73",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLuvfPRIui_/",
+     "from": "@kudrik_98",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дитя погоды",
+   "title_orig": "Tenki no ko",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:73",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLuvfPRIui_/",
+     "from": "@kudrik_98",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "The Bucket and the List",
    "title_orig": "The Bucket and the List",
    "year": null,
@@ -6373,6 +6497,33 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DLI_AtTyDcB/",
      "from": "@coraschaan",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Начало после конца",
+   "title_orig": "The Beginning After the End",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:78",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DLF7k0toWPV/",
+     "from": "@kiranbnl_tt",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:121",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
+     "from": "@lnhistorian",
      "via": "Instagram"
     }
    ]
@@ -6443,6 +6594,26 @@
    ]
   },
   {
+   "title_ru": "Путешествие Элейны",
+   "title_orig": "Majo no Tabitabi",
+   "year": 2020,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:82",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJm7fJSB1-L/",
+     "from": "@coraschaan",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "УдивЛа",
    "title_orig": "WondLa",
    "year": 2024,
@@ -6456,6 +6627,26 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DKfjgNco0SB/",
      "from": "@mary.pop.arrrt",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Новая жизнь гениального целителя в тени",
+   "title_orig": "Isshun de Chiryou shiteita no ni Yakutatazu to Tsuihousareta Tensai Chiyushi, Yami Healer to shite Tanoshiku Ikiru",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:84",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJKA6yjiPdj/",
+     "from": "@eliotwog_elwo",
      "via": "Instagram"
     }
    ]
@@ -6519,6 +6710,26 @@
   },
   {
    "title_ru": "Суперкуб",
+   "title_orig": "Super Cube",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:89",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIwVS9uITR0/",
+     "from": "@uchmanenews",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Суперкуб",
    "title_orig": "The Super Cube",
    "year": 2025,
    "type": "Аниме",
@@ -6561,19 +6772,55 @@
    ]
   },
   {
-   "title_ru": "Быть героем X",
+   "title_ru": "Аркейн",
+   "title_orig": "Arcane: League of Legends",
+   "year": 2021,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:92",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIg6uvXsa1u/",
+     "from": "@artgutkowski",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Быть героем Икс",
    "title_orig": "To Be Hero X",
    "year": 2025,
    "type": "Аниме",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
+    {
+     "src": "ig:92",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIg6uvXsa1u/",
+     "from": "@artgutkowski",
+     "via": "Instagram"
+    },
     {
      "src": "ig:93",
      "date": null,
      "url": "https://www.instagram.com/reel/DId9chHsFvX/",
      "from": "@shironel",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:97",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIRPwMgCTM9/",
+     "from": "@sakyta_tt",
      "via": "Instagram"
     },
     {
@@ -6621,6 +6868,92 @@
    ]
   },
   {
+   "title_ru": "Лазарь",
+   "title_orig": "Lazarus",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:97",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIRPwMgCTM9/",
+     "from": "@sakyta_tt",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:102",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
+     "from": "Instagram: anime"
+    }
+   ]
+  },
+  {
+   "title_ru": "Хроники людей и демонов",
+   "title_orig": "Kijin Gentoushou",
+   "year": 2025,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:98",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIQvxwHoTdO/",
+     "from": "@viktorgutman_",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Клинок, рассекающий демонов",
+   "title_orig": "Kimetsu no Yaiba",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:98",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIQvxwHoTdO/",
+     "from": "@viktorgutman_",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дороро",
+   "title_orig": "Dororo",
+   "year": 2019,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:98",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIQvxwHoTdO/",
+     "from": "@viktorgutman_",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Меч охотника на демонов",
    "title_orig": "Sword of the Demon Hunter: Kijin Gentosho",
    "year": 2025,
@@ -6635,23 +6968,6 @@
      "url": "https://www.instagram.com/reel/DH8ztzJxcfr/",
      "from": "@itsbarbiecole",
      "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Лазарь",
-   "title_orig": "Lazarus",
-   "year": 2025,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [],
-   "sources": [
-    {
-     "src": "ig:102",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
-     "from": "Instagram: anime"
     }
    ]
   },
@@ -7158,24 +7474,6 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DEqRbySB6wF/",
      "from": "@taylor.anime.reviews",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Начало после конца",
-   "title_orig": "The Beginning After the End",
-   "year": 2025,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [],
-   "sources": [
-    {
-     "src": "ig:121",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
-     "from": "@lnhistorian",
      "via": "Instagram"
     }
    ]
@@ -9110,6 +9408,24 @@
      "via": "Telegram"
     }
    ]
+  },
+  {
+   "title_ru": "Всего одна ночь",
+   "title_orig": "One Night Only",
+   "year": 2026,
+   "type": "Фильм",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:188",
+     "date": "2026-11-01",
+     "url": "https://t.me/c/2117114565/188",
+     "from": "ШишКИНО",
+     "via": "Telegram"
+    }
+   ]
   }
  ],
  "unknown": [
@@ -9130,15 +9446,6 @@
    "via": "Telegram",
    "note": "ссылка share.google на ролик YouTube (недоступен)",
    "reason": "Видео недоступно — открой и впиши название сам"
-  },
-  {
-   "src": "tg:169",
-   "date": "2026-08-06",
-   "url": "https://t.me/c/2117114565/169",
-   "from": "ШишКИНО",
-   "via": "Telegram",
-   "note": "ШишКИНО #ДракаДня, название в комментариях канала",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:5",
@@ -9177,15 +9484,6 @@
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
   },
   {
-   "src": "ig:62",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DMuthkbo6aS/",
-   "from": "@ViktorGutman",
-   "via": "Instagram",
-   "note": "новое аниме с 30k кадров в серии",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:66",
    "date": null,
    "url": "https://www.instagram.com/reel/DJaUMksooI1/",
@@ -9193,15 +9491,6 @@
    "via": "Instagram",
    "note": "блиц-рекомендации",
    "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
-   "src": "ig:73",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DLuvfPRIui_/",
-   "from": "@kudrik_98",
-   "via": "Instagram",
-   "note": "аниме 2025, красивое",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:74",
@@ -9213,33 +9502,6 @@
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
   },
   {
-   "src": "ig:78",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DLF7k0toWPV/",
-   "from": "@kiranbnl_tt",
-   "via": "Instagram",
-   "note": "название в тг-канале автора",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:82",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DJm7fJSB1-L/",
-   "from": "@coraschaan",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:84",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DJKA6yjiPdj/",
-   "from": "@eliotwog_elwo",
-   "via": "Instagram",
-   "note": "«выгнал лучшего целителя и пожалел»",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:88",
    "date": null,
    "url": "https://www.instagram.com/reel/DI1Y74LKAlB/",
@@ -9247,42 +9509,6 @@
    "via": "Instagram",
    "note": "код 93176",
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
-  },
-  {
-   "src": "ig:89",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DIwVS9uITR0/",
-   "from": "@uchmanenews",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:92",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DIg6uvXsa1u/",
-   "from": "@artgutkowski",
-   "via": "Instagram",
-   "note": "аниме в стиле «Аркейна»",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:97",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DIRPwMgCTM9/",
-   "from": "@sakyta_tt",
-   "via": "Instagram",
-   "note": "аниме-новинки",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:98",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DIQvxwHoTdO/",
-   "from": "@viktorgutman_",
-   "via": "Instagram",
-   "note": "аниме 2025 про охотника на демонов",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:99",

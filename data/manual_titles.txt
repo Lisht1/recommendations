@@ -248,7 +248,7 @@ tg:165|Горничная|The Housemaid|2025|F|+|
 tg:166|Драма|The Drama|2026|F|+|
 tg:167|Лаки|Lucky|2026|S|+|Apple TV
 tg:168|Бухта вдов|Widow's Bay|2026|S|+|
-tg:169|!unknown|||||ШишКИНО #ДракаДня, название в комментариях канала
+tg:169|Рейд|The Raid: Redemption|2011|F|+|из видео
 tg:170|Надежда|Hope|2026|F|+|На Хон-джин
 tg:171|Бухта вдов|Widow's Bay|2026|S|+|
 tg:178|Обсессия|Obsession|2025|F|?|
@@ -366,7 +366,7 @@ ig:58|Оседлай волну|Ride Your Wave|2019|A|+|
 ig:59|!skip|||||нарезка сцен
 ig:60|Легенда о Хэй|The Legend of Hei|2019|A|+|
 ig:61|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|
-ig:62|!unknown|||||новое аниме с 30k кадров в серии
+ig:62|Повелитель тайн|Guimi Zhi Zhu|2025|A|+|из видео
 ig:63|Легенда о Хэй 2|The Legend of Hei 2|2025|A|+|
 ig:64|Холм тумана пяти стихий|Fog Hill of Five Elements|2020|A|+|
 ig:65|Спой немного гармонии|Sing a Bit of Harmony|2021|A|+|
@@ -377,34 +377,43 @@ ig:69|Невеста чародея|The Ancient Magus' Bride|2017|A|+|
 ig:70|Красноволосая принцесса Белоснежка|Snow White with the Red Hair|2015|A|?|угадано по обложке
 ig:71|Кастлвания: Ноктюрн|Castlevania: Nocturne|2023|C|+|
 ig:72|Первородный грех Такопи|Takopi's Original Sin|2025|A|+|
-ig:73|!unknown|||||аниме 2025, красивое
+ig:73|Затерянный в звёздном свете|Lost in Starlight|2025|A|+|из видео
+ig:73|Твоё имя|Kimi no Na wa.|2016|A|+|из видео
+ig:73|Дитя погоды|Tenki no ko|2019|A|+|из видео
 ig:74|!unknown|||||все новые аниме сезона
 ig:75|The Bucket and the List|The Bucket and the List||A|?|название с обложки
 ig:76|Повелитель тайн|Lord of Mysteries|2025|A|+|
 ig:77|Ведьма и чудовище|The Witch and the Beast|2024|A|+|
-ig:78|!unknown|||||название в тг-канале автора
+ig:78|Начало после конца|The Beginning After the End|2025|A|+|из видео
 ig:79|Призрак в доспехах|Ghost in the Shell|1995|A|+|из карусели
 ig:79|Врата Штейна|Steins;Gate|2011|A|+|из карусели
 ig:79|Белый лев Кимба|Kimba the White Lion|1965|A|+|из карусели
 ig:80|!skip|||||подборка манхв (комиксы, не кино)
 ig:81|Восход луны|Moonrise|2025|A|+|
-ig:82|!unknown|||||
+ig:82|Путешествие Элейны|Majo no Tabitabi|2020|A|+|из видео
 ig:83|УдивЛа|WondLa|2024|C|+|
-ig:84|!unknown|||||«выгнал лучшего целителя и пожалел»
+ig:84|Новая жизнь гениального целителя в тени|Isshun de Chiryou shiteita no ni Yakutatazu to Tsuihousareta Tensai Chiyushi, Yami Healer to shite Tanoshiku Ikiru|2025|A|+|из видео
 ig:85|Чудесные дни|Wonderful Days|2003|A|+|корейский, он же Sky Blue
 ig:86|Очень стрёмные дела|The Strange Chores|2019|C|+|из видео
 ig:87|Всепожирающий кит|The All-devouring Whale|2025|A|+|
 ig:88|!unknown|||||код 93176
-ig:89|!unknown|||||
+ig:89|Суперкуб|Super Cube|2025|A|+|из видео
+ig:89|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|из видео
 ig:90|Суперкуб|The Super Cube|2025|A|+|
 ig:91|Полное исследование|Полное исследование|2025|A|?|
-ig:92|!unknown|||||аниме в стиле «Аркейна»
+ig:92|Аркейн|Arcane: League of Legends|2021|C|+|из видео
+ig:92|Быть героем Икс|To Be Hero X|2025|A|+|из видео
+ig:92|Хищник: Убийца убийц|Predator: Killer of Killers|2025|C|+|из видео
 ig:93|Быть героем X|To Be Hero X|2025|A|+|
 ig:94|Благословение небожителей|Heaven Official's Blessing|2020|A|+|
 ig:95|Хинаматсури|Hinamatsuri|2018|A|+|
 ig:96|Восход луны|Moonrise|2025|A|+|
-ig:97|!unknown|||||аниме-новинки
-ig:98|!unknown|||||аниме 2025 про охотника на демонов
+ig:97|Дьявол может плакать|Devil May Cry|2025|A|+|из видео
+ig:97|Быть героем X|To Be Hero X|2025|A|+|из видео
+ig:97|Лазарь|Lazarus|2025|A|+|из видео
+ig:98|Хроники людей и демонов|Kijin Gentoushou|2025|A|+|из видео
+ig:98|Клинок, рассекающий демонов|Kimetsu no Yaiba|2019|A|+|из видео
+ig:98|Дороро|Dororo|2019|A|+|из видео
 ig:99|!unknown|||||
 ig:100|!unknown|||||аниме MAPPA
 ig:101|Меч охотника на демонов|Sword of the Demon Hunter: Kijin Gentosho|2025|A|+|
@@ -605,3 +614,6 @@ tg:185|Холостяк в Италии|Solo Mio|2026|F|+|
 # автообновление 2026-10-30
 tg:186|!unknown|||||https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==
 tg:187|!unknown|||||https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==
+
+# автообновление 2026-11-01
+tg:188|Всего одна ночь|One Night Only|2026|F|?|
