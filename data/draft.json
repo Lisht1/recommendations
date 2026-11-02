@@ -9426,6 +9426,24 @@
      "via": "Telegram"
     }
    ]
+  },
+  {
+   "title_ru": "Гадкие лебеди",
+   "title_orig": "Гадкие лебеди",
+   "year": null,
+   "type": "?",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:190",
+     "date": "2026-11-01",
+     "url": "https://t.me/c/2117114565/190",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
   }
  ],
  "unknown": [
