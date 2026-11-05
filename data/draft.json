@@ -9897,6 +9897,50 @@
      "via": "Telegram"
     }
    ]
+  },
+  {
+   "title_ru": "Секретный Уровень",
+   "title_orig": "Секретный Уровень",
+   "year": 2024,
+   "type": "?",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "tmdb=tv/261579",
+    "добавлено на сайте: The Animatrix",
+    "Афросамурай",
+    "Сумерки богов"
+   ],
+   "sources": [
+    {
+     "src": "sugg:tv-261579",
+     "date": "2026-11-05",
+     "url": "https://www.themoviedb.org/tv/261579",
+     "from": "Добавлено на сайте"
+    }
+   ]
+  },
+  {
+   "title_ru": "DOTA: Кровь дракона",
+   "title_orig": "DOTA: Кровь дракона",
+   "year": 2021,
+   "type": "?",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "tmdb=tv/118956",
+    "добавлено на сайте: Сумерки богов",
+    "Аркейн",
+    "Дракон Раджа"
+   ],
+   "sources": [
+    {
+     "src": "sugg:tv-118956",
+     "date": "2026-11-05",
+     "url": "https://www.themoviedb.org/tv/118956",
+     "from": "Добавлено на сайте"
+    }
+   ]
   }
  ],
  "unknown": [
