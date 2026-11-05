@@ -2996,6 +2996,13 @@
      "via": "Instagram"
     },
     {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    },
+    {
      "src": "ig:121",
      "date": null,
      "url": "https://www.instagram.com/reel/DEjoajyxZaE/",
@@ -3028,6 +3035,13 @@
      "url": "https://t.me/c/2117114565/127",
      "from": "Свои посты",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
     }
    ]
   },
@@ -3068,6 +3082,13 @@
      "url": "https://t.me/c/2117114565/127",
      "from": "Свои посты",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
     }
    ]
   },
@@ -3095,6 +3116,13 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
      "from": "@podcast.baka",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
      "via": "Instagram"
     }
    ]
@@ -5038,13 +5066,22 @@
    "type": "Аниме",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
     {
      "src": "ig:11",
      "date": null,
      "url": "https://www.instagram.com/reel/DUP4aupiEjs/",
      "from": "@anixwor",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
      "via": "Instagram"
     }
    ]
@@ -6930,6 +6967,13 @@
      "url": "https://www.instagram.com/reel/DIQvxwHoTdO/",
      "from": "@viktorgutman_",
      "via": "Instagram"
+    },
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
     }
    ]
   },
@@ -7461,6 +7505,433 @@
    ]
   },
   {
+   "title_ru": "Истории монстров: Межсезонье и сезон монстров",
+   "title_orig": "Monogatari Series: Off & Monster Season",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Блич: Тысячелетняя кровавая война",
+   "title_orig": "Bleach: Sennen Kessen-hen",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Re:Zero. Жизнь с нуля в альтернативном мире",
+   "title_orig": "Re:Zero kara Hajimeru Isekai Seikatsu",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Забвение бэттери",
+   "title_orig": "Boukyaku Battery",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Меч и жезл Вистории",
+   "title_orig": "Tsue to Tsurugi no Wistoria",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ниндзя Камуи",
+   "title_orig": "Ninja Kamui",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Голубая шкатулка",
+   "title_orig": "Ao no Hako",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Рождение Китаро: Тайна Гегеге",
+   "title_orig": "Kitarou Tanjou: Gegege no Nazo",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Юный лорд — мастер побега",
+   "title_orig": "Nige Jouzu no Wakagimi",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Первый слэм-данк",
+   "title_orig": "The First Slam Dunk",
+   "year": 2022,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Волейбол!! Решающая битва на мусорной свалке",
+   "title_orig": "Haikyuu!! Movie: Gomisuteba no Kessen",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Моя геройская академия",
+   "title_orig": "Boku no Hero Academia",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кайдзю номер восемь",
+   "title_orig": "Kaijuu 8-gou",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Оглянись",
+   "title_orig": "Look Back",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Девушки-пони: Славное дерби — Врата в новую эру",
+   "title_orig": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Семья шпиона: Код «белый»",
+   "title_orig": "Spy x Family Movie: Code: White",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дандадан",
+   "title_orig": "Dandadan",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ван-Пис",
+   "title_orig": "One Piece",
+   "year": 1999,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Семь смертных грехов: Четыре всадника Апокалипсиса",
+   "title_orig": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Магия и мускулы",
+   "title_orig": "Mashle",
+   "year": 2023,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:125",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DBVxfyZAA6K/",
+     "from": "@leayunamusic",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Реинкарнация безработного: История о приключениях в другом мире",
+   "title_orig": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+   "year": 2021,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:119",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
+     "from": "@top10anime_amvs",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Оценщик",
    "title_orig": "Even Given the Worthless \"Appraiser\" Class, I'm Actually the Strongest",
    "year": 2025,
@@ -7674,24 +8145,6 @@
      "date": null,
      "url": "https://www.instagram.com/p/DD7F7zwpZhj/",
      "from": "@animeinsider.insta",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
-   "title_ru": "Магия и мускулы",
-   "title_orig": "Mashle",
-   "year": 2023,
-   "type": "Аниме",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [],
-   "sources": [
-    {
-     "src": "ig:125",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DBVxfyZAA6K/",
-     "from": "@leayunamusic",
      "via": "Instagram"
     }
    ]
@@ -9617,15 +10070,6 @@
    "via": "Instagram",
    "note": "топ-10 новых аниме 2024",
    "reason": "Видео недоступно — открой и впиши название сам"
-  },
-  {
-   "src": "ig:119",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
-   "from": "@top10anime_amvs",
-   "via": "Instagram",
-   "note": "лучшие аниме 2024",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:123",

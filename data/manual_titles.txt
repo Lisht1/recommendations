@@ -457,7 +457,33 @@ ig:115|Завет нового короля демонов|The Testament of Sist
 ig:116|!unknown|||||
 ig:117|!unknown|||||топ-10 новых аниме 2024
 ig:118|!skip|||||про работу студий
-ig:119|!unknown|||||лучшие аниме 2024
+ig:119|Истории монстров: Межсезонье и сезон монстров|Monogatari Series: Off & Monster Season|2024|A|+|из видео
+ig:119|О движении Земли|Chi: Chikyuu no Undou ni Tsuite|2024|A|+|из видео
+ig:119|Блич: Тысячелетняя кровавая война|Bleach: Sennen Kessen-hen|2024|A|+|из видео
+ig:119|Re:Zero. Жизнь с нуля в альтернативном мире|Re:Zero kara Hajimeru Isekai Seikatsu|2024|A|+|из видео
+ig:119|Забвение бэттери|Boukyaku Battery|2024|A|+|из видео
+ig:119|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|из видео
+ig:119|Истребитель демонов|Kimetsu no Yaiba|2024|A|+|из видео
+ig:119|Меч и жезл Вистории|Tsue to Tsurugi no Wistoria|2024|A|+|из видео
+ig:119|Ниндзя Камуи|Ninja Kamui|2024|A|+|из видео
+ig:119|Голубая шкатулка|Ao no Hako|2024|A|+|из видео
+ig:119|Рождение Китаро: Тайна Гегеге|Kitarou Tanjou: Gegege no Nazo|2023|A|+|из видео
+ig:119|Юный лорд — мастер побега|Nige Jouzu no Wakagimi|2024|A|+|из видео
+ig:119|Первый слэм-данк|The First Slam Dunk|2022|A|+|из видео
+ig:119|Волейбол!! Решающая битва на мусорной свалке|Haikyuu!! Movie: Gomisuteba no Kessen|2024|A|+|из видео
+ig:119|Моя геройская академия|Boku no Hero Academia|2024|A|+|из видео
+ig:119|Кайдзю номер восемь|Kaijuu 8-gou|2024|A|+|из видео
+ig:119|Оглянись|Look Back|2024|A|+|из видео
+ig:119|Девушки-пони: Славное дерби — Врата в новую эру|Uma Musume: Pretty Derby - Shin Jidai no Tobira|2024|A|+|из видео
+ig:119|Подземелье вкусностей|Dungeon Meshi|2024|A|+|из видео
+ig:119|Семья шпиона: Код «белый»|Spy x Family Movie: Code: White|2023|A|+|из видео
+ig:119|Дандадан|Dandadan|2024|A|+|из видео
+ig:119|Провожающая в последний путь Фрирен|Sousou no Frieren|2023|A|+|из видео
+ig:119|Ван-Пис|One Piece|1999|A|+|из видео
+ig:119|Семь смертных грехов: Четыре всадника Апокалипсиса|Nanatsu no Taizai: Mokushiroku no Yonkishi|2023|A|+|из видео
+ig:119|Ветролом|Wind Breaker|2024|A|+|из видео
+ig:119|Магия и мускулы|Mashle|2023|A|+|из видео
+ig:119|Реинкарнация безработного: История о приключениях в другом мире|Mushoku Tensei: Isekai Ittara Honki Dasu|2021|A|+|из видео
 ig:120|Оценщик|Even Given the Worthless "Appraiser" Class, I'm Actually the Strongest|2025|A|+|
 ig:121|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
 ig:121|Начало после конца|The Beginning After the End|2025|A|+|
