@@ -501,7 +501,25 @@ ig:123|!unknown|||||
 ig:124|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
 ig:125|Магия и мускулы|Mashle|2023|A|+|
 ig:125|Дандадан|Dan Da Dan|2024|A|+|
-ig:126|!unknown|||||
+ig:126|Поднятие уровня в одиночку|Solo Leveling Season 2: Arise from the Shadow|2025|A|+|из видео
+ig:126|Дни Сакамото|Sakamoto Days|2025|A|+|из видео
+ig:126|Доктор Стоун: Научное будущее|Dr. Stone: Science Future|2025|A|+|из видео
+ig:126|Монолог фармацевта|Kusuriya no Hitorigoto 2nd Season|2025|A|+|из видео
+ig:126|Сто девушек, которые очень-очень-очень-очень-очень сильно тебя любят|Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 2nd Season|2025|A|+|из видео
+ig:126|Мой счастливый брак|Watashi no Shiawase na Kekkon 2nd Season|2025|A|+|из видео
+ig:126|Синий экзорцист|Ao no Exorcist: Yosuga-hen|2025|A|+|из видео
+ig:126|Бэтмен-ниндзя против Лиги якудза|Batman Ninja vs. Yakuza League|2025|A|+|из видео
+ig:126|Кайдзю номер восемь: Фильм|Kaijuu 8-gou Movie|2025|A|+|из видео
+ig:126|Я женился на девушке, которую терпеть не могу из своего класса|Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.|2025|A|+|из видео
+ig:126|Безымянная память|Unnamed Memory Act.2|2025|A|+|из видео
+ig:126|Фармагия|Farmagia|2025|A|+|из видео
+ig:126|Медово-лимонная содовая|Honey Lemon Soda|2025|A|+|из видео
+ig:126|Туалетный мальчик Ханако|Jibaku Shounen Hanako-kun 2|2025|A|+|из видео
+ig:126|Жизнь в другом мире с покупками через интернет для мужчины за сорок|Around 40 Otoko no Isekai Tsuuhan Seikatsu|2025|A|+|из видео
+ig:126|Этот замечательный мир!|Kono Subarashii Sekai ni Shukufuku wo! 3 OVA|2025|A|+|из видео
+ig:126|Роза Версаля|Versailles no Bara|2025|A|+|из видео
+ig:126|Красный рейнджер становится авантюристом в другом мире|Sentai Red Isekai de Boukensha ni Naru|2025|A|+|из видео
+ig:126|Юбель Блатт|Übel Blatt|2025|A|+|из видео
 ig:127|!unknown|||||
 ig:128|Instinct|Instinct||A|?|пока только тизер; tmdb=none
 ig:129|!unknown|||||

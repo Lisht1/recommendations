@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **497** уникальных названий, из них проверить: **39**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **51**, пропущено (не про кино): **7**.
+Найдено **516** уникальных названий, из них проверить: **39**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **50**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -221,7 +221,7 @@
 | Эйфория / Euphoria (2019) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Эрик / Eric (2024) | [tg:15](https://t.me/c/2117114565/15) |  |
 
-## Аниме (220)
+## Аниме (239)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -246,6 +246,7 @@
 | Бармен: Бокал божества / Bartender: Glass of God (2024) | [ig:122](https://www.instagram.com/p/DD7F7zwpZhj/) | из карусели |
 | Басня / The Fable (2024) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из карусели |
 | Безмятежные скитания в последний час / Girls' Last Tour (2017) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
+| Безымянная память / Unnamed Memory Act.2 (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Бек / Beck: Mongolian Chop Squad (2004) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Белый лев Кимба / Kimba the White Lion (1965) | [ig:79](https://www.instagram.com/p/DKFOMugSbee/) | из карусели |
 | Бессонница после школы / Insomniacs After School (2023) | [ig:122](https://www.instagram.com/p/DD7F7zwpZhj/) | из карусели |
@@ -254,6 +255,7 @@
 | Бог старшей школы / The God of High School (2020) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
 | Большая рыба и бегония / Big Fish & Begonia (2016) | [ig:6](https://www.instagram.com/p/DZR29JdDD7r/) | из карусели |
 | Быть героем Икс / To Be Hero X (2025) | [ig:92](https://www.instagram.com/reel/DIg6uvXsa1u/), [ig:93](https://www.instagram.com/reel/DId9chHsFvX/), [ig:97](https://www.instagram.com/reel/DIRPwMgCTM9/), [ig:110](https://www.instagram.com/reel/DFMSIzkT_rn/) | из видео |
+| Бэтмен-ниндзя против Лиги якудза / Batman Ninja vs. Yakuza League (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Вайолет Эвергарден / Violet Evergarden (2018) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Ван-Пис / One Piece (1999) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Ванпанчмен / One Punch Man (2015) | [ig:32](https://www.instagram.com/reel/DRjap8fk8Wd/) | из видео: Фан-анимация батальной сцены к 3 сезону аниме «Ванпанчмен». |
@@ -288,14 +290,17 @@
 | Демоны теневого царства / Daemons of the Shadow Realm (2026) | [ig:47](https://www.instagram.com/reel/DPmBki8D8b3/) |  |
 | Дитя погоды / Tenki no ko (2019) | [ig:73](https://www.instagram.com/reel/DLuvfPRIui_/) | из видео |
 | Дневник чужой страны / Journal with Witch (2026) | [ig:1](https://www.instagram.com/reel/Dc_QJKiN9ch/) | Ikoku Nikki |
+| Дни Сакамото / Sakamoto Days (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Добро пожаловать в школу демонов, Ирума-кун / Welcome to Demon School! Iruma-kun (2019) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
 | Доктор Стоун / Dr. STONE (2019) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
+| Доктор Стоун: Научное будущее / Dr. Stone: Science Future (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Долой безделье / Skip and Loafer (2023) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из карусели |
 | Дороро / Dororo (2019) | [ig:98](https://www.instagram.com/reel/DIQvxwHoTdO/) | из видео |
 | Дорохедоро / Dorohedoro (2020) | [tg:127](https://t.me/c/2117114565/127), [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из видео; из карусели |
 | Евангелион / Neon Genesis Evangelion (1995) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Ежемесячное сёдзё Нозаки-куна / Monthly Girls' Nozaki-kun (2014) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Жизнь без оружия / No Guns Life (2019) | [tg:2](https://t.me/c/2117114565/2), [ig:108](https://www.instagram.com/reel/DB27Ae0o96w/) |  |
+| Жизнь в другом мире с покупками через интернет для мужчины за сорок / Around 40 Otoko no Isekai Tsuuhan Seikatsu (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | За гранью / Beyond the Boundary (2013) | [ig:122](https://www.instagram.com/p/DD7F7zwpZhj/) | из карусели |
 | Забвение бэттери / Boukyaku Battery (2024) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Завет нового короля демонов / The Testament of Sister New Devil (2015) | [ig:115](https://www.instagram.com/p/DEngZCvzdsc/) | из карусели |
@@ -313,6 +318,7 @@
 | Истребитель демонов / Demon Slayer: Kimetsu no Yaiba (2019) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/), [ig:23](https://www.instagram.com/reel/DT-ktNsCDlX/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix.; из видео: Блогер делится концепцией оригинальной аниме-вселенной, где внутренний личностный рост призывает опасного финального босса. |
 | Кайдзю номер восемь / Kaiju No. 8 (2024) | [tg:127](https://t.me/c/2117114565/127) | из видео |
 | Кайдзю номер восемь / Kaijuu 8-gou (2024) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
+| Кайдзю номер восемь: Фильм / Kaijuu 8-gou Movie (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Как прекрасна луна / Tsuki ga Kirei (2017) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Кибервиток / Dennou Coil (2007) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Киберпанк: Бегущие по краю / Cyberpunk: Edgerunners (2022) | [tg:74](https://t.me/c/2117114565/74), [tg:127](https://t.me/c/2117114565/127) | из топ-25 коротких аниме; из видео |
@@ -321,6 +327,7 @@
 | Ковбой Бибоп / Cowboy Bebop (1998) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 | Король драконов / Dragon Raja (2024) | [ig:40](https://www.instagram.com/reel/DNYa-ZpR7L5/) |  |
 | Корона вины / Guilty Crown (2011) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
+| Красный рейнджер становится авантюристом в другом мире / Sentai Red Isekai de Boukensha ni Naru (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Куда едет поезд судного дня? / Shuumatsu Train Doko e Iku? (2024) | [tg:21](https://t.me/c/2117114565/21) |  |
 | Кулинарные скитания в параллельном мире / Campfire Cooking in Another World with My Absurd Skill (2023) | [tg:34](https://t.me/c/2117114565/34) |  |
 | Курение за супермаркетом вместе с тобой / Super no Ura de Tabako Suu Futari | [ig:17](https://www.instagram.com/reel/DVbB9nJEtU-/) | из видео: Блогер рассказывает про романтическое аниме про двух взрослых людей, общающихся за курением возле супермаркета. |
@@ -334,12 +341,15 @@
 | Магия и мускулы / Mashle (2023) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/), [ig:125](https://www.instagram.com/reel/DBVxfyZAA6K/) | из видео |
 | Маленькие демоны путешествуют на запад / Nobody (2025) | [ig:6](https://www.instagram.com/p/DZR29JdDD7r/) | из карусели |
 | Манускрипт ниндзя / Ninja Scroll (1993) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Медово-лимонная содовая / Honey Lemon Soda (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Место дальше, чем Вселенная / A Place Further Than the Universe (2018) | [tg:74](https://t.me/c/2117114565/74) | из топ-25 коротких аниме |
 | Меч и жезл Вистории / Tsue to Tsurugi no Wistoria (2024) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Меч охотника на демонов / Sword of the Demon Hunter: Kijin Gentosho (2025) | [ig:101](https://www.instagram.com/reel/DH8ztzJxcfr/) |  |
 | Могила светлячков / Grave of the Fireflies (1988) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
+| Мой счастливый брак / Watashi no Shiawase na Kekkon 2nd Season (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Мой уникальный навык делает меня сильным даже на 1 уровне / My Unique Skill Makes Me OP Even at Level 1 (2023) | [ig:114](https://www.instagram.com/reel/DEu-RLFphD-/) |  |
 | Монолог фармацевта / The Apothecary Diaries (2023) | [ig:102](https://www.instagram.com/reel/DHv5mSGIBCF/) |  |
+| Монолог фармацевта / Kusuriya no Hitorigoto 2nd Season (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Моя геройская академия / Boku no Hero Academia (2024) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Мы пришельцы / Wareware wa Uchuujin (2026) | [ig:148](https://www.instagram.com/p/DXY2ozrDFTl/) | из карусели |
 | Навсикая из Долины ветров / Nausicaä of the Valley of the Wind (1984) | [tg:147](https://t.me/c/2117114565/147) |  |
@@ -377,6 +387,7 @@
 | Подземелье вкусностей / Dungeon Meshi (2024) | [tg:127](https://t.me/c/2117114565/127), [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Подземелье вкусностей / Delicious in Dungeon (2024) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из карусели |
 | Поднятие уровня в одиночку / Solo Leveling (2024) | [tg:127](https://t.me/c/2117114565/127), [ig:89](https://www.instagram.com/reel/DIwVS9uITR0/), [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/), [ig:121](https://www.instagram.com/reel/DEjoajyxZaE/), [ig:124](https://www.instagram.com/reel/DDiN5UIScdI/) | из видео |
+| Поднятие уровня в одиночку / Solo Leveling Season 2: Arise from the Shadow (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Последний серафим / Seraph of the End (2015) | [ig:122](https://www.instagram.com/p/DD7F7zwpZhj/) | из карусели |
 | Призрак в доспехах / Ghost in the Shell (1995) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/), [ig:79](https://www.instagram.com/p/DKFOMugSbee/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров.; из карусели |
 | Принцесса Мононоке / Princess Mononoke (1997) | [tg:147](https://t.me/c/2117114565/147) |  |
@@ -385,12 +396,14 @@
 | Реинкарнация безработного: История о приключениях в другом мире / Mushoku Tensei: Isekai Ittara Honki Dasu (2021) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Рейтинг короля / Ranking of Kings (2021) | [ig:14](https://www.instagram.com/reel/DWylz3biUoP/) |  |
 | Рождение Китаро: Тайна Гегеге / Kitarou Tanjou: Gegege no Nazo (2023) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
+| Роза Версаля / Versailles no Bara (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Руки прочь от кинокружка! / Keep Your Hands Off Eizouken! (2020) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из карусели |
 | Салатница чудаков / Henjin no Salad Bowl (2024) | [tg:22](https://t.me/c/2117114565/22) |  |
 | Санни Бой / Sonny Boy (2021) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
 | Семь смертных грехов: Четыре всадника Апокалипсиса / Nanatsu no Taizai: Mokushiroku no Yonkishi (2023) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Семья шпиона / Spy x Family (2022) | [tg:14](https://t.me/c/2117114565/14), [tg:91](https://t.me/c/2117114565/91) |  |
 | Семья шпиона: Код «белый» / Spy x Family Movie: Code: White (2023) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
+| Синий экзорцист / Ao no Exorcist: Yosuga-hen (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Синяя тюрьма: Блю Лок / Blue Lock (2022) | [tg:127](https://t.me/c/2117114565/127) | из видео |
 | Сирануи / Shiranui (2026) | [ig:148](https://www.instagram.com/p/DXY2ozrDFTl/) | из карусели |
 | Сказания Земноморья / Tales from Earthsea (2006) | [ig:53](https://www.instagram.com/reel/DKJmVf1sQT2/) |  |
@@ -401,6 +414,7 @@
 | Союз серокрылых / Haibane Renmei (2002) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Спой немного гармонии / Sing a Bit of Harmony (2021) | [ig:65](https://www.instagram.com/reel/DLpiGxRTnm-/) |  |
 | Старшая школа DxD / High School DxD (2012) | [ig:115](https://www.instagram.com/p/DEngZCvzdsc/) | из карусели |
+| Сто девушек, которые очень-очень-очень-очень-очень сильно тебя любят / Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 2nd Season (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Стометровка / Hyakuemu. (2025) | [tg:126](https://t.me/c/2117114565/126), [ig:24](https://www.instagram.com/reel/DUpsLjFCstS/), [ig:27](https://www.instagram.com/reel/DTBMnX9CFQJ/) |  |
 | Страна самоцветов / Land of the Lustrous (2017) | [tg:75](https://t.me/c/2117114565/75) | из топ-25 коротких аниме |
 | Страна чудес смертников / Deadman Wonderland (2011) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
@@ -419,6 +433,7 @@
 | Терминатор Зеро / Terminator Zero (2024) | [tg:37](https://t.me/c/2117114565/37) |  |
 | Тетрадь смерти / Death Note (2006) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
 | Токийский гуль / Tokyo Ghoul (2014) | [ig:42](https://www.instagram.com/reel/DQICzM8k5Q1/) | из видео: Фрагмент из аниме с боевой ценой, которое автор сравнивает с «Токийским гулем». |
+| Туалетный мальчик Ханако / Jibaku Shounen Hanako-kun 2 (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Тюремная школа / Prison School (2015) | [ig:115](https://www.instagram.com/p/DEngZCvzdsc/) | из карусели |
 | Тёмный дворецкий / Black Butler (2008) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
 | Убийца гоблинов / Goblin Slayer (2018) | [tg:63](https://t.me/c/2117114565/63) | 18+ |
@@ -426,6 +441,7 @@
 | Умамусуме: Красивое дерби / Umamusume: Pretty Derby (2018) | [ig:22](https://www.instagram.com/reel/DSisTs5CD9s/) | из видео: Мнение о том, что новый сезон аниме «Умамусуме: Красивое дерби» будет отличным |
 | Унесённые призраками / Spirited Away (2001) | [tg:147](https://t.me/c/2117114565/147) |  |
 | Учитель в школе гулей / A Terrified Teacher at Ghoul School! (2023) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
+| Фармагия / Farmagia (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Хельк / Helck (2023) | [ig:111](https://www.instagram.com/p/DESpFyEyMHK/) | из карусели |
 | Хинаматсури / Hinamatsuri (2018) | [ig:95](https://www.instagram.com/reel/DIMQa_fiYI7/) |  |
 | Ходячий замок / Howl's Moving Castle (2004) | [tg:147](https://t.me/c/2117114565/147) |  |
@@ -441,8 +457,11 @@
 | Школа искусств 1994 / Art College 1994 (2023) | [ig:6](https://www.instagram.com/p/DZR29JdDD7r/) | из карусели |
 | Школа мертвецов / Highschool of the Dead (2010) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Эксперименты Лэйн / Serial Experiments Lain (1998) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
+| Этот замечательный мир! / Kono Subarashii Sekai ni Shukufuku wo! 3 OVA (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Эхо террора / Zankyou no Terror (2014) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
+| Юбель Блатт / Übel Blatt (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Юный лорд — мастер побега / Nige Jouzu no Wakagimi (2024) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
+| Я женился на девушке, которую терпеть не могу из своего класса / Class no Daikirai na Joshi to Kekkon suru Koto ni Natta. (2025) | [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) | из видео |
 | Я не смог стать героем, поэтому решил найти работу / Yuusha ni Narenakatta Ore wa Shoukurou ni Shigoto o Hajimemashita. (2013) | [ig:18](https://www.instagram.com/reel/DV0FqHhklb8/) | из видео: Юмористический ролик о том, что многие аниме в жанре исэкай/фансервис смотрят «ради сюжета», хотя весь сюжет состоит из откровенных сцен. |
 | Яйцо ангела / Tenshi no Tamago (1985) | [ig:7](https://www.instagram.com/reel/DZO47UsqHFm/) | из видео: Гость подкаста делится своим топом лучших аниме и выдающихся японских режиссёров. |
 
@@ -554,7 +573,6 @@
 - [ig:116](https://www.instagram.com/reel/DEDHuMAv3Bg/) 
 - [ig:117](https://www.instagram.com/reel/DEM_o04IrfY/) топ-10 новых аниме 2024
 - [ig:123](https://www.instagram.com/reel/DERxkivKNt7/) 
-- [ig:126](https://www.instagram.com/reel/DD_GK4YSaQ5/) 
 - [ig:127](https://www.instagram.com/reel/DEFtcidvGsB/) 
 - [ig:129](https://www.instagram.com/reel/DD2LaB3vsvT/) 
 - [ig:131](https://www.instagram.com/reel/DDjj8BCombk/) лучшие аниме 2024
