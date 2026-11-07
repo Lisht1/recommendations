@@ -497,7 +497,7 @@ ig:122|Золотое время|Golden Time|2013|A|+|из карусели
 ig:122|Слишком много проигравших героинь!|Too Many Losing Heroines!|2024|A|+|из карусели
 ig:122|Бессонница после школы|Insomniacs After School|2023|A|+|из карусели
 ig:122|Последний серафим|Seraph of the End|2015|A|+|из карусели
-ig:123|!unknown|||||
+ig:123|Атака титанов|Shingeki no kyojin|2013|A|?|из видео
 ig:124|Поднятие уровня в одиночку|Solo Leveling|2024|A|+|
 ig:125|Магия и мускулы|Mashle|2023|A|+|
 ig:125|Дандадан|Dan Da Dan|2024|A|+|
@@ -520,16 +520,31 @@ ig:126|Этот замечательный мир!|Kono Subarashii Sekai ni Shuk
 ig:126|Роза Версаля|Versailles no Bara|2025|A|+|из видео
 ig:126|Красный рейнджер становится авантюристом в другом мире|Sentai Red Isekai de Boukensha ni Naru|2025|A|+|из видео
 ig:126|Юбель Блатт|Übel Blatt|2025|A|+|из видео
-ig:127|!unknown|||||
+ig:127|Йона на заре|Akatsuki no Yona|2014|A|+|из видео
+ig:127|Гримгал пепла и иллюзий|Hai to Gensou no Grimgar|2016|A|+|из видео
+ig:127|Летнее время|Summer Time Rendering|2022|A|+|из видео
 ig:128|Instinct|Instinct||A|?|пока только тизер; tmdb=none
-ig:129|!unknown|||||
+ig:129|Гримгал пепла и иллюзий|Hai to Gensou no Grimgar|2016|A|+|из видео
 ig:130|Пикник в Потусторонье|Otherside Picnic|2021|A|+|
-ig:131|!unknown|||||лучшие аниме 2024
+ig:131|Кайдзю номер 8|Kaiju No. 8|2024|A|+|из видео
+ig:131|Подземелье вкусностей|Dungeon Meshi|2024|A|+|из видео
+ig:131|Поднятие уровня в одиночку|Ore dake Level Up na Ken|2024|A|+|из видео
+ig:131|Любовь с кончиков пальцев|Yubisaki to Renren|2024|A|+|из видео
+ig:131|Металлическая Руж|Metallic Rouge|2024|A|+|из видео
+ig:131|Куда едет поезд судного дня?|Shuumatsu Train Doko e Iku?|2024|A|+|из видео
+ig:131|Волчица и пряности: Торговец встречает мудрую волчицу|Ookami to Koushinryou: Merchant Meets the Wise Wolf|2024|A|+|из видео
+ig:131|Бармен: Бокал бога|Bartender: Kami no Glass|2024|A|+|из видео
+ig:131|Ветролом|Wind Breaker|2024|A|+|из видео
+ig:131|Мёртвые-мёртвые демоны|Dead Dead Demons Dededede Destruction|2024|A|+|из видео
+ig:131|Юный лорд — мастер побега|Nige Jouzu no Wakagimi|2024|A|+|из видео
+ig:131|Псевдогарем|Giji Harem|2024|A|+|из видео
+ig:131|Аля иногда кокетничает со мной по-русски|Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san|2024|A|+|из видео
 ig:132|Во время грозы|Mirage|2018|F|+|Durante la tormenta
 ig:132|Душа|Soul|2020|C|+|
 ig:132|То, что внутри|What's Inside|2024|F|+|
 ig:133|!unknown|||||сериал «с вайбами Шерлока»: Лондон прошлого века, книжный магазин
-ig:134|!unknown|||||сравнивают с «Бухтой вдов»
+ig:134|Бороуз|The Boroughs||S|+|из видео
+ig:134|Бухта вдов|||S|?|из видео
 ig:135|Последний единорог|The Last Unicorn|1982|C|+|
 ig:136|Сахар|That Sugar Film|2014|D|+|
 ig:136|Сладкая лихорадка|Fed Up|2014|D|?|
@@ -576,9 +591,9 @@ ig:165|Финикийская схема|The Phoenician Scheme|2025|F|+|
 ig:166|Зараза|Cold Storage|2026|F|+|
 ig:167|Персонаж|Stranger Than Fiction|2006|F|+|
 ig:168|Край тени|The Shadow's Edge|2025|F|+|Джеки Чан
-ig:169|!unknown|||||фильм про коренных американцев и мифы о сотворении мира
+ig:169|Четыре души койота|Kojot négy lelke|2023|C|+|из видео
 ig:170|Девушка в лесу|The Girl in the Woods|2021|S|+|
-ig:171|!unknown|||||геймер тестирует новую технологию
+ig:171|Задержка|Latency|2024|F|+|из видео
 ig:172|Меня это не устраивает|I Am Not Okay with This|2020|S|+|
 ig:172|Грань|Fringe|2008|S|+|
 ig:172|Тьма|Dark|2017|S|+|
@@ -589,13 +604,19 @@ ig:173|Королевство зверей|The Animal Kingdom|2023|F|+|
 ig:174|Кошачьи миры Луиса Уэйна|The Electrical Life of Louis Wain|2021|F|+|
 ig:175|Следствие ведут овечки|The Sheep Detectives|2026|F|+|
 ig:176|Голос монстра|A Monster Calls|2016|F|?|угадано по описанию
-ig:177|!unknown|||||сериал: трое школьников в мире меча и магии
+ig:177|Следопыты|The Wayfinders|2024|S|+|из видео
 ig:178|Волан-де-Морт: Корни наследника|Voldemort: Origins of the Heir|2018|F|+|из карусели
 ig:178|Северус Снегг и Мародёры|Severus Snape and the Marauders|2016|F|+|из карусели
 ig:179|Затура: Космическое приключение|Zathura: A Space Adventure|2005|F|+|
 ig:180|Хроники Шаннары|The Shannara Chronicles|2016|S|+|
 ig:181|Оно: Добро пожаловать в Дерри|IT: Welcome to Derry|2025|S|+|
-ig:182|!unknown|||||зимний фильм вместо «Гарри Поттера»
+ig:182|Гарри Поттер|Harry Potter||F|+|из видео
+ig:182|Энн с двумя Н|Anne with an E|2017|S|+|из видео
+ig:182|Отпуск по обмену|The Holiday|2006|F|+|из видео
+ig:182|Интуиция|Serendipity|2001|F|+|из видео
+ig:182|Кейт и Лео|Kate & Leopold|2001|F|+|из видео
+ig:182|Анастасия|Anastasia|1997|C|+|из видео
+ig:182|Золотой компас|The Golden Compass|2007|F|+|из видео
 ig:183|!unknown|||||
 ig:184|Иллюзия обмана 3|Now You See Me: Now You Don't|2025|F|?|угадано по обложке
 ig:185|Петля времени|Петля времени|2024|F|?|tmdb=none
@@ -621,7 +642,7 @@ ig:200|Война будущего|The Tomorrow War|2021|F|+|
 ig:201|!unknown|||||
 ig:202|Полночное небо|The Midnight Sky|2020|F|+|
 ig:203|!unknown|||||мультфильм
-ig:204|!unknown|||||сериал Netflix, «снег убивает людей»
+ig:204|Этернавт|El Eternauta|2025|S|+|из видео
 ig:205|Твои друзья и соседи|Your Friends & Neighbors|2025|S|+|
 ig:206|!unknown|||||лучшая триллер-дорама 2024
 ig:207|Охотник за головами|Охотник за головами|2025|S|?|tmdb=none
@@ -671,3 +692,6 @@ tg:190|Гадкие лебеди|Гадкие лебеди||?|?|
 # автообновление 2026-11-05
 sugg:tv-261579|Секретный Уровень|Секретный Уровень|2024|?|+|tmdb=tv/261579; добавлено на сайте: The Animatrix; Афросамурай; Сумерки богов
 sugg:tv-118956|DOTA: Кровь дракона|DOTA: Кровь дракона|2021|?|+|tmdb=tv/118956; добавлено на сайте: Сумерки богов; Аркейн; Дракон Раджа
+
+# автообновление 2026-11-07
+tg:191|!unknown|||||https://www.instagram.com/reel/DfXskcvsMT1/?vrfl=MW4yb3VsNzl4eWlsOQ==

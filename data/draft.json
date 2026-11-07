@@ -326,6 +326,13 @@
      "url": "https://www.instagram.com/p/DO8xId-goKA/",
      "from": "@melomankaz",
      "via": "Instagram"
+    },
+    {
+     "src": "ig:127",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEFtcidvGsB/",
+     "from": "@johnmarcoasks",
+     "via": "Instagram"
     }
    ]
   },
@@ -1095,7 +1102,9 @@
    "type": "Аниме",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
     {
      "src": "tg:21",
@@ -1103,6 +1112,13 @@
      "url": "https://t.me/c/2117114565/21",
      "from": "Свои посты",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
     }
    ]
   },
@@ -3042,6 +3058,13 @@
      "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
      "from": "@top10anime_amvs",
      "via": "Instagram"
+    },
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
     }
    ]
   },
@@ -3062,6 +3085,13 @@
      "url": "https://t.me/c/2117114565/127",
      "from": "Свои посты",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
     }
    ]
   },
@@ -5082,6 +5112,13 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
      "from": "@top10anime_amvs",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
      "via": "Instagram"
     }
    ]
@@ -7681,6 +7718,13 @@
      "url": "https://www.instagram.com/reel/DEvIyeiR4dJ/",
      "from": "@top10anime_amvs",
      "via": "Instagram"
+    },
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
     }
    ]
   },
@@ -8150,6 +8194,26 @@
    ]
   },
   {
+   "title_ru": "Атака титанов",
+   "title_orig": "Shingeki no kyojin",
+   "year": 2013,
+   "type": "Аниме",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:123",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DERxkivKNt7/",
+     "from": "@leonvrdo_future",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Поднятие уровня в одиночку",
    "title_orig": "Solo Leveling Season 2: Arise from the Shadow",
    "year": 2025,
@@ -8530,6 +8594,53 @@
    ]
   },
   {
+   "title_ru": "Йона на заре",
+   "title_orig": "Akatsuki no Yona",
+   "year": 2014,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:127",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEFtcidvGsB/",
+     "from": "@johnmarcoasks",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гримгал пепла и иллюзий",
+   "title_orig": "Hai to Gensou no Grimgar",
+   "year": 2016,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:127",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEFtcidvGsB/",
+     "from": "@johnmarcoasks",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:129",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DD2LaB3vsvT/",
+     "from": "@johnmarcoasks",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Instinct",
    "title_orig": "Instinct",
    "year": null,
@@ -8564,6 +8675,166 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DD4VPIooKvI/",
      "from": "@hub_anime_",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Поднятие уровня в одиночку",
+   "title_orig": "Ore dake Level Up na Ken",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Любовь с кончиков пальцев",
+   "title_orig": "Yubisaki to Renren",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Металлическая Руж",
+   "title_orig": "Metallic Rouge",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Волчица и пряности: Торговец встречает мудрую волчицу",
+   "title_orig": "Ookami to Koushinryou: Merchant Meets the Wise Wolf",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бармен: Бокал бога",
+   "title_orig": "Bartender: Kami no Glass",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Мёртвые-мёртвые демоны",
+   "title_orig": "Dead Dead Demons Dededede Destruction",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Псевдогарем",
+   "title_orig": "Giji Harem",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Аля иногда кокетничает со мной по-русски",
+   "title_orig": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+   "year": 2024,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:131",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDjj8BCombk/",
+     "from": "@sergey_gelix",
      "via": "Instagram"
     }
    ]
@@ -8620,6 +8891,53 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DdOcyMBOIO0/",
      "from": "@buranov.mp4",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бороуз",
+   "title_orig": "The Boroughs",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:134",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DdbSs-1Mf8T/",
+     "from": "@xim.media",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:151",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DXRioKeD5zN/",
+     "from": "@feedonfilms",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бухта вдов",
+   "title_orig": "",
+   "year": null,
+   "type": "Сериал",
+   "confidence": "check",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:134",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DdbSs-1Mf8T/",
+     "from": "@xim.media",
      "via": "Instagram"
     }
    ]
@@ -9068,24 +9386,6 @@
    ]
   },
   {
-   "title_ru": "The Boroughs",
-   "title_orig": "The Boroughs",
-   "year": 2026,
-   "type": "Сериал",
-   "confidence": "high",
-   "kp_id": null,
-   "notes": [],
-   "sources": [
-    {
-     "src": "ig:151",
-     "date": null,
-     "url": "https://www.instagram.com/reel/DXRioKeD5zN/",
-     "from": "@feedonfilms",
-     "via": "Instagram"
-    }
-   ]
-  },
-  {
    "title_ru": "Два далёких незнакомца",
    "title_orig": "Two Distant Strangers",
    "year": 2020,
@@ -9405,6 +9705,26 @@
    ]
   },
   {
+   "title_ru": "Четыре души койота",
+   "title_orig": "Kojot négy lelke",
+   "year": 2023,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:169",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DUNYJKDjYeV/",
+     "from": "@annakazakova_ph",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Девушка в лесу",
    "title_orig": "The Girl in the Woods",
    "year": 2021,
@@ -9418,6 +9738,26 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DTkbQbgiOSZ/",
      "from": "@kino_chet",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Задержка",
+   "title_orig": "Latency",
+   "year": 2024,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:171",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DTgXLBckk-_/",
+     "from": "@thriller_bros",
      "via": "Instagram"
     }
    ]
@@ -9607,6 +9947,26 @@
    ]
   },
   {
+   "title_ru": "Следопыты",
+   "title_orig": "The Wayfinders",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:177",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DSfiq5qDHzK/",
+     "from": "@eriya.pixel",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Волан-де-Морт: Корни наследника",
    "title_orig": "Voldemort: Origins of the Heir",
    "year": 2018,
@@ -9696,6 +10056,146 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DR7NEJuAIY6/",
      "from": "@markos.news",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Гарри Поттер",
+   "title_orig": "Harry Potter",
+   "year": null,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Энн с двумя Н",
+   "title_orig": "Anne with an E",
+   "year": 2017,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Отпуск по обмену",
+   "title_orig": "The Holiday",
+   "year": 2006,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Интуиция",
+   "title_orig": "Serendipity",
+   "year": 2001,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кейт и Лео",
+   "title_orig": "Kate & Leopold",
+   "year": 2001,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Анастасия",
+   "title_orig": "Anastasia",
+   "year": 1997,
+   "type": "Мультфильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Золотой компас",
+   "title_orig": "The Golden Compass",
+   "year": 2007,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:182",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
+     "from": "@polina.skripacheva",
      "via": "Instagram"
     }
    ]
@@ -10013,6 +10513,26 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DDy61ZLNKl9/",
      "from": "@kinozal28",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Этернавт",
+   "title_orig": "El Eternauta",
+   "year": 2025,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:204",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DJTxgWTNvCd/",
+     "from": "@onlineroman_reels",
      "via": "Instagram"
     }
    ]
@@ -10496,42 +11016,6 @@
    "reason": "Видео недоступно — открой и впиши название сам"
   },
   {
-   "src": "ig:123",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DERxkivKNt7/",
-   "from": "@leonvrdo_future",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:127",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DEFtcidvGsB/",
-   "from": "@johnmarcoasks",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:129",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DD2LaB3vsvT/",
-   "from": "@johnmarcoasks",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:131",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DDjj8BCombk/",
-   "from": "@sergey_gelix",
-   "via": "Instagram",
-   "note": "лучшие аниме 2024",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:133",
    "date": null,
    "url": "https://www.instagram.com/reel/DdzC_u_K0HQ/",
@@ -10541,15 +11025,6 @@
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
   },
   {
-   "src": "ig:134",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DdbSs-1Mf8T/",
-   "from": "@xim.media",
-   "via": "Instagram",
-   "note": "сравнивают с «Бухтой вдов»",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:160",
    "date": null,
    "url": "https://www.instagram.com/reel/DSSx5zxjN1f/",
@@ -10557,42 +11032,6 @@
    "via": "Instagram",
    "note": "видео про Уэса Андерсона",
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
-  },
-  {
-   "src": "ig:169",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DUNYJKDjYeV/",
-   "from": "@annakazakova_ph",
-   "via": "Instagram",
-   "note": "фильм про коренных американцев и мифы о сотворении мира",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:171",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DTgXLBckk-_/",
-   "from": "@thriller_bros",
-   "via": "Instagram",
-   "note": "геймер тестирует новую технологию",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:177",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DSfiq5qDHzK/",
-   "from": "@eriya.pixel",
-   "via": "Instagram",
-   "note": "сериал: трое школьников в мире меча и магии",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:182",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DR2HgaSCUts/",
-   "from": "@polina.skripacheva",
-   "via": "Instagram",
-   "note": "зимний фильм вместо «Гарри Поттера»",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:183",
@@ -10628,15 +11067,6 @@
    "via": "Instagram",
    "note": "мультфильм",
    "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
-  },
-  {
-   "src": "ig:204",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DJTxgWTNvCd/",
-   "from": "@onlineroman_reels",
-   "via": "Instagram",
-   "note": "сериал Netflix, «снег убивает людей»",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:206",
@@ -10771,6 +11201,15 @@
    "from": "@2x2tv",
    "via": "Telegram",
    "note": "https://www.instagram.com/reel/DeymyZAiGMK/?obrf=YjR1emFncTdsMWx2",
+   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+  },
+  {
+   "src": "tg:191",
+   "date": "2026-11-06",
+   "url": "https://t.me/c/2117114565/191",
+   "from": "@olacarew",
+   "via": "Telegram",
+   "note": "https://www.instagram.com/reel/DfXskcvsMT1/?vrfl=MW4yb3VsNzl4eWlsOQ==",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   }
  ],
