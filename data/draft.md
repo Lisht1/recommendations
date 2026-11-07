@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **539** уникальных названий, из них проверить: **41**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **41**, пропущено (не про кино): **7**.
+Найдено **557** уникальных названий, из них проверить: **41**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **37**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -50,7 +50,7 @@
 | Всего одна ночь / One Night Only (2026) | [tg:188](https://t.me/c/2117114565/188) |  |
 | Гадкие лебеди | [tg:190](https://t.me/c/2117114565/190) |  |
 
-## Фильм (111)
+## Фильм (116)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -61,6 +61,7 @@
 | Альтер / Altered (2025) | [ig:193](https://www.instagram.com/reel/DONhYzciJzy/) | Том Фелтон |
 | Артемис Фаул / Artemis Fowl (2020) | [ig:215](https://www.instagram.com/reel/DG6EnlFs9GC/) |  |
 | Банши Инишерина / The Banshees of Inisherin (2022) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Бегущий по лезвию 2049 / Blade Runner 2049 (2017) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Бедные-несчастные / Poor Things (2023) | [tg:80](https://t.me/c/2117114565/80) |  |
 | Безумное свидание / FolleMente (2025) | [ig:137](https://www.instagram.com/reel/DZctu_jN-fr/) |  |
 | Билет в рай / Ticket to Paradise (2022) | [ig:157](https://www.instagram.com/reel/DVlIi2QjGkF/) |  |
@@ -126,8 +127,11 @@
 | Не звезди / Menteur (2022) | [ig:196](https://www.instagram.com/reel/DLafH6_OsIP/) |  |
 | Новейший завет / The Brand New Testament (2015) | [tg:115](https://t.me/c/2117114565/115) |  |
 | Носферату / Nosferatu (2024) | [tg:82](https://t.me/c/2117114565/82) |  |
+| Олдбой / Oldeuboi (2003) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
+| Отель «Гранд Будапешт» / The Grand Budapest Hotel (2014) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Отпуск по обмену / The Holiday (2006) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
 | Падение империи / Civil War (2024) | [tg:5](https://t.me/c/2117114565/5) |  |
+| Пассажиры / Passengers (2016) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Персонаж / Stranger Than Fiction (2006) | [ig:167](https://www.instagram.com/reel/DOniSRUgrDr/) |  |
 | Пила / Saw (2004) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
 | Подземелья и драконы: Честь среди воров / Dungeons & Dragons: Honor Among Thieves (2023) | [tg:133](https://t.me/c/2117114565/133) |  |
@@ -135,6 +139,7 @@
 | Подстрекатели / The Instigators (2024) | [tg:48](https://t.me/c/2117114565/48) |  |
 | Полночное небо / The Midnight Sky (2020) | [ig:202](https://www.instagram.com/reel/DDy61ZLNKl9/) |  |
 | Предчувствие / The Beast (2023) | [tg:23](https://t.me/c/2117114565/23) | La Bête, Бертран Бонелло |
+| Прошлой ночью в Сохо / Last Night in Soho (2021) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Радикально / Radical (2023) | [tg:136](https://t.me/c/2117114565/136) |  |
 | Разрисованная вуаль / The Painted Veil (2006) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Рассказы (2012) | [tg:151](https://t.me/c/2117114565/151) |  |
@@ -166,7 +171,7 @@
 | Я шагаю по Москве (1963) | [tg:151](https://t.me/c/2117114565/151) |  |
 | Я — Куба (1964) | [tg:151](https://t.me/c/2117114565/151) |  |
 
-## Сериал (61)
+## Сериал (74)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -178,6 +183,7 @@
 | Больница Питт / The Pitt (2025) | [tg:139](https://t.me/c/2117114565/139) |  |
 | Бороуз / The Boroughs | [ig:134](https://www.instagram.com/reel/DdbSs-1Mf8T/), [ig:151](https://www.instagram.com/reel/DXRioKeD5zN/) | из видео |
 | Бухта вдов / Widow's Bay (2026) | [tg:157](https://t.me/c/2117114565/157), [tg:168](https://t.me/c/2117114565/168), [tg:171](https://t.me/c/2117114565/171), [tg:181](https://t.me/c/2117114565/181) |  |
+| Ваша честь / Your Honor (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Великая / The Great (2020) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Властелин колец: Кольца власти / The Lord of the Rings: The Rings of Power (2022) | [tg:128](https://t.me/c/2117114565/128) | 2 сезон |
 | Волшебники / The Magicians (2015) | [ig:208](https://www.instagram.com/reel/DHvG8atNu1q/) |  |
@@ -185,14 +191,20 @@
 | Грань / Fringe (2008) | [ig:172](https://www.instagram.com/reel/DScrBMsDIdl/) |  |
 | Девушка в лесу / The Girl in the Woods (2021) | [ig:170](https://www.instagram.com/reel/DTkbQbgiOSZ/) |  |
 | Денежные проблемы Марго / Margo's Got Money Troubles (2026) | [tg:158](https://t.me/c/2117114565/158) |  |
+| Доминирующий вид / Blood Free (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Жизнь после смерти / After Life (2019) | [tg:2](https://t.me/c/2117114565/2) |  |
-| Игра в кальмара / Squid Game (2021) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
+| Игра в кальмара / Squid Game (2021) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/), [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе».; из видео |
+| Игра в пирамиду / Pyramid Game (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
+| Игра смерти / Death's Game (2023) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
+| Каннам: Обратная сторона / Gangnam B-Side (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Каштановый человечек / The Chestnut Man (2021) | [ig:141](https://www.instagram.com/reel/DYj0FSnKoG0/) | 2 сезон «Прятки» |
 | Киностудия / The Studio (2025) | [tg:141](https://t.me/c/2117114565/141), [ig:149](https://www.instagram.com/reel/DW3exGFum4w/) |  |
 | Колесо времени / The Wheel of Time (2021) | [ig:199](https://www.instagram.com/reel/DI3D4Zksemt/) |  |
 | Корона / The Crown (2016) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Красота / The Beauty (2026) | [ig:161](https://www.instagram.com/reel/DVoO77KCsI1/) |  |
 | Лаки / Lucky (2026) | [tg:167](https://t.me/c/2117114565/167) | Apple TV |
+| Магазин для киллеров / A Shop for Killers (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
+| Магазин ламп / Light Shop (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Матрёшка / Russian Doll (2019) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Меня это не устраивает / I Am Not Okay with This (2020) | [ig:172](https://www.instagram.com/reel/DScrBMsDIdl/) |  |
 | Милый дом / Sweet Home (2020) | [tg:108](https://t.me/c/2117114565/108) |  |
@@ -201,9 +213,12 @@
 | Наутилус / Nautilus (2025) | [tg:105](https://t.me/c/2117114565/105) |  |
 | Наш флаг означает смерть / Our Flag Means Death (2022) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Немного за 40 / Fortysomething (2003) | [ig:142](https://www.instagram.com/reel/DYo-Qc0ssPd/) |  |
+| Никого нет в лесу / The Frog (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Озарк / Ozark (2017) | [ig:154](https://www.instagram.com/reel/DWb-OTsjGk0/) |  |
 | Оно: Добро пожаловать в Дерри / IT: Welcome to Derry (2025) | [ig:181](https://www.instagram.com/reel/DR7NEJuAIY6/) |  |
 | Отчёт о буйстве духов / Yu Yu Hakusho (2023) | [tg:33](https://t.me/c/2117114565/33) | игровой сериал Netflix |
+| Парадокс убийцы / A Killer Paradox (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
+| Паразит: Серый / Parasyte: The Grey (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Переполненная комната / The Crowded Room (2023) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Переходный возраст / Adolescence (2025) | [tg:83](https://t.me/c/2117114565/83) |  |
 | Пингвин / The Penguin (2024) | [tg:67](https://t.me/c/2117114565/67) |  |
@@ -212,12 +227,14 @@
 | Покерфейс / Poker Face (2023) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Последний человек на Земле / The Last Man on Earth (2015) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Презумпция невиновности / Presumed Innocent (2024) | [tg:37](https://t.me/c/2117114565/37) |  |
+| Призраки / Ghosts (2019) | [ig:217](https://www.instagram.com/reel/DEPDzBPukzD/) | из видео |
 | Репетиция / The Rehearsal (2022) | [tg:140](https://t.me/c/2117114565/140) |  |
 | Рустер / Rooster (2026) | [ig:143](https://www.instagram.com/reel/DYelvmAO9uA/) |  |
 | Рыцарь Семи Королевств / A Knight of the Seven Kingdoms (2026) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Следопыты / The Wayfinders (2024) | [ig:177](https://www.instagram.com/reel/DSfiq5qDHzK/) | из видео |
 | Случится что-то очень плохое / Something Very Bad Is Going to Happen (2026) | [tg:154](https://t.me/c/2117114565/154) |  |
 | Суд присяжных / Jury Duty (2023) | [ig:150](https://www.instagram.com/reel/DXb75u2DBcy/) |  |
+| Судья из ада / The Judge from Hell (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Сёгун / Shōgun (2024) | [ig:219](https://www.instagram.com/p/DESBbUsNdC8/) |  |
 | Твои друзья и соседи / Your Friends & Neighbors (2025) | [tg:100](https://t.me/c/2117114565/100), [ig:205](https://www.instagram.com/reel/DIx-H4PILrz/) |  |
 | Тела / Bodies (2023) | [ig:172](https://www.instagram.com/reel/DScrBMsDIdl/) |  |
@@ -227,6 +244,7 @@
 | Франшиза / The Franchise (2024) | [tg:69](https://t.me/c/2117114565/69) |  |
 | Хаос / Kaos (2024) | [tg:37](https://t.me/c/2117114565/37) |  |
 | Хроники Шаннары / The Shannara Chronicles (2016) | [ig:180](https://www.instagram.com/reel/DSA7Zd1Dkd_/) |  |
+| Шоу восьми / The 8 Show (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Эйфория / Euphoria (2019) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Энн с двумя Н / Anne with an E (2017) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
 | Эрик / Eric (2024) | [tg:15](https://t.me/c/2117114565/15) |  |
@@ -347,7 +365,7 @@
 | Куда едет поезд судного дня? / Shuumatsu Train Doko e Iku? (2024) | [tg:21](https://t.me/c/2117114565/21), [ig:131](https://www.instagram.com/reel/DDjj8BCombk/) | из видео |
 | Кулинарные скитания в параллельном мире / Campfire Cooking in Another World with My Absurd Skill (2023) | [tg:34](https://t.me/c/2117114565/34) |  |
 | Курение за супермаркетом вместе с тобой / Super no Ura de Tabako Suu Futari | [ig:17](https://www.instagram.com/reel/DVbB9nJEtU-/) | из видео: Блогер рассказывает про романтическое аниме про двух взрослых людей, общающихся за курением возле супермаркета. |
-| Лазарь / Lazarus (2025) | [ig:97](https://www.instagram.com/reel/DIRPwMgCTM9/), [ig:102](https://www.instagram.com/reel/DHv5mSGIBCF/) | из видео |
+| Лазарь / Lazarus (2025) | [ig:97](https://www.instagram.com/reel/DIRPwMgCTM9/), [ig:102](https://www.instagram.com/reel/DHv5mSGIBCF/), [ig:210](https://www.instagram.com/reel/DIG-klToq65/) | из видео |
 | Легенда о Хэй / The Legend of Hei (2019) | [ig:60](https://www.instagram.com/reel/DNLa5qXTjIq/) |  |
 | Легенда о Хэй 2 / The Legend of Hei 2 (2025) | [ig:6](https://www.instagram.com/p/DZR29JdDD7r/), [ig:9](https://www.instagram.com/reel/DRKEM1NgHSC/), [ig:61](https://www.instagram.com/reel/DK-gF_opDTF/), [ig:63](https://www.instagram.com/reel/DLhKIF5JR-K/) | из карусели |
 | Лето, когда умер Хикару / The Summer Hikaru Died (2025) | [ig:50](https://www.instagram.com/reel/DOLiYoqEzKu/) |  |
@@ -601,16 +619,12 @@
 - [ig:189](https://www.instagram.com/reel/DPAFPemjDuj/) постапокалипсис + политический триллер
 - [ig:201](https://www.instagram.com/reel/DHILfCXN4qg/) 
 - [ig:203](https://www.instagram.com/reel/DI3mbu1twNg/) мультфильм
-- [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) лучшая триллер-дорама 2024
 - [ig:209](https://www.instagram.com/reel/DIJSe42sgUk/) новый фильм Netflix
-- [ig:210](https://www.instagram.com/reel/DIG-klToq65/) аниме 2025
 - [ig:211](https://www.instagram.com/reel/DHI-nAdNHG2/) 
 - [ig:212](https://www.instagram.com/reel/DFUrUQ0M-2Q/) 
 - [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) новый сериал Netflix
-- [ig:217](https://www.instagram.com/reel/DEPDzBPukzD/) 
 - [ig:221](https://www.instagram.com/reel/DDXzGeExuUV/) 
 - [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) подборка
-- [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) подборка
 - [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) подборка
 - [tg:183](https://t.me/c/2117114565/183) Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
 - [tg:186](https://t.me/c/2117114565/186) https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==

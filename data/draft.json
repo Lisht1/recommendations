@@ -5419,7 +5419,8 @@
    "confidence": "high",
    "kp_id": null,
    "notes": [
-    "из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе»."
+    "из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе».",
+    "из видео"
    ],
    "sources": [
     {
@@ -5427,6 +5428,13 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DU7ovIrivFz/",
      "from": "@podcast.baka",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
      "via": "Instagram"
     }
    ]
@@ -6964,6 +6972,13 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DHv5mSGIBCF/",
      "from": "Instagram: anime"
+    },
+    {
+     "src": "ig:210",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIG-klToq65/",
+     "from": "@viktorgutman_",
+     "via": "Instagram"
     }
    ]
   },
@@ -10538,6 +10553,246 @@
    ]
   },
   {
+   "title_ru": "Шоу восьми",
+   "title_orig": "The 8 Show",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Игра в пирамиду",
+   "title_orig": "Pyramid Game",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Игра смерти",
+   "title_orig": "Death's Game",
+   "year": 2023,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Парадокс убийцы",
+   "title_orig": "A Killer Paradox",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Ваша честь",
+   "title_orig": "Your Honor",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Паразит: Серый",
+   "title_orig": "Parasyte: The Grey",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Никого нет в лесу",
+   "title_orig": "The Frog",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Доминирующий вид",
+   "title_orig": "Blood Free",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Каннам: Обратная сторона",
+   "title_orig": "Gangnam B-Side",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Магазин ламп",
+   "title_orig": "Light Shop",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Судья из ада",
+   "title_orig": "The Judge from Hell",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Магазин для киллеров",
+   "title_orig": "A Shop for Killers",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:206",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
+     "from": "@yanafelton",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Охотник за головами",
    "title_orig": "Охотник за головами",
    "year": 2025,
@@ -10612,6 +10867,26 @@
    ]
   },
   {
+   "title_ru": "Призраки",
+   "title_orig": "Ghosts",
+   "year": 2019,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:217",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEPDzBPukzD/",
+     "from": "@istillmissubaby",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Бесконечность",
    "title_orig": "Infinite",
    "year": 2021,
@@ -10661,6 +10936,106 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DEVEJnAokWd/",
      "from": "@kreslofilms",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Пассажиры",
+   "title_orig": "Passengers",
+   "year": 2016,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:223",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Прошлой ночью в Сохо",
+   "title_orig": "Last Night in Soho",
+   "year": 2021,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:223",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Бегущий по лезвию 2049",
+   "title_orig": "Blade Runner 2049",
+   "year": 2017,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:223",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Олдбой",
+   "title_orig": "Oldeuboi",
+   "year": 2003,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:223",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Отель «Гранд Будапешт»",
+   "title_orig": "The Grand Budapest Hotel",
+   "year": 2014,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:223",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+     "from": "@kinop_es",
      "via": "Instagram"
     }
    ]
@@ -11069,15 +11444,6 @@
    "reason": "Instagram не отдаёт это видео — открой и впиши название сам"
   },
   {
-   "src": "ig:206",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DIszpbni5Mx/",
-   "from": "@yanafelton",
-   "via": "Instagram",
-   "note": "лучшая триллер-дорама 2024",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:209",
    "date": null,
    "url": "https://www.instagram.com/reel/DIJSe42sgUk/",
@@ -11085,15 +11451,6 @@
    "via": "Instagram",
    "note": "новый фильм Netflix",
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
-  },
-  {
-   "src": "ig:210",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DIG-klToq65/",
-   "from": "@viktorgutman_",
-   "via": "Instagram",
-   "note": "аниме 2025",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
    "src": "ig:211",
@@ -11123,15 +11480,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:217",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DEPDzBPukzD/",
-   "from": "@istillmissubaby",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:221",
    "date": null,
    "url": "https://www.instagram.com/reel/DDXzGeExuUV/",
@@ -11144,15 +11492,6 @@
    "src": "ig:222",
    "date": null,
    "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
-   "from": "@kinop_es",
-   "via": "Instagram",
-   "note": "подборка",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:223",
-   "date": null,
-   "url": "https://www.instagram.com/reel/C94vt95xhQl/",
    "from": "@kinop_es",
    "via": "Instagram",
    "note": "подборка",
