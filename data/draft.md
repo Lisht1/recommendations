@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **557** уникальных названий, из них проверить: **41**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **37**, пропущено (не про кино): **7**.
+Найдено **562** уникальных названий, из них проверить: **41**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **36**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -50,7 +50,7 @@
 | Всего одна ночь / One Night Only (2026) | [tg:188](https://t.me/c/2117114565/188) |  |
 | Гадкие лебеди | [tg:190](https://t.me/c/2117114565/190) |  |
 
-## Фильм (116)
+## Фильм (121)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -75,6 +75,7 @@
 | Все страхи Бо / Beau Is Afraid (2023) | [ig:146](https://www.instagram.com/reel/DWOhkbdiCP_/) |  |
 | Всеведущий читатель / Omniscient Reader: The Prophecy (2025) | [tg:121](https://t.me/c/2117114565/121), [ig:51](https://www.instagram.com/reel/DOA3rV-DUUq/), [ig:191](https://www.instagram.com/reel/DPda77Siqh0/) |  |
 | Вспомнить всё / Total Recall (2012) | [tg:66](https://t.me/c/2117114565/66) |  |
+| Всё или ничего / The Longest Yard (2005) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Выход 8 / Exit 8 (2025) | [tg:179](https://t.me/c/2117114565/179) |  |
 | Гамнет / Hamnet (2025) | [tg:137](https://t.me/c/2117114565/137) | номинант на «Оскар» |
 | Гарри Поттер / Harry Potter | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
@@ -107,6 +108,7 @@
 | Интуиция / Serendipity (2001) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
 | Каскадёры / The Fall Guy (2024) | [tg:9](https://t.me/c/2117114565/9) |  |
 | Кейт и Лео / Kate & Leopold (2001) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
+| Клерки / Clerks (1994) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Колумбус / Columbus (2017) | [tg:49](https://t.me/c/2117114565/49) |  |
 | Конец Оук-стрит / The End of Oak Street (2026) | [ig:155](https://www.instagram.com/reel/DWW6KQfkdYt/) |  |
 | Королевство зверей / The Animal Kingdom (2023) | [ig:173](https://www.instagram.com/reel/DSpMb8tioLd/) |  |
@@ -117,6 +119,7 @@
 | Лило и Стич / Lilo & Stitch (2025) | [tg:129](https://t.me/c/2117114565/129) |  |
 | Малыш на драйве / Baby Driver (2017) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Марти Великолепный / Marty Supreme (2025) | [tg:137](https://t.me/c/2117114565/137) | номинант на «Оскар» |
+| Маска / The Mask (1994) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Матрица / The Matrix (1999) | [ig:16](https://www.instagram.com/reel/DVduoDICMbX/) | из видео: Автор презентует концепт своего аниме-проекта «Final Bosu» в формате меню Netflix. |
 | Машина / The Machine (2013) | [tg:64](https://t.me/c/2117114565/64) |  |
 | Мегалополис / Megalopolis (2024) | [tg:13](https://t.me/c/2117114565/13) |  |
@@ -154,6 +157,7 @@
 | Следствие ведут овечки / The Sheep Detectives (2026) | [ig:175](https://www.instagram.com/reel/DSsUGysCFfF/) |  |
 | Сны поездов / Train Dreams (2025) | [tg:137](https://t.me/c/2117114565/137), [tg:142](https://t.me/c/2117114565/142) | номинант на «Оскар» |
 | Существо с перьями / The Thing with Feathers (2025) | [ig:147](https://www.instagram.com/reel/DSmsMwrDUmb/) |  |
+| Счастливчик Гилмор / Happy Gilmore (1996) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Тихое место: День первый / A Quiet Place: Day One (2024) | [tg:42](https://t.me/c/2117114565/42) |  |
 | То, что внутри / What's Inside (2024) | [ig:132](https://www.instagram.com/reel/DdOcyMBOIO0/) |  |
 | Тринадцать жизней / Thirteen Lives (2022) | [tg:4](https://t.me/c/2117114565/4) |  |
@@ -170,6 +174,7 @@
 | Эддингтон / Eddington (2025) | [tg:117](https://t.me/c/2117114565/117) |  |
 | Я шагаю по Москве (1963) | [tg:151](https://t.me/c/2117114565/151) |  |
 | Я — Куба (1964) | [tg:151](https://t.me/c/2117114565/151) |  |
+| Я, снова я и Ирэн / Me, Myself & Irene (2000) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 
 ## Сериал (74)
 
@@ -624,7 +629,6 @@
 - [ig:212](https://www.instagram.com/reel/DFUrUQ0M-2Q/) 
 - [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) новый сериал Netflix
 - [ig:221](https://www.instagram.com/reel/DDXzGeExuUV/) 
-- [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) подборка
 - [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) подборка
 - [tg:183](https://t.me/c/2117114565/183) Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
 - [tg:186](https://t.me/c/2117114565/186) https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==

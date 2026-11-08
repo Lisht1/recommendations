@@ -10941,6 +10941,106 @@
    ]
   },
   {
+   "title_ru": "Всё или ничего",
+   "title_orig": "The Longest Yard",
+   "year": 2005,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:222",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Я, снова я и Ирэн",
+   "title_orig": "Me, Myself & Irene",
+   "year": 2000,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:222",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Клерки",
+   "title_orig": "Clerks",
+   "year": 1994,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:222",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Счастливчик Гилмор",
+   "title_orig": "Happy Gilmore",
+   "year": 1996,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:222",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Маска",
+   "title_orig": "The Mask",
+   "year": 1994,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:222",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Пассажиры",
    "title_orig": "Passengers",
    "year": 2016,
@@ -11489,15 +11589,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:222",
-   "date": null,
-   "url": "https://www.instagram.com/reel/C_IJM-VsuBy/",
-   "from": "@kinop_es",
-   "via": "Instagram",
-   "note": "подборка",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:224",
    "date": null,
    "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
@@ -11513,7 +11604,7 @@
    "from": "Midnite chronicles",
    "via": "Telegram",
    "note": "Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+   "reason": "Видео недоступно — открой и впиши название сам"
   },
   {
    "src": "tg:186",
@@ -11522,7 +11613,7 @@
    "from": "@kinopapahd",
    "via": "Telegram",
    "note": "https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
+   "reason": "Видео недоступно — открой и впиши название сам"
   },
   {
    "src": "tg:187",
