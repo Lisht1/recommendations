@@ -715,3 +715,6 @@ sugg:tv-118956|DOTA: Кровь дракона|DOTA: Кровь дракона|2
 
 # автообновление 2026-11-07
 tg:191|!unknown|||||https://www.instagram.com/reel/DfXskcvsMT1/?vrfl=MW4yb3VsNzl4eWlsOQ==
+
+# автообновление 2026-11-11
+tg:192|Karōshi (2027)|Karōshi (2027)||?|?|
