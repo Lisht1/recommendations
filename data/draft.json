@@ -879,7 +879,9 @@
    "type": "Фильм",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
     {
      "src": "tg:5",
@@ -887,6 +889,13 @@
      "url": "https://t.me/c/2117114565/5",
      "from": "ШишКИНО",
      "via": "Telegram"
+    },
+    {
+     "src": "ig:224",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
+     "from": "@kinop_es",
+     "via": "Instagram"
     }
    ]
   },
@@ -10831,6 +10840,26 @@
    ]
   },
   {
+   "title_ru": "Харлан Кобен. Невиновен",
+   "title_orig": "El inocente",
+   "year": 2021,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:211",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DHI-nAdNHG2/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
    "title_ru": "Артемис Фаул",
    "title_orig": "Artemis Fowl",
    "year": 2020,
@@ -11135,6 +11164,106 @@
      "src": "ig:223",
      "date": null,
      "url": "https://www.instagram.com/reel/C94vt95xhQl/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Солнцестояние",
+   "title_orig": "Midsommar",
+   "year": 2019,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:224",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Реинкарнация",
+   "title_orig": "Hereditary",
+   "year": 2018,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:224",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Кит",
+   "title_orig": "The Whale",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:224",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Всё везде и сразу",
+   "title_orig": "Everything Everywhere All at Once",
+   "year": 2022,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:224",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
+     "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Комната",
+   "title_orig": "Room",
+   "year": 2015,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:224",
+     "date": null,
+     "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
      "from": "@kinop_es",
      "via": "Instagram"
     }
@@ -11571,15 +11700,6 @@
    "reason": "Видео слишком большое для автоматического разбора — открой и впиши название сам"
   },
   {
-   "src": "ig:211",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DHI-nAdNHG2/",
-   "from": "@kinop_es",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "ig:212",
    "date": null,
    "url": "https://www.instagram.com/reel/DFUrUQ0M-2Q/",
@@ -11604,15 +11724,6 @@
    "from": "@jenkz.p",
    "via": "Instagram",
    "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:224",
-   "date": null,
-   "url": "https://www.instagram.com/reel/C8y93yZOAn9/",
-   "from": "@kinop_es",
-   "via": "Instagram",
-   "note": "подборка",
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {

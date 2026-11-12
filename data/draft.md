@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **563** уникальных названий, из них проверить: **42**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **36**, пропущено (не про кино): **7**.
+Найдено **569** уникальных названий, из них проверить: **42**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **34**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -51,7 +51,7 @@
 | Гадкие лебеди | [tg:190](https://t.me/c/2117114565/190) |  |
 | Karōshi (2027) | [tg:192](https://t.me/c/2117114565/192) |  |
 
-## Фильм (121)
+## Фильм (126)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -76,6 +76,7 @@
 | Все страхи Бо / Beau Is Afraid (2023) | [ig:146](https://www.instagram.com/reel/DWOhkbdiCP_/) |  |
 | Всеведущий читатель / Omniscient Reader: The Prophecy (2025) | [tg:121](https://t.me/c/2117114565/121), [ig:51](https://www.instagram.com/reel/DOA3rV-DUUq/), [ig:191](https://www.instagram.com/reel/DPda77Siqh0/) |  |
 | Вспомнить всё / Total Recall (2012) | [tg:66](https://t.me/c/2117114565/66) |  |
+| Всё везде и сразу / Everything Everywhere All at Once (2022) | [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) | из видео |
 | Всё или ничего / The Longest Yard (2005) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Выход 8 / Exit 8 (2025) | [tg:179](https://t.me/c/2117114565/179) |  |
 | Гамнет / Hamnet (2025) | [tg:137](https://t.me/c/2117114565/137) | номинант на «Оскар» |
@@ -109,8 +110,10 @@
 | Интуиция / Serendipity (2001) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
 | Каскадёры / The Fall Guy (2024) | [tg:9](https://t.me/c/2117114565/9) |  |
 | Кейт и Лео / Kate & Leopold (2001) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
+| Кит / The Whale (2022) | [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) | из видео |
 | Клерки / Clerks (1994) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Колумбус / Columbus (2017) | [tg:49](https://t.me/c/2117114565/49) |  |
+| Комната / Room (2015) | [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) | из видео |
 | Конец Оук-стрит / The End of Oak Street (2026) | [ig:155](https://www.instagram.com/reel/DWW6KQfkdYt/) |  |
 | Королевство зверей / The Animal Kingdom (2023) | [ig:173](https://www.instagram.com/reel/DSpMb8tioLd/) |  |
 | Король воров / King of Thieves (2018) | [ig:156](https://www.instagram.com/reel/DWGlvTtx8s8/) |  |
@@ -134,7 +137,7 @@
 | Олдбой / Oldeuboi (2003) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Отель «Гранд Будапешт» / The Grand Budapest Hotel (2014) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Отпуск по обмену / The Holiday (2006) | [ig:182](https://www.instagram.com/reel/DR2HgaSCUts/) | из видео |
-| Падение империи / Civil War (2024) | [tg:5](https://t.me/c/2117114565/5) |  |
+| Падение империи / Civil War (2024) | [tg:5](https://t.me/c/2117114565/5), [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) | из видео |
 | Пассажиры / Passengers (2016) | [ig:223](https://www.instagram.com/reel/C94vt95xhQl/) | из видео |
 | Персонаж / Stranger Than Fiction (2006) | [ig:167](https://www.instagram.com/reel/DOniSRUgrDr/) |  |
 | Пила / Saw (2004) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе». |
@@ -148,6 +151,7 @@
 | Разрисованная вуаль / The Painted Veil (2006) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Рассказы (2012) | [tg:151](https://t.me/c/2117114565/151) |  |
 | Реальные упыри / What We Do in the Shadows (2014) | [tg:2](https://t.me/c/2117114565/2) |  |
+| Реинкарнация / Hereditary (2018) | [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) | из видео |
 | Рейд / The Raid: Redemption (2011) | [tg:169](https://t.me/c/2117114565/169) | из видео |
 | Северус Снегг и Мародёры / Severus Snape and the Marauders (2016) | [ig:178](https://www.instagram.com/p/DRsjB_mCqbV/) | из карусели |
 | Секретный агент / The Secret Agent (2025) | [tg:137](https://t.me/c/2117114565/137) | номинант на «Оскар» |
@@ -157,6 +161,7 @@
 | Сират / Sirāt (2025) | [tg:142](https://t.me/c/2117114565/142) |  |
 | Следствие ведут овечки / The Sheep Detectives (2026) | [ig:175](https://www.instagram.com/reel/DSsUGysCFfF/) |  |
 | Сны поездов / Train Dreams (2025) | [tg:137](https://t.me/c/2117114565/137), [tg:142](https://t.me/c/2117114565/142) | номинант на «Оскар» |
+| Солнцестояние / Midsommar (2019) | [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) | из видео |
 | Существо с перьями / The Thing with Feathers (2025) | [ig:147](https://www.instagram.com/reel/DSmsMwrDUmb/) |  |
 | Счастливчик Гилмор / Happy Gilmore (1996) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 | Тихое место: День первый / A Quiet Place: Day One (2024) | [tg:42](https://t.me/c/2117114565/42) |  |
@@ -177,7 +182,7 @@
 | Я — Куба (1964) | [tg:151](https://t.me/c/2117114565/151) |  |
 | Я, снова я и Ирэн / Me, Myself & Irene (2000) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 
-## Сериал (74)
+## Сериал (75)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -249,6 +254,7 @@
 | Тёмная материя / Dark Matter (2024) | [tg:6](https://t.me/c/2117114565/6) |  |
 | Франшиза / The Franchise (2024) | [tg:69](https://t.me/c/2117114565/69) |  |
 | Хаос / Kaos (2024) | [tg:37](https://t.me/c/2117114565/37) |  |
+| Харлан Кобен. Невиновен / El inocente (2021) | [ig:211](https://www.instagram.com/reel/DHI-nAdNHG2/) | из видео |
 | Хроники Шаннары / The Shannara Chronicles (2016) | [ig:180](https://www.instagram.com/reel/DSA7Zd1Dkd_/) |  |
 | Шоу восьми / The 8 Show (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Эйфория / Euphoria (2019) | [tg:158](https://t.me/c/2117114565/158) |  |
@@ -626,11 +632,9 @@
 - [ig:201](https://www.instagram.com/reel/DHILfCXN4qg/) 
 - [ig:203](https://www.instagram.com/reel/DI3mbu1twNg/) мультфильм
 - [ig:209](https://www.instagram.com/reel/DIJSe42sgUk/) новый фильм Netflix
-- [ig:211](https://www.instagram.com/reel/DHI-nAdNHG2/) 
 - [ig:212](https://www.instagram.com/reel/DFUrUQ0M-2Q/) 
 - [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) новый сериал Netflix
 - [ig:221](https://www.instagram.com/reel/DDXzGeExuUV/) 
-- [ig:224](https://www.instagram.com/reel/C8y93yZOAn9/) подборка
 - [tg:183](https://t.me/c/2117114565/183) Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
 - [tg:186](https://t.me/c/2117114565/186) https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==
 - [tg:187](https://t.me/c/2117114565/187) https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==
