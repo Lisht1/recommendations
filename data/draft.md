@@ -1,6 +1,6 @@
 # Черновой список рекомендаций
 
-Найдено **569** уникальных названий, из них проверить: **42**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **34**, пропущено (не про кино): **7**.
+Найдено **574** уникальных названий, из них проверить: **42**, ссылок на Кинопоиск без названия: **18**. Не распознано постов: **30**, пропущено (не про кино): **7**.
 
 Как поправить: напиши в чат номер источника и правильное название, например `tg:89 — Куб (1997)`.
 
@@ -32,7 +32,7 @@
 | The Bucket and the List | [ig:75](https://www.instagram.com/p/DK4rkeHP7NC/) | название с обложки |
 | Полное исследование (2025) | [ig:91](https://www.instagram.com/reel/DHBfYiosZ1V/), [ig:109](https://www.instagram.com/reel/DE2mMCNvBUN/) |  |
 | Атака титанов / Shingeki no kyojin (2013) | [ig:123](https://www.instagram.com/reel/DERxkivKNt7/) | из видео |
-| Instinct | [ig:128](https://www.instagram.com/reel/DCSvBwsRCtg/) | пока только тизер; tmdb=none |
+| Instinct | [ig:128](https://www.instagram.com/reel/DCSvBwsRCtg/), [tg:191](https://t.me/c/2117114565/191) | пока только тизер; tmdb=none; из видео |
 | Бухта вдов | [ig:134](https://www.instagram.com/reel/DdbSs-1Mf8T/) | из видео |
 | Сладкая лихорадка / Fed Up (2014) | [ig:136](https://www.instagram.com/reel/DaGIbN4MCwH/) |  |
 | Цикл Пендрагона: Восхождение Мерлина / The Pendragon Cycle (2026) | [ig:144](https://www.instagram.com/reel/DWJAFA_E8pK/) |  |
@@ -182,7 +182,7 @@
 | Я — Куба (1964) | [tg:151](https://t.me/c/2117114565/151) |  |
 | Я, снова я и Ирэн / Me, Myself & Irene (2000) | [ig:222](https://www.instagram.com/reel/C_IJM-VsuBy/) | из видео |
 
-## Сериал (75)
+## Сериал (79)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -192,6 +192,7 @@
 | Алиса в Пограничье / Alice in Borderland (2020) | [ig:192](https://www.instagram.com/reel/DPGpYaPiLGX/) | 3 сезон |
 | Благие знамения / Good Omens (2019) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Больница Питт / The Pitt (2025) | [tg:139](https://t.me/c/2117114565/139) |  |
+| Большой потенциал / High Potential (2024) | [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) | из видео |
 | Бороуз / The Boroughs | [ig:134](https://www.instagram.com/reel/DdbSs-1Mf8T/), [ig:151](https://www.instagram.com/reel/DXRioKeD5zN/) | из видео |
 | Бухта вдов / Widow's Bay (2026) | [tg:157](https://t.me/c/2117114565/157), [tg:168](https://t.me/c/2117114565/168), [tg:171](https://t.me/c/2117114565/171), [tg:181](https://t.me/c/2117114565/181) |  |
 | Ваша честь / Your Honor (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
@@ -203,14 +204,16 @@
 | Девушка в лесу / The Girl in the Woods (2021) | [ig:170](https://www.instagram.com/reel/DTkbQbgiOSZ/) |  |
 | Денежные проблемы Марго / Margo's Got Money Troubles (2026) | [tg:158](https://t.me/c/2117114565/158) |  |
 | Доминирующий вид / Blood Free (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
+| Дорогуша / Sweetpea (2024) | [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) | из видео |
 | Жизнь после смерти / After Life (2019) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Игра в кальмара / Squid Game (2021) | [ig:19](https://www.instagram.com/reel/DU7ovIrivFz/), [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео: Обзор и рекомендация кинематографичного аниме-триллера «Смертельная игра ради еды на столе».; из видео |
 | Игра в пирамиду / Pyramid Game (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Игра смерти / Death's Game (2023) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
+| Идеальная пара / The Perfect Couple (2024) | [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) | из видео |
 | Каннам: Обратная сторона / Gangnam B-Side (2024) | [ig:206](https://www.instagram.com/reel/DIszpbni5Mx/) | из видео |
 | Каштановый человечек / The Chestnut Man (2021) | [ig:141](https://www.instagram.com/reel/DYj0FSnKoG0/) | 2 сезон «Прятки» |
 | Киностудия / The Studio (2025) | [tg:141](https://t.me/c/2117114565/141), [ig:149](https://www.instagram.com/reel/DW3exGFum4w/) |  |
-| Колесо времени / The Wheel of Time (2021) | [ig:199](https://www.instagram.com/reel/DI3D4Zksemt/) |  |
+| Колесо времени / The Wheel of Time (2021) | [ig:199](https://www.instagram.com/reel/DI3D4Zksemt/), [ig:221](https://www.instagram.com/reel/DDXzGeExuUV/) | из видео |
 | Корона / The Crown (2016) | [tg:2](https://t.me/c/2117114565/2) |  |
 | Красота / The Beauty (2026) | [ig:161](https://www.instagram.com/reel/DVoO77KCsI1/) |  |
 | Лаки / Lucky (2026) | [tg:167](https://t.me/c/2117114565/167) | Apple TV |
@@ -252,6 +255,7 @@
 | Терапия / Shrinking (2023) | [ig:163](https://www.instagram.com/reel/DVGYlMBjVqP/) |  |
 | Тьма / Dark (2017) | [ig:172](https://www.instagram.com/reel/DScrBMsDIdl/) |  |
 | Тёмная материя / Dark Matter (2024) | [tg:6](https://t.me/c/2117114565/6) |  |
+| Фоллаут / Fallout (2024) | [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) | из видео |
 | Франшиза / The Franchise (2024) | [tg:69](https://t.me/c/2117114565/69) |  |
 | Хаос / Kaos (2024) | [tg:37](https://t.me/c/2117114565/37) |  |
 | Харлан Кобен. Невиновен / El inocente (2021) | [ig:211](https://www.instagram.com/reel/DHI-nAdNHG2/) | из видео |
@@ -262,7 +266,7 @@
 | Эрик / Eric (2024) | [tg:15](https://t.me/c/2117114565/15) |  |
 | Этернавт / El Eternauta (2025) | [ig:204](https://www.instagram.com/reel/DJTxgWTNvCd/) | из видео |
 
-## Аниме (249)
+## Аниме (250)
 
 | Название | Источник | Заметка |
 |---|---|---|
@@ -410,6 +414,7 @@
 | Нет игры — нет жизни / No Game No Life (2014) | [tg:76](https://t.me/c/2117114565/76) | из топ-25 коротких аниме |
 | Ниндзя Камуи / Ninja Kamui (2024) | [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | Новая жизнь гениального целителя в тени / Isshun de Chiryou shiteita no ni Yakutatazu to Tsuihousareta Tensai Chiyushi, Yami Healer to shite Tanoshiku Ikiru (2025) | [ig:84](https://www.instagram.com/reel/DJKA6yjiPdj/) | из видео |
+| Ночь дурака / Fool Night | [tg:189](https://t.me/c/2117114565/189) | из видео |
 | О движении Земли / Chi: Chikyuu no Undou ni Tsuite (2024) | [tg:127](https://t.me/c/2117114565/127), [ig:119](https://www.instagram.com/reel/DEvIyeiR4dJ/) | из видео |
 | О движении Земли / Orb: On the Movements of the Earth (2024) | [ig:45](https://www.instagram.com/p/DO8xId-goKA/) | из карусели |
 | Обещанный Неверленд / Yakusoku no Neverland (2019) | [ig:46](https://www.instagram.com/reel/DPghZHDDCKo/) | из видео: Подборка из пяти аниме, где главные герои отличаются выдающимся интеллектом и гениальностью. |
@@ -633,10 +638,6 @@
 - [ig:203](https://www.instagram.com/reel/DI3mbu1twNg/) мультфильм
 - [ig:209](https://www.instagram.com/reel/DIJSe42sgUk/) новый фильм Netflix
 - [ig:212](https://www.instagram.com/reel/DFUrUQ0M-2Q/) 
-- [ig:214](https://www.instagram.com/reel/DEcxZESIQBk/) новый сериал Netflix
-- [ig:221](https://www.instagram.com/reel/DDXzGeExuUV/) 
 - [tg:183](https://t.me/c/2117114565/183) Ух ептыть, второй сезон хорош. Хороший привет THE GODFATHER: PART II. #охренител
 - [tg:186](https://t.me/c/2117114565/186) https://www.instagram.com/reel/DfCxKjcCAd9/?srtk=MXJ6ZTNiNmIyb2xpdQ==
 - [tg:187](https://t.me/c/2117114565/187) https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==
-- [tg:189](https://t.me/c/2117114565/189) https://www.instagram.com/reel/DeymyZAiGMK/?obrf=YjR1emFncTdsMWx2
-- [tg:191](https://t.me/c/2117114565/191) https://www.instagram.com/reel/DfXskcvsMT1/?vrfl=MW4yb3VsNzl4eWlsOQ==

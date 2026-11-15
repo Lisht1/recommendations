@@ -664,14 +664,17 @@ ig:210|Лазарь|Lazarus|2025|A|+|из видео
 ig:211|Харлан Кобен. Невиновен|El inocente|2021|S|+|из видео
 ig:212|!unknown|||||
 ig:213|!skip|||||фанатский трейлер «Атлантиды»
-ig:214|!unknown|||||новый сериал Netflix
+ig:214|Идеальная пара|The Perfect Couple|2024|S|+|из видео
+ig:214|Дорогуша|Sweetpea|2024|S|+|из видео
+ig:214|Фоллаут|Fallout|2024|S|+|из видео
+ig:214|Большой потенциал|High Potential|2024|S|+|из видео
 ig:215|Артемис Фаул|Artemis Fowl|2020|F|+|
 ig:216|Крушение мира|Крушение мира|2025|F|?|
 ig:217|Призраки|Ghosts|2019|S|+|из видео
 ig:218|Бесконечность|Infinite|2021|F|?|
 ig:219|Сёгун|Shōgun|2024|S|+|
 ig:220|Мы или они|Мы или они|2023|F|?|
-ig:221|!unknown|||||
+ig:221|Колесо времени|The Wheel of Time|2021|S|+|из видео
 ig:222|Всё или ничего|The Longest Yard|2005|F|+|из видео
 ig:222|Я, снова я и Ирэн|Me, Myself & Irene|2000|F|+|из видео
 ig:222|Клерки|Clerks|1994|F|+|из видео
@@ -709,7 +712,7 @@ tg:187|!unknown|||||https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV
 tg:188|Всего одна ночь|One Night Only|2026|F|?|
 
 # автообновление 2026-11-01
-tg:189|!unknown|||||https://www.instagram.com/reel/DeymyZAiGMK/?obrf=YjR1emFncTdsMWx2
+tg:189|Ночь дурака|Fool Night||A|+|из видео
 
 # автообновление 2026-11-02
 tg:190|Гадкие лебеди|Гадкие лебеди||?|?|
@@ -719,7 +722,7 @@ sugg:tv-261579|Секретный Уровень|Секретный Уровен
 sugg:tv-118956|DOTA: Кровь дракона|DOTA: Кровь дракона|2021|?|+|tmdb=tv/118956; добавлено на сайте: Сумерки богов; Аркейн; Дракон Раджа
 
 # автообновление 2026-11-07
-tg:191|!unknown|||||https://www.instagram.com/reel/DfXskcvsMT1/?vrfl=MW4yb3VsNzl4eWlsOQ==
+tg:191|Инстинкт|Instinct|2018|S|+|из видео
 
 # автообновление 2026-11-11
 tg:192|Karōshi (2027)|Karōshi (2027)||?|?|

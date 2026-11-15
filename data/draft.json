@@ -8673,7 +8673,8 @@
    "kp_id": null,
    "notes": [
     "пока только тизер",
-    "tmdb=none"
+    "tmdb=none",
+    "из видео"
    ],
    "sources": [
     {
@@ -8682,6 +8683,13 @@
      "url": "https://www.instagram.com/reel/DCSvBwsRCtg/",
      "from": "@animenewsguy",
      "via": "Instagram"
+    },
+    {
+     "src": "tg:191",
+     "date": "2026-11-06",
+     "url": "https://t.me/c/2117114565/191",
+     "from": "@olacarew",
+     "via": "Telegram"
     }
    ]
   },
@@ -10494,13 +10502,22 @@
    "type": "Сериал",
    "confidence": "high",
    "kp_id": null,
-   "notes": [],
+   "notes": [
+    "из видео"
+   ],
    "sources": [
     {
      "src": "ig:199",
      "date": null,
      "url": "https://www.instagram.com/reel/DI3D4Zksemt/",
      "from": "@kino_jerax",
+     "via": "Instagram"
+    },
+    {
+     "src": "ig:221",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DDXzGeExuUV/",
+     "from": "@jenkz.p",
      "via": "Instagram"
     }
    ]
@@ -10855,6 +10872,86 @@
      "date": null,
      "url": "https://www.instagram.com/reel/DHI-nAdNHG2/",
      "from": "@kinop_es",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Идеальная пара",
+   "title_orig": "The Perfect Couple",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:214",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEcxZESIQBk/",
+     "from": "@pankusha_ki",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Дорогуша",
+   "title_orig": "Sweetpea",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:214",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEcxZESIQBk/",
+     "from": "@pankusha_ki",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Фоллаут",
+   "title_orig": "Fallout",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:214",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEcxZESIQBk/",
+     "from": "@pankusha_ki",
+     "via": "Instagram"
+    }
+   ]
+  },
+  {
+   "title_ru": "Большой потенциал",
+   "title_orig": "High Potential",
+   "year": 2024,
+   "type": "Сериал",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "ig:214",
+     "date": null,
+     "url": "https://www.instagram.com/reel/DEcxZESIQBk/",
+     "from": "@pankusha_ki",
      "via": "Instagram"
     }
    ]
@@ -11385,6 +11482,26 @@
    ]
   },
   {
+   "title_ru": "Ночь дурака",
+   "title_orig": "Fool Night",
+   "year": null,
+   "type": "Аниме",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [
+    "из видео"
+   ],
+   "sources": [
+    {
+     "src": "tg:189",
+     "date": "2026-11-01",
+     "url": "https://t.me/c/2117114565/189",
+     "from": "@2x2tv",
+     "via": "Telegram"
+    }
+   ]
+  },
+  {
    "title_ru": "Гадкие лебеди",
    "title_orig": "Гадкие лебеди",
    "year": null,
@@ -11709,24 +11826,6 @@
    "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   },
   {
-   "src": "ig:214",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DEcxZESIQBk/",
-   "from": "@pankusha_ki",
-   "via": "Instagram",
-   "note": "новый сериал Netflix",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "ig:221",
-   "date": null,
-   "url": "https://www.instagram.com/reel/DDXzGeExuUV/",
-   "from": "@jenkz.p",
-   "via": "Instagram",
-   "note": "",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
    "src": "tg:183",
    "date": "2026-10-25",
    "url": "https://t.me/c/2117114565/183",
@@ -11752,24 +11851,6 @@
    "via": "Telegram",
    "note": "https://www.instagram.com/reel/DdaxhGsthT4/?exln=MXNnbTdxcmV6N3I1OA==",
    "reason": "Видео недоступно — открой и впиши название сам"
-  },
-  {
-   "src": "tg:189",
-   "date": "2026-11-01",
-   "url": "https://t.me/c/2117114565/189",
-   "from": "@2x2tv",
-   "via": "Telegram",
-   "note": "https://www.instagram.com/reel/DeymyZAiGMK/?obrf=YjR1emFncTdsMWx2",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
-  },
-  {
-   "src": "tg:191",
-   "date": "2026-11-06",
-   "url": "https://t.me/c/2117114565/191",
-   "from": "@olacarew",
-   "via": "Telegram",
-   "note": "https://www.instagram.com/reel/DfXskcvsMT1/?vrfl=MW4yb3VsNzl4eWlsOQ==",
-   "reason": "Ждёт разбора ИИ — разбирается по 10 в день"
   }
  ],
  "skipped": [
