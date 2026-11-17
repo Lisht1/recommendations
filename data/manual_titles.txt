@@ -726,3 +726,7 @@ tg:191|Инстинкт|Instinct|2018|S|+|из видео
 
 # автообновление 2026-11-11
 tg:192|Karōshi (2027)|Karōshi (2027)||?|?|
+
+# автообновление 2026-11-17
+tg:193|!unknown|||||https://www.instagram.com/reel/Dfr8Muaogyi/
+tg:194|!unknown|||||пост без текста
