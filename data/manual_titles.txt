@@ -730,3 +730,6 @@ tg:192|Karōshi (2027)|Karōshi (2027)||?|?|
 # автообновление 2026-11-17
 tg:193|!unknown|||||https://www.instagram.com/reel/Dfr8Muaogyi/
 tg:194|!unknown|||||пост без текста
+
+# автообновление 2026-11-18
+tg:195|!unknown|||||https://www.instagram.com/reel/DcgWYklKH93/?jplx=MXE5eTNyZjQxZmV4aQ==
