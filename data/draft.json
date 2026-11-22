@@ -11580,6 +11580,24 @@
      "via": "Telegram"
     }
    ]
+  },
+  {
+   "title_ru": "Он – дракон",
+   "title_orig": "Он – дракон",
+   "year": 2015,
+   "type": "Фильм",
+   "confidence": "high",
+   "kp_id": null,
+   "notes": [],
+   "sources": [
+    {
+     "src": "tg:197",
+     "date": "2026-11-21",
+     "url": "https://t.me/c/2117114565/197",
+     "from": "Свои посты",
+     "via": "Telegram"
+    }
+   ]
   }
  ],
  "unknown": [
